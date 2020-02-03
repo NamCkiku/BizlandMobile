@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <PackageReference Include="Com.OneSignal" Version="3.7.1" />
+    <PackageReference Include="FormsCurvedBottomNavigation" Version="1.2.0" />
     <PackageReference Include="Microsoft.AppCenter" Version="2.6.4" />
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.6.4" />
     <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.6.4" />
@@ -81,6 +82,9 @@
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ErrorandEmpty\SomethingWentWrongPage.xaml">
       <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Master\RootPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
 

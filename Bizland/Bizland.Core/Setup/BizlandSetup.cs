@@ -39,11 +39,10 @@ namespace Bizland.Core.Setup
 
         public static void RegisterPages(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterForNavigation<RootPage, RootPageViewModel>("RootPage");
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>("MainPage");
             containerRegistry.RegisterForNavigation<NoPhotosPage, NoPhotosPageViewModel>("NoPhotosPage");
-
-            
         }
     }
 }

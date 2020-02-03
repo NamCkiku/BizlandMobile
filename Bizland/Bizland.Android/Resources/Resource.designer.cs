@@ -1180,6 +1180,7 @@ namespace Bizland.Droid
 			global::Bizland.Core.Droid.Resource.Drawable.ic_group_expand_13 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_13;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_group_expand_14 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_14;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_group_expand_15 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_15;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_home = global::Bizland.Droid.Resource.Drawable.ic_home;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_media_pause_dark = global::Bizland.Droid.Resource.Drawable.ic_media_pause_dark;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_media_pause_light = global::Bizland.Droid.Resource.Drawable.ic_media_pause_light;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_media_play_dark = global::Bizland.Droid.Resource.Drawable.ic_media_play_dark;
@@ -1401,6 +1402,7 @@ namespace Bizland.Droid
 			global::Bizland.Core.Droid.Resource.Id.bottom = global::Bizland.Droid.Resource.Id.bottom;
 			global::Bizland.Core.Droid.Resource.Id.bottomtab_navarea = global::Bizland.Droid.Resource.Id.bottomtab_navarea;
 			global::Bizland.Core.Droid.Resource.Id.bottomtab_tabbar = global::Bizland.Droid.Resource.Id.bottomtab_tabbar;
+			global::Bizland.Core.Droid.Resource.Id.bottom_nav_bar = global::Bizland.Droid.Resource.Id.bottom_nav_bar;
 			global::Bizland.Core.Droid.Resource.Id.browser_actions_header_text = global::Bizland.Droid.Resource.Id.browser_actions_header_text;
 			global::Bizland.Core.Droid.Resource.Id.browser_actions_menu_items = global::Bizland.Droid.Resource.Id.browser_actions_menu_items;
 			global::Bizland.Core.Droid.Resource.Id.browser_actions_menu_item_icon = global::Bizland.Droid.Resource.Id.browser_actions_menu_item_icon;
@@ -1421,6 +1423,7 @@ namespace Bizland.Droid
 			global::Bizland.Core.Droid.Resource.Id.content = global::Bizland.Droid.Resource.Id.content;
 			global::Bizland.Core.Droid.Resource.Id.contentPanel = global::Bizland.Droid.Resource.Id.contentPanel;
 			global::Bizland.Core.Droid.Resource.Id.coordinator = global::Bizland.Droid.Resource.Id.coordinator;
+			global::Bizland.Core.Droid.Resource.Id.coordinatorlayout = global::Bizland.Droid.Resource.Id.coordinatorlayout;
 			global::Bizland.Core.Droid.Resource.Id.CTRL = global::Bizland.Droid.Resource.Id.CTRL;
 			global::Bizland.Core.Droid.Resource.Id.custom = global::Bizland.Droid.Resource.Id.custom;
 			global::Bizland.Core.Droid.Resource.Id.customPanel = global::Bizland.Droid.Resource.Id.customPanel;
@@ -1441,6 +1444,7 @@ namespace Bizland.Droid
 			global::Bizland.Core.Droid.Resource.Id.exitUntilCollapsed = global::Bizland.Droid.Resource.Id.exitUntilCollapsed;
 			global::Bizland.Core.Droid.Resource.Id.expanded_menu = global::Bizland.Droid.Resource.Id.expanded_menu;
 			global::Bizland.Core.Droid.Resource.Id.expand_activities_button = global::Bizland.Droid.Resource.Id.expand_activities_button;
+			global::Bizland.Core.Droid.Resource.Id.fab = global::Bizland.Droid.Resource.Id.fab;
 			global::Bizland.Core.Droid.Resource.Id.fill = global::Bizland.Droid.Resource.Id.fill;
 			global::Bizland.Core.Droid.Resource.Id.filled = global::Bizland.Droid.Resource.Id.filled;
 			global::Bizland.Core.Droid.Resource.Id.fill_horizontal = global::Bizland.Droid.Resource.Id.fill_horizontal;
@@ -1703,6 +1707,7 @@ namespace Bizland.Droid
 			global::Bizland.Core.Droid.Resource.Layout.amu_text_bubble = global::Bizland.Droid.Resource.Layout.amu_text_bubble;
 			global::Bizland.Core.Droid.Resource.Layout.amu_text_bubble_cluster = global::Bizland.Droid.Resource.Layout.amu_text_bubble_cluster;
 			global::Bizland.Core.Droid.Resource.Layout.amu_webview = global::Bizland.Droid.Resource.Layout.amu_webview;
+			global::Bizland.Core.Droid.Resource.Layout.BottomNavBar = global::Bizland.Droid.Resource.Layout.BottomNavBar;
 			global::Bizland.Core.Droid.Resource.Layout.BottomTabLayout = global::Bizland.Droid.Resource.Layout.BottomTabLayout;
 			global::Bizland.Core.Droid.Resource.Layout.browser_actions_context_menu_page = global::Bizland.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::Bizland.Core.Droid.Resource.Layout.browser_actions_context_menu_row = global::Bizland.Droid.Resource.Layout.browser_actions_context_menu_row;
@@ -3205,6 +3210,2907 @@ namespace Bizland.Droid
 			global::Bizland.Core.Droid.Resource.Styleable.View_paddingStart = global::Bizland.Droid.Resource.Styleable.View_paddingStart;
 			global::Bizland.Core.Droid.Resource.Styleable.View_theme = global::Bizland.Droid.Resource.Styleable.View_theme;
 			global::Bizland.Core.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::Bizland.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_fade_in = global::Bizland.Droid.Resource.Animation.abc_fade_in;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_fade_out = global::Bizland.Droid.Resource.Animation.abc_fade_out;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_grow_fade_in_from_bottom = global::Bizland.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_popup_enter = global::Bizland.Droid.Resource.Animation.abc_popup_enter;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_popup_exit = global::Bizland.Droid.Resource.Animation.abc_popup_exit;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Bizland.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_slide_in_bottom = global::Bizland.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_slide_in_top = global::Bizland.Droid.Resource.Animation.abc_slide_in_top;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_slide_out_bottom = global::Bizland.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_slide_out_top = global::Bizland.Droid.Resource.Animation.abc_slide_out_top;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_tooltip_enter = global::Bizland.Droid.Resource.Animation.abc_tooltip_enter;
+			global::FormsCurvedBottomNavigation.Resource.Animation.abc_tooltip_exit = global::Bizland.Droid.Resource.Animation.abc_tooltip_exit;
+			global::FormsCurvedBottomNavigation.Resource.Animation.design_bottom_sheet_slide_in = global::Bizland.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::FormsCurvedBottomNavigation.Resource.Animation.design_bottom_sheet_slide_out = global::Bizland.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::FormsCurvedBottomNavigation.Resource.Animation.design_snackbar_in = global::Bizland.Droid.Resource.Animation.design_snackbar_in;
+			global::FormsCurvedBottomNavigation.Resource.Animation.design_snackbar_out = global::Bizland.Droid.Resource.Animation.design_snackbar_out;
+			global::FormsCurvedBottomNavigation.Resource.Animation.EnterFromLeft = global::Bizland.Droid.Resource.Animation.EnterFromLeft;
+			global::FormsCurvedBottomNavigation.Resource.Animation.EnterFromRight = global::Bizland.Droid.Resource.Animation.EnterFromRight;
+			global::FormsCurvedBottomNavigation.Resource.Animation.ExitToLeft = global::Bizland.Droid.Resource.Animation.ExitToLeft;
+			global::FormsCurvedBottomNavigation.Resource.Animation.ExitToRight = global::Bizland.Droid.Resource.Animation.ExitToRight;
+			global::FormsCurvedBottomNavigation.Resource.Animator.design_appbar_state_list_animator = global::Bizland.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::FormsCurvedBottomNavigation.Resource.Animator.design_fab_hide_motion_spec = global::Bizland.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::FormsCurvedBottomNavigation.Resource.Animator.design_fab_show_motion_spec = global::Bizland.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::FormsCurvedBottomNavigation.Resource.Animator.mtrl_btn_state_list_anim = global::Bizland.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::FormsCurvedBottomNavigation.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Bizland.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::FormsCurvedBottomNavigation.Resource.Animator.mtrl_chip_state_list_anim = global::Bizland.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::FormsCurvedBottomNavigation.Resource.Animator.mtrl_fab_hide_motion_spec = global::Bizland.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::FormsCurvedBottomNavigation.Resource.Animator.mtrl_fab_show_motion_spec = global::Bizland.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::FormsCurvedBottomNavigation.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Bizland.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::FormsCurvedBottomNavigation.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Bizland.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionBarDivider = global::Bizland.Droid.Resource.Attribute.actionBarDivider;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionBarItemBackground = global::Bizland.Droid.Resource.Attribute.actionBarItemBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionBarPopupTheme = global::Bizland.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionBarSize = global::Bizland.Droid.Resource.Attribute.actionBarSize;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionBarSplitStyle = global::Bizland.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionBarStyle = global::Bizland.Droid.Resource.Attribute.actionBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionBarTabBarStyle = global::Bizland.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionBarTabStyle = global::Bizland.Droid.Resource.Attribute.actionBarTabStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionBarTabTextStyle = global::Bizland.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionBarTheme = global::Bizland.Droid.Resource.Attribute.actionBarTheme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionBarWidgetTheme = global::Bizland.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionButtonStyle = global::Bizland.Droid.Resource.Attribute.actionButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionDropDownStyle = global::Bizland.Droid.Resource.Attribute.actionDropDownStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionLayout = global::Bizland.Droid.Resource.Attribute.actionLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionMenuTextAppearance = global::Bizland.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionMenuTextColor = global::Bizland.Droid.Resource.Attribute.actionMenuTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModeBackground = global::Bizland.Droid.Resource.Attribute.actionModeBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModeCloseButtonStyle = global::Bizland.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModeCloseDrawable = global::Bizland.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModeCopyDrawable = global::Bizland.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModeCutDrawable = global::Bizland.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModeFindDrawable = global::Bizland.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModePasteDrawable = global::Bizland.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModePopupWindowStyle = global::Bizland.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModeSelectAllDrawable = global::Bizland.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModeShareDrawable = global::Bizland.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModeSplitBackground = global::Bizland.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModeStyle = global::Bizland.Droid.Resource.Attribute.actionModeStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionModeWebSearchDrawable = global::Bizland.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionOverflowButtonStyle = global::Bizland.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionOverflowMenuStyle = global::Bizland.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionProviderClass = global::Bizland.Droid.Resource.Attribute.actionProviderClass;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.actionViewClass = global::Bizland.Droid.Resource.Attribute.actionViewClass;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.activityChooserViewStyle = global::Bizland.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.alertDialogButtonGroupStyle = global::Bizland.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.alertDialogCenterButtons = global::Bizland.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.alertDialogStyle = global::Bizland.Droid.Resource.Attribute.alertDialogStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.alertDialogTheme = global::Bizland.Droid.Resource.Attribute.alertDialogTheme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.allowStacking = global::Bizland.Droid.Resource.Attribute.allowStacking;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.alpha = global::Bizland.Droid.Resource.Attribute.alpha;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.alphabeticModifiers = global::Bizland.Droid.Resource.Attribute.alphabeticModifiers;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.arrowHeadLength = global::Bizland.Droid.Resource.Attribute.arrowHeadLength;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.arrowShaftLength = global::Bizland.Droid.Resource.Attribute.arrowShaftLength;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.autoCompleteTextViewStyle = global::Bizland.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.autoSizeMaxTextSize = global::Bizland.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.autoSizeMinTextSize = global::Bizland.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.autoSizePresetSizes = global::Bizland.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.autoSizeStepGranularity = global::Bizland.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.autoSizeTextType = global::Bizland.Droid.Resource.Attribute.autoSizeTextType;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.background = global::Bizland.Droid.Resource.Attribute.background;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.backgroundSplit = global::Bizland.Droid.Resource.Attribute.backgroundSplit;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.backgroundStacked = global::Bizland.Droid.Resource.Attribute.backgroundStacked;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.backgroundTint = global::Bizland.Droid.Resource.Attribute.backgroundTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.backgroundTintMode = global::Bizland.Droid.Resource.Attribute.backgroundTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.barLength = global::Bizland.Droid.Resource.Attribute.barLength;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.behavior_autoHide = global::Bizland.Droid.Resource.Attribute.behavior_autoHide;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.behavior_fitToContents = global::Bizland.Droid.Resource.Attribute.behavior_fitToContents;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.behavior_hideable = global::Bizland.Droid.Resource.Attribute.behavior_hideable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.behavior_overlapTop = global::Bizland.Droid.Resource.Attribute.behavior_overlapTop;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.behavior_peekHeight = global::Bizland.Droid.Resource.Attribute.behavior_peekHeight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.behavior_skipCollapsed = global::Bizland.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.borderlessButtonStyle = global::Bizland.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.borderWidth = global::Bizland.Droid.Resource.Attribute.borderWidth;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.bottomAppBarStyle = global::Bizland.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.bottomNavigationStyle = global::Bizland.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.bottomSheetDialogTheme = global::Bizland.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.bottomSheetStyle = global::Bizland.Droid.Resource.Attribute.bottomSheetStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.boxBackgroundColor = global::Bizland.Droid.Resource.Attribute.boxBackgroundColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.boxBackgroundMode = global::Bizland.Droid.Resource.Attribute.boxBackgroundMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.boxCollapsedPaddingTop = global::Bizland.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.boxCornerRadiusBottomEnd = global::Bizland.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.boxCornerRadiusBottomStart = global::Bizland.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.boxCornerRadiusTopEnd = global::Bizland.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.boxCornerRadiusTopStart = global::Bizland.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.boxStrokeColor = global::Bizland.Droid.Resource.Attribute.boxStrokeColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.boxStrokeWidth = global::Bizland.Droid.Resource.Attribute.boxStrokeWidth;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonBarButtonStyle = global::Bizland.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonBarNegativeButtonStyle = global::Bizland.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonBarNeutralButtonStyle = global::Bizland.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonBarPositiveButtonStyle = global::Bizland.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonBarStyle = global::Bizland.Droid.Resource.Attribute.buttonBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonGravity = global::Bizland.Droid.Resource.Attribute.buttonGravity;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonIconDimen = global::Bizland.Droid.Resource.Attribute.buttonIconDimen;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonPanelSideLayout = global::Bizland.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonStyle = global::Bizland.Droid.Resource.Attribute.buttonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonStyleSmall = global::Bizland.Droid.Resource.Attribute.buttonStyleSmall;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonTint = global::Bizland.Droid.Resource.Attribute.buttonTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.buttonTintMode = global::Bizland.Droid.Resource.Attribute.buttonTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.cardBackgroundColor = global::Bizland.Droid.Resource.Attribute.cardBackgroundColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.cardCornerRadius = global::Bizland.Droid.Resource.Attribute.cardCornerRadius;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.cardElevation = global::Bizland.Droid.Resource.Attribute.cardElevation;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.cardMaxElevation = global::Bizland.Droid.Resource.Attribute.cardMaxElevation;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.cardPreventCornerOverlap = global::Bizland.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.cardUseCompatPadding = global::Bizland.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.cardViewStyle = global::Bizland.Droid.Resource.Attribute.cardViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.checkboxStyle = global::Bizland.Droid.Resource.Attribute.checkboxStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.checkedChip = global::Bizland.Droid.Resource.Attribute.checkedChip;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.checkedIcon = global::Bizland.Droid.Resource.Attribute.checkedIcon;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.checkedIconEnabled = global::Bizland.Droid.Resource.Attribute.checkedIconEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.checkedIconVisible = global::Bizland.Droid.Resource.Attribute.checkedIconVisible;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.checkedTextViewStyle = global::Bizland.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipBackgroundColor = global::Bizland.Droid.Resource.Attribute.chipBackgroundColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipCornerRadius = global::Bizland.Droid.Resource.Attribute.chipCornerRadius;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipEndPadding = global::Bizland.Droid.Resource.Attribute.chipEndPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipGroupStyle = global::Bizland.Droid.Resource.Attribute.chipGroupStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipIcon = global::Bizland.Droid.Resource.Attribute.chipIcon;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipIconEnabled = global::Bizland.Droid.Resource.Attribute.chipIconEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipIconSize = global::Bizland.Droid.Resource.Attribute.chipIconSize;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipIconTint = global::Bizland.Droid.Resource.Attribute.chipIconTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipIconVisible = global::Bizland.Droid.Resource.Attribute.chipIconVisible;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipMinHeight = global::Bizland.Droid.Resource.Attribute.chipMinHeight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipSpacing = global::Bizland.Droid.Resource.Attribute.chipSpacing;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipSpacingHorizontal = global::Bizland.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipSpacingVertical = global::Bizland.Droid.Resource.Attribute.chipSpacingVertical;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipStandaloneStyle = global::Bizland.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipStartPadding = global::Bizland.Droid.Resource.Attribute.chipStartPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipStrokeColor = global::Bizland.Droid.Resource.Attribute.chipStrokeColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipStrokeWidth = global::Bizland.Droid.Resource.Attribute.chipStrokeWidth;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.chipStyle = global::Bizland.Droid.Resource.Attribute.chipStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.closeIcon = global::Bizland.Droid.Resource.Attribute.closeIcon;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.closeIconEnabled = global::Bizland.Droid.Resource.Attribute.closeIconEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.closeIconEndPadding = global::Bizland.Droid.Resource.Attribute.closeIconEndPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.closeIconSize = global::Bizland.Droid.Resource.Attribute.closeIconSize;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.closeIconStartPadding = global::Bizland.Droid.Resource.Attribute.closeIconStartPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.closeIconTint = global::Bizland.Droid.Resource.Attribute.closeIconTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.closeIconVisible = global::Bizland.Droid.Resource.Attribute.closeIconVisible;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.closeItemLayout = global::Bizland.Droid.Resource.Attribute.closeItemLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.collapseContentDescription = global::Bizland.Droid.Resource.Attribute.collapseContentDescription;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.collapsedTitleGravity = global::Bizland.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.collapsedTitleTextAppearance = global::Bizland.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.collapseIcon = global::Bizland.Droid.Resource.Attribute.collapseIcon;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.color = global::Bizland.Droid.Resource.Attribute.color;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.colorAccent = global::Bizland.Droid.Resource.Attribute.colorAccent;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.colorBackgroundFloating = global::Bizland.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.colorButtonNormal = global::Bizland.Droid.Resource.Attribute.colorButtonNormal;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.colorControlActivated = global::Bizland.Droid.Resource.Attribute.colorControlActivated;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.colorControlHighlight = global::Bizland.Droid.Resource.Attribute.colorControlHighlight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.colorControlNormal = global::Bizland.Droid.Resource.Attribute.colorControlNormal;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.colorError = global::Bizland.Droid.Resource.Attribute.colorError;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.colorPrimary = global::Bizland.Droid.Resource.Attribute.colorPrimary;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.colorPrimaryDark = global::Bizland.Droid.Resource.Attribute.colorPrimaryDark;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.colorSecondary = global::Bizland.Droid.Resource.Attribute.colorSecondary;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.colorSwitchThumbNormal = global::Bizland.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.commitIcon = global::Bizland.Droid.Resource.Attribute.commitIcon;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentDescription = global::Bizland.Droid.Resource.Attribute.contentDescription;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentInsetEnd = global::Bizland.Droid.Resource.Attribute.contentInsetEnd;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentInsetEndWithActions = global::Bizland.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentInsetLeft = global::Bizland.Droid.Resource.Attribute.contentInsetLeft;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentInsetRight = global::Bizland.Droid.Resource.Attribute.contentInsetRight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentInsetStart = global::Bizland.Droid.Resource.Attribute.contentInsetStart;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentInsetStartWithNavigation = global::Bizland.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentPadding = global::Bizland.Droid.Resource.Attribute.contentPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentPaddingBottom = global::Bizland.Droid.Resource.Attribute.contentPaddingBottom;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentPaddingLeft = global::Bizland.Droid.Resource.Attribute.contentPaddingLeft;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentPaddingRight = global::Bizland.Droid.Resource.Attribute.contentPaddingRight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentPaddingTop = global::Bizland.Droid.Resource.Attribute.contentPaddingTop;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.contentScrim = global::Bizland.Droid.Resource.Attribute.contentScrim;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.controlBackground = global::Bizland.Droid.Resource.Attribute.controlBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.coordinatorLayoutStyle = global::Bizland.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.cornerRadius = global::Bizland.Droid.Resource.Attribute.cornerRadius;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.counterEnabled = global::Bizland.Droid.Resource.Attribute.counterEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.counterMaxLength = global::Bizland.Droid.Resource.Attribute.counterMaxLength;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.counterOverflowTextAppearance = global::Bizland.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.counterTextAppearance = global::Bizland.Droid.Resource.Attribute.counterTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.customNavigationLayout = global::Bizland.Droid.Resource.Attribute.customNavigationLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.defaultQueryHint = global::Bizland.Droid.Resource.Attribute.defaultQueryHint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.dialogCornerRadius = global::Bizland.Droid.Resource.Attribute.dialogCornerRadius;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.dialogPreferredPadding = global::Bizland.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.dialogTheme = global::Bizland.Droid.Resource.Attribute.dialogTheme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.displayOptions = global::Bizland.Droid.Resource.Attribute.displayOptions;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.divider = global::Bizland.Droid.Resource.Attribute.divider;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.dividerHorizontal = global::Bizland.Droid.Resource.Attribute.dividerHorizontal;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.dividerPadding = global::Bizland.Droid.Resource.Attribute.dividerPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.dividerVertical = global::Bizland.Droid.Resource.Attribute.dividerVertical;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.drawableSize = global::Bizland.Droid.Resource.Attribute.drawableSize;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.drawerArrowStyle = global::Bizland.Droid.Resource.Attribute.drawerArrowStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.dropdownListPreferredItemHeight = global::Bizland.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.dropDownListViewStyle = global::Bizland.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.editTextBackground = global::Bizland.Droid.Resource.Attribute.editTextBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.editTextColor = global::Bizland.Droid.Resource.Attribute.editTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.editTextStyle = global::Bizland.Droid.Resource.Attribute.editTextStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.elevation = global::Bizland.Droid.Resource.Attribute.elevation;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.enforceMaterialTheme = global::Bizland.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.enforceTextAppearance = global::Bizland.Droid.Resource.Attribute.enforceTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.errorEnabled = global::Bizland.Droid.Resource.Attribute.errorEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.errorTextAppearance = global::Bizland.Droid.Resource.Attribute.errorTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Bizland.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.expanded = global::Bizland.Droid.Resource.Attribute.expanded;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.expandedTitleGravity = global::Bizland.Droid.Resource.Attribute.expandedTitleGravity;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.expandedTitleMargin = global::Bizland.Droid.Resource.Attribute.expandedTitleMargin;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.expandedTitleMarginBottom = global::Bizland.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.expandedTitleMarginEnd = global::Bizland.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.expandedTitleMarginStart = global::Bizland.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.expandedTitleMarginTop = global::Bizland.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.expandedTitleTextAppearance = global::Bizland.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.externalRouteEnabledDrawable = global::Bizland.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fabAlignmentMode = global::Bizland.Droid.Resource.Attribute.fabAlignmentMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fabCradleMargin = global::Bizland.Droid.Resource.Attribute.fabCradleMargin;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fabCradleRoundedCornerRadius = global::Bizland.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fabCradleVerticalOffset = global::Bizland.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fabCustomSize = global::Bizland.Droid.Resource.Attribute.fabCustomSize;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fabSize = global::Bizland.Droid.Resource.Attribute.fabSize;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fastScrollEnabled = global::Bizland.Droid.Resource.Attribute.fastScrollEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Bizland.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Bizland.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Bizland.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Bizland.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.firstBaselineToTopHeight = global::Bizland.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.floatingActionButtonStyle = global::Bizland.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.font = global::Bizland.Droid.Resource.Attribute.font;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fontFamily = global::Bizland.Droid.Resource.Attribute.fontFamily;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fontProviderAuthority = global::Bizland.Droid.Resource.Attribute.fontProviderAuthority;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fontProviderCerts = global::Bizland.Droid.Resource.Attribute.fontProviderCerts;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fontProviderFetchStrategy = global::Bizland.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fontProviderFetchTimeout = global::Bizland.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fontProviderPackage = global::Bizland.Droid.Resource.Attribute.fontProviderPackage;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fontProviderQuery = global::Bizland.Droid.Resource.Attribute.fontProviderQuery;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fontStyle = global::Bizland.Droid.Resource.Attribute.fontStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fontVariationSettings = global::Bizland.Droid.Resource.Attribute.fontVariationSettings;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.fontWeight = global::Bizland.Droid.Resource.Attribute.fontWeight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.foregroundInsidePadding = global::Bizland.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.gapBetweenBars = global::Bizland.Droid.Resource.Attribute.gapBetweenBars;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.goIcon = global::Bizland.Droid.Resource.Attribute.goIcon;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.headerLayout = global::Bizland.Droid.Resource.Attribute.headerLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.height = global::Bizland.Droid.Resource.Attribute.height;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.helperText = global::Bizland.Droid.Resource.Attribute.helperText;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.helperTextEnabled = global::Bizland.Droid.Resource.Attribute.helperTextEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.helperTextTextAppearance = global::Bizland.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.hideMotionSpec = global::Bizland.Droid.Resource.Attribute.hideMotionSpec;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.hideOnContentScroll = global::Bizland.Droid.Resource.Attribute.hideOnContentScroll;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.hideOnScroll = global::Bizland.Droid.Resource.Attribute.hideOnScroll;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.hintAnimationEnabled = global::Bizland.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.hintEnabled = global::Bizland.Droid.Resource.Attribute.hintEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.hintTextAppearance = global::Bizland.Droid.Resource.Attribute.hintTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.homeAsUpIndicator = global::Bizland.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.homeLayout = global::Bizland.Droid.Resource.Attribute.homeLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.hoveredFocusedTranslationZ = global::Bizland.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.icon = global::Bizland.Droid.Resource.Attribute.icon;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.iconEndPadding = global::Bizland.Droid.Resource.Attribute.iconEndPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.iconGravity = global::Bizland.Droid.Resource.Attribute.iconGravity;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.iconifiedByDefault = global::Bizland.Droid.Resource.Attribute.iconifiedByDefault;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.iconPadding = global::Bizland.Droid.Resource.Attribute.iconPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.iconSize = global::Bizland.Droid.Resource.Attribute.iconSize;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.iconStartPadding = global::Bizland.Droid.Resource.Attribute.iconStartPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.iconTint = global::Bizland.Droid.Resource.Attribute.iconTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.iconTintMode = global::Bizland.Droid.Resource.Attribute.iconTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.imageButtonStyle = global::Bizland.Droid.Resource.Attribute.imageButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.indeterminateProgressStyle = global::Bizland.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.initialActivityCount = global::Bizland.Droid.Resource.Attribute.initialActivityCount;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.insetForeground = global::Bizland.Droid.Resource.Attribute.insetForeground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.isLightTheme = global::Bizland.Droid.Resource.Attribute.isLightTheme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemBackground = global::Bizland.Droid.Resource.Attribute.itemBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemHorizontalPadding = global::Bizland.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemHorizontalTranslationEnabled = global::Bizland.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemIconPadding = global::Bizland.Droid.Resource.Attribute.itemIconPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemIconSize = global::Bizland.Droid.Resource.Attribute.itemIconSize;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemIconTint = global::Bizland.Droid.Resource.Attribute.itemIconTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemPadding = global::Bizland.Droid.Resource.Attribute.itemPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemSpacing = global::Bizland.Droid.Resource.Attribute.itemSpacing;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemTextAppearance = global::Bizland.Droid.Resource.Attribute.itemTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemTextAppearanceActive = global::Bizland.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemTextAppearanceInactive = global::Bizland.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.itemTextColor = global::Bizland.Droid.Resource.Attribute.itemTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.keylines = global::Bizland.Droid.Resource.Attribute.keylines;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.labelVisibilityMode = global::Bizland.Droid.Resource.Attribute.labelVisibilityMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.lastBaselineToBottomHeight = global::Bizland.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layout = global::Bizland.Droid.Resource.Attribute.layout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layoutManager = global::Bizland.Droid.Resource.Attribute.layoutManager;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layout_anchor = global::Bizland.Droid.Resource.Attribute.layout_anchor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layout_anchorGravity = global::Bizland.Droid.Resource.Attribute.layout_anchorGravity;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layout_behavior = global::Bizland.Droid.Resource.Attribute.layout_behavior;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layout_collapseMode = global::Bizland.Droid.Resource.Attribute.layout_collapseMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layout_collapseParallaxMultiplier = global::Bizland.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layout_dodgeInsetEdges = global::Bizland.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layout_insetEdge = global::Bizland.Droid.Resource.Attribute.layout_insetEdge;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layout_keyline = global::Bizland.Droid.Resource.Attribute.layout_keyline;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layout_scrollFlags = global::Bizland.Droid.Resource.Attribute.layout_scrollFlags;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.layout_scrollInterpolator = global::Bizland.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.liftOnScroll = global::Bizland.Droid.Resource.Attribute.liftOnScroll;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.lineHeight = global::Bizland.Droid.Resource.Attribute.lineHeight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.lineSpacing = global::Bizland.Droid.Resource.Attribute.lineSpacing;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.listChoiceBackgroundIndicator = global::Bizland.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.listDividerAlertDialog = global::Bizland.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.listItemLayout = global::Bizland.Droid.Resource.Attribute.listItemLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.listLayout = global::Bizland.Droid.Resource.Attribute.listLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.listMenuViewStyle = global::Bizland.Droid.Resource.Attribute.listMenuViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.listPopupWindowStyle = global::Bizland.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.listPreferredItemHeight = global::Bizland.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.listPreferredItemHeightLarge = global::Bizland.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.listPreferredItemHeightSmall = global::Bizland.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.listPreferredItemPaddingLeft = global::Bizland.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.listPreferredItemPaddingRight = global::Bizland.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.logo = global::Bizland.Droid.Resource.Attribute.logo;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.logoDescription = global::Bizland.Droid.Resource.Attribute.logoDescription;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.materialButtonStyle = global::Bizland.Droid.Resource.Attribute.materialButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.materialCardViewStyle = global::Bizland.Droid.Resource.Attribute.materialCardViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.maxActionInlineWidth = global::Bizland.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.maxButtonHeight = global::Bizland.Droid.Resource.Attribute.maxButtonHeight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.maxImageSize = global::Bizland.Droid.Resource.Attribute.maxImageSize;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.measureWithLargestChild = global::Bizland.Droid.Resource.Attribute.measureWithLargestChild;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRouteAudioTrackDrawable = global::Bizland.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRouteButtonStyle = global::Bizland.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRouteButtonTint = global::Bizland.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRouteCloseDrawable = global::Bizland.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::Bizland.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRouteDefaultIconDrawable = global::Bizland.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRoutePauseDrawable = global::Bizland.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRoutePlayDrawable = global::Bizland.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::Bizland.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::Bizland.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRouteStopDrawable = global::Bizland.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRouteTheme = global::Bizland.Droid.Resource.Attribute.mediaRouteTheme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.mediaRouteTvIconDrawable = global::Bizland.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.menu = global::Bizland.Droid.Resource.Attribute.menu;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.multiChoiceItemLayout = global::Bizland.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.navigationContentDescription = global::Bizland.Droid.Resource.Attribute.navigationContentDescription;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.navigationIcon = global::Bizland.Droid.Resource.Attribute.navigationIcon;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.navigationMode = global::Bizland.Droid.Resource.Attribute.navigationMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.navigationViewStyle = global::Bizland.Droid.Resource.Attribute.navigationViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.numericModifiers = global::Bizland.Droid.Resource.Attribute.numericModifiers;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.overlapAnchor = global::Bizland.Droid.Resource.Attribute.overlapAnchor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.paddingBottomNoButtons = global::Bizland.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.paddingEnd = global::Bizland.Droid.Resource.Attribute.paddingEnd;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.paddingStart = global::Bizland.Droid.Resource.Attribute.paddingStart;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.paddingTopNoTitle = global::Bizland.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.panelBackground = global::Bizland.Droid.Resource.Attribute.panelBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.panelMenuListTheme = global::Bizland.Droid.Resource.Attribute.panelMenuListTheme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.panelMenuListWidth = global::Bizland.Droid.Resource.Attribute.panelMenuListWidth;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.passwordToggleContentDescription = global::Bizland.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.passwordToggleDrawable = global::Bizland.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.passwordToggleEnabled = global::Bizland.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.passwordToggleTint = global::Bizland.Droid.Resource.Attribute.passwordToggleTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.passwordToggleTintMode = global::Bizland.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.popupMenuStyle = global::Bizland.Droid.Resource.Attribute.popupMenuStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.popupTheme = global::Bizland.Droid.Resource.Attribute.popupTheme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.popupWindowStyle = global::Bizland.Droid.Resource.Attribute.popupWindowStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.preserveIconSpacing = global::Bizland.Droid.Resource.Attribute.preserveIconSpacing;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.pressedTranslationZ = global::Bizland.Droid.Resource.Attribute.pressedTranslationZ;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.progressBarPadding = global::Bizland.Droid.Resource.Attribute.progressBarPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.progressBarStyle = global::Bizland.Droid.Resource.Attribute.progressBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.queryBackground = global::Bizland.Droid.Resource.Attribute.queryBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.queryHint = global::Bizland.Droid.Resource.Attribute.queryHint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.radioButtonStyle = global::Bizland.Droid.Resource.Attribute.radioButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.ratingBarStyle = global::Bizland.Droid.Resource.Attribute.ratingBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.ratingBarStyleIndicator = global::Bizland.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.ratingBarStyleSmall = global::Bizland.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.reverseLayout = global::Bizland.Droid.Resource.Attribute.reverseLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.rippleColor = global::Bizland.Droid.Resource.Attribute.rippleColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.scrimAnimationDuration = global::Bizland.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.scrimBackground = global::Bizland.Droid.Resource.Attribute.scrimBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.scrimVisibleHeightTrigger = global::Bizland.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.searchHintIcon = global::Bizland.Droid.Resource.Attribute.searchHintIcon;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.searchIcon = global::Bizland.Droid.Resource.Attribute.searchIcon;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.searchViewStyle = global::Bizland.Droid.Resource.Attribute.searchViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.seekBarStyle = global::Bizland.Droid.Resource.Attribute.seekBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.selectableItemBackground = global::Bizland.Droid.Resource.Attribute.selectableItemBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.selectableItemBackgroundBorderless = global::Bizland.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.showAsAction = global::Bizland.Droid.Resource.Attribute.showAsAction;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.showDividers = global::Bizland.Droid.Resource.Attribute.showDividers;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.showMotionSpec = global::Bizland.Droid.Resource.Attribute.showMotionSpec;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.showText = global::Bizland.Droid.Resource.Attribute.showText;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.showTitle = global::Bizland.Droid.Resource.Attribute.showTitle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.singleChoiceItemLayout = global::Bizland.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.singleLine = global::Bizland.Droid.Resource.Attribute.singleLine;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.singleSelection = global::Bizland.Droid.Resource.Attribute.singleSelection;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.snackbarButtonStyle = global::Bizland.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.snackbarStyle = global::Bizland.Droid.Resource.Attribute.snackbarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.spanCount = global::Bizland.Droid.Resource.Attribute.spanCount;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.spinBars = global::Bizland.Droid.Resource.Attribute.spinBars;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.spinnerDropDownItemStyle = global::Bizland.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.spinnerStyle = global::Bizland.Droid.Resource.Attribute.spinnerStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.splitTrack = global::Bizland.Droid.Resource.Attribute.splitTrack;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.srcCompat = global::Bizland.Droid.Resource.Attribute.srcCompat;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.stackFromEnd = global::Bizland.Droid.Resource.Attribute.stackFromEnd;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.state_above_anchor = global::Bizland.Droid.Resource.Attribute.state_above_anchor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.state_collapsed = global::Bizland.Droid.Resource.Attribute.state_collapsed;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.state_collapsible = global::Bizland.Droid.Resource.Attribute.state_collapsible;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.state_liftable = global::Bizland.Droid.Resource.Attribute.state_liftable;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.state_lifted = global::Bizland.Droid.Resource.Attribute.state_lifted;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.statusBarBackground = global::Bizland.Droid.Resource.Attribute.statusBarBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.statusBarScrim = global::Bizland.Droid.Resource.Attribute.statusBarScrim;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.strokeColor = global::Bizland.Droid.Resource.Attribute.strokeColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.strokeWidth = global::Bizland.Droid.Resource.Attribute.strokeWidth;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.subMenuArrow = global::Bizland.Droid.Resource.Attribute.subMenuArrow;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.submitBackground = global::Bizland.Droid.Resource.Attribute.submitBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.subtitle = global::Bizland.Droid.Resource.Attribute.subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.subtitleTextAppearance = global::Bizland.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.subtitleTextColor = global::Bizland.Droid.Resource.Attribute.subtitleTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.subtitleTextStyle = global::Bizland.Droid.Resource.Attribute.subtitleTextStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.suggestionRowLayout = global::Bizland.Droid.Resource.Attribute.suggestionRowLayout;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.switchMinWidth = global::Bizland.Droid.Resource.Attribute.switchMinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.switchPadding = global::Bizland.Droid.Resource.Attribute.switchPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.switchStyle = global::Bizland.Droid.Resource.Attribute.switchStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.switchTextAppearance = global::Bizland.Droid.Resource.Attribute.switchTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabBackground = global::Bizland.Droid.Resource.Attribute.tabBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabContentStart = global::Bizland.Droid.Resource.Attribute.tabContentStart;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabGravity = global::Bizland.Droid.Resource.Attribute.tabGravity;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabIconTint = global::Bizland.Droid.Resource.Attribute.tabIconTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabIconTintMode = global::Bizland.Droid.Resource.Attribute.tabIconTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabIndicator = global::Bizland.Droid.Resource.Attribute.tabIndicator;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabIndicatorAnimationDuration = global::Bizland.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabIndicatorColor = global::Bizland.Droid.Resource.Attribute.tabIndicatorColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabIndicatorFullWidth = global::Bizland.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabIndicatorGravity = global::Bizland.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabIndicatorHeight = global::Bizland.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabInlineLabel = global::Bizland.Droid.Resource.Attribute.tabInlineLabel;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabMaxWidth = global::Bizland.Droid.Resource.Attribute.tabMaxWidth;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabMinWidth = global::Bizland.Droid.Resource.Attribute.tabMinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabMode = global::Bizland.Droid.Resource.Attribute.tabMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabPadding = global::Bizland.Droid.Resource.Attribute.tabPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabPaddingBottom = global::Bizland.Droid.Resource.Attribute.tabPaddingBottom;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabPaddingEnd = global::Bizland.Droid.Resource.Attribute.tabPaddingEnd;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabPaddingStart = global::Bizland.Droid.Resource.Attribute.tabPaddingStart;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabPaddingTop = global::Bizland.Droid.Resource.Attribute.tabPaddingTop;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabRippleColor = global::Bizland.Droid.Resource.Attribute.tabRippleColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabSelectedTextColor = global::Bizland.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabStyle = global::Bizland.Droid.Resource.Attribute.tabStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabTextAppearance = global::Bizland.Droid.Resource.Attribute.tabTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabTextColor = global::Bizland.Droid.Resource.Attribute.tabTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tabUnboundedRipple = global::Bizland.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAllCaps = global::Bizland.Droid.Resource.Attribute.textAllCaps;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceBody1 = global::Bizland.Droid.Resource.Attribute.textAppearanceBody1;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceBody2 = global::Bizland.Droid.Resource.Attribute.textAppearanceBody2;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceButton = global::Bizland.Droid.Resource.Attribute.textAppearanceButton;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceCaption = global::Bizland.Droid.Resource.Attribute.textAppearanceCaption;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceHeadline1 = global::Bizland.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceHeadline2 = global::Bizland.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceHeadline3 = global::Bizland.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceHeadline4 = global::Bizland.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceHeadline5 = global::Bizland.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceHeadline6 = global::Bizland.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceLargePopupMenu = global::Bizland.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceListItem = global::Bizland.Droid.Resource.Attribute.textAppearanceListItem;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceListItemSecondary = global::Bizland.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceListItemSmall = global::Bizland.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceOverline = global::Bizland.Droid.Resource.Attribute.textAppearanceOverline;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearancePopupMenuHeader = global::Bizland.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Bizland.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceSearchResultTitle = global::Bizland.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceSmallPopupMenu = global::Bizland.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceSubtitle1 = global::Bizland.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textAppearanceSubtitle2 = global::Bizland.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textColorAlertDialogListItem = global::Bizland.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textColorSearchUrl = global::Bizland.Droid.Resource.Attribute.textColorSearchUrl;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textEndPadding = global::Bizland.Droid.Resource.Attribute.textEndPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textInputStyle = global::Bizland.Droid.Resource.Attribute.textInputStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.textStartPadding = global::Bizland.Droid.Resource.Attribute.textStartPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.theme = global::Bizland.Droid.Resource.Attribute.theme;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.thickness = global::Bizland.Droid.Resource.Attribute.thickness;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.thumbTextPadding = global::Bizland.Droid.Resource.Attribute.thumbTextPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.thumbTint = global::Bizland.Droid.Resource.Attribute.thumbTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.thumbTintMode = global::Bizland.Droid.Resource.Attribute.thumbTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tickMark = global::Bizland.Droid.Resource.Attribute.tickMark;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tickMarkTint = global::Bizland.Droid.Resource.Attribute.tickMarkTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tickMarkTintMode = global::Bizland.Droid.Resource.Attribute.tickMarkTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tint = global::Bizland.Droid.Resource.Attribute.tint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tintMode = global::Bizland.Droid.Resource.Attribute.tintMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.title = global::Bizland.Droid.Resource.Attribute.title;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.titleEnabled = global::Bizland.Droid.Resource.Attribute.titleEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.titleMargin = global::Bizland.Droid.Resource.Attribute.titleMargin;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.titleMarginBottom = global::Bizland.Droid.Resource.Attribute.titleMarginBottom;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.titleMarginEnd = global::Bizland.Droid.Resource.Attribute.titleMarginEnd;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.titleMargins = global::Bizland.Droid.Resource.Attribute.titleMargins;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.titleMarginStart = global::Bizland.Droid.Resource.Attribute.titleMarginStart;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.titleMarginTop = global::Bizland.Droid.Resource.Attribute.titleMarginTop;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.titleTextAppearance = global::Bizland.Droid.Resource.Attribute.titleTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.titleTextColor = global::Bizland.Droid.Resource.Attribute.titleTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.titleTextStyle = global::Bizland.Droid.Resource.Attribute.titleTextStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.toolbarId = global::Bizland.Droid.Resource.Attribute.toolbarId;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.toolbarNavigationButtonStyle = global::Bizland.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.toolbarStyle = global::Bizland.Droid.Resource.Attribute.toolbarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tooltipForegroundColor = global::Bizland.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tooltipFrameBackground = global::Bizland.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.tooltipText = global::Bizland.Droid.Resource.Attribute.tooltipText;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.track = global::Bizland.Droid.Resource.Attribute.track;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.trackTint = global::Bizland.Droid.Resource.Attribute.trackTint;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.trackTintMode = global::Bizland.Droid.Resource.Attribute.trackTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.ttcIndex = global::Bizland.Droid.Resource.Attribute.ttcIndex;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.useCompatPadding = global::Bizland.Droid.Resource.Attribute.useCompatPadding;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.viewInflaterClass = global::Bizland.Droid.Resource.Attribute.viewInflaterClass;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.voiceIcon = global::Bizland.Droid.Resource.Attribute.voiceIcon;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.windowActionBar = global::Bizland.Droid.Resource.Attribute.windowActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.windowActionBarOverlay = global::Bizland.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.windowActionModeOverlay = global::Bizland.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.windowFixedHeightMajor = global::Bizland.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.windowFixedHeightMinor = global::Bizland.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.windowFixedWidthMajor = global::Bizland.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.windowFixedWidthMinor = global::Bizland.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.windowMinWidthMajor = global::Bizland.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.windowMinWidthMinor = global::Bizland.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::FormsCurvedBottomNavigation.Resource.Attribute.windowNoTitle = global::Bizland.Droid.Resource.Attribute.windowNoTitle;
+			global::FormsCurvedBottomNavigation.Resource.Boolean.abc_action_bar_embed_tabs = global::Bizland.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::FormsCurvedBottomNavigation.Resource.Boolean.abc_allow_stacked_button_bar = global::Bizland.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::FormsCurvedBottomNavigation.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Bizland.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::FormsCurvedBottomNavigation.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Bizland.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Bizland.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_background_cache_hint_selector_material_light = global::Bizland.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_btn_colored_borderless_text_material = global::Bizland.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_btn_colored_text_material = global::Bizland.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_color_highlight_material = global::Bizland.Droid.Resource.Color.abc_color_highlight_material;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_hint_foreground_material_dark = global::Bizland.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_hint_foreground_material_light = global::Bizland.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_input_method_navigation_guard = global::Bizland.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_primary_text_disable_only_material_dark = global::Bizland.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_primary_text_disable_only_material_light = global::Bizland.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_primary_text_material_dark = global::Bizland.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_primary_text_material_light = global::Bizland.Droid.Resource.Color.abc_primary_text_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_search_url_text = global::Bizland.Droid.Resource.Color.abc_search_url_text;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_search_url_text_normal = global::Bizland.Droid.Resource.Color.abc_search_url_text_normal;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_search_url_text_pressed = global::Bizland.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_search_url_text_selected = global::Bizland.Droid.Resource.Color.abc_search_url_text_selected;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_secondary_text_material_dark = global::Bizland.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_secondary_text_material_light = global::Bizland.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_tint_btn_checkable = global::Bizland.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_tint_default = global::Bizland.Droid.Resource.Color.abc_tint_default;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_tint_edittext = global::Bizland.Droid.Resource.Color.abc_tint_edittext;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_tint_seek_thumb = global::Bizland.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_tint_spinner = global::Bizland.Droid.Resource.Color.abc_tint_spinner;
+			global::FormsCurvedBottomNavigation.Resource.Color.abc_tint_switch_track = global::Bizland.Droid.Resource.Color.abc_tint_switch_track;
+			global::FormsCurvedBottomNavigation.Resource.Color.accent_material_dark = global::Bizland.Droid.Resource.Color.accent_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.accent_material_light = global::Bizland.Droid.Resource.Color.accent_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.background_floating_material_dark = global::Bizland.Droid.Resource.Color.background_floating_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.background_floating_material_light = global::Bizland.Droid.Resource.Color.background_floating_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.background_material_dark = global::Bizland.Droid.Resource.Color.background_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.background_material_light = global::Bizland.Droid.Resource.Color.background_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.bright_foreground_disabled_material_dark = global::Bizland.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.bright_foreground_disabled_material_light = global::Bizland.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.bright_foreground_inverse_material_dark = global::Bizland.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.bright_foreground_inverse_material_light = global::Bizland.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.bright_foreground_material_dark = global::Bizland.Droid.Resource.Color.bright_foreground_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.bright_foreground_material_light = global::Bizland.Droid.Resource.Color.bright_foreground_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.browser_actions_bg_grey = global::Bizland.Droid.Resource.Color.browser_actions_bg_grey;
+			global::FormsCurvedBottomNavigation.Resource.Color.browser_actions_divider_color = global::Bizland.Droid.Resource.Color.browser_actions_divider_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.browser_actions_text_color = global::Bizland.Droid.Resource.Color.browser_actions_text_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.browser_actions_title_color = global::Bizland.Droid.Resource.Color.browser_actions_title_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.button_material_dark = global::Bizland.Droid.Resource.Color.button_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.button_material_light = global::Bizland.Droid.Resource.Color.button_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.cardview_dark_background = global::Bizland.Droid.Resource.Color.cardview_dark_background;
+			global::FormsCurvedBottomNavigation.Resource.Color.cardview_light_background = global::Bizland.Droid.Resource.Color.cardview_light_background;
+			global::FormsCurvedBottomNavigation.Resource.Color.cardview_shadow_end_color = global::Bizland.Droid.Resource.Color.cardview_shadow_end_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.cardview_shadow_start_color = global::Bizland.Droid.Resource.Color.cardview_shadow_start_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_bottom_navigation_shadow_color = global::Bizland.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_default_color_primary = global::Bizland.Droid.Resource.Color.design_default_color_primary;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_default_color_primary_dark = global::Bizland.Droid.Resource.Color.design_default_color_primary_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_error = global::Bizland.Droid.Resource.Color.design_error;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_fab_shadow_end_color = global::Bizland.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_fab_shadow_mid_color = global::Bizland.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_fab_shadow_start_color = global::Bizland.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_fab_stroke_end_inner_color = global::Bizland.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_fab_stroke_end_outer_color = global::Bizland.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_fab_stroke_top_inner_color = global::Bizland.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_fab_stroke_top_outer_color = global::Bizland.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_snackbar_background_color = global::Bizland.Droid.Resource.Color.design_snackbar_background_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.design_tint_password_toggle = global::Bizland.Droid.Resource.Color.design_tint_password_toggle;
+			global::FormsCurvedBottomNavigation.Resource.Color.dim_foreground_disabled_material_dark = global::Bizland.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.dim_foreground_disabled_material_light = global::Bizland.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.dim_foreground_material_dark = global::Bizland.Droid.Resource.Color.dim_foreground_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.dim_foreground_material_light = global::Bizland.Droid.Resource.Color.dim_foreground_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.error_color_material_dark = global::Bizland.Droid.Resource.Color.error_color_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.error_color_material_light = global::Bizland.Droid.Resource.Color.error_color_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.foreground_material_dark = global::Bizland.Droid.Resource.Color.foreground_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.foreground_material_light = global::Bizland.Droid.Resource.Color.foreground_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.highlighted_text_material_dark = global::Bizland.Droid.Resource.Color.highlighted_text_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.highlighted_text_material_light = global::Bizland.Droid.Resource.Color.highlighted_text_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_blue_grey_800 = global::Bizland.Droid.Resource.Color.material_blue_grey_800;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_blue_grey_900 = global::Bizland.Droid.Resource.Color.material_blue_grey_900;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_blue_grey_950 = global::Bizland.Droid.Resource.Color.material_blue_grey_950;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_deep_teal_200 = global::Bizland.Droid.Resource.Color.material_deep_teal_200;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_deep_teal_500 = global::Bizland.Droid.Resource.Color.material_deep_teal_500;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_grey_100 = global::Bizland.Droid.Resource.Color.material_grey_100;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_grey_300 = global::Bizland.Droid.Resource.Color.material_grey_300;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_grey_50 = global::Bizland.Droid.Resource.Color.material_grey_50;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_grey_600 = global::Bizland.Droid.Resource.Color.material_grey_600;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_grey_800 = global::Bizland.Droid.Resource.Color.material_grey_800;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_grey_850 = global::Bizland.Droid.Resource.Color.material_grey_850;
+			global::FormsCurvedBottomNavigation.Resource.Color.material_grey_900 = global::Bizland.Droid.Resource.Color.material_grey_900;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::Bizland.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_bottom_nav_item_tint = global::Bizland.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_btn_bg_color_disabled = global::Bizland.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_btn_bg_color_selector = global::Bizland.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_btn_ripple_color = global::Bizland.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_btn_stroke_color_selector = global::Bizland.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Bizland.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_btn_text_color_disabled = global::Bizland.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_btn_text_color_selector = global::Bizland.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_btn_transparent_bg_color = global::Bizland.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_chip_background_color = global::Bizland.Droid.Resource.Color.mtrl_chip_background_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_chip_close_icon_tint = global::Bizland.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_chip_ripple_color = global::Bizland.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_chip_text_color = global::Bizland.Droid.Resource.Color.mtrl_chip_text_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_fab_ripple_color = global::Bizland.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_scrim_color = global::Bizland.Droid.Resource.Color.mtrl_scrim_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_tabs_colored_ripple_color = global::Bizland.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_tabs_icon_color_selector = global::Bizland.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Bizland.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Bizland.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_tabs_ripple_color = global::Bizland.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Bizland.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_textinput_disabled_color = global::Bizland.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Bizland.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Bizland.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.mtrl_text_btn_text_color_selector = global::Bizland.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::FormsCurvedBottomNavigation.Resource.Color.notification_action_color_filter = global::Bizland.Droid.Resource.Color.notification_action_color_filter;
+			global::FormsCurvedBottomNavigation.Resource.Color.notification_icon_bg_color = global::Bizland.Droid.Resource.Color.notification_icon_bg_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.notification_material_background_media_default_color = global::Bizland.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::FormsCurvedBottomNavigation.Resource.Color.primary_dark_material_dark = global::Bizland.Droid.Resource.Color.primary_dark_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.primary_dark_material_light = global::Bizland.Droid.Resource.Color.primary_dark_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.primary_material_dark = global::Bizland.Droid.Resource.Color.primary_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.primary_material_light = global::Bizland.Droid.Resource.Color.primary_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.primary_text_default_material_dark = global::Bizland.Droid.Resource.Color.primary_text_default_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.primary_text_default_material_light = global::Bizland.Droid.Resource.Color.primary_text_default_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.primary_text_disabled_material_dark = global::Bizland.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.primary_text_disabled_material_light = global::Bizland.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.ripple_material_dark = global::Bizland.Droid.Resource.Color.ripple_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.ripple_material_light = global::Bizland.Droid.Resource.Color.ripple_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.secondary_text_default_material_dark = global::Bizland.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.secondary_text_default_material_light = global::Bizland.Droid.Resource.Color.secondary_text_default_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.secondary_text_disabled_material_dark = global::Bizland.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.secondary_text_disabled_material_light = global::Bizland.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.switch_thumb_disabled_material_dark = global::Bizland.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.switch_thumb_disabled_material_light = global::Bizland.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.switch_thumb_material_dark = global::Bizland.Droid.Resource.Color.switch_thumb_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.switch_thumb_material_light = global::Bizland.Droid.Resource.Color.switch_thumb_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.switch_thumb_normal_material_dark = global::Bizland.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.switch_thumb_normal_material_light = global::Bizland.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Color.tooltip_background_dark = global::Bizland.Droid.Resource.Color.tooltip_background_dark;
+			global::FormsCurvedBottomNavigation.Resource.Color.tooltip_background_light = global::Bizland.Droid.Resource.Color.tooltip_background_light;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_content_inset_material = global::Bizland.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Bizland.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_default_height_material = global::Bizland.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Bizland.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Bizland.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_elevation_material = global::Bizland.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Bizland.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Bizland.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Bizland.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_stacked_max_height = global::Bizland.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Bizland.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Bizland.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Bizland.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_button_min_height_material = global::Bizland.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_button_min_width_material = global::Bizland.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Bizland.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Bizland.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_alert_dialog_button_dimen = global::Bizland.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_button_inset_horizontal_material = global::Bizland.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_button_inset_vertical_material = global::Bizland.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_button_padding_horizontal_material = global::Bizland.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_button_padding_vertical_material = global::Bizland.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Bizland.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_config_prefDialogWidth = global::Bizland.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_control_corner_material = global::Bizland.Droid.Resource.Dimension.abc_control_corner_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_control_inset_material = global::Bizland.Droid.Resource.Dimension.abc_control_inset_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_control_padding_material = global::Bizland.Droid.Resource.Dimension.abc_control_padding_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_corner_radius_material = global::Bizland.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_fixed_height_major = global::Bizland.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_fixed_height_minor = global::Bizland.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_fixed_width_major = global::Bizland.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_fixed_width_minor = global::Bizland.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Bizland.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Bizland.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_min_width_major = global::Bizland.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_min_width_minor = global::Bizland.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_padding_material = global::Bizland.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_padding_top_material = global::Bizland.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dialog_title_divider_material = global::Bizland.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_disabled_alpha_material_dark = global::Bizland.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_disabled_alpha_material_light = global::Bizland.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dropdownitem_icon_width = global::Bizland.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Bizland.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Bizland.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Bizland.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Bizland.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_edit_text_inset_top_material = global::Bizland.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_floating_window_z = global::Bizland.Droid.Resource.Dimension.abc_floating_window_z;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Bizland.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_panel_menu_list_width = global::Bizland.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_progress_bar_height_material = global::Bizland.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_search_view_preferred_height = global::Bizland.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_search_view_preferred_width = global::Bizland.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_seekbar_track_background_height_material = global::Bizland.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Bizland.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_select_dialog_padding_start_material = global::Bizland.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_switch_padding = global::Bizland.Droid.Resource.Dimension.abc_switch_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_body_1_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_body_2_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_button_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_caption_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_display_1_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_display_2_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_display_3_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_display_4_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_headline_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_large_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_medium_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_menu_header_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_menu_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_small_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_subhead_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Bizland.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_title_material = global::Bizland.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.abc_text_size_title_material_toolbar = global::Bizland.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.browser_actions_context_menu_max_width = global::Bizland.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.browser_actions_context_menu_min_padding = global::Bizland.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.cardview_compat_inset_shadow = global::Bizland.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.cardview_default_elevation = global::Bizland.Droid.Resource.Dimension.cardview_default_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.cardview_default_radius = global::Bizland.Droid.Resource.Dimension.cardview_default_radius;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.compat_button_inset_horizontal_material = global::Bizland.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.compat_button_inset_vertical_material = global::Bizland.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.compat_button_padding_horizontal_material = global::Bizland.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.compat_button_padding_vertical_material = global::Bizland.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.compat_control_corner_material = global::Bizland.Droid.Resource.Dimension.compat_control_corner_material;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.compat_notification_large_icon_max_height = global::Bizland.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.compat_notification_large_icon_max_width = global::Bizland.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_appbar_elevation = global::Bizland.Droid.Resource.Dimension.design_appbar_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Bizland.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Bizland.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_navigation_active_text_size = global::Bizland.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_navigation_elevation = global::Bizland.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_navigation_height = global::Bizland.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_navigation_icon_size = global::Bizland.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_navigation_item_max_width = global::Bizland.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_navigation_item_min_width = global::Bizland.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_navigation_margin = global::Bizland.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_navigation_shadow_height = global::Bizland.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_navigation_text_size = global::Bizland.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Bizland.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Bizland.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_fab_border_width = global::Bizland.Droid.Resource.Dimension.design_fab_border_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_fab_elevation = global::Bizland.Droid.Resource.Dimension.design_fab_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_fab_image_size = global::Bizland.Droid.Resource.Dimension.design_fab_image_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_fab_size_mini = global::Bizland.Droid.Resource.Dimension.design_fab_size_mini;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_fab_size_normal = global::Bizland.Droid.Resource.Dimension.design_fab_size_normal;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Bizland.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_fab_translation_z_pressed = global::Bizland.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_navigation_elevation = global::Bizland.Droid.Resource.Dimension.design_navigation_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_navigation_icon_padding = global::Bizland.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_navigation_icon_size = global::Bizland.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_navigation_item_horizontal_padding = global::Bizland.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_navigation_item_icon_padding = global::Bizland.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_navigation_max_width = global::Bizland.Droid.Resource.Dimension.design_navigation_max_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_navigation_padding_bottom = global::Bizland.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_navigation_separator_vertical_padding = global::Bizland.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_snackbar_action_inline_max_width = global::Bizland.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_snackbar_background_corner_radius = global::Bizland.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_snackbar_elevation = global::Bizland.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Bizland.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_snackbar_max_width = global::Bizland.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_snackbar_min_width = global::Bizland.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_snackbar_padding_horizontal = global::Bizland.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_snackbar_padding_vertical = global::Bizland.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Bizland.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_snackbar_text_size = global::Bizland.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_tab_max_width = global::Bizland.Droid.Resource.Dimension.design_tab_max_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_tab_scrollable_min_width = global::Bizland.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_tab_text_size = global::Bizland.Droid.Resource.Dimension.design_tab_text_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_tab_text_size_2line = global::Bizland.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.design_textinput_caption_translate_y = global::Bizland.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.disabled_alpha_material_dark = global::Bizland.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.disabled_alpha_material_light = global::Bizland.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.fastscroll_default_thickness = global::Bizland.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.fastscroll_margin = global::Bizland.Droid.Resource.Dimension.fastscroll_margin;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.fastscroll_minimum_range = global::Bizland.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.highlight_alpha_material_colored = global::Bizland.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.highlight_alpha_material_dark = global::Bizland.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.highlight_alpha_material_light = global::Bizland.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.hint_alpha_material_dark = global::Bizland.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.hint_alpha_material_light = global::Bizland.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.hint_pressed_alpha_material_dark = global::Bizland.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.hint_pressed_alpha_material_light = global::Bizland.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Bizland.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Bizland.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Bizland.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mr_controller_volume_group_list_item_height = global::Bizland.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::Bizland.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mr_controller_volume_group_list_max_height = global::Bizland.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::Bizland.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mr_dialog_fixed_width_major = global::Bizland.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mr_dialog_fixed_width_minor = global::Bizland.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Bizland.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Bizland.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Bizland.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Bizland.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_bottomappbar_height = global::Bizland.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_corner_radius = global::Bizland.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Bizland.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_disabled_elevation = global::Bizland.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_disabled_z = global::Bizland.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_elevation = global::Bizland.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_focused_z = global::Bizland.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_hovered_z = global::Bizland.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Bizland.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_icon_padding = global::Bizland.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_inset = global::Bizland.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_letter_spacing = global::Bizland.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_padding_bottom = global::Bizland.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_padding_left = global::Bizland.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_padding_right = global::Bizland.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_padding_top = global::Bizland.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_pressed_z = global::Bizland.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_stroke_size = global::Bizland.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Bizland.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Bizland.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Bizland.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_text_size = global::Bizland.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_btn_z = global::Bizland.Droid.Resource.Dimension.mtrl_btn_z;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_card_elevation = global::Bizland.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_card_spacing = global::Bizland.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Bizland.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_chip_text_size = global::Bizland.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_fab_elevation = global::Bizland.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Bizland.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Bizland.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_navigation_elevation = global::Bizland.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Bizland.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Bizland.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Bizland.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_snackbar_margin = global::Bizland.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::Bizland.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Bizland.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Bizland.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Bizland.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_textinput_box_padding_end = global::Bizland.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Bizland.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Bizland.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Bizland.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.mtrl_toolbar_default_height = global::Bizland.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_action_icon_size = global::Bizland.Droid.Resource.Dimension.notification_action_icon_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_action_text_size = global::Bizland.Droid.Resource.Dimension.notification_action_text_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_big_circle_margin = global::Bizland.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_content_margin_start = global::Bizland.Droid.Resource.Dimension.notification_content_margin_start;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_large_icon_height = global::Bizland.Droid.Resource.Dimension.notification_large_icon_height;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_large_icon_width = global::Bizland.Droid.Resource.Dimension.notification_large_icon_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_main_column_padding_top = global::Bizland.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_media_narrow_margin = global::Bizland.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_right_icon_size = global::Bizland.Droid.Resource.Dimension.notification_right_icon_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_right_side_padding_top = global::Bizland.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_small_icon_background_padding = global::Bizland.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_small_icon_size_as_large = global::Bizland.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_subtext_size = global::Bizland.Droid.Resource.Dimension.notification_subtext_size;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_top_pad = global::Bizland.Droid.Resource.Dimension.notification_top_pad;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.notification_top_pad_large_text = global::Bizland.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.subtitle_corner_radius = global::Bizland.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.subtitle_outline_width = global::Bizland.Droid.Resource.Dimension.subtitle_outline_width;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.subtitle_shadow_offset = global::Bizland.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.subtitle_shadow_radius = global::Bizland.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.tooltip_corner_radius = global::Bizland.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.tooltip_horizontal_padding = global::Bizland.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.tooltip_margin = global::Bizland.Droid.Resource.Dimension.tooltip_margin;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Bizland.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.tooltip_precise_anchor_threshold = global::Bizland.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.tooltip_vertical_padding = global::Bizland.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.tooltip_y_offset_non_touch = global::Bizland.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::FormsCurvedBottomNavigation.Resource.Dimension.tooltip_y_offset_touch = global::Bizland.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_action_bar_item_background_material = global::Bizland.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_btn_borderless_material = global::Bizland.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_btn_check_material = global::Bizland.Droid.Resource.Drawable.abc_btn_check_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Bizland.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Bizland.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_btn_colored_material = global::Bizland.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_btn_default_mtrl_shape = global::Bizland.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_btn_radio_material = global::Bizland.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Bizland.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Bizland.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Bizland.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Bizland.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_cab_background_internal_bg = global::Bizland.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_cab_background_top_material = global::Bizland.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_control_background_material = global::Bizland.Droid.Resource.Drawable.abc_control_background_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_dialog_material_background = global::Bizland.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_edit_text_material = global::Bizland.Droid.Resource.Drawable.abc_edit_text_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_ab_back_material = global::Bizland.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Bizland.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_clear_material = global::Bizland.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_go_search_api_material = global::Bizland.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Bizland.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_menu_overflow_material = global::Bizland.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Bizland.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_search_api_material = global::Bizland.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_star_black_16dp = global::Bizland.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_star_black_36dp = global::Bizland.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_star_black_48dp = global::Bizland.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_star_half_black_16dp = global::Bizland.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_star_half_black_36dp = global::Bizland.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_star_half_black_48dp = global::Bizland.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ic_voice_search_api_material = global::Bizland.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_item_background_holo_dark = global::Bizland.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_item_background_holo_light = global::Bizland.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_divider_material = global::Bizland.Droid.Resource.Drawable.abc_list_divider_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_focused_holo = global::Bizland.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_longpressed_holo = global::Bizland.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_pressed_holo_dark = global::Bizland.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_pressed_holo_light = global::Bizland.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Bizland.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Bizland.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Bizland.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Bizland.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_selector_holo_dark = global::Bizland.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_list_selector_holo_light = global::Bizland.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Bizland.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_popup_background_mtrl_mult = global::Bizland.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ratingbar_indicator_material = global::Bizland.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ratingbar_material = global::Bizland.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_ratingbar_small_material = global::Bizland.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Bizland.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Bizland.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_seekbar_thumb_material = global::Bizland.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_seekbar_tick_mark_material = global::Bizland.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_seekbar_track_material = global::Bizland.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Bizland.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_spinner_textfield_background_material = global::Bizland.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_switch_thumb_material = global::Bizland.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_tab_indicator_material = global::Bizland.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Bizland.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_textfield_search_material = global::Bizland.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_text_cursor_material = global::Bizland.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Bizland.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Bizland.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Bizland.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Bizland.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Bizland.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Bizland.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.abc_vector_test = global::Bizland.Droid.Resource.Drawable.abc_vector_test;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.avd_hide_password = global::Bizland.Droid.Resource.Drawable.avd_hide_password;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.avd_show_password = global::Bizland.Droid.Resource.Drawable.avd_show_password;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.design_bottom_navigation_item_background = global::Bizland.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.design_fab_background = global::Bizland.Droid.Resource.Drawable.design_fab_background;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.design_ic_visibility = global::Bizland.Droid.Resource.Drawable.design_ic_visibility;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.design_ic_visibility_off = global::Bizland.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.design_password_eye = global::Bizland.Droid.Resource.Drawable.design_password_eye;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.design_snackbar_background = global::Bizland.Droid.Resource.Drawable.design_snackbar_background;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_audiotrack_dark = global::Bizland.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_audiotrack_light = global::Bizland.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_dialog_close_dark = global::Bizland.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_dialog_close_light = global::Bizland.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_00 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_01 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_02 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_03 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_04 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_05 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_06 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_07 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_08 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_09 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_10 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_11 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_12 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_13 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_14 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_collapse_15 = global::Bizland.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_00 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_00;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_01 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_01;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_02 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_02;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_03 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_03;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_04 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_04;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_05 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_05;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_06 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_06;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_07 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_07;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_08 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_08;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_09 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_09;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_10 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_10;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_11 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_11;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_12 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_12;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_13 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_13;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_14 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_14;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_group_expand_15 = global::Bizland.Droid.Resource.Drawable.ic_group_expand_15;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_media_pause_dark = global::Bizland.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_media_pause_light = global::Bizland.Droid.Resource.Drawable.ic_media_pause_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_media_play_dark = global::Bizland.Droid.Resource.Drawable.ic_media_play_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_media_play_light = global::Bizland.Droid.Resource.Drawable.ic_media_play_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_media_stop_dark = global::Bizland.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_media_stop_light = global::Bizland.Droid.Resource.Drawable.ic_media_stop_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_00_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_00_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_01_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_01_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_02_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_02_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_03_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_03_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_04_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_04_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_05_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_05_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_06_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_06_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_07_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_07_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_08_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_08_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_09_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_09_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_10_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_10_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_11_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_11_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_12_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_12_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_13_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_13_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_14_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_14_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_15_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_15_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_16_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_16_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_17_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_17_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_18_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_18_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_19_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_19_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_20_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_20_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_21_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_21_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_22_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_22_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_23_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_23_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_24_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_24_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_25_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_25_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_26_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_26_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_27_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_27_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_28_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_28_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_29_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_29_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_30_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connected_30_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_00_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_00_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_01_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_01_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_02_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_02_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_03_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_03_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_04_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_04_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_05_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_05_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_06_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_06_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_07_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_07_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_08_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_08_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_09_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_09_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_10_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_10_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_11_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_11_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_12_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_12_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_13_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_13_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_14_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_14_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_15_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_15_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_16_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_16_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_17_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_17_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_18_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_18_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_19_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_19_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_20_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_20_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_21_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_21_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_22_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_22_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_23_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_23_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_24_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_24_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_25_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_25_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_26_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_26_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_27_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_27_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_28_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_28_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_29_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_29_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_30_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_connecting_30_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_disabled_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_disabled_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_disconnected_dark = global::Bizland.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_disconnected_light = global::Bizland.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mr_button_grey = global::Bizland.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mtrl_chip_checked_black = global::Bizland.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Bizland.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_mtrl_chip_close_circle = global::Bizland.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_vol_type_speaker_dark = global::Bizland.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_vol_type_speaker_group_dark = global::Bizland.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_vol_type_speaker_group_light = global::Bizland.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_vol_type_speaker_light = global::Bizland.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_vol_type_tv_dark = global::Bizland.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.ic_vol_type_tv_light = global::Bizland.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_button_connected_dark = global::Bizland.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_button_connected_light = global::Bizland.Droid.Resource.Drawable.mr_button_connected_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_button_connecting_dark = global::Bizland.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_button_connecting_light = global::Bizland.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_button_dark = global::Bizland.Droid.Resource.Drawable.mr_button_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_button_light = global::Bizland.Droid.Resource.Drawable.mr_button_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_dialog_close_dark = global::Bizland.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_dialog_close_light = global::Bizland.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_dialog_material_background_dark = global::Bizland.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_dialog_material_background_light = global::Bizland.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_group_collapse = global::Bizland.Droid.Resource.Drawable.mr_group_collapse;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_group_expand = global::Bizland.Droid.Resource.Drawable.mr_group_expand;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_media_pause_dark = global::Bizland.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_media_pause_light = global::Bizland.Droid.Resource.Drawable.mr_media_pause_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_media_play_dark = global::Bizland.Droid.Resource.Drawable.mr_media_play_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_media_play_light = global::Bizland.Droid.Resource.Drawable.mr_media_play_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_media_stop_dark = global::Bizland.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_media_stop_light = global::Bizland.Droid.Resource.Drawable.mr_media_stop_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_vol_type_audiotrack_dark = global::Bizland.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mr_vol_type_audiotrack_light = global::Bizland.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mtrl_snackbar_background = global::Bizland.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.mtrl_tabs_default_indicator = global::Bizland.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.navigation_empty_icon = global::Bizland.Droid.Resource.Drawable.navigation_empty_icon;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notification_action_background = global::Bizland.Droid.Resource.Drawable.notification_action_background;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notification_bg = global::Bizland.Droid.Resource.Drawable.notification_bg;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notification_bg_low = global::Bizland.Droid.Resource.Drawable.notification_bg_low;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notification_bg_low_normal = global::Bizland.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notification_bg_low_pressed = global::Bizland.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notification_bg_normal = global::Bizland.Droid.Resource.Drawable.notification_bg_normal;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notification_bg_normal_pressed = global::Bizland.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notification_icon_background = global::Bizland.Droid.Resource.Drawable.notification_icon_background;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notification_template_icon_bg = global::Bizland.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notification_template_icon_low_bg = global::Bizland.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notification_tile_bg = global::Bizland.Droid.Resource.Drawable.notification_tile_bg;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.notify_panel_notification_icon_bg = global::Bizland.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.tooltip_frame_dark = global::Bizland.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::FormsCurvedBottomNavigation.Resource.Drawable.tooltip_frame_light = global::Bizland.Droid.Resource.Drawable.tooltip_frame_light;
+			global::FormsCurvedBottomNavigation.Resource.Id.action0 = global::Bizland.Droid.Resource.Id.action0;
+			global::FormsCurvedBottomNavigation.Resource.Id.actions = global::Bizland.Droid.Resource.Id.actions;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_bar = global::Bizland.Droid.Resource.Id.action_bar;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_bar_activity_content = global::Bizland.Droid.Resource.Id.action_bar_activity_content;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_bar_container = global::Bizland.Droid.Resource.Id.action_bar_container;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_bar_root = global::Bizland.Droid.Resource.Id.action_bar_root;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_bar_spinner = global::Bizland.Droid.Resource.Id.action_bar_spinner;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_bar_subtitle = global::Bizland.Droid.Resource.Id.action_bar_subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_bar_title = global::Bizland.Droid.Resource.Id.action_bar_title;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_container = global::Bizland.Droid.Resource.Id.action_container;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_context_bar = global::Bizland.Droid.Resource.Id.action_context_bar;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_divider = global::Bizland.Droid.Resource.Id.action_divider;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_image = global::Bizland.Droid.Resource.Id.action_image;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_menu_divider = global::Bizland.Droid.Resource.Id.action_menu_divider;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_menu_presenter = global::Bizland.Droid.Resource.Id.action_menu_presenter;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_mode_bar = global::Bizland.Droid.Resource.Id.action_mode_bar;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_mode_bar_stub = global::Bizland.Droid.Resource.Id.action_mode_bar_stub;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_mode_close_button = global::Bizland.Droid.Resource.Id.action_mode_close_button;
+			global::FormsCurvedBottomNavigation.Resource.Id.action_text = global::Bizland.Droid.Resource.Id.action_text;
+			global::FormsCurvedBottomNavigation.Resource.Id.activity_chooser_view_content = global::Bizland.Droid.Resource.Id.activity_chooser_view_content;
+			global::FormsCurvedBottomNavigation.Resource.Id.add = global::Bizland.Droid.Resource.Id.add;
+			global::FormsCurvedBottomNavigation.Resource.Id.alertTitle = global::Bizland.Droid.Resource.Id.alertTitle;
+			global::FormsCurvedBottomNavigation.Resource.Id.all = global::Bizland.Droid.Resource.Id.all;
+			global::FormsCurvedBottomNavigation.Resource.Id.ALT = global::Bizland.Droid.Resource.Id.ALT;
+			global::FormsCurvedBottomNavigation.Resource.Id.always = global::Bizland.Droid.Resource.Id.always;
+			global::FormsCurvedBottomNavigation.Resource.Id.async = global::Bizland.Droid.Resource.Id.async;
+			global::FormsCurvedBottomNavigation.Resource.Id.auto = global::Bizland.Droid.Resource.Id.auto;
+			global::FormsCurvedBottomNavigation.Resource.Id.beginning = global::Bizland.Droid.Resource.Id.beginning;
+			global::FormsCurvedBottomNavigation.Resource.Id.blocking = global::Bizland.Droid.Resource.Id.blocking;
+			global::FormsCurvedBottomNavigation.Resource.Id.bottom = global::Bizland.Droid.Resource.Id.bottom;
+			global::FormsCurvedBottomNavigation.Resource.Id.bottomtab_navarea = global::Bizland.Droid.Resource.Id.bottomtab_navarea;
+			global::FormsCurvedBottomNavigation.Resource.Id.bottomtab_tabbar = global::Bizland.Droid.Resource.Id.bottomtab_tabbar;
+			global::FormsCurvedBottomNavigation.Resource.Id.bottom_nav_bar = global::Bizland.Droid.Resource.Id.bottom_nav_bar;
+			global::FormsCurvedBottomNavigation.Resource.Id.browser_actions_header_text = global::Bizland.Droid.Resource.Id.browser_actions_header_text;
+			global::FormsCurvedBottomNavigation.Resource.Id.browser_actions_menu_items = global::Bizland.Droid.Resource.Id.browser_actions_menu_items;
+			global::FormsCurvedBottomNavigation.Resource.Id.browser_actions_menu_item_icon = global::Bizland.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::FormsCurvedBottomNavigation.Resource.Id.browser_actions_menu_item_text = global::Bizland.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::FormsCurvedBottomNavigation.Resource.Id.browser_actions_menu_view = global::Bizland.Droid.Resource.Id.browser_actions_menu_view;
+			global::FormsCurvedBottomNavigation.Resource.Id.buttonPanel = global::Bizland.Droid.Resource.Id.buttonPanel;
+			global::FormsCurvedBottomNavigation.Resource.Id.cancel_action = global::Bizland.Droid.Resource.Id.cancel_action;
+			global::FormsCurvedBottomNavigation.Resource.Id.center = global::Bizland.Droid.Resource.Id.center;
+			global::FormsCurvedBottomNavigation.Resource.Id.center_horizontal = global::Bizland.Droid.Resource.Id.center_horizontal;
+			global::FormsCurvedBottomNavigation.Resource.Id.center_vertical = global::Bizland.Droid.Resource.Id.center_vertical;
+			global::FormsCurvedBottomNavigation.Resource.Id.checkbox = global::Bizland.Droid.Resource.Id.checkbox;
+			global::FormsCurvedBottomNavigation.Resource.Id.chronometer = global::Bizland.Droid.Resource.Id.chronometer;
+			global::FormsCurvedBottomNavigation.Resource.Id.clip_horizontal = global::Bizland.Droid.Resource.Id.clip_horizontal;
+			global::FormsCurvedBottomNavigation.Resource.Id.clip_vertical = global::Bizland.Droid.Resource.Id.clip_vertical;
+			global::FormsCurvedBottomNavigation.Resource.Id.collapseActionView = global::Bizland.Droid.Resource.Id.collapseActionView;
+			global::FormsCurvedBottomNavigation.Resource.Id.container = global::Bizland.Droid.Resource.Id.container;
+			global::FormsCurvedBottomNavigation.Resource.Id.content = global::Bizland.Droid.Resource.Id.content;
+			global::FormsCurvedBottomNavigation.Resource.Id.contentPanel = global::Bizland.Droid.Resource.Id.contentPanel;
+			global::FormsCurvedBottomNavigation.Resource.Id.coordinator = global::Bizland.Droid.Resource.Id.coordinator;
+			global::FormsCurvedBottomNavigation.Resource.Id.coordinatorlayout = global::Bizland.Droid.Resource.Id.coordinatorlayout;
+			global::FormsCurvedBottomNavigation.Resource.Id.CTRL = global::Bizland.Droid.Resource.Id.CTRL;
+			global::FormsCurvedBottomNavigation.Resource.Id.custom = global::Bizland.Droid.Resource.Id.custom;
+			global::FormsCurvedBottomNavigation.Resource.Id.customPanel = global::Bizland.Droid.Resource.Id.customPanel;
+			global::FormsCurvedBottomNavigation.Resource.Id.decor_content_parent = global::Bizland.Droid.Resource.Id.decor_content_parent;
+			global::FormsCurvedBottomNavigation.Resource.Id.default_activity_button = global::Bizland.Droid.Resource.Id.default_activity_button;
+			global::FormsCurvedBottomNavigation.Resource.Id.design_bottom_sheet = global::Bizland.Droid.Resource.Id.design_bottom_sheet;
+			global::FormsCurvedBottomNavigation.Resource.Id.design_menu_item_action_area = global::Bizland.Droid.Resource.Id.design_menu_item_action_area;
+			global::FormsCurvedBottomNavigation.Resource.Id.design_menu_item_action_area_stub = global::Bizland.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::FormsCurvedBottomNavigation.Resource.Id.design_menu_item_text = global::Bizland.Droid.Resource.Id.design_menu_item_text;
+			global::FormsCurvedBottomNavigation.Resource.Id.design_navigation_view = global::Bizland.Droid.Resource.Id.design_navigation_view;
+			global::FormsCurvedBottomNavigation.Resource.Id.disableHome = global::Bizland.Droid.Resource.Id.disableHome;
+			global::FormsCurvedBottomNavigation.Resource.Id.edit_query = global::Bizland.Droid.Resource.Id.edit_query;
+			global::FormsCurvedBottomNavigation.Resource.Id.end = global::Bizland.Droid.Resource.Id.end;
+			global::FormsCurvedBottomNavigation.Resource.Id.end_padder = global::Bizland.Droid.Resource.Id.end_padder;
+			global::FormsCurvedBottomNavigation.Resource.Id.enterAlways = global::Bizland.Droid.Resource.Id.enterAlways;
+			global::FormsCurvedBottomNavigation.Resource.Id.enterAlwaysCollapsed = global::Bizland.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::FormsCurvedBottomNavigation.Resource.Id.exitUntilCollapsed = global::Bizland.Droid.Resource.Id.exitUntilCollapsed;
+			global::FormsCurvedBottomNavigation.Resource.Id.expanded_menu = global::Bizland.Droid.Resource.Id.expanded_menu;
+			global::FormsCurvedBottomNavigation.Resource.Id.expand_activities_button = global::Bizland.Droid.Resource.Id.expand_activities_button;
+			global::FormsCurvedBottomNavigation.Resource.Id.fab = global::Bizland.Droid.Resource.Id.fab;
+			global::FormsCurvedBottomNavigation.Resource.Id.fill = global::Bizland.Droid.Resource.Id.fill;
+			global::FormsCurvedBottomNavigation.Resource.Id.filled = global::Bizland.Droid.Resource.Id.filled;
+			global::FormsCurvedBottomNavigation.Resource.Id.fill_horizontal = global::Bizland.Droid.Resource.Id.fill_horizontal;
+			global::FormsCurvedBottomNavigation.Resource.Id.fill_vertical = global::Bizland.Droid.Resource.Id.fill_vertical;
+			global::FormsCurvedBottomNavigation.Resource.Id.@fixed = global::Bizland.Droid.Resource.Id.@fixed;
+			global::FormsCurvedBottomNavigation.Resource.Id.flyoutcontent_appbar = global::Bizland.Droid.Resource.Id.flyoutcontent_appbar;
+			global::FormsCurvedBottomNavigation.Resource.Id.flyoutcontent_recycler = global::Bizland.Droid.Resource.Id.flyoutcontent_recycler;
+			global::FormsCurvedBottomNavigation.Resource.Id.forever = global::Bizland.Droid.Resource.Id.forever;
+			global::FormsCurvedBottomNavigation.Resource.Id.FUNCTION = global::Bizland.Droid.Resource.Id.FUNCTION;
+			global::FormsCurvedBottomNavigation.Resource.Id.ghost_view = global::Bizland.Droid.Resource.Id.ghost_view;
+			global::FormsCurvedBottomNavigation.Resource.Id.group_divider = global::Bizland.Droid.Resource.Id.group_divider;
+			global::FormsCurvedBottomNavigation.Resource.Id.home = global::Bizland.Droid.Resource.Id.home;
+			global::FormsCurvedBottomNavigation.Resource.Id.homeAsUp = global::Bizland.Droid.Resource.Id.homeAsUp;
+			global::FormsCurvedBottomNavigation.Resource.Id.icon = global::Bizland.Droid.Resource.Id.icon;
+			global::FormsCurvedBottomNavigation.Resource.Id.icon_group = global::Bizland.Droid.Resource.Id.icon_group;
+			global::FormsCurvedBottomNavigation.Resource.Id.ifRoom = global::Bizland.Droid.Resource.Id.ifRoom;
+			global::FormsCurvedBottomNavigation.Resource.Id.image = global::Bizland.Droid.Resource.Id.image;
+			global::FormsCurvedBottomNavigation.Resource.Id.info = global::Bizland.Droid.Resource.Id.info;
+			global::FormsCurvedBottomNavigation.Resource.Id.italic = global::Bizland.Droid.Resource.Id.italic;
+			global::FormsCurvedBottomNavigation.Resource.Id.item_touch_helper_previous_elevation = global::Bizland.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Id.labeled = global::Bizland.Droid.Resource.Id.labeled;
+			global::FormsCurvedBottomNavigation.Resource.Id.largeLabel = global::Bizland.Droid.Resource.Id.largeLabel;
+			global::FormsCurvedBottomNavigation.Resource.Id.left = global::Bizland.Droid.Resource.Id.left;
+			global::FormsCurvedBottomNavigation.Resource.Id.line1 = global::Bizland.Droid.Resource.Id.line1;
+			global::FormsCurvedBottomNavigation.Resource.Id.line3 = global::Bizland.Droid.Resource.Id.line3;
+			global::FormsCurvedBottomNavigation.Resource.Id.listMode = global::Bizland.Droid.Resource.Id.listMode;
+			global::FormsCurvedBottomNavigation.Resource.Id.list_item = global::Bizland.Droid.Resource.Id.list_item;
+			global::FormsCurvedBottomNavigation.Resource.Id.main_appbar = global::Bizland.Droid.Resource.Id.main_appbar;
+			global::FormsCurvedBottomNavigation.Resource.Id.main_tablayout = global::Bizland.Droid.Resource.Id.main_tablayout;
+			global::FormsCurvedBottomNavigation.Resource.Id.main_toolbar = global::Bizland.Droid.Resource.Id.main_toolbar;
+			global::FormsCurvedBottomNavigation.Resource.Id.masked = global::Bizland.Droid.Resource.Id.masked;
+			global::FormsCurvedBottomNavigation.Resource.Id.media_actions = global::Bizland.Droid.Resource.Id.media_actions;
+			global::FormsCurvedBottomNavigation.Resource.Id.message = global::Bizland.Droid.Resource.Id.message;
+			global::FormsCurvedBottomNavigation.Resource.Id.META = global::Bizland.Droid.Resource.Id.META;
+			global::FormsCurvedBottomNavigation.Resource.Id.middle = global::Bizland.Droid.Resource.Id.middle;
+			global::FormsCurvedBottomNavigation.Resource.Id.mini = global::Bizland.Droid.Resource.Id.mini;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_art = global::Bizland.Droid.Resource.Id.mr_art;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_checkbox = global::Bizland.Droid.Resource.Id.mr_cast_checkbox;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_close_button = global::Bizland.Droid.Resource.Id.mr_cast_close_button;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_group_icon = global::Bizland.Droid.Resource.Id.mr_cast_group_icon;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_group_name = global::Bizland.Droid.Resource.Id.mr_cast_group_name;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_list = global::Bizland.Droid.Resource.Id.mr_cast_list;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_meta = global::Bizland.Droid.Resource.Id.mr_cast_meta;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_meta_art = global::Bizland.Droid.Resource.Id.mr_cast_meta_art;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_meta_subtitle = global::Bizland.Droid.Resource.Id.mr_cast_meta_subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_meta_title = global::Bizland.Droid.Resource.Id.mr_cast_meta_title;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_route_icon = global::Bizland.Droid.Resource.Id.mr_cast_route_icon;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_route_name = global::Bizland.Droid.Resource.Id.mr_cast_route_name;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_stop_button = global::Bizland.Droid.Resource.Id.mr_cast_stop_button;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_volume_layout = global::Bizland.Droid.Resource.Id.mr_cast_volume_layout;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_cast_volume_slider = global::Bizland.Droid.Resource.Id.mr_cast_volume_slider;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_chooser_list = global::Bizland.Droid.Resource.Id.mr_chooser_list;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_chooser_route_desc = global::Bizland.Droid.Resource.Id.mr_chooser_route_desc;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_chooser_route_icon = global::Bizland.Droid.Resource.Id.mr_chooser_route_icon;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_chooser_route_name = global::Bizland.Droid.Resource.Id.mr_chooser_route_name;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_chooser_title = global::Bizland.Droid.Resource.Id.mr_chooser_title;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_close = global::Bizland.Droid.Resource.Id.mr_close;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_control_divider = global::Bizland.Droid.Resource.Id.mr_control_divider;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_control_playback_ctrl = global::Bizland.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_control_subtitle = global::Bizland.Droid.Resource.Id.mr_control_subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_control_title = global::Bizland.Droid.Resource.Id.mr_control_title;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_control_title_container = global::Bizland.Droid.Resource.Id.mr_control_title_container;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_custom_control = global::Bizland.Droid.Resource.Id.mr_custom_control;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_default_control = global::Bizland.Droid.Resource.Id.mr_default_control;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_dialog_area = global::Bizland.Droid.Resource.Id.mr_dialog_area;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_dialog_header_name = global::Bizland.Droid.Resource.Id.mr_dialog_header_name;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_expandable_area = global::Bizland.Droid.Resource.Id.mr_expandable_area;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_group_expand_collapse = global::Bizland.Droid.Resource.Id.mr_group_expand_collapse;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_group_volume_route_name = global::Bizland.Droid.Resource.Id.mr_group_volume_route_name;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_group_volume_slider = global::Bizland.Droid.Resource.Id.mr_group_volume_slider;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_media_main_control = global::Bizland.Droid.Resource.Id.mr_media_main_control;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_name = global::Bizland.Droid.Resource.Id.mr_name;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_picker_close_button = global::Bizland.Droid.Resource.Id.mr_picker_close_button;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_picker_list = global::Bizland.Droid.Resource.Id.mr_picker_list;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_picker_route_icon = global::Bizland.Droid.Resource.Id.mr_picker_route_icon;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_picker_route_name = global::Bizland.Droid.Resource.Id.mr_picker_route_name;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_playback_control = global::Bizland.Droid.Resource.Id.mr_playback_control;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_title_bar = global::Bizland.Droid.Resource.Id.mr_title_bar;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_volume_control = global::Bizland.Droid.Resource.Id.mr_volume_control;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_volume_group_list = global::Bizland.Droid.Resource.Id.mr_volume_group_list;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_volume_item_icon = global::Bizland.Droid.Resource.Id.mr_volume_item_icon;
+			global::FormsCurvedBottomNavigation.Resource.Id.mr_volume_slider = global::Bizland.Droid.Resource.Id.mr_volume_slider;
+			global::FormsCurvedBottomNavigation.Resource.Id.mtrl_child_content_container = global::Bizland.Droid.Resource.Id.mtrl_child_content_container;
+			global::FormsCurvedBottomNavigation.Resource.Id.mtrl_internal_children_alpha_tag = global::Bizland.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::FormsCurvedBottomNavigation.Resource.Id.multiply = global::Bizland.Droid.Resource.Id.multiply;
+			global::FormsCurvedBottomNavigation.Resource.Id.navigation_header_container = global::Bizland.Droid.Resource.Id.navigation_header_container;
+			global::FormsCurvedBottomNavigation.Resource.Id.never = global::Bizland.Droid.Resource.Id.never;
+			global::FormsCurvedBottomNavigation.Resource.Id.none = global::Bizland.Droid.Resource.Id.none;
+			global::FormsCurvedBottomNavigation.Resource.Id.normal = global::Bizland.Droid.Resource.Id.normal;
+			global::FormsCurvedBottomNavigation.Resource.Id.notification_background = global::Bizland.Droid.Resource.Id.notification_background;
+			global::FormsCurvedBottomNavigation.Resource.Id.notification_main_column = global::Bizland.Droid.Resource.Id.notification_main_column;
+			global::FormsCurvedBottomNavigation.Resource.Id.notification_main_column_container = global::Bizland.Droid.Resource.Id.notification_main_column_container;
+			global::FormsCurvedBottomNavigation.Resource.Id.outline = global::Bizland.Droid.Resource.Id.outline;
+			global::FormsCurvedBottomNavigation.Resource.Id.parallax = global::Bizland.Droid.Resource.Id.parallax;
+			global::FormsCurvedBottomNavigation.Resource.Id.parentPanel = global::Bizland.Droid.Resource.Id.parentPanel;
+			global::FormsCurvedBottomNavigation.Resource.Id.parent_matrix = global::Bizland.Droid.Resource.Id.parent_matrix;
+			global::FormsCurvedBottomNavigation.Resource.Id.pin = global::Bizland.Droid.Resource.Id.pin;
+			global::FormsCurvedBottomNavigation.Resource.Id.progress_circular = global::Bizland.Droid.Resource.Id.progress_circular;
+			global::FormsCurvedBottomNavigation.Resource.Id.progress_horizontal = global::Bizland.Droid.Resource.Id.progress_horizontal;
+			global::FormsCurvedBottomNavigation.Resource.Id.radio = global::Bizland.Droid.Resource.Id.radio;
+			global::FormsCurvedBottomNavigation.Resource.Id.right = global::Bizland.Droid.Resource.Id.right;
+			global::FormsCurvedBottomNavigation.Resource.Id.right_icon = global::Bizland.Droid.Resource.Id.right_icon;
+			global::FormsCurvedBottomNavigation.Resource.Id.right_side = global::Bizland.Droid.Resource.Id.right_side;
+			global::FormsCurvedBottomNavigation.Resource.Id.save_image_matrix = global::Bizland.Droid.Resource.Id.save_image_matrix;
+			global::FormsCurvedBottomNavigation.Resource.Id.save_non_transition_alpha = global::Bizland.Droid.Resource.Id.save_non_transition_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Id.save_scale_type = global::Bizland.Droid.Resource.Id.save_scale_type;
+			global::FormsCurvedBottomNavigation.Resource.Id.screen = global::Bizland.Droid.Resource.Id.screen;
+			global::FormsCurvedBottomNavigation.Resource.Id.scroll = global::Bizland.Droid.Resource.Id.scroll;
+			global::FormsCurvedBottomNavigation.Resource.Id.scrollable = global::Bizland.Droid.Resource.Id.scrollable;
+			global::FormsCurvedBottomNavigation.Resource.Id.scrollIndicatorDown = global::Bizland.Droid.Resource.Id.scrollIndicatorDown;
+			global::FormsCurvedBottomNavigation.Resource.Id.scrollIndicatorUp = global::Bizland.Droid.Resource.Id.scrollIndicatorUp;
+			global::FormsCurvedBottomNavigation.Resource.Id.scrollView = global::Bizland.Droid.Resource.Id.scrollView;
+			global::FormsCurvedBottomNavigation.Resource.Id.search_badge = global::Bizland.Droid.Resource.Id.search_badge;
+			global::FormsCurvedBottomNavigation.Resource.Id.search_bar = global::Bizland.Droid.Resource.Id.search_bar;
+			global::FormsCurvedBottomNavigation.Resource.Id.search_button = global::Bizland.Droid.Resource.Id.search_button;
+			global::FormsCurvedBottomNavigation.Resource.Id.search_close_btn = global::Bizland.Droid.Resource.Id.search_close_btn;
+			global::FormsCurvedBottomNavigation.Resource.Id.search_edit_frame = global::Bizland.Droid.Resource.Id.search_edit_frame;
+			global::FormsCurvedBottomNavigation.Resource.Id.search_go_btn = global::Bizland.Droid.Resource.Id.search_go_btn;
+			global::FormsCurvedBottomNavigation.Resource.Id.search_mag_icon = global::Bizland.Droid.Resource.Id.search_mag_icon;
+			global::FormsCurvedBottomNavigation.Resource.Id.search_plate = global::Bizland.Droid.Resource.Id.search_plate;
+			global::FormsCurvedBottomNavigation.Resource.Id.search_src_text = global::Bizland.Droid.Resource.Id.search_src_text;
+			global::FormsCurvedBottomNavigation.Resource.Id.search_voice_btn = global::Bizland.Droid.Resource.Id.search_voice_btn;
+			global::FormsCurvedBottomNavigation.Resource.Id.selected = global::Bizland.Droid.Resource.Id.selected;
+			global::FormsCurvedBottomNavigation.Resource.Id.select_dialog_listview = global::Bizland.Droid.Resource.Id.select_dialog_listview;
+			global::FormsCurvedBottomNavigation.Resource.Id.shellcontent_appbar = global::Bizland.Droid.Resource.Id.shellcontent_appbar;
+			global::FormsCurvedBottomNavigation.Resource.Id.shellcontent_toolbar = global::Bizland.Droid.Resource.Id.shellcontent_toolbar;
+			global::FormsCurvedBottomNavigation.Resource.Id.SHIFT = global::Bizland.Droid.Resource.Id.SHIFT;
+			global::FormsCurvedBottomNavigation.Resource.Id.shortcut = global::Bizland.Droid.Resource.Id.shortcut;
+			global::FormsCurvedBottomNavigation.Resource.Id.showCustom = global::Bizland.Droid.Resource.Id.showCustom;
+			global::FormsCurvedBottomNavigation.Resource.Id.showHome = global::Bizland.Droid.Resource.Id.showHome;
+			global::FormsCurvedBottomNavigation.Resource.Id.showTitle = global::Bizland.Droid.Resource.Id.showTitle;
+			global::FormsCurvedBottomNavigation.Resource.Id.smallLabel = global::Bizland.Droid.Resource.Id.smallLabel;
+			global::FormsCurvedBottomNavigation.Resource.Id.snackbar_action = global::Bizland.Droid.Resource.Id.snackbar_action;
+			global::FormsCurvedBottomNavigation.Resource.Id.snackbar_text = global::Bizland.Droid.Resource.Id.snackbar_text;
+			global::FormsCurvedBottomNavigation.Resource.Id.snap = global::Bizland.Droid.Resource.Id.snap;
+			global::FormsCurvedBottomNavigation.Resource.Id.snapMargins = global::Bizland.Droid.Resource.Id.snapMargins;
+			global::FormsCurvedBottomNavigation.Resource.Id.spacer = global::Bizland.Droid.Resource.Id.spacer;
+			global::FormsCurvedBottomNavigation.Resource.Id.split_action_bar = global::Bizland.Droid.Resource.Id.split_action_bar;
+			global::FormsCurvedBottomNavigation.Resource.Id.src_atop = global::Bizland.Droid.Resource.Id.src_atop;
+			global::FormsCurvedBottomNavigation.Resource.Id.src_in = global::Bizland.Droid.Resource.Id.src_in;
+			global::FormsCurvedBottomNavigation.Resource.Id.src_over = global::Bizland.Droid.Resource.Id.src_over;
+			global::FormsCurvedBottomNavigation.Resource.Id.start = global::Bizland.Droid.Resource.Id.start;
+			global::FormsCurvedBottomNavigation.Resource.Id.status_bar_latest_event_content = global::Bizland.Droid.Resource.Id.status_bar_latest_event_content;
+			global::FormsCurvedBottomNavigation.Resource.Id.stretch = global::Bizland.Droid.Resource.Id.stretch;
+			global::FormsCurvedBottomNavigation.Resource.Id.submenuarrow = global::Bizland.Droid.Resource.Id.submenuarrow;
+			global::FormsCurvedBottomNavigation.Resource.Id.submit_area = global::Bizland.Droid.Resource.Id.submit_area;
+			global::FormsCurvedBottomNavigation.Resource.Id.SYM = global::Bizland.Droid.Resource.Id.SYM;
+			global::FormsCurvedBottomNavigation.Resource.Id.tabMode = global::Bizland.Droid.Resource.Id.tabMode;
+			global::FormsCurvedBottomNavigation.Resource.Id.tag_transition_group = global::Bizland.Droid.Resource.Id.tag_transition_group;
+			global::FormsCurvedBottomNavigation.Resource.Id.tag_unhandled_key_event_manager = global::Bizland.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::FormsCurvedBottomNavigation.Resource.Id.tag_unhandled_key_listeners = global::Bizland.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::FormsCurvedBottomNavigation.Resource.Id.text = global::Bizland.Droid.Resource.Id.text;
+			global::FormsCurvedBottomNavigation.Resource.Id.text2 = global::Bizland.Droid.Resource.Id.text2;
+			global::FormsCurvedBottomNavigation.Resource.Id.textinput_counter = global::Bizland.Droid.Resource.Id.textinput_counter;
+			global::FormsCurvedBottomNavigation.Resource.Id.textinput_error = global::Bizland.Droid.Resource.Id.textinput_error;
+			global::FormsCurvedBottomNavigation.Resource.Id.textinput_helper_text = global::Bizland.Droid.Resource.Id.textinput_helper_text;
+			global::FormsCurvedBottomNavigation.Resource.Id.textSpacerNoButtons = global::Bizland.Droid.Resource.Id.textSpacerNoButtons;
+			global::FormsCurvedBottomNavigation.Resource.Id.textSpacerNoTitle = global::Bizland.Droid.Resource.Id.textSpacerNoTitle;
+			global::FormsCurvedBottomNavigation.Resource.Id.textStart = global::Bizland.Droid.Resource.Id.textStart;
+			global::FormsCurvedBottomNavigation.Resource.Id.text_input_password_toggle = global::Bizland.Droid.Resource.Id.text_input_password_toggle;
+			global::FormsCurvedBottomNavigation.Resource.Id.time = global::Bizland.Droid.Resource.Id.time;
+			global::FormsCurvedBottomNavigation.Resource.Id.title = global::Bizland.Droid.Resource.Id.title;
+			global::FormsCurvedBottomNavigation.Resource.Id.titleDividerNoCustom = global::Bizland.Droid.Resource.Id.titleDividerNoCustom;
+			global::FormsCurvedBottomNavigation.Resource.Id.title_template = global::Bizland.Droid.Resource.Id.title_template;
+			global::FormsCurvedBottomNavigation.Resource.Id.top = global::Bizland.Droid.Resource.Id.top;
+			global::FormsCurvedBottomNavigation.Resource.Id.topPanel = global::Bizland.Droid.Resource.Id.topPanel;
+			global::FormsCurvedBottomNavigation.Resource.Id.touch_outside = global::Bizland.Droid.Resource.Id.touch_outside;
+			global::FormsCurvedBottomNavigation.Resource.Id.transition_current_scene = global::Bizland.Droid.Resource.Id.transition_current_scene;
+			global::FormsCurvedBottomNavigation.Resource.Id.transition_layout_save = global::Bizland.Droid.Resource.Id.transition_layout_save;
+			global::FormsCurvedBottomNavigation.Resource.Id.transition_position = global::Bizland.Droid.Resource.Id.transition_position;
+			global::FormsCurvedBottomNavigation.Resource.Id.transition_scene_layoutid_cache = global::Bizland.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::FormsCurvedBottomNavigation.Resource.Id.transition_transform = global::Bizland.Droid.Resource.Id.transition_transform;
+			global::FormsCurvedBottomNavigation.Resource.Id.uniform = global::Bizland.Droid.Resource.Id.uniform;
+			global::FormsCurvedBottomNavigation.Resource.Id.unlabeled = global::Bizland.Droid.Resource.Id.unlabeled;
+			global::FormsCurvedBottomNavigation.Resource.Id.up = global::Bizland.Droid.Resource.Id.up;
+			global::FormsCurvedBottomNavigation.Resource.Id.useLogo = global::Bizland.Droid.Resource.Id.useLogo;
+			global::FormsCurvedBottomNavigation.Resource.Id.view_offset_helper = global::Bizland.Droid.Resource.Id.view_offset_helper;
+			global::FormsCurvedBottomNavigation.Resource.Id.visible = global::Bizland.Droid.Resource.Id.visible;
+			global::FormsCurvedBottomNavigation.Resource.Id.volume_item_container = global::Bizland.Droid.Resource.Id.volume_item_container;
+			global::FormsCurvedBottomNavigation.Resource.Id.withText = global::Bizland.Droid.Resource.Id.withText;
+			global::FormsCurvedBottomNavigation.Resource.Id.wrap_content = global::Bizland.Droid.Resource.Id.wrap_content;
+			global::FormsCurvedBottomNavigation.Resource.Integer.abc_config_activityDefaultDur = global::Bizland.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::FormsCurvedBottomNavigation.Resource.Integer.abc_config_activityShortDur = global::Bizland.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::FormsCurvedBottomNavigation.Resource.Integer.app_bar_elevation_anim_duration = global::Bizland.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::FormsCurvedBottomNavigation.Resource.Integer.bottom_sheet_slide_duration = global::Bizland.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::FormsCurvedBottomNavigation.Resource.Integer.cancel_button_image_alpha = global::Bizland.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Integer.config_tooltipAnimTime = global::Bizland.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::FormsCurvedBottomNavigation.Resource.Integer.design_snackbar_text_max_lines = global::Bizland.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::FormsCurvedBottomNavigation.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Bizland.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::FormsCurvedBottomNavigation.Resource.Integer.hide_password_duration = global::Bizland.Droid.Resource.Integer.hide_password_duration;
+			global::FormsCurvedBottomNavigation.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::Bizland.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::FormsCurvedBottomNavigation.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::Bizland.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::FormsCurvedBottomNavigation.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::Bizland.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::FormsCurvedBottomNavigation.Resource.Integer.mr_update_routes_delay_ms = global::Bizland.Droid.Resource.Integer.mr_update_routes_delay_ms;
+			global::FormsCurvedBottomNavigation.Resource.Integer.mtrl_btn_anim_delay_ms = global::Bizland.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::FormsCurvedBottomNavigation.Resource.Integer.mtrl_btn_anim_duration_ms = global::Bizland.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::FormsCurvedBottomNavigation.Resource.Integer.mtrl_chip_anim_duration = global::Bizland.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::FormsCurvedBottomNavigation.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Bizland.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::FormsCurvedBottomNavigation.Resource.Integer.show_password_duration = global::Bizland.Droid.Resource.Integer.show_password_duration;
+			global::FormsCurvedBottomNavigation.Resource.Integer.status_bar_notification_info_maxnum = global::Bizland.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::FormsCurvedBottomNavigation.Resource.Interpolator.mr_fast_out_slow_in = global::Bizland.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::FormsCurvedBottomNavigation.Resource.Interpolator.mr_linear_out_slow_in = global::Bizland.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::FormsCurvedBottomNavigation.Resource.Interpolator.mtrl_fast_out_linear_in = global::Bizland.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::FormsCurvedBottomNavigation.Resource.Interpolator.mtrl_fast_out_slow_in = global::Bizland.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::FormsCurvedBottomNavigation.Resource.Interpolator.mtrl_linear = global::Bizland.Droid.Resource.Interpolator.mtrl_linear;
+			global::FormsCurvedBottomNavigation.Resource.Interpolator.mtrl_linear_out_slow_in = global::Bizland.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_action_bar_title_item = global::Bizland.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_action_bar_up_container = global::Bizland.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_action_menu_item_layout = global::Bizland.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_action_menu_layout = global::Bizland.Droid.Resource.Layout.abc_action_menu_layout;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_action_mode_bar = global::Bizland.Droid.Resource.Layout.abc_action_mode_bar;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_action_mode_close_item_material = global::Bizland.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_activity_chooser_view = global::Bizland.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_activity_chooser_view_list_item = global::Bizland.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_alert_dialog_button_bar_material = global::Bizland.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_alert_dialog_material = global::Bizland.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_alert_dialog_title_material = global::Bizland.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_cascading_menu_item_layout = global::Bizland.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_dialog_title_material = global::Bizland.Droid.Resource.Layout.abc_dialog_title_material;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_expanded_menu_layout = global::Bizland.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_list_menu_item_checkbox = global::Bizland.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_list_menu_item_icon = global::Bizland.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_list_menu_item_layout = global::Bizland.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_list_menu_item_radio = global::Bizland.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_popup_menu_header_item_layout = global::Bizland.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_popup_menu_item_layout = global::Bizland.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_screen_content_include = global::Bizland.Droid.Resource.Layout.abc_screen_content_include;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_screen_simple = global::Bizland.Droid.Resource.Layout.abc_screen_simple;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Bizland.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_screen_toolbar = global::Bizland.Droid.Resource.Layout.abc_screen_toolbar;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Bizland.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_search_view = global::Bizland.Droid.Resource.Layout.abc_search_view;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_select_dialog_material = global::Bizland.Droid.Resource.Layout.abc_select_dialog_material;
+			global::FormsCurvedBottomNavigation.Resource.Layout.abc_tooltip = global::Bizland.Droid.Resource.Layout.abc_tooltip;
+			global::FormsCurvedBottomNavigation.Resource.Layout.BottomNavBar = global::Bizland.Droid.Resource.Layout.BottomNavBar;
+			global::FormsCurvedBottomNavigation.Resource.Layout.BottomTabLayout = global::Bizland.Droid.Resource.Layout.BottomTabLayout;
+			global::FormsCurvedBottomNavigation.Resource.Layout.browser_actions_context_menu_page = global::Bizland.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::FormsCurvedBottomNavigation.Resource.Layout.browser_actions_context_menu_row = global::Bizland.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_bottom_navigation_item = global::Bizland.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_bottom_sheet_dialog = global::Bizland.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_layout_snackbar = global::Bizland.Droid.Resource.Layout.design_layout_snackbar;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_layout_snackbar_include = global::Bizland.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_layout_tab_icon = global::Bizland.Droid.Resource.Layout.design_layout_tab_icon;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_layout_tab_text = global::Bizland.Droid.Resource.Layout.design_layout_tab_text;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_menu_item_action_area = global::Bizland.Droid.Resource.Layout.design_menu_item_action_area;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_navigation_item = global::Bizland.Droid.Resource.Layout.design_navigation_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_navigation_item_header = global::Bizland.Droid.Resource.Layout.design_navigation_item_header;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_navigation_item_separator = global::Bizland.Droid.Resource.Layout.design_navigation_item_separator;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_navigation_item_subheader = global::Bizland.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_navigation_menu = global::Bizland.Droid.Resource.Layout.design_navigation_menu;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_navigation_menu_item = global::Bizland.Droid.Resource.Layout.design_navigation_menu_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.design_text_input_password_icon = global::Bizland.Droid.Resource.Layout.design_text_input_password_icon;
+			global::FormsCurvedBottomNavigation.Resource.Layout.FlyoutContent = global::Bizland.Droid.Resource.Layout.FlyoutContent;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_cast_dialog = global::Bizland.Droid.Resource.Layout.mr_cast_dialog;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_cast_group_item = global::Bizland.Droid.Resource.Layout.mr_cast_group_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_cast_group_volume_item = global::Bizland.Droid.Resource.Layout.mr_cast_group_volume_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_cast_media_metadata = global::Bizland.Droid.Resource.Layout.mr_cast_media_metadata;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_cast_route_item = global::Bizland.Droid.Resource.Layout.mr_cast_route_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_chooser_dialog = global::Bizland.Droid.Resource.Layout.mr_chooser_dialog;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_chooser_list_item = global::Bizland.Droid.Resource.Layout.mr_chooser_list_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_controller_material_dialog_b = global::Bizland.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_controller_volume_item = global::Bizland.Droid.Resource.Layout.mr_controller_volume_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_dialog_header_item = global::Bizland.Droid.Resource.Layout.mr_dialog_header_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_picker_dialog = global::Bizland.Droid.Resource.Layout.mr_picker_dialog;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_picker_route_item = global::Bizland.Droid.Resource.Layout.mr_picker_route_item;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_playback_control = global::Bizland.Droid.Resource.Layout.mr_playback_control;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mr_volume_control = global::Bizland.Droid.Resource.Layout.mr_volume_control;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mtrl_layout_snackbar = global::Bizland.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::FormsCurvedBottomNavigation.Resource.Layout.mtrl_layout_snackbar_include = global::Bizland.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_action = global::Bizland.Droid.Resource.Layout.notification_action;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_action_tombstone = global::Bizland.Droid.Resource.Layout.notification_action_tombstone;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_media_action = global::Bizland.Droid.Resource.Layout.notification_media_action;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_media_cancel_action = global::Bizland.Droid.Resource.Layout.notification_media_cancel_action;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_template_big_media = global::Bizland.Droid.Resource.Layout.notification_template_big_media;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_template_big_media_custom = global::Bizland.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_template_big_media_narrow = global::Bizland.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_template_big_media_narrow_custom = global::Bizland.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_template_custom_big = global::Bizland.Droid.Resource.Layout.notification_template_custom_big;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_template_icon_group = global::Bizland.Droid.Resource.Layout.notification_template_icon_group;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_template_lines_media = global::Bizland.Droid.Resource.Layout.notification_template_lines_media;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_template_media = global::Bizland.Droid.Resource.Layout.notification_template_media;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_template_media_custom = global::Bizland.Droid.Resource.Layout.notification_template_media_custom;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_template_part_chronometer = global::Bizland.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::FormsCurvedBottomNavigation.Resource.Layout.notification_template_part_time = global::Bizland.Droid.Resource.Layout.notification_template_part_time;
+			global::FormsCurvedBottomNavigation.Resource.Layout.RootLayout = global::Bizland.Droid.Resource.Layout.RootLayout;
+			global::FormsCurvedBottomNavigation.Resource.Layout.select_dialog_item_material = global::Bizland.Droid.Resource.Layout.select_dialog_item_material;
+			global::FormsCurvedBottomNavigation.Resource.Layout.select_dialog_multichoice_material = global::Bizland.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::FormsCurvedBottomNavigation.Resource.Layout.select_dialog_singlechoice_material = global::Bizland.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::FormsCurvedBottomNavigation.Resource.Layout.ShellContent = global::Bizland.Droid.Resource.Layout.ShellContent;
+			global::FormsCurvedBottomNavigation.Resource.Layout.support_simple_spinner_dropdown_item = global::Bizland.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_action_bar_home_description = global::Bizland.Droid.Resource.String.abc_action_bar_home_description;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_action_bar_up_description = global::Bizland.Droid.Resource.String.abc_action_bar_up_description;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_action_menu_overflow_description = global::Bizland.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_action_mode_done = global::Bizland.Droid.Resource.String.abc_action_mode_done;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_activitychooserview_choose_application = global::Bizland.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_activity_chooser_view_see_all = global::Bizland.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_capital_off = global::Bizland.Droid.Resource.String.abc_capital_off;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_capital_on = global::Bizland.Droid.Resource.String.abc_capital_on;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_body_1_material = global::Bizland.Droid.Resource.String.abc_font_family_body_1_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_body_2_material = global::Bizland.Droid.Resource.String.abc_font_family_body_2_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_button_material = global::Bizland.Droid.Resource.String.abc_font_family_button_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_caption_material = global::Bizland.Droid.Resource.String.abc_font_family_caption_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_display_1_material = global::Bizland.Droid.Resource.String.abc_font_family_display_1_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_display_2_material = global::Bizland.Droid.Resource.String.abc_font_family_display_2_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_display_3_material = global::Bizland.Droid.Resource.String.abc_font_family_display_3_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_display_4_material = global::Bizland.Droid.Resource.String.abc_font_family_display_4_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_headline_material = global::Bizland.Droid.Resource.String.abc_font_family_headline_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_menu_material = global::Bizland.Droid.Resource.String.abc_font_family_menu_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_subhead_material = global::Bizland.Droid.Resource.String.abc_font_family_subhead_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_font_family_title_material = global::Bizland.Droid.Resource.String.abc_font_family_title_material;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_menu_alt_shortcut_label = global::Bizland.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_menu_ctrl_shortcut_label = global::Bizland.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_menu_delete_shortcut_label = global::Bizland.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_menu_enter_shortcut_label = global::Bizland.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_menu_function_shortcut_label = global::Bizland.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_menu_meta_shortcut_label = global::Bizland.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_menu_shift_shortcut_label = global::Bizland.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_menu_space_shortcut_label = global::Bizland.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_menu_sym_shortcut_label = global::Bizland.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_prepend_shortcut_label = global::Bizland.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_searchview_description_clear = global::Bizland.Droid.Resource.String.abc_searchview_description_clear;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_searchview_description_query = global::Bizland.Droid.Resource.String.abc_searchview_description_query;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_searchview_description_search = global::Bizland.Droid.Resource.String.abc_searchview_description_search;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_searchview_description_submit = global::Bizland.Droid.Resource.String.abc_searchview_description_submit;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_searchview_description_voice = global::Bizland.Droid.Resource.String.abc_searchview_description_voice;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_search_hint = global::Bizland.Droid.Resource.String.abc_search_hint;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_shareactionprovider_share_with = global::Bizland.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_shareactionprovider_share_with_application = global::Bizland.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::FormsCurvedBottomNavigation.Resource.String.abc_toolbar_collapse_description = global::Bizland.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::FormsCurvedBottomNavigation.Resource.String.appbar_scrolling_view_behavior = global::Bizland.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::FormsCurvedBottomNavigation.Resource.String.bottom_sheet_behavior = global::Bizland.Droid.Resource.String.bottom_sheet_behavior;
+			global::FormsCurvedBottomNavigation.Resource.String.character_counter_content_description = global::Bizland.Droid.Resource.String.character_counter_content_description;
+			global::FormsCurvedBottomNavigation.Resource.String.character_counter_pattern = global::Bizland.Droid.Resource.String.character_counter_pattern;
+			global::FormsCurvedBottomNavigation.Resource.String.fab_transformation_scrim_behavior = global::Bizland.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::FormsCurvedBottomNavigation.Resource.String.fab_transformation_sheet_behavior = global::Bizland.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::FormsCurvedBottomNavigation.Resource.String.hide_bottom_view_on_scroll_behavior = global::Bizland.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_button_content_description = global::Bizland.Droid.Resource.String.mr_button_content_description;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_cast_button_connected = global::Bizland.Droid.Resource.String.mr_cast_button_connected;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_cast_button_connecting = global::Bizland.Droid.Resource.String.mr_cast_button_connecting;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_cast_button_disconnected = global::Bizland.Droid.Resource.String.mr_cast_button_disconnected;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_cast_dialog_title_view_placeholder = global::Bizland.Droid.Resource.String.mr_cast_dialog_title_view_placeholder;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_chooser_searching = global::Bizland.Droid.Resource.String.mr_chooser_searching;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_chooser_title = global::Bizland.Droid.Resource.String.mr_chooser_title;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_album_art = global::Bizland.Droid.Resource.String.mr_controller_album_art;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_casting_screen = global::Bizland.Droid.Resource.String.mr_controller_casting_screen;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_close_description = global::Bizland.Droid.Resource.String.mr_controller_close_description;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_collapse_group = global::Bizland.Droid.Resource.String.mr_controller_collapse_group;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_disconnect = global::Bizland.Droid.Resource.String.mr_controller_disconnect;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_expand_group = global::Bizland.Droid.Resource.String.mr_controller_expand_group;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_no_info_available = global::Bizland.Droid.Resource.String.mr_controller_no_info_available;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_no_media_selected = global::Bizland.Droid.Resource.String.mr_controller_no_media_selected;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_pause = global::Bizland.Droid.Resource.String.mr_controller_pause;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_play = global::Bizland.Droid.Resource.String.mr_controller_play;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_stop = global::Bizland.Droid.Resource.String.mr_controller_stop;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_stop_casting = global::Bizland.Droid.Resource.String.mr_controller_stop_casting;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_controller_volume_slider = global::Bizland.Droid.Resource.String.mr_controller_volume_slider;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_dialog_device_header = global::Bizland.Droid.Resource.String.mr_dialog_device_header;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_dialog_route_header = global::Bizland.Droid.Resource.String.mr_dialog_route_header;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_system_route_name = global::Bizland.Droid.Resource.String.mr_system_route_name;
+			global::FormsCurvedBottomNavigation.Resource.String.mr_user_route_category_name = global::Bizland.Droid.Resource.String.mr_user_route_category_name;
+			global::FormsCurvedBottomNavigation.Resource.String.mtrl_chip_close_icon_content_description = global::Bizland.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::FormsCurvedBottomNavigation.Resource.String.password_toggle_content_description = global::Bizland.Droid.Resource.String.password_toggle_content_description;
+			global::FormsCurvedBottomNavigation.Resource.String.path_password_eye = global::Bizland.Droid.Resource.String.path_password_eye;
+			global::FormsCurvedBottomNavigation.Resource.String.path_password_eye_mask_strike_through = global::Bizland.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::FormsCurvedBottomNavigation.Resource.String.path_password_eye_mask_visible = global::Bizland.Droid.Resource.String.path_password_eye_mask_visible;
+			global::FormsCurvedBottomNavigation.Resource.String.path_password_strike_through = global::Bizland.Droid.Resource.String.path_password_strike_through;
+			global::FormsCurvedBottomNavigation.Resource.String.search_menu_title = global::Bizland.Droid.Resource.String.search_menu_title;
+			global::FormsCurvedBottomNavigation.Resource.String.status_bar_notification_info_overflow = global::Bizland.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::FormsCurvedBottomNavigation.Resource.Style.AlertDialog_AppCompat = global::Bizland.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.AlertDialog_AppCompat_Light = global::Bizland.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Animation_AppCompat_Dialog = global::Bizland.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Animation_AppCompat_DropDownUp = global::Bizland.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::FormsCurvedBottomNavigation.Resource.Style.Animation_AppCompat_Tooltip = global::Bizland.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::FormsCurvedBottomNavigation.Resource.Style.Animation_Design_BottomSheetDialog = global::Bizland.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_AlertDialog_AppCompat = global::Bizland.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Bizland.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Animation_AppCompat_Dialog = global::Bizland.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Bizland.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Bizland.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_CardView = global::Bizland.Droid.Resource.Style.Base_CardView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Bizland.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Bizland.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Bizland.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Bizland.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Bizland.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Bizland.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_ThemeOverlay_AppCompat = global::Bizland.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Bizland.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Bizland.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Bizland.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Bizland.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Bizland.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Bizland.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Bizland.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Bizland.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_Dialog = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_Light = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Bizland.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Light = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Bizland.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Bizland.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Bizland.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V14_Theme_MaterialComponents = global::Bizland.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Bizland.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Bizland.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Bizland.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Bizland.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Bizland.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Bizland.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Bizland.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V21_Theme_AppCompat = global::Bizland.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Bizland.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Bizland.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Bizland.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V22_Theme_AppCompat = global::Bizland.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Bizland.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V23_Theme_AppCompat = global::Bizland.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Bizland.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V26_Theme_AppCompat = global::Bizland.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Bizland.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Bizland.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V28_Theme_AppCompat = global::Bizland.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Bizland.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Bizland.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V7_Theme_AppCompat = global::Bizland.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Bizland.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Bizland.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Bizland.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Bizland.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Bizland.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Bizland.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Button = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_EditText = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ListView = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_SearchView = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Spinner = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Bizland.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_Design_TabLayout = global::Bizland.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Bizland.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Bizland.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::FormsCurvedBottomNavigation.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Bizland.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::FormsCurvedBottomNavigation.Resource.Style.CardView = global::Bizland.Droid.Resource.Style.CardView;
+			global::FormsCurvedBottomNavigation.Resource.Style.CardView_Dark = global::Bizland.Droid.Resource.Style.CardView_Dark;
+			global::FormsCurvedBottomNavigation.Resource.Style.CardView_Light = global::Bizland.Droid.Resource.Style.CardView_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_AppCompat = global::Bizland.Droid.Resource.Style.Platform_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_AppCompat_Light = global::Bizland.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_MaterialComponents = global::Bizland.Droid.Resource.Style.Platform_MaterialComponents;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_MaterialComponents_Dialog = global::Bizland.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_MaterialComponents_Light = global::Bizland.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Bizland.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Bizland.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Bizland.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Bizland.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_V21_AppCompat = global::Bizland.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_V21_AppCompat_Light = global::Bizland.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_V25_AppCompat = global::Bizland.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_V25_AppCompat_Light = global::Bizland.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Bizland.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Bizland.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Bizland.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Bizland.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Bizland.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Body1 = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Body2 = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Button = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Caption = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Display1 = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Display2 = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Display3 = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Display4 = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Headline = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Inverse = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Large = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Medium = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Menu = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Small = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Subhead = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Title = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Bizland.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Compat_Notification = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Compat_Notification_Info = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Compat_Notification_Media = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Compat_Notification_Time = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Compat_Notification_Title = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Bizland.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Design_Counter = global::Bizland.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Bizland.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Design_Error = global::Bizland.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Design_HelperText = global::Bizland.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Design_Hint = global::Bizland.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Bizland.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Design_Tab = global::Bizland.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Button = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MaterialComponents_Tab = global::Bizland.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::Bizland.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::Bizland.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_MediaRouter_Title = global::Bizland.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Bizland.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Bizland.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Bizland.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_AppCompat = global::Bizland.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Bizland.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Bizland.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Bizland.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Bizland.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Bizland.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_AppCompat_Light = global::Bizland.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Bizland.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::Bizland.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::FormsCurvedBottomNavigation.Resource.Style.ThemeOverlay_MediaRouter_Light = global::Bizland.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat = global::Bizland.Droid.Resource.Style.Theme_AppCompat;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_CompactMenu = global::Bizland.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_DayNight = global::Bizland.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Bizland.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Bizland.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Bizland.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Bizland.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Bizland.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Bizland.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_Dialog = global::Bizland.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Bizland.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Bizland.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Bizland.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_Light = global::Bizland.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Bizland.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_Light_Dialog = global::Bizland.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Bizland.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Bizland.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Bizland.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Bizland.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_AppCompat_NoActionBar = global::Bizland.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_Design = global::Bizland.Droid.Resource.Style.Theme_Design;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_Design_BottomSheetDialog = global::Bizland.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_Design_Light = global::Bizland.Droid.Resource.Style.Theme_Design_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Bizland.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_Design_Light_NoActionBar = global::Bizland.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_Design_NoActionBar = global::Bizland.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Bridge = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Dialog = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Light = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Bizland.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MediaRouter = global::Bizland.Droid.Resource.Style.Theme_MediaRouter;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MediaRouter_Light = global::Bizland.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MediaRouter_LightControlPanel = global::Bizland.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::FormsCurvedBottomNavigation.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::Bizland.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ActionBar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ActionButton = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ActionMode = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Bizland.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Button = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ButtonBar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Button_Borderless = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Button_Colored = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Button_Small = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Bizland.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Bizland.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Bizland.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Bizland.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Bizland.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_EditText = global::Bizland.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ImageButton = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_SearchView = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ListMenuView = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ListView = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ListView_Menu = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_PopupMenu = global::Bizland.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Bizland.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_PopupWindow = global::Bizland.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ProgressBar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Bizland.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_RatingBar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Bizland.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Bizland.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_SearchView = global::Bizland.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_SeekBar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Bizland.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Spinner = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Bizland.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Toolbar = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Bizland.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Compat_NotificationActionContainer = global::Bizland.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Compat_NotificationActionText = global::Bizland.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Design_AppBarLayout = global::Bizland.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Design_BottomNavigationView = global::Bizland.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Design_BottomSheet_Modal = global::Bizland.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Design_CollapsingToolbar = global::Bizland.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Design_FloatingActionButton = global::Bizland.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Design_NavigationView = global::Bizland.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Bizland.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Design_Snackbar = global::Bizland.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Design_TabLayout = global::Bizland.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Design_TextInputLayout = global::Bizland.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Button = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_CardView = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_NavigationView = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Snackbar = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_TabLayout = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MaterialComponents_Toolbar = global::Bizland.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Bizland.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Bizland.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::FormsCurvedBottomNavigation.Resource.Style.Widget_Support_CoordinatorLayout = global::Bizland.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar = global::Bizland.Droid.Resource.Styleable.ActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBarLayout = global::Bizland.Droid.Resource.Styleable.ActionBarLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Bizland.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_background = global::Bizland.Droid.Resource.Styleable.ActionBar_background;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_backgroundSplit = global::Bizland.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_backgroundStacked = global::Bizland.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_contentInsetEnd = global::Bizland.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Bizland.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_contentInsetLeft = global::Bizland.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_contentInsetRight = global::Bizland.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_contentInsetStart = global::Bizland.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Bizland.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_customNavigationLayout = global::Bizland.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_displayOptions = global::Bizland.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_divider = global::Bizland.Droid.Resource.Styleable.ActionBar_divider;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_elevation = global::Bizland.Droid.Resource.Styleable.ActionBar_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_height = global::Bizland.Droid.Resource.Styleable.ActionBar_height;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_hideOnContentScroll = global::Bizland.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Bizland.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_homeLayout = global::Bizland.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_icon = global::Bizland.Droid.Resource.Styleable.ActionBar_icon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Bizland.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_itemPadding = global::Bizland.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_logo = global::Bizland.Droid.Resource.Styleable.ActionBar_logo;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_navigationMode = global::Bizland.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_popupTheme = global::Bizland.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_progressBarPadding = global::Bizland.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_progressBarStyle = global::Bizland.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_subtitle = global::Bizland.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_subtitleTextStyle = global::Bizland.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_title = global::Bizland.Droid.Resource.Styleable.ActionBar_title;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionBar_titleTextStyle = global::Bizland.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionMenuItemView = global::Bizland.Droid.Resource.Styleable.ActionMenuItemView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Bizland.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionMenuView = global::Bizland.Droid.Resource.Styleable.ActionMenuView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionMode = global::Bizland.Droid.Resource.Styleable.ActionMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionMode_background = global::Bizland.Droid.Resource.Styleable.ActionMode_background;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionMode_backgroundSplit = global::Bizland.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionMode_closeItemLayout = global::Bizland.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionMode_height = global::Bizland.Droid.Resource.Styleable.ActionMode_height;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionMode_subtitleTextStyle = global::Bizland.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActionMode_titleTextStyle = global::Bizland.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActivityChooserView = global::Bizland.Droid.Resource.Styleable.ActivityChooserView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Bizland.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Bizland.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AlertDialog = global::Bizland.Droid.Resource.Styleable.AlertDialog;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AlertDialog_android_layout = global::Bizland.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AlertDialog_buttonIconDimen = global::Bizland.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Bizland.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AlertDialog_listItemLayout = global::Bizland.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AlertDialog_listLayout = global::Bizland.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Bizland.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AlertDialog_showTitle = global::Bizland.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Bizland.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableCompat = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableItem = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableTransition = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Bizland.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayout = global::Bizland.Droid.Resource.Styleable.AppBarLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayoutStates = global::Bizland.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Bizland.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Bizland.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Bizland.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Bizland.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayout_android_background = global::Bizland.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Bizland.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Bizland.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayout_elevation = global::Bizland.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayout_expanded = global::Bizland.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayout_Layout = global::Bizland.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Bizland.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Bizland.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppBarLayout_liftOnScroll = global::Bizland.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatImageView = global::Bizland.Droid.Resource.Styleable.AppCompatImageView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatImageView_android_src = global::Bizland.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatImageView_srcCompat = global::Bizland.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatImageView_tint = global::Bizland.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatImageView_tintMode = global::Bizland.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatSeekBar = global::Bizland.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Bizland.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatSeekBar_tickMark = global::Bizland.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Bizland.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Bizland.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextHelper = global::Bizland.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Bizland.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Bizland.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Bizland.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Bizland.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Bizland.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Bizland.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Bizland.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView = global::Bizland.Droid.Resource.Styleable.AppCompatTextView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Bizland.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Bizland.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Bizland.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Bizland.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Bizland.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Bizland.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Bizland.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView_fontFamily = global::Bizland.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Bizland.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView_lineHeight = global::Bizland.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTextView_textAllCaps = global::Bizland.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme = global::Bizland.Droid.Resource.Styleable.AppCompatTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionBarSize = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_buttonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_colorAccent = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_colorError = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_colorPrimary = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_controlBackground = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_dialogTheme = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_dividerVertical = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_editTextBackground = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_editTextColor = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_editTextStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_panelBackground = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_switchStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_windowActionBar = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Bizland.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomAppBar = global::Bizland.Droid.Resource.Styleable.BottomAppBar;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomAppBar_backgroundTint = global::Bizland.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Bizland.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Bizland.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Bizland.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Bizland.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomAppBar_hideOnScroll = global::Bizland.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomNavigationView = global::Bizland.Droid.Resource.Styleable.BottomNavigationView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomNavigationView_elevation = global::Bizland.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomNavigationView_itemBackground = global::Bizland.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Bizland.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomNavigationView_itemIconSize = global::Bizland.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomNavigationView_itemIconTint = global::Bizland.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::Bizland.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::Bizland.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomNavigationView_itemTextColor = global::Bizland.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::Bizland.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomNavigationView_menu = global::Bizland.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomSheetBehavior_Layout = global::Bizland.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Bizland.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Bizland.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Bizland.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Bizland.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ButtonBarLayout = global::Bizland.Droid.Resource.Styleable.ButtonBarLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ButtonBarLayout_allowStacking = global::Bizland.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView = global::Bizland.Droid.Resource.Styleable.CardView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_android_minHeight = global::Bizland.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_android_minWidth = global::Bizland.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_cardBackgroundColor = global::Bizland.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_cardCornerRadius = global::Bizland.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_cardElevation = global::Bizland.Droid.Resource.Styleable.CardView_cardElevation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_cardMaxElevation = global::Bizland.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Bizland.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_cardUseCompatPadding = global::Bizland.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_contentPadding = global::Bizland.Droid.Resource.Styleable.CardView_contentPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_contentPaddingBottom = global::Bizland.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_contentPaddingLeft = global::Bizland.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_contentPaddingRight = global::Bizland.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CardView_contentPaddingTop = global::Bizland.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip = global::Bizland.Droid.Resource.Styleable.Chip;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ChipGroup = global::Bizland.Droid.Resource.Styleable.ChipGroup;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ChipGroup_checkedChip = global::Bizland.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ChipGroup_chipSpacing = global::Bizland.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Bizland.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Bizland.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ChipGroup_singleLine = global::Bizland.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ChipGroup_singleSelection = global::Bizland.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_android_checkable = global::Bizland.Droid.Resource.Styleable.Chip_android_checkable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_android_ellipsize = global::Bizland.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_android_maxWidth = global::Bizland.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_android_text = global::Bizland.Droid.Resource.Styleable.Chip_android_text;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_android_textAppearance = global::Bizland.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_checkedIcon = global::Bizland.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_checkedIconEnabled = global::Bizland.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_checkedIconVisible = global::Bizland.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipBackgroundColor = global::Bizland.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipCornerRadius = global::Bizland.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipEndPadding = global::Bizland.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipIcon = global::Bizland.Droid.Resource.Styleable.Chip_chipIcon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipIconEnabled = global::Bizland.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipIconSize = global::Bizland.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipIconTint = global::Bizland.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipIconVisible = global::Bizland.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipMinHeight = global::Bizland.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipStartPadding = global::Bizland.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipStrokeColor = global::Bizland.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_chipStrokeWidth = global::Bizland.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_closeIcon = global::Bizland.Droid.Resource.Styleable.Chip_closeIcon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_closeIconEnabled = global::Bizland.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_closeIconEndPadding = global::Bizland.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_closeIconSize = global::Bizland.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_closeIconStartPadding = global::Bizland.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_closeIconTint = global::Bizland.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_closeIconVisible = global::Bizland.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_hideMotionSpec = global::Bizland.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_iconEndPadding = global::Bizland.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_iconStartPadding = global::Bizland.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_rippleColor = global::Bizland.Droid.Resource.Styleable.Chip_rippleColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_showMotionSpec = global::Bizland.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_textEndPadding = global::Bizland.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Chip_textStartPadding = global::Bizland.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_title = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Bizland.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ColorStateListItem = global::Bizland.Droid.Resource.Styleable.ColorStateListItem;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ColorStateListItem_alpha = global::Bizland.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ColorStateListItem_android_alpha = global::Bizland.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ColorStateListItem_android_color = global::Bizland.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CompoundButton = global::Bizland.Droid.Resource.Styleable.CompoundButton;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CompoundButton_android_button = global::Bizland.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CompoundButton_buttonTint = global::Bizland.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CompoundButton_buttonTintMode = global::Bizland.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CoordinatorLayout = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CoordinatorLayout_keylines = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CoordinatorLayout_Layout = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DesignTheme = global::Bizland.Droid.Resource.Styleable.DesignTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Bizland.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Bizland.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DrawerArrowToggle = global::Bizland.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Bizland.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Bizland.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DrawerArrowToggle_barLength = global::Bizland.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DrawerArrowToggle_color = global::Bizland.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Bizland.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Bizland.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DrawerArrowToggle_spinBars = global::Bizland.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.DrawerArrowToggle_thickness = global::Bizland.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton = global::Bizland.Droid.Resource.Styleable.FloatingActionButton;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_backgroundTint = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_borderWidth = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_elevation = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_fabSize = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_maxImageSize = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_rippleColor = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Bizland.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FlowLayout = global::Bizland.Droid.Resource.Styleable.FlowLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FlowLayout_itemSpacing = global::Bizland.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FlowLayout_lineSpacing = global::Bizland.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamily = global::Bizland.Droid.Resource.Styleable.FontFamily;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamilyFont = global::Bizland.Droid.Resource.Styleable.FontFamilyFont;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamilyFont_android_font = global::Bizland.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Bizland.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Bizland.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Bizland.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Bizland.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamilyFont_font = global::Bizland.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamilyFont_fontStyle = global::Bizland.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Bizland.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamilyFont_fontWeight = global::Bizland.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamilyFont_ttcIndex = global::Bizland.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamily_fontProviderAuthority = global::Bizland.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamily_fontProviderCerts = global::Bizland.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Bizland.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Bizland.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamily_fontProviderPackage = global::Bizland.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.FontFamily_fontProviderQuery = global::Bizland.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ForegroundLinearLayout = global::Bizland.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Bizland.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Bizland.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Bizland.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor = global::Bizland.Droid.Resource.Styleable.GradientColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColorItem = global::Bizland.Droid.Resource.Styleable.GradientColorItem;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColorItem_android_color = global::Bizland.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColorItem_android_offset = global::Bizland.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_centerColor = global::Bizland.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_centerX = global::Bizland.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_centerY = global::Bizland.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_endColor = global::Bizland.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_endX = global::Bizland.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_endY = global::Bizland.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_gradientRadius = global::Bizland.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_startColor = global::Bizland.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_startX = global::Bizland.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_startY = global::Bizland.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_tileMode = global::Bizland.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.GradientColor_android_type = global::Bizland.Droid.Resource.Styleable.GradientColor_android_type;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_divider = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_Layout = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.LinearLayoutCompat_showDividers = global::Bizland.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ListPopupWindow = global::Bizland.Droid.Resource.Styleable.ListPopupWindow;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Bizland.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Bizland.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton = global::Bizland.Droid.Resource.Styleable.MaterialButton;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_android_insetBottom = global::Bizland.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_android_insetLeft = global::Bizland.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_android_insetRight = global::Bizland.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_android_insetTop = global::Bizland.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_backgroundTint = global::Bizland.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_backgroundTintMode = global::Bizland.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_cornerRadius = global::Bizland.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_icon = global::Bizland.Droid.Resource.Styleable.MaterialButton_icon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_iconGravity = global::Bizland.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_iconPadding = global::Bizland.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_iconSize = global::Bizland.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_iconTint = global::Bizland.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_iconTintMode = global::Bizland.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_rippleColor = global::Bizland.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_strokeColor = global::Bizland.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialButton_strokeWidth = global::Bizland.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialCardView = global::Bizland.Droid.Resource.Styleable.MaterialCardView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialCardView_strokeColor = global::Bizland.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialCardView_strokeWidth = global::Bizland.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::Bizland.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MediaRouteButton = global::Bizland.Droid.Resource.Styleable.MediaRouteButton;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MediaRouteButton_android_minHeight = global::Bizland.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MediaRouteButton_android_minWidth = global::Bizland.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::Bizland.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::Bizland.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuGroup = global::Bizland.Droid.Resource.Styleable.MenuGroup;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Bizland.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuGroup_android_enabled = global::Bizland.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuGroup_android_id = global::Bizland.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuGroup_android_menuCategory = global::Bizland.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuGroup_android_orderInCategory = global::Bizland.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuGroup_android_visible = global::Bizland.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem = global::Bizland.Droid.Resource.Styleable.MenuItem;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_actionLayout = global::Bizland.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_actionProviderClass = global::Bizland.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_actionViewClass = global::Bizland.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_alphabeticModifiers = global::Bizland.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Bizland.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_checkable = global::Bizland.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_checked = global::Bizland.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_enabled = global::Bizland.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_icon = global::Bizland.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_id = global::Bizland.Droid.Resource.Styleable.MenuItem_android_id;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_menuCategory = global::Bizland.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_numericShortcut = global::Bizland.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_onClick = global::Bizland.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_orderInCategory = global::Bizland.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_title = global::Bizland.Droid.Resource.Styleable.MenuItem_android_title;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_titleCondensed = global::Bizland.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_android_visible = global::Bizland.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_contentDescription = global::Bizland.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_iconTint = global::Bizland.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_iconTintMode = global::Bizland.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_numericModifiers = global::Bizland.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_showAsAction = global::Bizland.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuItem_tooltipText = global::Bizland.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuView = global::Bizland.Droid.Resource.Styleable.MenuView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuView_android_headerBackground = global::Bizland.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuView_android_horizontalDivider = global::Bizland.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuView_android_itemBackground = global::Bizland.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Bizland.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuView_android_itemTextAppearance = global::Bizland.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuView_android_verticalDivider = global::Bizland.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Bizland.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuView_preserveIconSpacing = global::Bizland.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.MenuView_subMenuArrow = global::Bizland.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView = global::Bizland.Droid.Resource.Styleable.NavigationView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_android_background = global::Bizland.Droid.Resource.Styleable.NavigationView_android_background;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Bizland.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_android_maxWidth = global::Bizland.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_elevation = global::Bizland.Droid.Resource.Styleable.NavigationView_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_headerLayout = global::Bizland.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_itemBackground = global::Bizland.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Bizland.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_itemIconPadding = global::Bizland.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_itemIconTint = global::Bizland.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_itemTextAppearance = global::Bizland.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_itemTextColor = global::Bizland.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.NavigationView_menu = global::Bizland.Droid.Resource.Styleable.NavigationView_menu;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.PopupWindow = global::Bizland.Droid.Resource.Styleable.PopupWindow;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.PopupWindowBackgroundState = global::Bizland.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Bizland.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Bizland.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.PopupWindow_android_popupBackground = global::Bizland.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.PopupWindow_overlapAnchor = global::Bizland.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecycleListView = global::Bizland.Droid.Resource.Styleable.RecycleListView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Bizland.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Bizland.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView = global::Bizland.Droid.Resource.Styleable.RecyclerView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Bizland.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView_android_orientation = global::Bizland.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Bizland.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Bizland.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Bizland.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Bizland.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Bizland.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView_layoutManager = global::Bizland.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView_reverseLayout = global::Bizland.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView_spanCount = global::Bizland.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.RecyclerView_stackFromEnd = global::Bizland.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ScrimInsetsFrameLayout = global::Bizland.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Bizland.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ScrollingViewBehavior_Layout = global::Bizland.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Bizland.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView = global::Bizland.Droid.Resource.Styleable.SearchView;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_android_focusable = global::Bizland.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_android_imeOptions = global::Bizland.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_android_inputType = global::Bizland.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_android_maxWidth = global::Bizland.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_closeIcon = global::Bizland.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_commitIcon = global::Bizland.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_defaultQueryHint = global::Bizland.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_goIcon = global::Bizland.Droid.Resource.Styleable.SearchView_goIcon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_iconifiedByDefault = global::Bizland.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_layout = global::Bizland.Droid.Resource.Styleable.SearchView_layout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_queryBackground = global::Bizland.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_queryHint = global::Bizland.Droid.Resource.Styleable.SearchView_queryHint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_searchHintIcon = global::Bizland.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_searchIcon = global::Bizland.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_submitBackground = global::Bizland.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_suggestionRowLayout = global::Bizland.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SearchView_voiceIcon = global::Bizland.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Snackbar = global::Bizland.Droid.Resource.Styleable.Snackbar;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SnackbarLayout = global::Bizland.Droid.Resource.Styleable.SnackbarLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Bizland.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SnackbarLayout_elevation = global::Bizland.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Bizland.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Bizland.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Snackbar_snackbarStyle = global::Bizland.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Spinner = global::Bizland.Droid.Resource.Styleable.Spinner;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Spinner_android_dropDownWidth = global::Bizland.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Spinner_android_entries = global::Bizland.Droid.Resource.Styleable.Spinner_android_entries;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Spinner_android_popupBackground = global::Bizland.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Spinner_android_prompt = global::Bizland.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Spinner_popupTheme = global::Bizland.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.StateListDrawable = global::Bizland.Droid.Resource.Styleable.StateListDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.StateListDrawableItem = global::Bizland.Droid.Resource.Styleable.StateListDrawableItem;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.StateListDrawableItem_android_drawable = global::Bizland.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.StateListDrawable_android_constantSize = global::Bizland.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.StateListDrawable_android_dither = global::Bizland.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Bizland.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Bizland.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.StateListDrawable_android_variablePadding = global::Bizland.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.StateListDrawable_android_visible = global::Bizland.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat = global::Bizland.Droid.Resource.Styleable.SwitchCompat;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_android_textOff = global::Bizland.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_android_textOn = global::Bizland.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_android_thumb = global::Bizland.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_showText = global::Bizland.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_splitTrack = global::Bizland.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_switchMinWidth = global::Bizland.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_switchPadding = global::Bizland.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Bizland.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Bizland.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_thumbTint = global::Bizland.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_thumbTintMode = global::Bizland.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_track = global::Bizland.Droid.Resource.Styleable.SwitchCompat_track;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_trackTint = global::Bizland.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.SwitchCompat_trackTintMode = global::Bizland.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabItem = global::Bizland.Droid.Resource.Styleable.TabItem;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabItem_android_icon = global::Bizland.Droid.Resource.Styleable.TabItem_android_icon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabItem_android_layout = global::Bizland.Droid.Resource.Styleable.TabItem_android_layout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabItem_android_text = global::Bizland.Droid.Resource.Styleable.TabItem_android_text;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout = global::Bizland.Droid.Resource.Styleable.TabLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabBackground = global::Bizland.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabContentStart = global::Bizland.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabGravity = global::Bizland.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabIconTint = global::Bizland.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabIconTintMode = global::Bizland.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabIndicator = global::Bizland.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Bizland.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabIndicatorColor = global::Bizland.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Bizland.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Bizland.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Bizland.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabInlineLabel = global::Bizland.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabMaxWidth = global::Bizland.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabMinWidth = global::Bizland.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabMode = global::Bizland.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabPadding = global::Bizland.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabPaddingBottom = global::Bizland.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabPaddingEnd = global::Bizland.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabPaddingStart = global::Bizland.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabPaddingTop = global::Bizland.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabRippleColor = global::Bizland.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Bizland.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabTextAppearance = global::Bizland.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabTextColor = global::Bizland.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Bizland.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance = global::Bizland.Droid.Resource.Styleable.TextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_android_fontFamily = global::Bizland.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_android_shadowColor = global::Bizland.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_android_shadowDx = global::Bizland.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_android_shadowDy = global::Bizland.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_android_shadowRadius = global::Bizland.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_android_textColor = global::Bizland.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_android_textColorHint = global::Bizland.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_android_textColorLink = global::Bizland.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_android_textSize = global::Bizland.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_android_textStyle = global::Bizland.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_android_typeface = global::Bizland.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_fontFamily = global::Bizland.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextAppearance_textAllCaps = global::Bizland.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout = global::Bizland.Droid.Resource.Styleable.TextInputLayout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_android_hint = global::Bizland.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_android_textColorHint = global::Bizland.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Bizland.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Bizland.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Bizland.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Bizland.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Bizland.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Bizland.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Bizland.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Bizland.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Bizland.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_counterEnabled = global::Bizland.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_counterMaxLength = global::Bizland.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Bizland.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Bizland.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_errorEnabled = global::Bizland.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Bizland.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_helperText = global::Bizland.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Bizland.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Bizland.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Bizland.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_hintEnabled = global::Bizland.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Bizland.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Bizland.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Bizland.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Bizland.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Bizland.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Bizland.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ThemeEnforcement = global::Bizland.Droid.Resource.Styleable.ThemeEnforcement;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Bizland.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Bizland.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Bizland.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar = global::Bizland.Droid.Resource.Styleable.Toolbar;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_android_gravity = global::Bizland.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_android_minHeight = global::Bizland.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_buttonGravity = global::Bizland.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_collapseContentDescription = global::Bizland.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_collapseIcon = global::Bizland.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_contentInsetEnd = global::Bizland.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Bizland.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_contentInsetLeft = global::Bizland.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_contentInsetRight = global::Bizland.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_contentInsetStart = global::Bizland.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Bizland.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_logo = global::Bizland.Droid.Resource.Styleable.Toolbar_logo;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_logoDescription = global::Bizland.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_maxButtonHeight = global::Bizland.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_navigationContentDescription = global::Bizland.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_navigationIcon = global::Bizland.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_popupTheme = global::Bizland.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_subtitle = global::Bizland.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Bizland.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_subtitleTextColor = global::Bizland.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_title = global::Bizland.Droid.Resource.Styleable.Toolbar_title;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_titleMargin = global::Bizland.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_titleMarginBottom = global::Bizland.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_titleMarginEnd = global::Bizland.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_titleMargins = global::Bizland.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_titleMarginStart = global::Bizland.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_titleMarginTop = global::Bizland.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_titleTextAppearance = global::Bizland.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.Toolbar_titleTextColor = global::Bizland.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.View = global::Bizland.Droid.Resource.Styleable.View;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ViewBackgroundHelper = global::Bizland.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ViewBackgroundHelper_android_background = global::Bizland.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Bizland.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Bizland.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ViewStubCompat = global::Bizland.Droid.Resource.Styleable.ViewStubCompat;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ViewStubCompat_android_id = global::Bizland.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Bizland.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.ViewStubCompat_android_layout = global::Bizland.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.View_android_focusable = global::Bizland.Droid.Resource.Styleable.View_android_focusable;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.View_android_theme = global::Bizland.Droid.Resource.Styleable.View_android_theme;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.View_paddingEnd = global::Bizland.Droid.Resource.Styleable.View_paddingEnd;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.View_paddingStart = global::Bizland.Droid.Resource.Styleable.View_paddingStart;
+			global::FormsCurvedBottomNavigation.Resource.Styleable.View_theme = global::Bizland.Droid.Resource.Styleable.View_theme;
 			global::Prism.Resource.Animation.abc_fade_in = global::Bizland.Droid.Resource.Animation.abc_fade_in;
 			global::Prism.Resource.Animation.abc_fade_out = global::Bizland.Droid.Resource.Animation.abc_fade_out;
 			global::Prism.Resource.Animation.abc_grow_fade_in_from_bottom = global::Bizland.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -14732,562 +17638,565 @@ namespace Bizland.Droid
 			public const int ic_group_expand_15 = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_media_pause_dark = 2131165382;
+			public const int ic_home = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_media_pause_light = 2131165383;
+			public const int ic_media_pause_dark = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_media_play_dark = 2131165384;
+			public const int ic_media_pause_light = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_media_play_light = 2131165385;
+			public const int ic_media_play_dark = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_media_stop_dark = 2131165386;
+			public const int ic_media_play_light = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_media_stop_light = 2131165387;
+			public const int ic_media_stop_dark = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_00_dark = 2131165388;
+			public const int ic_media_stop_light = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_00_light = 2131165389;
+			public const int ic_mr_button_connected_00_dark = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_01_dark = 2131165390;
+			public const int ic_mr_button_connected_00_light = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_01_light = 2131165391;
+			public const int ic_mr_button_connected_01_dark = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_02_dark = 2131165392;
+			public const int ic_mr_button_connected_01_light = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_02_light = 2131165393;
+			public const int ic_mr_button_connected_02_dark = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_03_dark = 2131165394;
+			public const int ic_mr_button_connected_02_light = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_03_light = 2131165395;
+			public const int ic_mr_button_connected_03_dark = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_04_dark = 2131165396;
+			public const int ic_mr_button_connected_03_light = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_04_light = 2131165397;
+			public const int ic_mr_button_connected_04_dark = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_05_dark = 2131165398;
+			public const int ic_mr_button_connected_04_light = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_05_light = 2131165399;
+			public const int ic_mr_button_connected_05_dark = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_06_dark = 2131165400;
+			public const int ic_mr_button_connected_05_light = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connected_06_light = 2131165401;
+			public const int ic_mr_button_connected_06_dark = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_07_dark = 2131165402;
+			public const int ic_mr_button_connected_06_light = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connected_07_light = 2131165403;
+			public const int ic_mr_button_connected_07_dark = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connected_08_dark = 2131165404;
+			public const int ic_mr_button_connected_07_light = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connected_08_light = 2131165405;
+			public const int ic_mr_button_connected_08_dark = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connected_09_dark = 2131165406;
+			public const int ic_mr_button_connected_08_light = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connected_09_light = 2131165407;
+			public const int ic_mr_button_connected_09_dark = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connected_10_dark = 2131165408;
+			public const int ic_mr_button_connected_09_light = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connected_10_light = 2131165409;
+			public const int ic_mr_button_connected_10_dark = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connected_11_dark = 2131165410;
+			public const int ic_mr_button_connected_10_light = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connected_11_light = 2131165411;
+			public const int ic_mr_button_connected_11_dark = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connected_12_dark = 2131165412;
+			public const int ic_mr_button_connected_11_light = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connected_12_light = 2131165413;
+			public const int ic_mr_button_connected_12_dark = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connected_13_dark = 2131165414;
+			public const int ic_mr_button_connected_12_light = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connected_13_light = 2131165415;
+			public const int ic_mr_button_connected_13_dark = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connected_14_dark = 2131165416;
+			public const int ic_mr_button_connected_13_light = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connected_14_light = 2131165417;
+			public const int ic_mr_button_connected_14_dark = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connected_15_dark = 2131165418;
+			public const int ic_mr_button_connected_14_light = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connected_15_light = 2131165419;
+			public const int ic_mr_button_connected_15_dark = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connected_16_dark = 2131165420;
+			public const int ic_mr_button_connected_15_light = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connected_16_light = 2131165421;
+			public const int ic_mr_button_connected_16_dark = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connected_17_dark = 2131165422;
+			public const int ic_mr_button_connected_16_light = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connected_17_light = 2131165423;
+			public const int ic_mr_button_connected_17_dark = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connected_18_dark = 2131165424;
+			public const int ic_mr_button_connected_17_light = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connected_18_light = 2131165425;
+			public const int ic_mr_button_connected_18_dark = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connected_19_dark = 2131165426;
+			public const int ic_mr_button_connected_18_light = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connected_19_light = 2131165427;
+			public const int ic_mr_button_connected_19_dark = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connected_20_dark = 2131165428;
+			public const int ic_mr_button_connected_19_light = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connected_20_light = 2131165429;
+			public const int ic_mr_button_connected_20_dark = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connected_21_dark = 2131165430;
+			public const int ic_mr_button_connected_20_light = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connected_21_light = 2131165431;
+			public const int ic_mr_button_connected_21_dark = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connected_22_dark = 2131165432;
+			public const int ic_mr_button_connected_21_light = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connected_22_light = 2131165433;
+			public const int ic_mr_button_connected_22_dark = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connected_23_dark = 2131165434;
+			public const int ic_mr_button_connected_22_light = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connected_23_light = 2131165435;
+			public const int ic_mr_button_connected_23_dark = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connected_24_dark = 2131165436;
+			public const int ic_mr_button_connected_23_light = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connected_24_light = 2131165437;
+			public const int ic_mr_button_connected_24_dark = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connected_25_dark = 2131165438;
+			public const int ic_mr_button_connected_24_light = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connected_25_light = 2131165439;
+			public const int ic_mr_button_connected_25_dark = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connected_26_dark = 2131165440;
+			public const int ic_mr_button_connected_25_light = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connected_26_light = 2131165441;
+			public const int ic_mr_button_connected_26_dark = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connected_27_dark = 2131165442;
+			public const int ic_mr_button_connected_26_light = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connected_27_light = 2131165443;
+			public const int ic_mr_button_connected_27_dark = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connected_28_dark = 2131165444;
+			public const int ic_mr_button_connected_27_light = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connected_28_light = 2131165445;
+			public const int ic_mr_button_connected_28_dark = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connected_29_dark = 2131165446;
+			public const int ic_mr_button_connected_28_light = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connected_29_light = 2131165447;
+			public const int ic_mr_button_connected_29_dark = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connected_30_dark = 2131165448;
+			public const int ic_mr_button_connected_29_light = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connected_30_light = 2131165449;
+			public const int ic_mr_button_connected_30_dark = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_00_dark = 2131165450;
+			public const int ic_mr_button_connected_30_light = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_00_light = 2131165451;
+			public const int ic_mr_button_connecting_00_dark = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_01_dark = 2131165452;
+			public const int ic_mr_button_connecting_00_light = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_01_light = 2131165453;
+			public const int ic_mr_button_connecting_01_dark = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_02_dark = 2131165454;
+			public const int ic_mr_button_connecting_01_light = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_02_light = 2131165455;
+			public const int ic_mr_button_connecting_02_dark = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_03_dark = 2131165456;
+			public const int ic_mr_button_connecting_02_light = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_03_light = 2131165457;
+			public const int ic_mr_button_connecting_03_dark = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_04_dark = 2131165458;
+			public const int ic_mr_button_connecting_03_light = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_04_light = 2131165459;
+			public const int ic_mr_button_connecting_04_dark = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_05_dark = 2131165460;
+			public const int ic_mr_button_connecting_04_light = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_05_light = 2131165461;
+			public const int ic_mr_button_connecting_05_dark = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_06_dark = 2131165462;
+			public const int ic_mr_button_connecting_05_light = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connecting_06_light = 2131165463;
+			public const int ic_mr_button_connecting_06_dark = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_07_dark = 2131165464;
+			public const int ic_mr_button_connecting_06_light = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_connecting_07_light = 2131165465;
+			public const int ic_mr_button_connecting_07_dark = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_connecting_08_dark = 2131165466;
+			public const int ic_mr_button_connecting_07_light = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_connecting_08_light = 2131165467;
+			public const int ic_mr_button_connecting_08_dark = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_connecting_09_dark = 2131165468;
+			public const int ic_mr_button_connecting_08_light = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_connecting_09_light = 2131165469;
+			public const int ic_mr_button_connecting_09_dark = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_mr_button_connecting_10_dark = 2131165470;
+			public const int ic_mr_button_connecting_09_light = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_mr_button_connecting_10_light = 2131165471;
+			public const int ic_mr_button_connecting_10_dark = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_mr_button_connecting_11_dark = 2131165472;
+			public const int ic_mr_button_connecting_10_light = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_mr_button_connecting_11_light = 2131165473;
+			public const int ic_mr_button_connecting_11_dark = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_mr_button_connecting_12_dark = 2131165474;
+			public const int ic_mr_button_connecting_11_light = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_mr_button_connecting_12_light = 2131165475;
+			public const int ic_mr_button_connecting_12_dark = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_mr_button_connecting_13_dark = 2131165476;
+			public const int ic_mr_button_connecting_12_light = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_mr_button_connecting_13_light = 2131165477;
+			public const int ic_mr_button_connecting_13_dark = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_mr_button_connecting_14_dark = 2131165478;
+			public const int ic_mr_button_connecting_13_light = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_mr_button_connecting_14_light = 2131165479;
+			public const int ic_mr_button_connecting_14_dark = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int ic_mr_button_connecting_15_dark = 2131165480;
+			public const int ic_mr_button_connecting_14_light = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int ic_mr_button_connecting_15_light = 2131165481;
+			public const int ic_mr_button_connecting_15_dark = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int ic_mr_button_connecting_16_dark = 2131165482;
+			public const int ic_mr_button_connecting_15_light = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int ic_mr_button_connecting_16_light = 2131165483;
+			public const int ic_mr_button_connecting_16_dark = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int ic_mr_button_connecting_17_dark = 2131165484;
+			public const int ic_mr_button_connecting_16_light = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int ic_mr_button_connecting_17_light = 2131165485;
+			public const int ic_mr_button_connecting_17_dark = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int ic_mr_button_connecting_18_dark = 2131165486;
+			public const int ic_mr_button_connecting_17_light = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int ic_mr_button_connecting_18_light = 2131165487;
+			public const int ic_mr_button_connecting_18_dark = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int ic_mr_button_connecting_19_dark = 2131165488;
+			public const int ic_mr_button_connecting_18_light = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int ic_mr_button_connecting_19_light = 2131165489;
+			public const int ic_mr_button_connecting_19_dark = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int ic_mr_button_connecting_20_dark = 2131165490;
+			public const int ic_mr_button_connecting_19_light = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int ic_mr_button_connecting_20_light = 2131165491;
+			public const int ic_mr_button_connecting_20_dark = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int ic_mr_button_connecting_21_dark = 2131165492;
+			public const int ic_mr_button_connecting_20_light = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int ic_mr_button_connecting_21_light = 2131165493;
+			public const int ic_mr_button_connecting_21_dark = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int ic_mr_button_connecting_22_dark = 2131165494;
+			public const int ic_mr_button_connecting_21_light = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int ic_mr_button_connecting_22_light = 2131165495;
+			public const int ic_mr_button_connecting_22_dark = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int ic_mr_button_connecting_23_dark = 2131165496;
+			public const int ic_mr_button_connecting_22_light = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int ic_mr_button_connecting_23_light = 2131165497;
+			public const int ic_mr_button_connecting_23_dark = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int ic_mr_button_connecting_24_dark = 2131165498;
+			public const int ic_mr_button_connecting_23_light = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int ic_mr_button_connecting_24_light = 2131165499;
+			public const int ic_mr_button_connecting_24_dark = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int ic_mr_button_connecting_25_dark = 2131165500;
+			public const int ic_mr_button_connecting_24_light = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int ic_mr_button_connecting_25_light = 2131165501;
+			public const int ic_mr_button_connecting_25_dark = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int ic_mr_button_connecting_26_dark = 2131165502;
+			public const int ic_mr_button_connecting_25_light = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int ic_mr_button_connecting_26_light = 2131165503;
+			public const int ic_mr_button_connecting_26_dark = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int ic_mr_button_connecting_27_dark = 2131165504;
+			public const int ic_mr_button_connecting_26_light = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int ic_mr_button_connecting_27_light = 2131165505;
+			public const int ic_mr_button_connecting_27_dark = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int ic_mr_button_connecting_28_dark = 2131165506;
+			public const int ic_mr_button_connecting_27_light = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int ic_mr_button_connecting_28_light = 2131165507;
+			public const int ic_mr_button_connecting_28_dark = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int ic_mr_button_connecting_29_dark = 2131165508;
+			public const int ic_mr_button_connecting_28_light = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int ic_mr_button_connecting_29_light = 2131165509;
+			public const int ic_mr_button_connecting_29_dark = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int ic_mr_button_connecting_30_dark = 2131165510;
+			public const int ic_mr_button_connecting_29_light = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int ic_mr_button_connecting_30_light = 2131165511;
+			public const int ic_mr_button_connecting_30_dark = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int ic_mr_button_disabled_dark = 2131165512;
+			public const int ic_mr_button_connecting_30_light = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int ic_mr_button_disabled_light = 2131165513;
+			public const int ic_mr_button_disabled_dark = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int ic_mr_button_disconnected_dark = 2131165514;
+			public const int ic_mr_button_disabled_light = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int ic_mr_button_disconnected_light = 2131165515;
+			public const int ic_mr_button_disconnected_dark = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int ic_mr_button_grey = 2131165516;
+			public const int ic_mr_button_disconnected_light = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int ic_mtrl_chip_checked_black = 2131165517;
+			public const int ic_mr_button_grey = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int ic_mtrl_chip_checked_circle = 2131165518;
+			public const int ic_mtrl_chip_checked_black = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int ic_mtrl_chip_close_circle = 2131165519;
+			public const int ic_mtrl_chip_checked_circle = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int ic_os_notification_fallback_white_24dp = 2131165520;
+			public const int ic_mtrl_chip_close_circle = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int ic_vol_type_speaker_dark = 2131165521;
+			public const int ic_os_notification_fallback_white_24dp = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int ic_vol_type_speaker_group_dark = 2131165522;
+			public const int ic_vol_type_speaker_dark = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int ic_vol_type_speaker_group_light = 2131165523;
+			public const int ic_vol_type_speaker_group_dark = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int ic_vol_type_speaker_light = 2131165524;
+			public const int ic_vol_type_speaker_group_light = 2131165524;
 			
 			// aapt resource value: 0x7F070155
-			public const int ic_vol_type_tv_dark = 2131165525;
+			public const int ic_vol_type_speaker_light = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int ic_vol_type_tv_light = 2131165526;
-			
-			// aapt resource value: 0x7F070158
-			public const int inputlayout_togglecollapseicon = 2131165528;
-			
-			// aapt resource value: 0x7F070159
-			public const int inputlayout_togglevisibleicon = 2131165529;
+			public const int ic_vol_type_tv_dark = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int input_layout_drop_down_icon = 2131165527;
+			public const int ic_vol_type_tv_light = 2131165527;
+			
+			// aapt resource value: 0x7F070159
+			public const int inputlayout_togglecollapseicon = 2131165529;
 			
 			// aapt resource value: 0x7F07015A
-			public const int Launch_Screen = 2131165530;
+			public const int inputlayout_togglevisibleicon = 2131165530;
+			
+			// aapt resource value: 0x7F070158
+			public const int input_layout_drop_down_icon = 2131165528;
 			
 			// aapt resource value: 0x7F07015B
-			public const int mr_button_connected_dark = 2131165531;
+			public const int Launch_Screen = 2131165531;
 			
 			// aapt resource value: 0x7F07015C
-			public const int mr_button_connected_light = 2131165532;
+			public const int mr_button_connected_dark = 2131165532;
 			
 			// aapt resource value: 0x7F07015D
-			public const int mr_button_connecting_dark = 2131165533;
+			public const int mr_button_connected_light = 2131165533;
 			
 			// aapt resource value: 0x7F07015E
-			public const int mr_button_connecting_light = 2131165534;
+			public const int mr_button_connecting_dark = 2131165534;
 			
 			// aapt resource value: 0x7F07015F
-			public const int mr_button_dark = 2131165535;
+			public const int mr_button_connecting_light = 2131165535;
 			
 			// aapt resource value: 0x7F070160
-			public const int mr_button_light = 2131165536;
+			public const int mr_button_dark = 2131165536;
 			
 			// aapt resource value: 0x7F070161
-			public const int mr_dialog_close_dark = 2131165537;
+			public const int mr_button_light = 2131165537;
 			
 			// aapt resource value: 0x7F070162
-			public const int mr_dialog_close_light = 2131165538;
+			public const int mr_dialog_close_dark = 2131165538;
 			
 			// aapt resource value: 0x7F070163
-			public const int mr_dialog_material_background_dark = 2131165539;
+			public const int mr_dialog_close_light = 2131165539;
 			
 			// aapt resource value: 0x7F070164
-			public const int mr_dialog_material_background_light = 2131165540;
+			public const int mr_dialog_material_background_dark = 2131165540;
 			
 			// aapt resource value: 0x7F070165
-			public const int mr_group_collapse = 2131165541;
+			public const int mr_dialog_material_background_light = 2131165541;
 			
 			// aapt resource value: 0x7F070166
-			public const int mr_group_expand = 2131165542;
+			public const int mr_group_collapse = 2131165542;
 			
 			// aapt resource value: 0x7F070167
-			public const int mr_media_pause_dark = 2131165543;
+			public const int mr_group_expand = 2131165543;
 			
 			// aapt resource value: 0x7F070168
-			public const int mr_media_pause_light = 2131165544;
+			public const int mr_media_pause_dark = 2131165544;
 			
 			// aapt resource value: 0x7F070169
-			public const int mr_media_play_dark = 2131165545;
+			public const int mr_media_pause_light = 2131165545;
 			
 			// aapt resource value: 0x7F07016A
-			public const int mr_media_play_light = 2131165546;
+			public const int mr_media_play_dark = 2131165546;
 			
 			// aapt resource value: 0x7F07016B
-			public const int mr_media_stop_dark = 2131165547;
+			public const int mr_media_play_light = 2131165547;
 			
 			// aapt resource value: 0x7F07016C
-			public const int mr_media_stop_light = 2131165548;
+			public const int mr_media_stop_dark = 2131165548;
 			
 			// aapt resource value: 0x7F07016D
-			public const int mr_vol_type_audiotrack_dark = 2131165549;
+			public const int mr_media_stop_light = 2131165549;
 			
 			// aapt resource value: 0x7F07016E
-			public const int mr_vol_type_audiotrack_light = 2131165550;
+			public const int mr_vol_type_audiotrack_dark = 2131165550;
 			
 			// aapt resource value: 0x7F07016F
-			public const int mtrl_snackbar_background = 2131165551;
+			public const int mr_vol_type_audiotrack_light = 2131165551;
 			
 			// aapt resource value: 0x7F070170
-			public const int mtrl_tabs_default_indicator = 2131165552;
+			public const int mtrl_snackbar_background = 2131165552;
 			
 			// aapt resource value: 0x7F070171
-			public const int navigation_empty_icon = 2131165553;
+			public const int mtrl_tabs_default_indicator = 2131165553;
 			
 			// aapt resource value: 0x7F070172
-			public const int notification_action_background = 2131165554;
+			public const int navigation_empty_icon = 2131165554;
 			
 			// aapt resource value: 0x7F070173
-			public const int notification_bg = 2131165555;
+			public const int notification_action_background = 2131165555;
 			
 			// aapt resource value: 0x7F070174
-			public const int notification_bg_low = 2131165556;
+			public const int notification_bg = 2131165556;
 			
 			// aapt resource value: 0x7F070175
-			public const int notification_bg_low_normal = 2131165557;
+			public const int notification_bg_low = 2131165557;
 			
 			// aapt resource value: 0x7F070176
-			public const int notification_bg_low_pressed = 2131165558;
+			public const int notification_bg_low_normal = 2131165558;
 			
 			// aapt resource value: 0x7F070177
-			public const int notification_bg_normal = 2131165559;
+			public const int notification_bg_low_pressed = 2131165559;
 			
 			// aapt resource value: 0x7F070178
-			public const int notification_bg_normal_pressed = 2131165560;
+			public const int notification_bg_normal = 2131165560;
 			
 			// aapt resource value: 0x7F070179
-			public const int notification_icon_background = 2131165561;
+			public const int notification_bg_normal_pressed = 2131165561;
 			
 			// aapt resource value: 0x7F07017A
-			public const int notification_template_icon_bg = 2131165562;
+			public const int notification_icon_background = 2131165562;
 			
 			// aapt resource value: 0x7F07017B
-			public const int notification_template_icon_low_bg = 2131165563;
+			public const int notification_template_icon_bg = 2131165563;
 			
 			// aapt resource value: 0x7F07017C
-			public const int notification_tile_bg = 2131165564;
+			public const int notification_template_icon_low_bg = 2131165564;
 			
 			// aapt resource value: 0x7F07017D
-			public const int notify_panel_notification_icon_bg = 2131165565;
+			public const int notification_tile_bg = 2131165565;
 			
 			// aapt resource value: 0x7F07017E
-			public const int tooltip_frame_dark = 2131165566;
+			public const int notify_panel_notification_icon_bg = 2131165566;
 			
 			// aapt resource value: 0x7F07017F
-			public const int tooltip_frame_light = 2131165567;
+			public const int tooltip_frame_dark = 2131165567;
+			
+			// aapt resource value: 0x7F070180
+			public const int tooltip_frame_light = 2131165568;
 			
 			static Drawable()
 			{
@@ -15404,734 +18313,743 @@ namespace Bizland.Droid
 			// aapt resource value: 0x7F080026
 			public const int bottom = 2131230758;
 			
-			// aapt resource value: 0x7F080027
-			public const int bottomtab_navarea = 2131230759;
-			
 			// aapt resource value: 0x7F080028
-			public const int bottomtab_tabbar = 2131230760;
+			public const int bottomtab_navarea = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int browser_actions_header_text = 2131230761;
+			public const int bottomtab_tabbar = 2131230761;
 			
-			// aapt resource value: 0x7F08002C
-			public const int browser_actions_menu_items = 2131230764;
+			// aapt resource value: 0x7F080027
+			public const int bottom_nav_bar = 2131230759;
 			
 			// aapt resource value: 0x7F08002A
-			public const int browser_actions_menu_item_icon = 2131230762;
-			
-			// aapt resource value: 0x7F08002B
-			public const int browser_actions_menu_item_text = 2131230763;
+			public const int browser_actions_header_text = 2131230762;
 			
 			// aapt resource value: 0x7F08002D
-			public const int browser_actions_menu_view = 2131230765;
+			public const int browser_actions_menu_items = 2131230765;
+			
+			// aapt resource value: 0x7F08002B
+			public const int browser_actions_menu_item_icon = 2131230763;
+			
+			// aapt resource value: 0x7F08002C
+			public const int browser_actions_menu_item_text = 2131230764;
 			
 			// aapt resource value: 0x7F08002E
-			public const int buttonPanel = 2131230766;
+			public const int browser_actions_menu_view = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int cancel_action = 2131230767;
+			public const int buttonPanel = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int center = 2131230768;
+			public const int cancel_action = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int center_horizontal = 2131230769;
+			public const int center = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int center_vertical = 2131230770;
+			public const int center_horizontal = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int checkbox = 2131230771;
+			public const int center_vertical = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int @checked = 2131230772;
+			public const int checkbox = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int chronometer = 2131230773;
+			public const int @checked = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int clip_horizontal = 2131230774;
+			public const int chronometer = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int clip_vertical = 2131230775;
+			public const int clip_horizontal = 2131230775;
 			
 			// aapt resource value: 0x7F080038
-			public const int collapseActionView = 2131230776;
+			public const int clip_vertical = 2131230776;
 			
 			// aapt resource value: 0x7F080039
-			public const int container = 2131230777;
+			public const int collapseActionView = 2131230777;
 			
 			// aapt resource value: 0x7F08003A
-			public const int content = 2131230778;
+			public const int container = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int contentPanel = 2131230779;
+			public const int content = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int coordinator = 2131230780;
+			public const int contentPanel = 2131230780;
+			
+			// aapt resource value: 0x7F08003D
+			public const int coordinator = 2131230781;
+			
+			// aapt resource value: 0x7F08003E
+			public const int coordinatorlayout = 2131230782;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F08003D
-			public const int custom = 2131230781;
-			
-			// aapt resource value: 0x7F08003E
-			public const int customPanel = 2131230782;
-			
 			// aapt resource value: 0x7F08003F
-			public const int dark = 2131230783;
+			public const int custom = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int decor_content_parent = 2131230784;
+			public const int customPanel = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int default_activity_button = 2131230785;
+			public const int dark = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int design_bottom_sheet = 2131230786;
+			public const int decor_content_parent = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int design_menu_item_action_area = 2131230787;
+			public const int default_activity_button = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int design_menu_item_action_area_stub = 2131230788;
+			public const int design_bottom_sheet = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int design_menu_item_text = 2131230789;
+			public const int design_menu_item_action_area = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int design_navigation_view = 2131230790;
+			public const int design_menu_item_action_area_stub = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int disableHome = 2131230791;
+			public const int design_menu_item_text = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int edit_query = 2131230792;
+			public const int design_navigation_view = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int end = 2131230793;
+			public const int disableHome = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int end_padder = 2131230794;
+			public const int edit_query = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int enterAlways = 2131230795;
+			public const int end = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int enterAlwaysCollapsed = 2131230796;
+			public const int end_padder = 2131230796;
 			
 			// aapt resource value: 0x7F08004D
-			public const int exitUntilCollapsed = 2131230797;
-			
-			// aapt resource value: 0x7F08004F
-			public const int expanded_menu = 2131230799;
+			public const int enterAlways = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int expand_activities_button = 2131230798;
+			public const int enterAlwaysCollapsed = 2131230798;
 			
-			// aapt resource value: 0x7F080050
-			public const int fill = 2131230800;
-			
-			// aapt resource value: 0x7F080053
-			public const int filled = 2131230803;
+			// aapt resource value: 0x7F08004F
+			public const int exitUntilCollapsed = 2131230799;
 			
 			// aapt resource value: 0x7F080051
-			public const int fill_horizontal = 2131230801;
+			public const int expanded_menu = 2131230801;
+			
+			// aapt resource value: 0x7F080050
+			public const int expand_activities_button = 2131230800;
 			
 			// aapt resource value: 0x7F080052
-			public const int fill_vertical = 2131230802;
+			public const int fab = 2131230802;
 			
-			// aapt resource value: 0x7F080054
-			public const int @fixed = 2131230804;
-			
-			// aapt resource value: 0x7F080055
-			public const int flyoutcontent_appbar = 2131230805;
+			// aapt resource value: 0x7F080053
+			public const int fill = 2131230803;
 			
 			// aapt resource value: 0x7F080056
-			public const int flyoutcontent_recycler = 2131230806;
+			public const int filled = 2131230806;
+			
+			// aapt resource value: 0x7F080054
+			public const int fill_horizontal = 2131230804;
+			
+			// aapt resource value: 0x7F080055
+			public const int fill_vertical = 2131230805;
 			
 			// aapt resource value: 0x7F080057
-			public const int forever = 2131230807;
+			public const int @fixed = 2131230807;
+			
+			// aapt resource value: 0x7F080058
+			public const int flyoutcontent_appbar = 2131230808;
+			
+			// aapt resource value: 0x7F080059
+			public const int flyoutcontent_recycler = 2131230809;
+			
+			// aapt resource value: 0x7F08005A
+			public const int forever = 2131230810;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F080058
-			public const int ghost_view = 2131230808;
-			
-			// aapt resource value: 0x7F080059
-			public const int group_divider = 2131230809;
-			
-			// aapt resource value: 0x7F08005A
-			public const int home = 2131230810;
-			
 			// aapt resource value: 0x7F08005B
-			public const int homeAsUp = 2131230811;
+			public const int ghost_view = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int hybrid = 2131230812;
+			public const int group_divider = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int icon = 2131230813;
+			public const int home = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int icon_group = 2131230814;
+			public const int homeAsUp = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int icon_only = 2131230815;
+			public const int hybrid = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int ifRoom = 2131230816;
+			public const int icon = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int image = 2131230817;
+			public const int icon_group = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int imagewithtext = 2131230818;
+			public const int icon_only = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int indeterminate = 2131230819;
+			public const int ifRoom = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int info = 2131230820;
+			public const int image = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int italic = 2131230821;
+			public const int imagewithtext = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int item_touch_helper_previous_elevation = 2131230822;
+			public const int indeterminate = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int labeled = 2131230823;
+			public const int info = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int largeLabel = 2131230824;
+			public const int italic = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int left = 2131230825;
+			public const int item_touch_helper_previous_elevation = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int light = 2131230826;
+			public const int labeled = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int line1 = 2131230827;
+			public const int largeLabel = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int line3 = 2131230828;
+			public const int left = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int listMode = 2131230829;
+			public const int light = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int list_item = 2131230830;
+			public const int line1 = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int main_appbar = 2131230831;
+			public const int line3 = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int main_tablayout = 2131230832;
+			public const int listMode = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int main_toolbar = 2131230833;
+			public const int list_item = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int main_viewpager = 2131230834;
+			public const int main_appbar = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int masked = 2131230835;
+			public const int main_tablayout = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int media_actions = 2131230836;
+			public const int main_toolbar = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int message = 2131230837;
+			public const int main_viewpager = 2131230837;
+			
+			// aapt resource value: 0x7F080076
+			public const int masked = 2131230838;
+			
+			// aapt resource value: 0x7F080077
+			public const int media_actions = 2131230839;
+			
+			// aapt resource value: 0x7F080078
+			public const int message = 2131230840;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F080076
-			public const int middle = 2131230838;
-			
-			// aapt resource value: 0x7F080077
-			public const int mini = 2131230839;
-			
-			// aapt resource value: 0x7F080078
-			public const int mr_art = 2131230840;
-			
 			// aapt resource value: 0x7F080079
-			public const int mr_cast_checkbox = 2131230841;
+			public const int middle = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int mr_cast_close_button = 2131230842;
+			public const int mini = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int mr_cast_group_icon = 2131230843;
+			public const int mr_art = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int mr_cast_group_name = 2131230844;
+			public const int mr_cast_checkbox = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int mr_cast_list = 2131230845;
+			public const int mr_cast_close_button = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int mr_cast_meta = 2131230846;
+			public const int mr_cast_group_icon = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int mr_cast_meta_art = 2131230847;
+			public const int mr_cast_group_name = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int mr_cast_meta_subtitle = 2131230848;
+			public const int mr_cast_list = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int mr_cast_meta_title = 2131230849;
+			public const int mr_cast_meta = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int mr_cast_route_icon = 2131230850;
+			public const int mr_cast_meta_art = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int mr_cast_route_name = 2131230851;
+			public const int mr_cast_meta_subtitle = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int mr_cast_stop_button = 2131230852;
+			public const int mr_cast_meta_title = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int mr_cast_volume_layout = 2131230853;
+			public const int mr_cast_route_icon = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int mr_cast_volume_slider = 2131230854;
+			public const int mr_cast_route_name = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int mr_chooser_list = 2131230855;
+			public const int mr_cast_stop_button = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int mr_chooser_route_desc = 2131230856;
+			public const int mr_cast_volume_layout = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int mr_chooser_route_icon = 2131230857;
+			public const int mr_cast_volume_slider = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int mr_chooser_route_name = 2131230858;
+			public const int mr_chooser_list = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int mr_chooser_title = 2131230859;
+			public const int mr_chooser_route_desc = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int mr_close = 2131230860;
+			public const int mr_chooser_route_icon = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int mr_control_divider = 2131230861;
+			public const int mr_chooser_route_name = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int mr_control_playback_ctrl = 2131230862;
+			public const int mr_chooser_title = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int mr_control_subtitle = 2131230863;
+			public const int mr_close = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int mr_control_title = 2131230864;
+			public const int mr_control_divider = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int mr_control_title_container = 2131230865;
+			public const int mr_control_playback_ctrl = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int mr_custom_control = 2131230866;
+			public const int mr_control_subtitle = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int mr_default_control = 2131230867;
+			public const int mr_control_title = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int mr_dialog_area = 2131230868;
+			public const int mr_control_title_container = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int mr_dialog_header_name = 2131230869;
+			public const int mr_custom_control = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int mr_expandable_area = 2131230870;
+			public const int mr_default_control = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int mr_group_expand_collapse = 2131230871;
+			public const int mr_dialog_area = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int mr_group_volume_route_name = 2131230872;
+			public const int mr_dialog_header_name = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int mr_group_volume_slider = 2131230873;
+			public const int mr_expandable_area = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int mr_media_main_control = 2131230874;
+			public const int mr_group_expand_collapse = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int mr_name = 2131230875;
+			public const int mr_group_volume_route_name = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int mr_picker_close_button = 2131230876;
+			public const int mr_group_volume_slider = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int mr_picker_list = 2131230877;
+			public const int mr_media_main_control = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int mr_picker_route_icon = 2131230878;
+			public const int mr_name = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int mr_picker_route_name = 2131230879;
+			public const int mr_picker_close_button = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int mr_playback_control = 2131230880;
+			public const int mr_picker_list = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int mr_title_bar = 2131230881;
+			public const int mr_picker_route_icon = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int mr_volume_control = 2131230882;
+			public const int mr_picker_route_name = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int mr_volume_group_list = 2131230883;
+			public const int mr_playback_control = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int mr_volume_item_icon = 2131230884;
+			public const int mr_title_bar = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int mr_volume_slider = 2131230885;
+			public const int mr_volume_control = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int mtrl_child_content_container = 2131230886;
+			public const int mr_volume_group_list = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int mtrl_internal_children_alpha_tag = 2131230887;
+			public const int mr_volume_item_icon = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int multiply = 2131230888;
+			public const int mr_volume_slider = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int navigation_header_container = 2131230889;
+			public const int mtrl_child_content_container = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int never = 2131230890;
+			public const int mtrl_internal_children_alpha_tag = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int none = 2131230891;
+			public const int multiply = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int normal = 2131230892;
+			public const int navigation_header_container = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int notification_background = 2131230893;
+			public const int never = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int notification_main_column = 2131230894;
+			public const int none = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int notification_main_column_container = 2131230895;
+			public const int normal = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int os_bgimage_notif_bgimage = 2131230896;
+			public const int notification_background = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int os_bgimage_notif_bgimage_align_layout = 2131230897;
+			public const int notification_main_column = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int os_bgimage_notif_bgimage_right_aligned = 2131230898;
+			public const int notification_main_column_container = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int os_bgimage_notif_body = 2131230899;
+			public const int os_bgimage_notif_bgimage = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int os_bgimage_notif_title = 2131230900;
+			public const int os_bgimage_notif_bgimage_align_layout = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int outline = 2131230901;
+			public const int os_bgimage_notif_bgimage_right_aligned = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int parallax = 2131230902;
+			public const int os_bgimage_notif_body = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int parentPanel = 2131230903;
+			public const int os_bgimage_notif_title = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int parent_matrix = 2131230904;
+			public const int outline = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int pin = 2131230905;
+			public const int parallax = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int progress_circular = 2131230906;
+			public const int parentPanel = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int progress_horizontal = 2131230907;
+			public const int parent_matrix = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int radio = 2131230908;
+			public const int pin = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int right = 2131230909;
+			public const int progress_circular = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int right_icon = 2131230910;
+			public const int progress_horizontal = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int right_side = 2131230911;
+			public const int radio = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int satellite = 2131230912;
+			public const int right = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int save_image_matrix = 2131230913;
+			public const int right_icon = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int save_non_transition_alpha = 2131230914;
+			public const int right_side = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int save_scale_type = 2131230915;
+			public const int satellite = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int screen = 2131230916;
+			public const int save_image_matrix = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int scroll = 2131230917;
-			
-			// aapt resource value: 0x7F0800C9
-			public const int scrollable = 2131230921;
+			public const int save_non_transition_alpha = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int scrollIndicatorDown = 2131230918;
+			public const int save_scale_type = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int scrollIndicatorUp = 2131230919;
+			public const int screen = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int scrollView = 2131230920;
-			
-			// aapt resource value: 0x7F0800CA
-			public const int search_badge = 2131230922;
-			
-			// aapt resource value: 0x7F0800CB
-			public const int search_bar = 2131230923;
+			public const int scroll = 2131230920;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int search_button = 2131230924;
+			public const int scrollable = 2131230924;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int scrollIndicatorDown = 2131230921;
+			
+			// aapt resource value: 0x7F0800CA
+			public const int scrollIndicatorUp = 2131230922;
+			
+			// aapt resource value: 0x7F0800CB
+			public const int scrollView = 2131230923;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int search_close_btn = 2131230925;
+			public const int search_badge = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int search_edit_frame = 2131230926;
+			public const int search_bar = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int search_go_btn = 2131230927;
+			public const int search_button = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int search_mag_icon = 2131230928;
+			public const int search_close_btn = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int search_plate = 2131230929;
+			public const int search_edit_frame = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int search_src_text = 2131230930;
+			public const int search_go_btn = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int search_voice_btn = 2131230931;
-			
-			// aapt resource value: 0x7F0800D5
-			public const int selected = 2131230933;
+			public const int search_mag_icon = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int select_dialog_listview = 2131230932;
+			public const int search_plate = 2131230932;
+			
+			// aapt resource value: 0x7F0800D5
+			public const int search_src_text = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int shellcontent_appbar = 2131230934;
+			public const int search_voice_btn = 2131230934;
+			
+			// aapt resource value: 0x7F0800D8
+			public const int selected = 2131230936;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int shellcontent_toolbar = 2131230935;
+			public const int select_dialog_listview = 2131230935;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int shellcontent_appbar = 2131230937;
+			
+			// aapt resource value: 0x7F0800DA
+			public const int shellcontent_toolbar = 2131230938;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F0800D8
-			public const int shortcut = 2131230936;
-			
-			// aapt resource value: 0x7F0800D9
-			public const int showCustom = 2131230937;
-			
-			// aapt resource value: 0x7F0800DA
-			public const int showHome = 2131230938;
-			
 			// aapt resource value: 0x7F0800DB
-			public const int showTitle = 2131230939;
+			public const int shortcut = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int sliding_tabs = 2131230940;
+			public const int showCustom = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int smallLabel = 2131230941;
+			public const int showHome = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int snackbar_action = 2131230942;
+			public const int showTitle = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int snackbar_text = 2131230943;
+			public const int sliding_tabs = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int snap = 2131230944;
+			public const int smallLabel = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int snapMargins = 2131230945;
+			public const int snackbar_action = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int spacer = 2131230946;
+			public const int snackbar_text = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int split_action_bar = 2131230947;
+			public const int snap = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int src_atop = 2131230948;
+			public const int snapMargins = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int src_in = 2131230949;
+			public const int spacer = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int src_over = 2131230950;
+			public const int split_action_bar = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int standard = 2131230951;
+			public const int src_atop = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int start = 2131230952;
+			public const int src_in = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int status_bar_latest_event_content = 2131230953;
+			public const int src_over = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int stretch = 2131230954;
+			public const int standard = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int submenuarrow = 2131230955;
+			public const int start = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int submit_area = 2131230956;
+			public const int status_bar_latest_event_content = 2131230956;
+			
+			// aapt resource value: 0x7F0800ED
+			public const int stretch = 2131230957;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int submenuarrow = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int submit_area = 2131230959;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800ED
-			public const int tabMode = 2131230957;
-			
-			// aapt resource value: 0x7F0800EE
-			public const int tag_transition_group = 2131230958;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int tag_unhandled_key_event_manager = 2131230959;
-			
 			// aapt resource value: 0x7F0800F0
-			public const int tag_unhandled_key_listeners = 2131230960;
+			public const int tabMode = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int terrain = 2131230961;
+			public const int tag_transition_group = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int text = 2131230962;
+			public const int tag_unhandled_key_event_manager = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int text2 = 2131230963;
-			
-			// aapt resource value: 0x7F0800F8
-			public const int textinput_counter = 2131230968;
-			
-			// aapt resource value: 0x7F0800F9
-			public const int textinput_error = 2131230969;
-			
-			// aapt resource value: 0x7F0800FA
-			public const int textinput_helper_text = 2131230970;
+			public const int tag_unhandled_key_listeners = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int textSpacerNoButtons = 2131230964;
+			public const int terrain = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int textSpacerNoTitle = 2131230965;
+			public const int text = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int textStart = 2131230966;
-			
-			// aapt resource value: 0x7F0800F7
-			public const int text_input_password_toggle = 2131230967;
+			public const int text2 = 2131230966;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int time = 2131230971;
+			public const int textinput_counter = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int title = 2131230972;
+			public const int textinput_error = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int titleDividerNoCustom = 2131230973;
+			public const int textinput_helper_text = 2131230973;
+			
+			// aapt resource value: 0x7F0800F7
+			public const int textSpacerNoButtons = 2131230967;
+			
+			// aapt resource value: 0x7F0800F8
+			public const int textSpacerNoTitle = 2131230968;
+			
+			// aapt resource value: 0x7F0800F9
+			public const int textStart = 2131230969;
+			
+			// aapt resource value: 0x7F0800FA
+			public const int text_input_password_toggle = 2131230970;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int title_template = 2131230974;
+			public const int time = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int toolbar = 2131230975;
+			public const int title = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int top = 2131230976;
+			public const int titleDividerNoCustom = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int topPanel = 2131230977;
+			public const int title_template = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int touch_outside = 2131230978;
+			public const int toolbar = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int transition_current_scene = 2131230979;
+			public const int top = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int transition_layout_save = 2131230980;
+			public const int topPanel = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int transition_position = 2131230981;
+			public const int touch_outside = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int transition_scene_layoutid_cache = 2131230982;
+			public const int transition_current_scene = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int transition_transform = 2131230983;
+			public const int transition_layout_save = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int @unchecked = 2131230984;
+			public const int transition_position = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int uniform = 2131230985;
+			public const int transition_scene_layoutid_cache = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int unlabeled = 2131230986;
+			public const int transition_transform = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int up = 2131230987;
+			public const int @unchecked = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int useLogo = 2131230988;
+			public const int uniform = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int view_offset_helper = 2131230989;
+			public const int unlabeled = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int visible = 2131230990;
+			public const int up = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int volume_item_container = 2131230991;
+			public const int useLogo = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int webview = 2131230992;
+			public const int view_offset_helper = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int wide = 2131230993;
+			public const int visible = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int window = 2131230994;
+			public const int volume_item_container = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int withText = 2131230995;
+			public const int webview = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int wrap_content = 2131230996;
+			public const int wide = 2131230996;
+			
+			// aapt resource value: 0x7F080115
+			public const int window = 2131230997;
+			
+			// aapt resource value: 0x7F080116
+			public const int withText = 2131230998;
+			
+			// aapt resource value: 0x7F080117
+			public const int wrap_content = 2131230999;
 			
 			static Id()
 			{
@@ -16362,178 +19280,181 @@ namespace Bizland.Droid
 			public const int amu_webview = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int BottomTabLayout = 2131427360;
+			public const int BottomNavBar = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int browser_actions_context_menu_page = 2131427361;
+			public const int BottomTabLayout = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int browser_actions_context_menu_row = 2131427362;
+			public const int browser_actions_context_menu_page = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_bottom_navigation_item = 2131427363;
+			public const int browser_actions_context_menu_row = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_bottom_sheet_dialog = 2131427364;
+			public const int design_bottom_navigation_item = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_snackbar = 2131427365;
+			public const int design_bottom_sheet_dialog = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_layout_snackbar_include = 2131427366;
+			public const int design_layout_snackbar = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_layout_tab_icon = 2131427367;
+			public const int design_layout_snackbar_include = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_layout_tab_text = 2131427368;
+			public const int design_layout_tab_icon = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_menu_item_action_area = 2131427369;
+			public const int design_layout_tab_text = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item = 2131427370;
+			public const int design_menu_item_action_area = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_item_header = 2131427371;
+			public const int design_navigation_item = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_item_separator = 2131427372;
+			public const int design_navigation_item_header = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_navigation_item_subheader = 2131427373;
+			public const int design_navigation_item_separator = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int design_navigation_menu = 2131427374;
+			public const int design_navigation_item_subheader = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int design_navigation_menu_item = 2131427375;
+			public const int design_navigation_menu = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int design_text_input_password_icon = 2131427376;
+			public const int design_navigation_menu_item = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int FlyoutContent = 2131427377;
+			public const int design_text_input_password_icon = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int mr_cast_dialog = 2131427378;
+			public const int FlyoutContent = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int mr_cast_group_item = 2131427379;
+			public const int mr_cast_dialog = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int mr_cast_group_volume_item = 2131427380;
+			public const int mr_cast_group_item = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int mr_cast_media_metadata = 2131427381;
+			public const int mr_cast_group_volume_item = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int mr_cast_route_item = 2131427382;
+			public const int mr_cast_media_metadata = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int mr_chooser_dialog = 2131427383;
+			public const int mr_cast_route_item = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int mr_chooser_list_item = 2131427384;
+			public const int mr_chooser_dialog = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int mr_controller_material_dialog_b = 2131427385;
+			public const int mr_chooser_list_item = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int mr_controller_volume_item = 2131427386;
+			public const int mr_controller_material_dialog_b = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int mr_dialog_header_item = 2131427387;
+			public const int mr_controller_volume_item = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int mr_picker_dialog = 2131427388;
+			public const int mr_dialog_header_item = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int mr_picker_route_item = 2131427389;
+			public const int mr_picker_dialog = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int mr_playback_control = 2131427390;
+			public const int mr_picker_route_item = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int mr_volume_control = 2131427391;
+			public const int mr_playback_control = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int mtrl_layout_snackbar = 2131427392;
+			public const int mr_volume_control = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int mtrl_layout_snackbar_include = 2131427393;
+			public const int mtrl_layout_snackbar = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int notification_action = 2131427394;
+			public const int mtrl_layout_snackbar_include = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int notification_action_tombstone = 2131427395;
+			public const int notification_action = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int notification_media_action = 2131427396;
+			public const int notification_action_tombstone = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int notification_media_cancel_action = 2131427397;
+			public const int notification_media_action = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int notification_template_big_media = 2131427398;
+			public const int notification_media_cancel_action = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int notification_template_big_media_custom = 2131427399;
+			public const int notification_template_big_media = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int notification_template_big_media_narrow = 2131427400;
+			public const int notification_template_big_media_custom = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int notification_template_big_media_narrow_custom = 2131427401;
+			public const int notification_template_big_media_narrow = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int notification_template_custom_big = 2131427402;
+			public const int notification_template_big_media_narrow_custom = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int notification_template_icon_group = 2131427403;
+			public const int notification_template_custom_big = 2131427403;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int notification_template_lines_media = 2131427404;
+			public const int notification_template_icon_group = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int notification_template_media = 2131427405;
+			public const int notification_template_lines_media = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int notification_template_media_custom = 2131427406;
+			public const int notification_template_media = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int notification_template_part_chronometer = 2131427407;
+			public const int notification_template_media_custom = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int notification_template_part_time = 2131427408;
+			public const int notification_template_part_chronometer = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int onesignal_bgimage_notif_layout = 2131427409;
+			public const int notification_template_part_time = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int RootLayout = 2131427410;
+			public const int onesignal_bgimage_notif_layout = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int select_dialog_item_material = 2131427411;
+			public const int RootLayout = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int select_dialog_multichoice_material = 2131427412;
+			public const int select_dialog_item_material = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int select_dialog_singlechoice_material = 2131427413;
+			public const int select_dialog_multichoice_material = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int ShellContent = 2131427414;
+			public const int select_dialog_singlechoice_material = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int support_simple_spinner_dropdown_item = 2131427415;
+			public const int ShellContent = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int Tabbar = 2131427416;
+			public const int support_simple_spinner_dropdown_item = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int Toolbar = 2131427417;
+			public const int Tabbar = 2131427417;
+			
+			// aapt resource value: 0x7F0B005A
+			public const int Toolbar = 2131427418;
 			
 			static Layout()
 			{

@@ -49,7 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Com.OneSignal">
-      <Version>3.7.1</Version>
+      <Version>3.7.2</Version>
     </PackageReference>
     <PackageReference Include="FormsCurvedBottomNavigation">
       <Version>1.2.0</Version>

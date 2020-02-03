@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="Bizland.Core.AppShell"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="clr-namespace:Bizland.Core.Views"
+    FlyoutBehavior="Disabled"
+    mc:Ignorable="d">
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Color x:Key="ThemeColor">#530100</Color>
+            <Color x:Key="GrayColor">Gray</Color>
+            <Color x:Key="BgColor">#F0F0F0</Color>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource BgColor}" />
+                <Setter Property="Shell.ForegroundColor" Value="{StaticResource ThemeColor}" />
+                <Setter Property="Shell.UnselectedColor" Value="{StaticResource GrayColor}" />
+                <Setter Property="Shell.TitleColor" Value="{StaticResource ThemeColor}" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource BgColor}" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource ThemeColor}" />
+                <Setter Property="Shell.TabBarUnselectedColor" Value="{StaticResource GrayColor}" />
+                <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource ThemeColor}" />
+            </Style>
+            <Style BasedOn="{StaticResource BaseStyle}" TargetType="TabBar" />
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <TabBar>
+        <Tab Title="Shop" Icon="ic_home.png">
+            <ShellContent ContentTemplate="{DataTemplate views:MainPage}" />
+        </Tab>
+        <Tab Title="Explore" Icon="ic_home.png">
+            <ShellContent ContentTemplate="{DataTemplate views:NoInternetConnectionPage}" />
+        </Tab>
+        <Tab Title="Collections" Icon="ic_home.png">
+            <ShellContent ContentTemplate="{DataTemplate views:NoPhotosPage}" />
+        </Tab>
+        <Tab Title="Profile" Icon="ic_home.png">
+            <ShellContent ContentTemplate="{DataTemplate views:NoItemPage}" />
+        </Tab>
+    </TabBar>
+</Shell>

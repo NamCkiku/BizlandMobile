@@ -156,5 +156,8 @@
   <ItemGroup>
     <BundleResource Include="Resources\ic_home%403x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CustomRenderer\" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

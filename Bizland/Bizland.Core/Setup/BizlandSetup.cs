@@ -1,5 +1,6 @@
 ﻿using Bizland.Core.ViewModels;
 using Bizland.Core.Views;
+using Bizland.Utilities.Constant;
 using Prism.Ioc;
 using Prism.Navigation;
 using Prism.Plugin.Popups;
@@ -12,16 +13,10 @@ namespace Bizland.Core.Setup
     {
         public static void Initialize()
         {
-            //AssetsExtension.InitAssetsExtension("AppResources.Assets", typeof(App).GetTypeInfo().Assembly);
-            //ImageResourceExtension.InitImageResourceExtension("AppResources.Assets", typeof(App).GetTypeInfo().Assembly);
-
             //Đăng kí sử dụng Syncfusion
-            //Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(Config.SyncfusionKey);
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(Config.SyncfusionKey);
 
-            //CultureHelper.SetCulture();
-
-            // Đăng ký config automapper
-            //AutoMapperConfig.Initialize();
+            CultureHelper.SetCulture();
         }
 
         public static void RegisterServices(IContainerRegistry containerRegistry)

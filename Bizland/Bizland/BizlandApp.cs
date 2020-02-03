@@ -25,7 +25,7 @@ namespace Bizland
                  "android=c1cfc93a-c3b6-4736-83d8-244f05a198f6",
                  typeof(Analytics), typeof(Crashes));
 
-
+            //MainPage = new AppShell();
             //Nếu cài app lần đầu tiên hoặc có sự thay đổi dữ liệu trên server thì sẽ vào trang cập nhật thông tin vào localDB
             //await NavigationService.NavigateAsync("/MainPage");
 

@@ -26,6 +26,7 @@
     <MtouchArch>i386, x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
+    <MtouchExtraArgs>--registrar:static</MtouchExtraArgs>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -222,7 +223,7 @@
       <Name>Bizland.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\Bizland\Bizland.csproj">
-      <Project>{A682884C-CB44-4A89-B752-27BB634E0ABE}</Project>
+      <Project>{0AC78A65-766A-4B0C-91C4-D9391DAB0802}</Project>
       <Name>Bizland</Name>
     </ProjectReference>
   </ItemGroup>

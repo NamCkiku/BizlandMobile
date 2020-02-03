@@ -28,8 +28,6 @@
 	<string>BA GPS</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcons.appiconset</string>
-	<key>XSLaunchImageAssets</key>
-	<string>Assets.xcassets/LaunchImage.launchimage</string>
 	<key>CFBundleLocalizations</key>
 	<array>
 		<string>en</string>
@@ -81,5 +79,7 @@
 	<string>1.0.0</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0.0</string>
+	<key>XSLaunchImageAssets</key>
+	<string>Assets.xcassets/LaunchImage.launchimage</string>
 </dict>
 </plist>

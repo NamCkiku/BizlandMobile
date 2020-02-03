@@ -29,10 +29,10 @@ namespace Bizland.Core.Droid.Setup
             //CardsViewRenderer.Preserve();
 
             // Override default BitmapDescriptorFactory by your implementation
-            //FormsGoogleMaps.Init(activity, bundle, new PlatformConfig
-            //{
-            //    BitmapDescriptorFactory = new CachingNativeBitmapDescriptorFactory()
-            //});
+            FormsGoogleMaps.Init(activity, bundle, new PlatformConfig
+            {
+                BitmapDescriptorFactory = new CachingNativeBitmapDescriptorFactory()
+            });
         }
     }
 }

@@ -27,7 +27,7 @@ namespace Bizland
 
 
             //Nếu cài app lần đầu tiên hoặc có sự thay đổi dữ liệu trên server thì sẽ vào trang cập nhật thông tin vào localDB
-            await NavigationService.NavigateAsync("/NoPhotosPage");
+            await NavigationService.NavigateAsync("/MainPage");
         }
     }
 }

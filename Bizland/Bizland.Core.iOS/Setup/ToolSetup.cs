@@ -1,4 +1,6 @@
-﻿using FFImageLoading.Forms.Platform;
+﻿using Bizland.Core.iOS.Factories;
+using Bizland.Utilities.Constant;
+using FFImageLoading.Forms.Platform;
 using Syncfusion.XForms.iOS.Buttons;
 using Xamarin.Forms.Platform.iOS;
 
@@ -24,10 +26,10 @@ namespace Bizland.Core.iOS.Setup
             CachedImageRenderer.InitImageSourceHandler();
 
             // Override default ImageFactory by your implementation.
-            //FormsGoogleMaps.Init(Config.GoogleMapKeyiOS, new PlatformConfig
-            //{
-            //    ImageFactory = new CachingImageFactory()
-            //});
+            FormsGoogleMaps.Init(Config.GoogleMapKeyiOS, new PlatformConfig
+            {
+                ImageFactory = new CachingImageFactory()
+            });
 
             // Syncfusion
             SfButtonRenderer.Init();

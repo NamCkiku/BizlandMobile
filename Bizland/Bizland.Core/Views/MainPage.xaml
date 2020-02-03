@@ -3,9 +3,14 @@
     x:Class="Bizland.Core.Views.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:maps="clr-namespace:Bizland.Core"
     Title="{Binding Title}">
 
-    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Label Text="Welcome to Xamarin Forms and Prism!" />
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <maps:Map
+            x:Name="map"
+            InitialCameraUpdate="-23.68, -46.87, 13, 30, 60"
+            IsShowingUser="False"
+            VerticalOptions="FillAndExpand" />
     </StackLayout>
 </ContentPage>

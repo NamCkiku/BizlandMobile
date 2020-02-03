@@ -3,13 +3,14 @@ using Android.OS;
 using Android.Runtime;
 
 using Plugin.CurrentActivity;
+using Bizland.Utilities.Constant;
 
 using System;
 
 namespace Bizland.Core.Droid
 {
     [Application]
-    [MetaData("com.google.android.maps.v2.API_KEY", Value = "")]
+    [MetaData("com.google.android.maps.v2.API_KEY", Value = Config.GoogleMapKeyAndroid)]
     public class MainApplication : Android.App.Application, Android.App.Application.IActivityLifecycleCallbacks
     {
         public MainApplication(IntPtr handle, JniHandleOwnership transer)

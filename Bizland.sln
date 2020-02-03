@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizland", "Bizland\Bizland\Bizland.csproj", "{0AC78A65-766A-4B0C-91C4-D9391DAB0802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bizland", "Bizland\Bizland\Bizland.csproj", "{0AC78A65-766A-4B0C-91C4-D9391DAB0802}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizland.Android", "Bizland\Bizland.Android\Bizland.Android.csproj", "{1DDFE201-B19C-4249-9516-B037E0E93469}"
 EndProject
@@ -27,13 +27,22 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizland.Core.Droid", "Bizla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizland.Core.iOS", "Bizland\Bizland.Core.iOS\Bizland.Core.iOS.csproj", "{0D227235-8003-45FE-A24B-B2526C7EE371}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizland.Core", "Bizland\Bizland.Core\Bizland.Core.csproj", "{16011736-41E8-49F6-A67E-E0364959EF17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bizland.Core", "Bizland\Bizland.Core\Bizland.Core.csproj", "{16011736-41E8-49F6-A67E-E0364959EF17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizland.Entities", "Bizland\Bizland.Entities\Bizland.Entities.csproj", "{F8142FE3-2BA8-4B55-9C1A-798E6BD711D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bizland.Entities", "Bizland\Bizland.Entities\Bizland.Entities.csproj", "{F8142FE3-2BA8-4B55-9C1A-798E6BD711D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizland.Service", "Bizland\Bizland.Service\Bizland.Service.csproj", "{748C7AB7-C518-42A9-9118-278FC87630E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bizland.Service", "Bizland\Bizland.Service\Bizland.Service.csproj", "{748C7AB7-C518-42A9-9118-278FC87630E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizland.Utilities", "Bizland\Bizland.Utilities\Bizland.Utilities.csproj", "{5E6F9FD2-F7EF-4490-952E-039A417F4D9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bizland.Utilities", "Bizland\Bizland.Utilities\Bizland.Utilities.csproj", "{5E6F9FD2-F7EF-4490-952E-039A417F4D9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Android", "Android", "{8056BFE5-B945-4390-A774-AA14E2F1C815}"
+	ProjectSection(SolutionItems) = preProject
+		Bizland\Library\Android\GoogleMapsUtility.dll = Bizland\Library\Android\GoogleMapsUtility.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iOS", "iOS", "{B84B4000-3B14-4431-BA64-29A0258C9CE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B224A832-A0F2-4B6D-BAB1-E40E4390A672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -289,6 +298,9 @@ Global
 		{F8142FE3-2BA8-4B55-9C1A-798E6BD711D4} = {97BAD5F7-8951-4F0D-B8F9-179A4CD93E17}
 		{748C7AB7-C518-42A9-9118-278FC87630E1} = {25CA078B-605F-492F-ACBB-18E47F0B24CF}
 		{5E6F9FD2-F7EF-4490-952E-039A417F4D9F} = {9E5F899C-191A-4C89-8AC5-172B2C02A3B9}
+		{8056BFE5-B945-4390-A774-AA14E2F1C815} = {575F1FB8-2392-447D-AA5F-009B888F692E}
+		{B84B4000-3B14-4431-BA64-29A0258C9CE6} = {575F1FB8-2392-447D-AA5F-009B888F692E}
+		{B224A832-A0F2-4B6D-BAB1-E40E4390A672} = {575F1FB8-2392-447D-AA5F-009B888F692E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB78FA88-5A5C-4E5D-84A2-466BC5CD37A0}

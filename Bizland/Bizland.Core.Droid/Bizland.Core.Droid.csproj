@@ -36,6 +36,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GoogleMapsUtility">
+      <HintPath>..\Library\Android\GoogleMapsUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
@@ -150,6 +153,37 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseActivity.cs" />
+    <Compile Include="GoogleMaps\Cluster\ClusteredMarker.cs" />
+    <Compile Include="GoogleMaps\Cluster\ClusterLogicHandler.cs" />
+    <Compile Include="GoogleMaps\Cluster\ClusterRenderer.cs" />
+    <Compile Include="GoogleMaps\Cluster\IconClusterGenerator.cs" />
+    <Compile Include="GoogleMaps\Extensions\ActivityExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\BoundsExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\CameraPositionExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\CameraUpdateExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\EnumerableExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\LatLngExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\MapViewExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\PositionExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\VisibleRegionExtensions.cs" />
+    <Compile Include="GoogleMaps\Factories\DefaultBitmapDescriptorFactory.cs" />
+    <Compile Include="GoogleMaps\Factories\IBitmapDescriptorFactory.cs" />
+    <Compile Include="GoogleMaps\Logics\CameraLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\CircleLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\ClusterLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\DelegateCancelableCallback.cs" />
+    <Compile Include="GoogleMaps\Logics\DelegateSnapshotReadyCallback.cs" />
+    <Compile Include="GoogleMaps\Logics\GroundOverlayLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\PinLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\PolygonLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\PolylineLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\UiSettingsLogic.cs" />
+    <Compile Include="GoogleMaps\MapRender\CachingNativeBitmapDescriptorFactory.cs" />
+    <Compile Include="GoogleMaps\MapRender\FormsGoogleMaps.cs" />
+    <Compile Include="GoogleMaps\MapRender\MapRenderer.cs" />
+    <Compile Include="GoogleMaps\MapRender\PlatformConfig.cs" />
+    <Compile Include="GoogleMaps\MapRender\Utils.cs" />
+    <Compile Include="GoogleMaps\MapRender\UtilsCluster.cs" />
     <Compile Include="MainApplication.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -164,9 +198,7 @@
   <ItemGroup>
     <AndroidResource Include="Resources\values\strings.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\drawable\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Bizland.Core\Bizland.Core.csproj">
       <Project>{16011736-41e8-49f6-a67e-e0364959ef17}</Project>
@@ -176,6 +208,12 @@
       <Project>{5e6f9fd2-f7ef-4490-952e-039a417f4d9f}</Project>
       <Name>Bizland.Utilities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\amu_text_bubble_cluster.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ic_cluster.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

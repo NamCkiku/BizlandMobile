@@ -106,6 +106,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDelegate.cs" />
+    <Compile Include="GoogleMaps\Cluster\ClusteredMarker.cs" />
+    <Compile Include="GoogleMaps\Cluster\ClusterIconGeneratorHandler.cs" />
+    <Compile Include="GoogleMaps\Cluster\ClusterRendererHandler.cs" />
+    <Compile Include="GoogleMaps\Extensions\BoundsExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\CameraPositionExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\CameraUpdateExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\CLLocationCoordinate2DExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\EnumerableExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\PointExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\PositionExtensions.cs" />
+    <Compile Include="GoogleMaps\Extensions\ThicknessExtension.cs" />
+    <Compile Include="GoogleMaps\Extensions\VisibleRegionExtensions.cs" />
+    <Compile Include="GoogleMaps\Factories\CachingImageFactory.cs" />
+    <Compile Include="GoogleMaps\Factories\DefaultImageFactory.cs" />
+    <Compile Include="GoogleMaps\Factories\IImageFactory.cs" />
+    <Compile Include="GoogleMaps\Logics\CameraLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\CircleLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\ClusterLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\GroundOverlayLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\PinLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\PolygonLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\PolylineLogic.cs" />
+    <Compile Include="GoogleMaps\Logics\UiSettingsLogic.cs" />
+    <Compile Include="GoogleMaps\MapRender\FormsGoogleMaps.cs" />
+    <Compile Include="GoogleMaps\MapRender\MapRenderer.cs" />
+    <Compile Include="GoogleMaps\MapRender\PlatformConfig.cs" />
+    <Compile Include="GoogleMaps\MapRender\Utils.cs" />
+    <Compile Include="GoogleMaps\MapRender\UtilsCluster.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setup\ToolSetup.cs" />
   </ItemGroup>

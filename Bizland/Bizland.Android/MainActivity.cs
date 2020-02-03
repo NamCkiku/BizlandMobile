@@ -9,7 +9,8 @@ using Xamarin.Forms;
 
 namespace Bizland.Droid
 {
-    [Activity(Label = "Bizland", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Bizland", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme", MainLauncher = false,
+        LaunchMode = LaunchMode.SingleTask, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : BaseActivity
     {
         protected override void OnCreate(Bundle bundle)

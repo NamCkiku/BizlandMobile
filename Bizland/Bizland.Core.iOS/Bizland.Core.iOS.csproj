@@ -112,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDelegate.cs" />
+    <Compile Include="CustomRenderer\FrameShadowRenderer.cs" />
     <Compile Include="Effects\BorderlessEffect.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusteredMarker.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusterIconGeneratorHandler.cs" />
@@ -160,9 +161,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\ic_home%403x.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CustomRenderer\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BundleResource Include="Resources\flag_vn.png" />
   </ItemGroup>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="Bizland.Core.Views.RegisterPage"
+    x:Class="Bizland.Core.Views.OTPPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:checkbox="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
@@ -59,7 +59,7 @@
                 </syncEffectsView:SfEffectsView>
 
                 <StackLayout Grid.Column="1" VerticalOptions="Center">
-                    <Label Style="{StaticResource Header}" Text="CREATE ACCOUNT" />
+                    <Label Style="{StaticResource Header}" Text="VERIFY CODE" />
                 </StackLayout>
             </Grid>
 
@@ -67,67 +67,114 @@
 
                 <StackLayout Padding="40,0,40,0" VerticalOptions="CenterAndExpand">
                     <Label
-                        Text="Hello , nice to meet you!"
+                        Text="Phone Verification"
                         TextColor="{StaticResource Secondary}"
                         VerticalOptions="Center" />
                     <Label
-                        Margin="0,0,0,20"
                         Style="{StaticResource Header}"
-                        Text="Join our Company!"
+                        Text="Enter your OTP code!"
                         TextColor="{StaticResource Secondary}"
                         VerticalOptions="Center" />
-                    <controls:CustomShadowFrame
-                        Padding="10"
-                        CornerRadius="5"
-                        HasShadow="True"
-                        ShadowOffSetHeight="4"
-                        ShadowOffsetWidth="0"
-                        ShadowOpacity="0.12">
-                        <controls:CustomShadowFrame.Content>
-                            <StackLayout
-                                Grid.Column="2"
-                                HorizontalOptions="FillAndExpand"
-                                Orientation="Horizontal"
-                                VerticalOptions="Center">
-                                <StackLayout.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding PushtoLanguageCommand}" />
-                                </StackLayout.GestureRecognizers>
-                                <ffImage:CachedImage
-                                    Aspect="AspectFit"
-                                    BitmapOptimizations="True"
-                                    HeightRequest="25"
-                                    HorizontalOptions="Start"
-                                    Source="flag_vn.png"
-                                    VerticalOptions="Center"
-                                    WidthRequest="25" />
-                                <Label
-                                    Text="+84"
-                                    TextColor="{StaticResource Secondary}"
-                                    VerticalOptions="Center" />
-                                <controls:FontAwesomeIcon
-                                    HorizontalOptions="Start"
-                                    Text="{x:Static fontawesome:FontAwesomeIcons.CaretDown}"
-                                    VerticalOptions="Center" />
+
+                    <Label
+                        Margin="0,0,0,20"
+                        Text="Enter the 4-digit code sent to you at +84 065207749. Did you enter the correct number?"
+                        TextColor="{StaticResource Secondary}"
+                        VerticalOptions="Center" />
+
+
+                    <FlexLayout
+                        AlignItems="Center"
+                        Direction="Row"
+                        FlowDirection="MatchParent"
+                        HorizontalOptions="FillAndExpand"
+                        JustifyContent="SpaceEvenly">
+                        <controls:CustomShadowFrame
+                            Padding="25,10,25,10"
+                            CornerRadius="5"
+                            HasShadow="True"
+                            ShadowOffSetHeight="4"
+                            ShadowOffsetWidth="0"
+                            ShadowOpacity="0.12">
+                            <controls:CustomShadowFrame.Content>
                                 <Entry
-                                    MaxLength="50"
-                                    Placeholder="Enter your mobile number"
+                                    FontSize="20"
+                                    MaxLength="1"
+                                    Placeholder="0"
                                     PlaceholderColor="{StaticResource Additional}"
                                     Text="{Binding UserName.Value}">
                                     <Entry.Effects>
                                         <ef:BorderlessEffect />
                                     </Entry.Effects>
                                 </Entry>
-                            </StackLayout>
 
-                        </controls:CustomShadowFrame.Content>
-                    </controls:CustomShadowFrame>
+                            </controls:CustomShadowFrame.Content>
+                        </controls:CustomShadowFrame>
+                        <controls:CustomShadowFrame
+                            Padding="25,10,25,10"
+                            CornerRadius="5"
+                            HasShadow="True"
+                            ShadowOffSetHeight="4"
+                            ShadowOffsetWidth="0"
+                            ShadowOpacity="0.12">
+                            <controls:CustomShadowFrame.Content>
+                                <Entry
+                                    FontSize="20"
+                                    MaxLength="1"
+                                    Placeholder="0"
+                                    PlaceholderColor="{StaticResource Additional}"
+                                    Text="{Binding UserName.Value}">
+                                    <Entry.Effects>
+                                        <ef:BorderlessEffect />
+                                    </Entry.Effects>
+                                </Entry>
 
-                    <Label
-                        Margin="0,20,0,20"
-                        HorizontalTextAlignment="Center"
-                        Text="By creating an account , you agree to our Tems of Service and Privacy Policy"
-                        TextColor="{StaticResource Secondary}"
-                        VerticalOptions="Center" />
+                            </controls:CustomShadowFrame.Content>
+                        </controls:CustomShadowFrame>
+                        <controls:CustomShadowFrame
+                            Padding="25,10,25,10"
+                            CornerRadius="5"
+                            HasShadow="True"
+                            ShadowOffSetHeight="4"
+                            ShadowOffsetWidth="0"
+                            ShadowOpacity="0.12">
+                            <controls:CustomShadowFrame.Content>
+                                <Entry
+                                    FontSize="20"
+                                    MaxLength="1"
+                                    Placeholder="0"
+                                    PlaceholderColor="{StaticResource Additional}"
+                                    Text="{Binding UserName.Value}">
+                                    <Entry.Effects>
+                                        <ef:BorderlessEffect />
+                                    </Entry.Effects>
+                                </Entry>
+
+                            </controls:CustomShadowFrame.Content>
+                        </controls:CustomShadowFrame>
+                        <controls:CustomShadowFrame
+                            Padding="25,10,25,10"
+                            CornerRadius="5"
+                            HasShadow="True"
+                            ShadowOffSetHeight="4"
+                            ShadowOffsetWidth="0"
+                            ShadowOpacity="0.12">
+                            <controls:CustomShadowFrame.Content>
+                                <Entry
+                                    FontSize="20"
+                                    MaxLength="1"
+                                    Placeholder="0"
+                                    PlaceholderColor="{StaticResource Additional}"
+                                    Text="{Binding UserName.Value}">
+                                    <Entry.Effects>
+                                        <ef:BorderlessEffect />
+                                    </Entry.Effects>
+                                </Entry>
+
+                            </controls:CustomShadowFrame.Content>
+                        </controls:CustomShadowFrame>
+                    </FlexLayout>
+
 
                     <Button
                         x:Name="btnLogin"
@@ -136,7 +183,7 @@
                         CornerRadius="10"
                         HeightRequest="50"
                         HorizontalOptions="FillAndExpand"
-                        Text="CONTINUE"
+                        Text="VERIFY"
                         VerticalOptions="Center" />
                 </StackLayout>
                 <StackLayout
@@ -152,7 +199,7 @@
                             BackgroundColor="Transparent"
                             Command="{Binding SkipCommand}"
                             HorizontalOptions="Center"
-                            Text="Or sign an account"
+                            Text="Resend Code in 10 secounds"
                             TextColor="{StaticResource Additional}" />
                     </StackLayout>
                 </StackLayout>

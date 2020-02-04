@@ -354,17 +354,5 @@
       <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\boaring3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\boaring1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\boaring2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\bg_boaring.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

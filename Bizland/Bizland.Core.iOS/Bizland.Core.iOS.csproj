@@ -112,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDelegate.cs" />
+    <Compile Include="Effects\BorderlessEffect.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusteredMarker.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusterIconGeneratorHandler.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusterRendererHandler.cs" />

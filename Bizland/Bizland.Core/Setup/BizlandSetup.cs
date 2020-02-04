@@ -47,6 +47,7 @@ namespace Bizland.Core.Setup
             containerRegistry.RegisterForNavigation<NoPhotosPage, NoPhotosPageViewModel>("NoPhotosPage");
             containerRegistry.RegisterForNavigation<OnBoardingPage, OnBoardingPageViewModel>("OnBoardingPage");
             containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>("LoginPage");
+            containerRegistry.RegisterForNavigation<RegisterPage, RegisterPageViewModel>("RegisterPage");
         }
     }
 }

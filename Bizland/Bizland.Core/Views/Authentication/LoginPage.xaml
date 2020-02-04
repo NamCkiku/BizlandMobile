@@ -11,6 +11,7 @@
     xmlns:fontawesome="clr-namespace:FontAwesome;assembly=Bizland.Utilities"
     xmlns:input="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
     xmlns:prism="http://prismlibrary.com"
+    xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
     prism:ViewModelLocator.AutowireViewModel="True"
     NavigationPage.HasNavigationBar="False">
 
@@ -45,14 +46,22 @@
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
 
-                <controls:FontAwesomeIcon
+                <syncEffectsView:SfEffectsView
                     Grid.Column="0"
-                    FontAttributes="Bold"
-                    FontSize="40"
+                    Angle="360"
+                    HighlightColor="#FF0000"
                     HorizontalOptions="Start"
-                    Text="{x:Static fontawesome:FontAwesomeIcons.ArrowAltCircleLeft}"
-                    TextColor="White"
-                    VerticalOptions="Center" />
+                    TouchDownEffects="Rotation"
+                    VerticalOptions="Center">
+                    <controls:FontAwesomeIcon
+                        FontAttributes="Bold"
+                        FontSize="40"
+                        HorizontalOptions="Start"
+                        Text="{x:Static fontawesome:FontAwesomeIcons.ArrowAltCircleLeft}"
+                        TextColor="White"
+                        VerticalOptions="Center" />
+                </syncEffectsView:SfEffectsView>
+
                 <StackLayout Grid.Column="1" VerticalOptions="Center">
                     <Label Style="{StaticResource Header}" Text="SIGN IN" />
                 </StackLayout>

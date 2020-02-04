@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Bizland.Core.Views.RegisterPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:checkbox="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+    xmlns:controls="clr-namespace:Bizland.Core.Controls"
+    xmlns:ef="clr-namespace:Bizland.Core.Effects"
+    xmlns:ffImage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:fontawesome="clr-namespace:FontAwesome;assembly=Bizland.Utilities"
+    xmlns:input="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <ffImage:CachedImage
+                Grid.RowSpan="2"
+                Aspect="AspectFill"
+                BitmapOptimizations="True"
+                HorizontalOptions="FillAndExpand"
+                Source="bg_login.png"
+                VerticalOptions="FillAndExpand" />
+
+            <!--  Header Section  -->
+            <Grid Grid.Row="0" ColumnSpacing="20">
+                <Grid.Margin>
+                    <OnPlatform x:TypeArguments="Thickness">
+                        <OnPlatform.Platforms>
+                            <On Platform="iOS" Value="20, 60, 20, 20" />
+                            <On Platform="Android" Value="20" />
+                        </OnPlatform.Platforms>
+                    </OnPlatform>
+                </Grid.Margin>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <syncEffectsView:SfEffectsView
+                    Grid.Column="0"
+                    Angle="360"
+                    HighlightColor="#FF0000"
+                    HorizontalOptions="Start"
+                    TouchDownEffects="Rotation"
+                    VerticalOptions="Center">
+                    <controls:FontAwesomeIcon
+                        FontAttributes="Bold"
+                        FontSize="40"
+                        HorizontalOptions="Start"
+                        Text="{x:Static fontawesome:FontAwesomeIcons.ArrowAltCircleLeft}"
+                        TextColor="White"
+                        VerticalOptions="Center" />
+                </syncEffectsView:SfEffectsView>
+
+                <StackLayout Grid.Column="1" VerticalOptions="Center">
+                    <Label Style="{StaticResource Header}" Text="CREATE ACCOUNT" />
+                </StackLayout>
+            </Grid>
+
+            <StackLayout Grid.Row="1">
+
+                <StackLayout Padding="40,0,40,0" VerticalOptions="CenterAndExpand">
+                    <Label
+                        Text="Hello , nice to meet you!"
+                        TextColor="{StaticResource Secondary}"
+                        VerticalOptions="Center" />
+                    <Label
+                        Margin="0,0,0,20"
+                        Style="{StaticResource Header}"
+                        Text="Join our Company!"
+                        TextColor="{StaticResource Secondary}"
+                        VerticalOptions="Center" />
+                    <Frame
+                        Padding="10"
+                        CornerRadius="5"
+                        HasShadow="True">
+                        <Frame.Content>
+                            <StackLayout
+                                Grid.Column="2"
+                                HorizontalOptions="FillAndExpand"
+                                Orientation="Horizontal"
+                                VerticalOptions="Center">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding PushtoLanguageCommand}" />
+                                </StackLayout.GestureRecognizers>
+                                <ffImage:CachedImage
+                                    Aspect="AspectFit"
+                                    BitmapOptimizations="True"
+                                    HeightRequest="25"
+                                    HorizontalOptions="Start"
+                                    Source="flag_vn.png"
+                                    VerticalOptions="Center"
+                                    WidthRequest="25" />
+                                <Label
+                                    Text="+84"
+                                    TextColor="{StaticResource Secondary}"
+                                    VerticalOptions="Center" />
+                                <controls:FontAwesomeIcon
+                                    HorizontalOptions="Start"
+                                    Text="{x:Static fontawesome:FontAwesomeIcons.CaretDown}"
+                                    VerticalOptions="Center" />
+                                <Entry
+                                    MaxLength="50"
+                                    Placeholder="Enter your mobile number"
+                                    PlaceholderColor="{StaticResource Additional}"
+                                    Text="{Binding UserName.Value}">
+                                    <Entry.Effects>
+                                        <ef:BorderlessEffect />
+                                    </Entry.Effects>
+                                </Entry>
+                            </StackLayout>
+
+                        </Frame.Content>
+                    </Frame>
+
+                    <Label
+                        Margin="0,20,0,20"
+                        HorizontalTextAlignment="Center"
+                        Text="By creating an account , you agree to our Tems of Service and Privacy Policy"
+                        TextColor="{StaticResource Secondary}"
+                        VerticalOptions="Center" />
+
+                    <Button
+                        x:Name="btnLogin"
+                        Margin="0,10,0,10"
+                        Command="{Binding LoginCommand}"
+                        CornerRadius="10"
+                        HeightRequest="50"
+                        HorizontalOptions="FillAndExpand"
+                        Text="CONTINUE"
+                        VerticalOptions="Center" />
+                </StackLayout>
+                <StackLayout
+                    Margin="5"
+                    Spacing="10"
+                    VerticalOptions="End">
+                    <StackLayout
+                        HorizontalOptions="Center"
+                        Orientation="Horizontal"
+                        VerticalOptions="Center">
+                        <!--  Register button  -->
+                        <Button
+                            BackgroundColor="Transparent"
+                            Command="{Binding SkipCommand}"
+                            HorizontalOptions="Center"
+                            Text="Or sign an account"
+                            TextColor="{StaticResource Additional}" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

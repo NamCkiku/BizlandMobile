@@ -40,13 +40,13 @@ namespace Bizland.Core.Behaviors
                 var viewModel = rotator.BindingContext as OnBoardingPageViewModel;
                 if (selectedIndex == itemsCount - 1)
                 {
-                    viewModel.NextButtonText = "GET STARTED";
-                    viewModel.IsSkipButtonVisible = false;
+                    //viewModel.NextButtonText = "GET STARTED";
+                    //viewModel.IsSkipButtonVisible = false;
                 }
                 else
                 {
-                    viewModel.NextButtonText = "NEXT";
-                    viewModel.IsSkipButtonVisible = true;
+                    //viewModel.NextButtonText = "NEXT";
+                    //viewModel.IsSkipButtonVisible = true;
                 }
 
                 if (Device.RuntimePlatform != Device.UWP)

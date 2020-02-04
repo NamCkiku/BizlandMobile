@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:checkbox="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:controls="clr-namespace:Bizland.Core.Controls"
+    xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
     xmlns:ffImage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
     xmlns:fontawesome="clr-namespace:FontAwesome;assembly=Bizland.Utilities"
@@ -29,10 +30,15 @@
                 VerticalOptions="FillAndExpand" />
 
             <!--  Header Section  -->
-            <Grid
-                Grid.Row="0"
-                Margin="20,20,20,20"
-                ColumnSpacing="20">
+            <Grid Grid.Row="0" ColumnSpacing="20">
+                <Grid.Margin>
+                    <OnPlatform x:TypeArguments="Thickness">
+                        <OnPlatform.Platforms>
+                            <On Platform="iOS" Value="20, 60, 20, 20" />
+                            <On Platform="Android" Value="20" />
+                        </OnPlatform.Platforms>
+                    </OnPlatform>
+                </Grid.Margin>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />

@@ -35,19 +35,19 @@ namespace Bizland.Core.ViewModels
             {
                 new Boarding
                 {
-                    ImagePath = "ChooseGradient.svg",
+                    ImagePath = "boaring1.png",
                     Header = "CHOOSE",
                     Content = "Pick the item that is right for you"
                 },
                 new Boarding
                 {
-                    ImagePath = "ConfirmGradient.svg",
+                    ImagePath = "boaring2.png",
                     Header = "ORDER CONFIRMED",
                     Content = "Your order is confirmed and will be on its way soon"
                 },
                 new Boarding
                 {
-                    ImagePath = "DeliverGradient.svg",
+                    ImagePath = "boaring3.png",
                     Header = "DELIVERY",
                     Content = "Your item will arrive soon. Email us if you have any issues"
                 }

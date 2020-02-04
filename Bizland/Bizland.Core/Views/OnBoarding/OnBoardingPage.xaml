@@ -5,11 +5,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:behavior="clr-namespace:Bizland.Core.Behaviors"
     xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
+    xmlns:ffImage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     xmlns:gradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
     xmlns:prism="http://prismlibrary.com"
     xmlns:rotator="clr-namespace:Syncfusion.SfRotator.XForms;assembly=Syncfusion.SfRotator.XForms"
     xmlns:svg="clr-namespace:Bizland.Core.Controls"
-    prism:ViewModelLocator.AutowireViewModel="True">
+    prism:ViewModelLocator.AutowireViewModel="True"
+    BackgroundImageSource="bg_boaring.png">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="SfGradientViewStyle" TargetType="gradient:SfGradientView">
@@ -41,6 +43,7 @@
                 Margin="10"
                 BackgroundColor="Transparent"
                 DotPlacement="OutSide"
+                DotsBorderColor="{StaticResource PrimaryColor}"
                 EnableLooping="False"
                 EnableSwiping="True"
                 HorizontalOptions="FillAndExpand"
@@ -58,7 +61,7 @@
                             VerticalOptions="StartAndExpand">
                             <!--  Label to display header  -->
                             <Label
-                                Margin="0,30,0,8"
+                                Margin="0,60,0,0"
                                 FontFamily="{StaticResource myFontLatoBold}"
                                 FontSize="20"
                                 HorizontalTextAlignment="Start"
@@ -74,9 +77,9 @@
                                 VerticalOptions="Start"
                                 VerticalTextAlignment="Start" />
                             <!--  Image for display svg image  -->
-                            <svg:SVGImage
+                            <ffImage:CachedImage
                                 Margin="10"
-                                HeightRequest="{core:OnPlatformOrientationDoubleValue Default=300,
+                                HeightRequest="{core:OnPlatformOrientationDoubleValue Default=400,
                                                                                       AndroidPhonePortrait=300,
                                                                                       AndroidPhoneLandscape=140,
                                                                                       iOSPhonePortrait=200,
@@ -84,7 +87,7 @@
                                 HorizontalOptions="CenterAndExpand"
                                 Source="{Binding ImagePath}"
                                 VerticalOptions="Center"
-                                WidthRequest="{x:OnIdiom Phone=300,
+                                WidthRequest="{x:OnIdiom Phone=400,
                                                          Desktop=300,
                                                          Tablet=300}" />
 
@@ -93,7 +96,10 @@
                 </rotator:SfRotator.ItemTemplate>
             </rotator:SfRotator>
 
-            <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand">
+            <StackLayout
+                Grid.Row="1"
+                Padding="0,20,0,20"
+                HorizontalOptions="FillAndExpand">
                 <!--  Login button  -->
                 <Button
                     Margin="20,0,20,0"

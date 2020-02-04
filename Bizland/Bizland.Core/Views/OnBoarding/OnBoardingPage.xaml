@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Bizland.Core.Views.OnBoardingPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:behavior="clr-namespace:Bizland.Core.Behaviors"
+    xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
+    xmlns:gradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:rotator="clr-namespace:Syncfusion.SfRotator.XForms;assembly=Syncfusion.SfRotator.XForms"
+    xmlns:svg="clr-namespace:Bizland.Core.Controls"
+    prism:ViewModelLocator.AutowireViewModel="True">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="SfGradientViewStyle" TargetType="gradient:SfGradientView">
+                <Setter Property="BackgroundBrush">
+                    <Setter.Value>
+                        <gradient:SfLinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <gradient:SfLinearGradientBrush.GradientStops>
+                                <gradient:SfGradientStop Offset="0.0" Color="#ff9500" />
+                                <gradient:SfGradientStop Offset="1.0" Color="#f9b914" />
+                            </gradient:SfLinearGradientBrush.GradientStops>
+                        </gradient:SfLinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <!--  Gradient view  -->
+            <!--<gradient:SfGradientView Grid.RowSpan="2" Style="{StaticResource SfGradientViewStyle}" />-->
+            <!--  Rotator used to navigate the view  -->
+            <rotator:SfRotator
+                x:Name="Rotator"
+                Grid.RowSpan="2"
+                Margin="10"
+                BackgroundColor="Transparent"
+                DotPlacement="OutSide"
+                EnableLooping="False"
+                EnableSwiping="True"
+                HorizontalOptions="FillAndExpand"
+                ItemsSource="{Binding Boardings}"
+                NavigationDirection="Horizontal"
+                SelectedDotColor="{StaticResource PrimaryColor}"
+                SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}"
+                UnselectedDotColor="{StaticResource Secondary}"
+                VerticalOptions="FillAndExpand">
+                <rotator:SfRotator.Behaviors>
+                    <behavior:SfRotatorBehavior />
+                </rotator:SfRotator.Behaviors>
+                <rotator:SfRotator.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout
+                            HorizontalOptions="FillAndExpand"
+                            Spacing="0"
+                            VerticalOptions="FillAndExpand">
+                            <StackLayout VerticalOptions="CenterAndExpand">
+                                <!--  Image for display svg image  -->
+                                <svg:SVGImage
+                                    HeightRequest="{core:OnPlatformOrientationDoubleValue Default=300,
+                                                                                          AndroidPhonePortrait=300,
+                                                                                          AndroidPhoneLandscape=140,
+                                                                                          iOSPhonePortrait=200,
+                                                                                          iOSPhoneLandscape=140}"
+                                    HorizontalOptions="CenterAndExpand"
+                                    Source="{Binding ImagePath}"
+                                    VerticalOptions="Center"
+                                    WidthRequest="{x:OnIdiom Phone=300,
+                                                             Desktop=300,
+                                                             Tablet=300}" />
+
+                                <!--  Label to display header  -->
+                                <Label
+                                    Margin="0,30,0,8"
+                                    FontFamily="{StaticResource myFontLatoBold}"
+                                    FontSize="20"
+                                    HorizontalTextAlignment="Center"
+                                    Text="{Binding Header}"
+                                    VerticalOptions="Start"
+                                    VerticalTextAlignment="Start" />
+
+                                <!--  Label to display content  -->
+                                <Label
+                                    FontSize="16"
+                                    HorizontalTextAlignment="Center"
+                                    Text="{Binding Content}"
+                                    VerticalOptions="Start"
+                                    VerticalTextAlignment="Start" />
+                            </StackLayout>
+
+                        </StackLayout>
+                    </DataTemplate>
+                </rotator:SfRotator.ItemTemplate>
+            </rotator:SfRotator>
+
+
+            <StackLayout
+                Grid.Row="1"
+                HorizontalOptions="FillAndExpand"
+                Orientation="Horizontal">
+                <!--  Skip button  -->
+                <Button
+                    x:Name="Skip"
+                    BackgroundColor="Transparent"
+                    Command="{Binding SkipCommand}"
+                    FontFamily="{StaticResource myFontLatoBold}"
+                    FontSize="18"
+                    HorizontalOptions="StartAndExpand"
+                    IsVisible="{Binding IsSkipButtonVisible}"
+                    Text="Skip"
+                    TextColor="{StaticResource Additional}" />
+                <!--  Next button  -->
+                <Button
+                    x:Name="NextButtonText"
+                    BackgroundColor="Transparent"
+                    Command="{Binding NextCommand}"
+                    CommandParameter="{x:Reference Rotator}"
+                    FontFamily="{StaticResource myFontLatoBold}"
+                    FontSize="18"
+                    HorizontalOptions="EndAndExpand"
+                    Text="{Binding NextButtonText}"
+                    TextColor="{StaticResource PrimaryColor}" />
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

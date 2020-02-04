@@ -5,17 +5,17 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
     <Style ApplyToDerivedTypes="True" TargetType="Page">
-        <Setter Property="BackgroundColor" Value="{StaticResource Color_Background}" />
+        <Setter Property="BackgroundColor" Value="{StaticResource White}" />
     </Style>
 
     <Style ApplyToDerivedTypes="True" TargetType="NavigationPage">
-        <Setter Property="BarBackgroundColor" Value="{StaticResource Color_Navigation}" />
+        <Setter Property="BarBackgroundColor" Value="{StaticResource PrimaryColor}" />
         <Setter Property="BarTextColor" Value="White" />
     </Style>
 
     <!--  Button region  -->
     <Style ApplyToDerivedTypes="True" TargetType="Button">
-        <Setter Property="BackgroundColor" Value="{StaticResource Color_Button}" />
+        <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}" />
         <Setter Property="TextColor" Value="White" />
         <Setter Property="CornerRadius" Value="5" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
@@ -23,7 +23,7 @@
     </Style>
 
     <Style x:Key="ButtonBase" TargetType="Button">
-        <Setter Property="TextColor" Value="{StaticResource Color_Button}" />
+        <Setter Property="TextColor" Value="{StaticResource PrimaryColor}" />
         <Setter Property="FontSize" Value="Medium" />
         <Setter Property="HorizontalOptions" Value="FillAndExpand" />
         <Setter Property="BorderWidth" Value="1" />
@@ -38,19 +38,19 @@
         TargetType="Button">
         <Setter Property="TextColor" Value="Black" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
-        <Setter Property="BorderColor" Value="{StaticResource Color_SoftRed}" />
+        <Setter Property="BorderColor" Value="{StaticResource Red}" />
     </Style>
     <!--  End Button region  -->
 
     <Style ApplyToDerivedTypes="True" TargetType="Label">
         <Setter Property="FontSize" Value="{StaticResource MyFontSize}" />
-        <Setter Property="TextColor" Value="{StaticResource Color_Text}" />
+        <Setter Property="TextColor" Value="{StaticResource Secondary}" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
     </Style>
 
     <Style ApplyToDerivedTypes="True" TargetType="Entry">
-        <Setter Property="TextColor" Value="{StaticResource Color_Text}" />
-        <Setter Property="PlaceholderColor" Value="{StaticResource Color_Placeholder}" />
+        <Setter Property="TextColor" Value="{StaticResource Secondary}" />
+        <Setter Property="PlaceholderColor" Value="{StaticResource Additional}" />
         <Setter Property="FontSize" Value="{StaticResource MyFontSize}" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
         <Setter Property="IsSpellCheckEnabled" Value="False" />
@@ -58,20 +58,20 @@
     </Style>
 
     <Style ApplyToDerivedTypes="True" TargetType="Editor">
-        <Setter Property="TextColor" Value="{StaticResource Color_Text}" />
-        <Setter Property="PlaceholderColor" Value="{StaticResource Color_Placeholder}" />
+        <Setter Property="TextColor" Value="{StaticResource Secondary}" />
+        <Setter Property="PlaceholderColor" Value="{StaticResource Additional}" />
         <Setter Property="FontSize" Value="{StaticResource MyFontSize}" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
     </Style>
 
     <Style ApplyToDerivedTypes="True" TargetType="DatePicker">
-        <Setter Property="TextColor" Value="{StaticResource Color_Text}" />
+        <Setter Property="TextColor" Value="{StaticResource Secondary}" />
         <Setter Property="FontSize" Value="{StaticResource MyFontSize}" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
     </Style>
 
     <Style x:Key="errorDescriptionStyle" TargetType="Label">
-        <Setter Property="TextColor" Value="Red" />
+        <Setter Property="TextColor" Value="{StaticResource Red}" />
         <Setter Property="FontSize" Value="Small" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
         <Setter Property="HorizontalTextAlignment" Value="Start" />

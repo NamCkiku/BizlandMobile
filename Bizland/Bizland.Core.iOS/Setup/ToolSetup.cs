@@ -1,6 +1,7 @@
 ﻿using Bizland.Core.iOS.Factories;
 using Bizland.Utilities.Constant;
 using FFImageLoading.Forms.Platform;
+using Syncfusion.SfRotator.XForms.iOS;
 using Syncfusion.XForms.iOS.Buttons;
 using Xamarin.Forms.Platform.iOS;
 
@@ -33,6 +34,7 @@ namespace Bizland.Core.iOS.Setup
 
             // Syncfusion
             SfButtonRenderer.Init();
+            SfRotatorRenderer.Init();
             //SfListViewRenderer.Init();
             //SfPickerRenderer.Init();
             //SfDataGridRenderer.Init();

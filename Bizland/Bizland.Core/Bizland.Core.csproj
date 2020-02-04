@@ -5,6 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\ChooseGradient.svg" />
+    <None Remove="Images\ConfirmGradient.svg" />
+    <None Remove="Images\DeliverGradient.svg" />
     <None Remove="Images\LocationAccessDenied.svg" />
     <None Remove="Images\NoInternet.svg" />
     <None Remove="Images\NoItem.svg" />
@@ -13,6 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Images\ChooseGradient.svg" />
+    <EmbeddedResource Include="Images\ConfirmGradient.svg" />
+    <EmbeddedResource Include="Images\DeliverGradient.svg" />
     <EmbeddedResource Include="Images\LocationAccessDenied.svg" />
     <EmbeddedResource Include="Images\NoInternet.svg" />
     <EmbeddedResource Include="Images\NoItem.svg" />
@@ -34,6 +40,7 @@
     <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
     <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.1.1" />
     <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="17.4.0.46" />
+    <PackageReference Include="Syncfusion.Xamarin.SfRotator" Version="17.4.0.46" />
     <PackageReference Include="Xam.Plugin.Geolocator" Version="4.5.0.6" />
     <PackageReference Include="Xam.Plugin.Media" Version="4.0.1.5" />
     <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
@@ -87,6 +94,9 @@
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Master\RootPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\OnBoarding\OnBoardingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -37,7 +37,7 @@
             <!--  Rotator used to navigate the view  -->
             <rotator:SfRotator
                 x:Name="Rotator"
-                Grid.RowSpan="2"
+                Grid.Row="0"
                 Margin="10"
                 BackgroundColor="Transparent"
                 DotPlacement="OutSide"
@@ -50,81 +50,67 @@
                 SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}"
                 UnselectedDotColor="{StaticResource Secondary}"
                 VerticalOptions="FillAndExpand">
-                <rotator:SfRotator.Behaviors>
-                    <behavior:SfRotatorBehavior />
-                </rotator:SfRotator.Behaviors>
                 <rotator:SfRotator.ItemTemplate>
                     <DataTemplate>
                         <StackLayout
                             HorizontalOptions="FillAndExpand"
-                            Spacing="0"
-                            VerticalOptions="FillAndExpand">
-                            <StackLayout VerticalOptions="CenterAndExpand">
-                                <!--  Image for display svg image  -->
-                                <svg:SVGImage
-                                    HeightRequest="{core:OnPlatformOrientationDoubleValue Default=300,
-                                                                                          AndroidPhonePortrait=300,
-                                                                                          AndroidPhoneLandscape=140,
-                                                                                          iOSPhonePortrait=200,
-                                                                                          iOSPhoneLandscape=140}"
-                                    HorizontalOptions="CenterAndExpand"
-                                    Source="{Binding ImagePath}"
-                                    VerticalOptions="Center"
-                                    WidthRequest="{x:OnIdiom Phone=300,
-                                                             Desktop=300,
-                                                             Tablet=300}" />
+                            Spacing="10"
+                            VerticalOptions="StartAndExpand">
+                            <!--  Label to display header  -->
+                            <Label
+                                Margin="0,30,0,8"
+                                FontFamily="{StaticResource myFontLatoBold}"
+                                FontSize="20"
+                                HorizontalTextAlignment="Start"
+                                Text="{Binding Header}"
+                                VerticalOptions="Start"
+                                VerticalTextAlignment="Start" />
 
-                                <!--  Label to display header  -->
-                                <Label
-                                    Margin="0,30,0,8"
-                                    FontFamily="{StaticResource myFontLatoBold}"
-                                    FontSize="20"
-                                    HorizontalTextAlignment="Center"
-                                    Text="{Binding Header}"
-                                    VerticalOptions="Start"
-                                    VerticalTextAlignment="Start" />
-
-                                <!--  Label to display content  -->
-                                <Label
-                                    FontSize="16"
-                                    HorizontalTextAlignment="Center"
-                                    Text="{Binding Content}"
-                                    VerticalOptions="Start"
-                                    VerticalTextAlignment="Start" />
-                            </StackLayout>
+                            <!--  Label to display content  -->
+                            <Label
+                                FontSize="16"
+                                HorizontalTextAlignment="Start"
+                                Text="{Binding Content}"
+                                VerticalOptions="Start"
+                                VerticalTextAlignment="Start" />
+                            <!--  Image for display svg image  -->
+                            <svg:SVGImage
+                                Margin="10"
+                                HeightRequest="{core:OnPlatformOrientationDoubleValue Default=300,
+                                                                                      AndroidPhonePortrait=300,
+                                                                                      AndroidPhoneLandscape=140,
+                                                                                      iOSPhonePortrait=200,
+                                                                                      iOSPhoneLandscape=140}"
+                                HorizontalOptions="CenterAndExpand"
+                                Source="{Binding ImagePath}"
+                                VerticalOptions="Center"
+                                WidthRequest="{x:OnIdiom Phone=300,
+                                                         Desktop=300,
+                                                         Tablet=300}" />
 
                         </StackLayout>
                     </DataTemplate>
                 </rotator:SfRotator.ItemTemplate>
             </rotator:SfRotator>
 
-
-            <StackLayout
-                Grid.Row="1"
-                HorizontalOptions="FillAndExpand"
-                Orientation="Horizontal">
-                <!--  Skip button  -->
+            <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand">
+                <!--  Login button  -->
                 <Button
-                    x:Name="Skip"
-                    BackgroundColor="Transparent"
-                    Command="{Binding SkipCommand}"
-                    FontFamily="{StaticResource myFontLatoBold}"
-                    FontSize="18"
-                    HorizontalOptions="StartAndExpand"
-                    IsVisible="{Binding IsSkipButtonVisible}"
-                    Text="Skip"
-                    TextColor="{StaticResource Additional}" />
-                <!--  Next button  -->
-                <Button
-                    x:Name="NextButtonText"
-                    BackgroundColor="Transparent"
+                    Margin="20,0,20,0"
                     Command="{Binding NextCommand}"
                     CommandParameter="{x:Reference Rotator}"
                     FontFamily="{StaticResource myFontLatoBold}"
-                    FontSize="18"
-                    HorizontalOptions="EndAndExpand"
-                    Text="{Binding NextButtonText}"
-                    TextColor="{StaticResource PrimaryColor}" />
+                    HorizontalOptions="FillAndExpand"
+                    Text="LOGIN" />
+
+                <!--  Register button  -->
+                <Button
+                    BackgroundColor="Transparent"
+                    Command="{Binding SkipCommand}"
+                    HorizontalOptions="Center"
+                    Text="Or connect create account"
+                    TextColor="{StaticResource Additional}" />
+
             </StackLayout>
 
         </Grid>

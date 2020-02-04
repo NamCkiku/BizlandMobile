@@ -19,10 +19,6 @@ namespace Bizland.Core.ViewModels
 
         private ObservableCollection<Boarding> boardings;
 
-        private string nextButtonText = "NEXT";
-
-        private bool isSkipButtonVisible = true;
-
         private int selectedIndex;
 
         #endregion
@@ -35,8 +31,6 @@ namespace Bizland.Core.ViewModels
         public OnBoardingPageViewModel(INavigationService navigationService)
            : base(navigationService)
         {
-            this.SkipCommand = new Command(this.Skip);
-            this.NextCommand = new Command(this.Next);
             this.Boardings = new ObservableCollection<Boarding>
             {
                 new Boarding
@@ -68,15 +62,6 @@ namespace Bizland.Core.ViewModels
             get => boardings; set => SetProperty(ref boardings, value);
         }
 
-        public string NextButtonText
-        {
-            get => nextButtonText; set => SetProperty(ref nextButtonText, value);
-        }
-
-        public bool IsSkipButtonVisible
-        {
-            get => isSkipButtonVisible; set => SetProperty(ref isSkipButtonVisible, value);
-        }
 
         public int SelectedIndex
         {
@@ -87,15 +72,6 @@ namespace Bizland.Core.ViewModels
 
         #region Commands
 
-        /// <summary>
-        /// Gets or sets the command that is executed when the Skip button is clicked.
-        /// </summary>
-        public ICommand SkipCommand { get; set; }
-
-        /// <summary>
-        /// Gets or sets the command that is executed when the Done button is clicked.
-        /// </summary>
-        public ICommand NextCommand { get; set; }
 
         #endregion
 
@@ -110,37 +86,6 @@ namespace Bizland.Core.ViewModels
 
             this.SelectedIndex++;
             return false;
-        }
-
-        /// <summary>
-        /// Invoked when the Skip button is clicked.
-        /// </summary>
-        /// <param name="obj">The Object</param>
-        private void Skip(object obj)
-        {
-            this.MoveToNextPage();
-        }
-
-        /// <summary>
-        /// Invoked when the Done button is clicked.
-        /// </summary>
-        /// <param name="obj">The Object</param>
-        private void Next(object obj)
-        {
-            var itemCount = (obj as SfRotator).ItemsSource.Count();
-            if (this.ValidateAndUpdateSelectedIndex(itemCount))
-            {
-                //Todo
-            }
-            else
-            {
-                this.MoveToNextPage();
-            }
-        }
-
-        private void MoveToNextPage()
-        {
-            // Move to next page
         }
 
         #endregion

@@ -162,5 +162,11 @@
   <ItemGroup>
     <Folder Include="CustomRenderer\" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\flag_vn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\flag_us.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

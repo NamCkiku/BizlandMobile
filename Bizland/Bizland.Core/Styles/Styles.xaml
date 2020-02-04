@@ -76,4 +76,12 @@
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
         <Setter Property="HorizontalTextAlignment" Value="Start" />
     </Style>
+
+
+    <!--  Styles  -->
+    <Style x:Key="Header" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource myFontLatoBold}" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="TextColor" Value="{StaticResource White}" />
+    </Style>
 </ResourceDictionary>

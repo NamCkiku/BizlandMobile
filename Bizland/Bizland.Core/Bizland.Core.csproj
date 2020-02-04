@@ -78,6 +78,9 @@
     <EmbeddedResource Update="Styles\Styles.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\Authentication\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\ErrorandEmpty\LocationDeniedPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
@@ -99,6 +102,10 @@
     <EmbeddedResource Update="Views\OnBoarding\OnBoardingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Navigation\" />
   </ItemGroup>
 
 </Project>

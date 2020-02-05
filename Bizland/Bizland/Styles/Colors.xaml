@@ -16,6 +16,8 @@
     <Color x:Key="Blue">#0077FF</Color>
     <Color x:Key="HyperLink">#567cd7</Color>
     <Color x:Key="FacebookBlue">#4267B2</Color>
+    <Color x:Key="GoogleOrange">#da4453</Color>
+
 
     <OnPlatform
         x:Key="Color_Divider"

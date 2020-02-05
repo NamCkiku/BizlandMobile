@@ -195,7 +195,7 @@
                             </Grid.ColumnDefinitions>
                             <BoxView
                                 Grid.Column="0"
-                                BackgroundColor="Gray"
+                                BackgroundColor="{StaticResource Additional}"
                                 HeightRequest="0.5"
                                 HorizontalOptions="FillAndExpand"
                                 VerticalOptions="Center" />
@@ -203,11 +203,11 @@
                                 Grid.Column="1"
                                 Margin="10,0,10,0"
                                 HorizontalOptions="Center"
-                                Text="or"
+                                Text="OR"
                                 VerticalOptions="Center" />
                             <BoxView
                                 Grid.Column="2"
-                                BackgroundColor="Gray"
+                                BackgroundColor="{StaticResource Additional}"
                                 HeightRequest="0.5"
                                 HorizontalOptions="FillAndExpand"
                                 VerticalOptions="Center" />
@@ -221,63 +221,48 @@
                             <controls:CustomShadowFrame
                                 Grid.Column="0"
                                 Padding="10"
-                                BackgroundColor="#3b5998"
+                                BackgroundColor="{StaticResource FacebookBlue}"
                                 CornerRadius="5"
                                 HasShadow="False">
-                                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
+                                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
 
-
-                                    <controls:FontAwesomeIcon
-                                        Grid.Column="0"
+                                    <ffImage:CachedImage
                                         Margin="10,0,0,0"
-                                        FontAttributes="Bold"
-                                        Text="{x:Static fontawesome:FontAwesomeIcons.FacebookF}"
-                                        TextColor="White" />
+                                        HeightRequest="25"
+                                        Source="ic_facebook.png"
+                                        WidthRequest="25" />
 
                                     <Label
-                                        Grid.Column="0"
-                                        Grid.ColumnSpan="2"
                                         FontSize="{StaticResource MyFontSize}"
                                         HorizontalOptions="CenterAndExpand"
                                         Text="FACEBOOK"
-                                        TextColor="White"
+                                        TextColor="{StaticResource White}"
                                         VerticalOptions="Center" />
-                                </Grid>
+                                </StackLayout>
 
                             </controls:CustomShadowFrame>
 
                             <controls:CustomShadowFrame
                                 Grid.Column="1"
                                 Padding="10"
-                                BackgroundColor="#da4453"
+                                BackgroundColor="{StaticResource GoogleOrange}"
                                 CornerRadius="5"
                                 HasShadow="False">
-                                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
+                                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
 
-                                    <controls:FontAwesomeIcon
-                                        Grid.Column="0"
+                                    <ffImage:CachedImage
                                         Margin="10,0,0,0"
-                                        FontAttributes="Bold"
-                                        Text="{x:Static fontawesome:FontAwesomeIcons.GooglePlus}"
-                                        TextColor="White" />
+                                        HeightRequest="25"
+                                        Source="ic_googleplus.png"
+                                        WidthRequest="25" />
 
                                     <Label
-                                        Grid.Column="0"
-                                        Grid.ColumnSpan="2"
                                         FontSize="{StaticResource MyFontSize}"
                                         HorizontalOptions="CenterAndExpand"
                                         Text="GOOGLE"
-                                        TextColor="White"
+                                        TextColor="{StaticResource White}"
                                         VerticalOptions="Center" />
-                                </Grid>
+                                </StackLayout>
 
                             </controls:CustomShadowFrame>
                         </Grid>

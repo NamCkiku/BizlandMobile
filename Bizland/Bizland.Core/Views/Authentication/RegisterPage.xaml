@@ -75,7 +75,10 @@
                         VerticalOptions="Center" />
                     <controls:CustomShadowFrame
                         Padding="10"
+                        BorderColor="{StaticResource PrimaryColor}"
+                        BorderWidth="1"
                         CornerRadius="5"
+                        CustomBorderColor="{StaticResource PrimaryColor}"
                         HasShadow="True"
                         ShadowOffSetHeight="4"
                         ShadowOffsetWidth="0"

@@ -17,6 +17,8 @@ namespace Bizland.Core.Droid
             {
                 // Register any platform specific implementations
                 containerRegistry.RegisterInstance<IDisplayMessage>(new DisplayMessageService());
+                containerRegistry.RegisterInstance<ISettingsService>(new SettingsService());
+                containerRegistry.RegisterInstance<ITooltipService>(new DroidTooltipService());
             }
         }
     }

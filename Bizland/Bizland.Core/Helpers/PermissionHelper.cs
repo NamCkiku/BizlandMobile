@@ -55,7 +55,7 @@ namespace Bizland.Core
 
                         if (result)
                         {
-                            //DependencyService.Get<ISettingsService>().OpenLocationSettings();
+                            DependencyService.Get<ISettingsService>().OpenLocationSettings();
                         }
                     }
 

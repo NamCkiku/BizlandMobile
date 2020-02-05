@@ -5,7 +5,6 @@ using Bizland.Service;
 using Bizland.Utilities.Constant;
 using Prism.Ioc;
 using Prism.Navigation;
-using Prism.Plugin.Popups;
 
 using Xamarin.Forms;
 
@@ -23,11 +22,6 @@ namespace Bizland.Core.Setup
 
         public static void RegisterServices(IContainerRegistry containerRegistry)
         {
-            containerRegistry.Register<INavigationService, PopupPageNavigationService>();
-
-            // This updates INavigationService and registers PopupNavigation.Instance
-            containerRegistry.RegisterPopupNavigationService();
-
             containerRegistry.RegisterSingleton(typeof(IRealmBaseService<,>), typeof(RealmBaseService<,>));
 
             containerRegistry.Register<IRealmConnection, RealmConnection>();

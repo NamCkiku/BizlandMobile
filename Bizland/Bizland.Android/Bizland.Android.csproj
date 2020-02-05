@@ -55,9 +55,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Prism.Plugin.Popups">
-      <Version>7.2.0.759</Version>
-    </PackageReference>
     <PackageReference Include="Prism.Unity.Forms">
       <Version>7.2.0.1422</Version>
     </PackageReference>

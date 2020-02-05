@@ -33,9 +33,7 @@
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.6.4" />
     <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.6.4" />
     <PackageReference Include="Plugin.Permissions" Version="5.0.0-beta" />
-    <PackageReference Include="Prism.Plugin.Popups" Version="7.2.0.759" />
     <PackageReference Include="Prism.Unity.Forms" Version="7.2.0.1422" />
-    <PackageReference Include="Rg.Plugins.Popup" Version="1.2.0.223" />
     <PackageReference Include="SkiaSharp.Extended" Version="1.60.0" />
     <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
     <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.1.1" />

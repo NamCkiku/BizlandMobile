@@ -62,14 +62,8 @@
     <PackageReference Include="Plugin.Permissions">
       <Version>5.0.0-beta</Version>
     </PackageReference>
-    <PackageReference Include="Prism.Plugin.Popups">
-      <Version>7.2.0.759</Version>
-    </PackageReference>
     <PackageReference Include="Prism.Unity.Forms">
       <Version>7.2.0.1422</Version>
-    </PackageReference>
-    <PackageReference Include="Rg.Plugins.Popup">
-      <Version>1.2.0.223</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.Buttons">
       <Version>17.4.0.46</Version>

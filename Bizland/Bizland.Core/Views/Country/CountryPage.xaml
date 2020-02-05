@@ -36,26 +36,19 @@
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-
-                <syncEffectsView:SfEffectsView
+                <controls:FontAwesomeIcon
                     Grid.Column="0"
-                    Angle="360"
-                    HighlightColor="#FF0000"
+                    FontAttributes="Bold"
+                    FontSize="40"
                     HorizontalOptions="Start"
-                    TouchDownEffects="Rotation"
+                    Text="{x:Static fontawesome:FontAwesomeIcons.ArrowAltCircleLeft}"
+                    TextColor="White"
                     VerticalOptions="Center">
-                    <controls:FontAwesomeIcon
-                        FontAttributes="Bold"
-                        FontSize="40"
-                        HorizontalOptions="Start"
-                        Text="{x:Static fontawesome:FontAwesomeIcons.ArrowAltCircleLeft}"
-                        TextColor="White"
-                        VerticalOptions="Center">
-                        <controls:FontAwesomeIcon.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding ClosePageCommand}" />
-                        </controls:FontAwesomeIcon.GestureRecognizers>
-                    </controls:FontAwesomeIcon>
-                </syncEffectsView:SfEffectsView>
+                    <controls:FontAwesomeIcon.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding ClosePageCommand}" />
+                    </controls:FontAwesomeIcon.GestureRecognizers>
+                </controls:FontAwesomeIcon>
+
 
                 <StackLayout Grid.Column="1" VerticalOptions="Center">
                     <Label Style="{StaticResource Header}" Text="COUNTRY" />

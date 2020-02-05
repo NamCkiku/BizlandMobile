@@ -17,8 +17,6 @@ namespace Bizland.Core.Droid.Setup
 
             Xamarin.Essentials.Platform.Init(activity, bundle); // add this line to your code, it may also be called: bundle
 
-            Rg.Plugins.Popup.Popup.Init(activity, bundle);
-
             //Acr.UserDialogs.UserDialogs.Init(activity);
 
             CachedImageRenderer.Init(enableFastRenderer: true);

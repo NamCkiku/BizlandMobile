@@ -21,8 +21,6 @@ namespace Bizland.Core.iOS.Setup
             //AnimationViewRenderer.Init();
             //CardsViewRenderer.Preserve();
 
-            Rg.Plugins.Popup.Popup.Init();
-
             CachedImageRenderer.Init();
             FFImageLoading.FormsHandler.Init(debug: false);
             CachedImageRenderer.InitImageSourceHandler();

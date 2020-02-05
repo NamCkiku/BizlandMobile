@@ -94,7 +94,7 @@ namespace Bizland.Core.ViewModels
         {
             SafeExecute(async () =>
             {
-
+                await NavigationService.NavigateAsync("OTPPage", useModalNavigation: true);
             });
         }
 
@@ -105,6 +105,7 @@ namespace Bizland.Core.ViewModels
                 await NavigationService.NavigateAsync("CountryPage", useModalNavigation: true);
             });
         }
+
         private void PushLoginPage()
         {
             SafeExecute(async () =>

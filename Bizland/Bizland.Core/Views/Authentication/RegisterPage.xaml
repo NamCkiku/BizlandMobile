@@ -55,7 +55,11 @@
                         HorizontalOptions="Start"
                         Text="{x:Static fontawesome:FontAwesomeIcons.ArrowAltCircleLeft}"
                         TextColor="White"
-                        VerticalOptions="Center" />
+                        VerticalOptions="Center">
+                        <controls:FontAwesomeIcon.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ClosePageCommand}" />
+                        </controls:FontAwesomeIcon.GestureRecognizers>
+                    </controls:FontAwesomeIcon>
                 </syncEffectsView:SfEffectsView>
 
                 <StackLayout Grid.Column="1" VerticalOptions="Center">
@@ -90,18 +94,18 @@
                                 Orientation="Horizontal"
                                 VerticalOptions="Center">
                                 <StackLayout.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding PushtoLanguageCommand}" />
+                                    <TapGestureRecognizer Command="{Binding PushCountryPageCommand}" />
                                 </StackLayout.GestureRecognizers>
                                 <ffImage:CachedImage
                                     Aspect="AspectFit"
                                     BitmapOptimizations="True"
                                     HeightRequest="25"
                                     HorizontalOptions="Start"
-                                    Source="flag_vn.png"
+                                    Source="{Binding CountryCode.FlagPath}"
                                     VerticalOptions="Center"
                                     WidthRequest="25" />
                                 <Label
-                                    Text="+84"
+                                    Text="{Binding CountryCode.DialCode}"
                                     TextColor="{StaticResource Secondary}"
                                     VerticalOptions="Center" />
                                 <controls:FontAwesomeIcon
@@ -132,7 +136,7 @@
                     <Button
                         x:Name="btnLogin"
                         Margin="0,10,0,10"
-                        Command="{Binding LoginCommand}"
+                        Command="{Binding RegisterCommand}"
                         CornerRadius="10"
                         HorizontalOptions="FillAndExpand"
                         Text="CONTINUE"
@@ -149,7 +153,7 @@
                         <!--  Register button  -->
                         <Button
                             BackgroundColor="Transparent"
-                            Command="{Binding SkipCommand}"
+                            Command="{Binding PushLoginPageCommand}"
                             HorizontalOptions="Center"
                             Text="Or sign an account"
                             TextColor="{StaticResource Additional}" />

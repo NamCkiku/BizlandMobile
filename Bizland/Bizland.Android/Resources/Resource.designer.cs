@@ -1165,14 +1165,267 @@ namespace Bizland.Droid
 			global::Bizland.Core.Droid.Resource.Drawable.design_password_eye = global::Bizland.Droid.Resource.Drawable.design_password_eye;
 			global::Bizland.Core.Droid.Resource.Drawable.design_snackbar_background = global::Bizland.Droid.Resource.Drawable.design_snackbar_background;
 			global::Bizland.Core.Droid.Resource.Drawable.error_shape = global::Bizland.Droid.Resource.Drawable.error_shape;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ac = global::Bizland.Droid.Resource.Drawable.flag_ac;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ad = global::Bizland.Droid.Resource.Drawable.flag_ad;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ae = global::Bizland.Droid.Resource.Drawable.flag_ae;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_af = global::Bizland.Droid.Resource.Drawable.flag_af;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ag = global::Bizland.Droid.Resource.Drawable.flag_ag;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ai = global::Bizland.Droid.Resource.Drawable.flag_ai;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_al = global::Bizland.Droid.Resource.Drawable.flag_al;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_am = global::Bizland.Droid.Resource.Drawable.flag_am;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_an = global::Bizland.Droid.Resource.Drawable.flag_an;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ao = global::Bizland.Droid.Resource.Drawable.flag_ao;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_aq = global::Bizland.Droid.Resource.Drawable.flag_aq;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ar = global::Bizland.Droid.Resource.Drawable.flag_ar;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_as = global::Bizland.Droid.Resource.Drawable.flag_as;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_at = global::Bizland.Droid.Resource.Drawable.flag_at;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_au = global::Bizland.Droid.Resource.Drawable.flag_au;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_aw = global::Bizland.Droid.Resource.Drawable.flag_aw;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ax = global::Bizland.Droid.Resource.Drawable.flag_ax;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_az = global::Bizland.Droid.Resource.Drawable.flag_az;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ba = global::Bizland.Droid.Resource.Drawable.flag_ba;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bb = global::Bizland.Droid.Resource.Drawable.flag_bb;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bd = global::Bizland.Droid.Resource.Drawable.flag_bd;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_be = global::Bizland.Droid.Resource.Drawable.flag_be;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bf = global::Bizland.Droid.Resource.Drawable.flag_bf;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bg = global::Bizland.Droid.Resource.Drawable.flag_bg;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bh = global::Bizland.Droid.Resource.Drawable.flag_bh;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bi = global::Bizland.Droid.Resource.Drawable.flag_bi;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bj = global::Bizland.Droid.Resource.Drawable.flag_bj;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bl = global::Bizland.Droid.Resource.Drawable.flag_bl;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bm = global::Bizland.Droid.Resource.Drawable.flag_bm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bn = global::Bizland.Droid.Resource.Drawable.flag_bn;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bo = global::Bizland.Droid.Resource.Drawable.flag_bo;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bq = global::Bizland.Droid.Resource.Drawable.flag_bq;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_br = global::Bizland.Droid.Resource.Drawable.flag_br;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bs = global::Bizland.Droid.Resource.Drawable.flag_bs;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bt = global::Bizland.Droid.Resource.Drawable.flag_bt;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bv = global::Bizland.Droid.Resource.Drawable.flag_bv;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bw = global::Bizland.Droid.Resource.Drawable.flag_bw;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_by = global::Bizland.Droid.Resource.Drawable.flag_by;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_bz = global::Bizland.Droid.Resource.Drawable.flag_bz;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ca = global::Bizland.Droid.Resource.Drawable.flag_ca;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cc = global::Bizland.Droid.Resource.Drawable.flag_cc;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cd = global::Bizland.Droid.Resource.Drawable.flag_cd;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cf = global::Bizland.Droid.Resource.Drawable.flag_cf;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cg = global::Bizland.Droid.Resource.Drawable.flag_cg;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ch = global::Bizland.Droid.Resource.Drawable.flag_ch;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ci = global::Bizland.Droid.Resource.Drawable.flag_ci;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ck = global::Bizland.Droid.Resource.Drawable.flag_ck;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cl = global::Bizland.Droid.Resource.Drawable.flag_cl;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cm = global::Bizland.Droid.Resource.Drawable.flag_cm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cn = global::Bizland.Droid.Resource.Drawable.flag_cn;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_co = global::Bizland.Droid.Resource.Drawable.flag_co;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cr = global::Bizland.Droid.Resource.Drawable.flag_cr;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cu = global::Bizland.Droid.Resource.Drawable.flag_cu;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cv = global::Bizland.Droid.Resource.Drawable.flag_cv;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cw = global::Bizland.Droid.Resource.Drawable.flag_cw;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cx = global::Bizland.Droid.Resource.Drawable.flag_cx;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cy = global::Bizland.Droid.Resource.Drawable.flag_cy;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_cz = global::Bizland.Droid.Resource.Drawable.flag_cz;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_de = global::Bizland.Droid.Resource.Drawable.flag_de;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_dj = global::Bizland.Droid.Resource.Drawable.flag_dj;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_dk = global::Bizland.Droid.Resource.Drawable.flag_dk;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_dm = global::Bizland.Droid.Resource.Drawable.flag_dm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_do = global::Bizland.Droid.Resource.Drawable.flag_do;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_dz = global::Bizland.Droid.Resource.Drawable.flag_dz;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ec = global::Bizland.Droid.Resource.Drawable.flag_ec;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ee = global::Bizland.Droid.Resource.Drawable.flag_ee;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_eg = global::Bizland.Droid.Resource.Drawable.flag_eg;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_eh = global::Bizland.Droid.Resource.Drawable.flag_eh;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_er = global::Bizland.Droid.Resource.Drawable.flag_er;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_es = global::Bizland.Droid.Resource.Drawable.flag_es;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_et = global::Bizland.Droid.Resource.Drawable.flag_et;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_fi = global::Bizland.Droid.Resource.Drawable.flag_fi;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_fj = global::Bizland.Droid.Resource.Drawable.flag_fj;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_fk = global::Bizland.Droid.Resource.Drawable.flag_fk;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_fm = global::Bizland.Droid.Resource.Drawable.flag_fm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_fo = global::Bizland.Droid.Resource.Drawable.flag_fo;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_fr = global::Bizland.Droid.Resource.Drawable.flag_fr;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_fx = global::Bizland.Droid.Resource.Drawable.flag_fx;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ga = global::Bizland.Droid.Resource.Drawable.flag_ga;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gb = global::Bizland.Droid.Resource.Drawable.flag_gb;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gd = global::Bizland.Droid.Resource.Drawable.flag_gd;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ge = global::Bizland.Droid.Resource.Drawable.flag_ge;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gf = global::Bizland.Droid.Resource.Drawable.flag_gf;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gg = global::Bizland.Droid.Resource.Drawable.flag_gg;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gh = global::Bizland.Droid.Resource.Drawable.flag_gh;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gi = global::Bizland.Droid.Resource.Drawable.flag_gi;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gl = global::Bizland.Droid.Resource.Drawable.flag_gl;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gm = global::Bizland.Droid.Resource.Drawable.flag_gm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gn = global::Bizland.Droid.Resource.Drawable.flag_gn;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gp = global::Bizland.Droid.Resource.Drawable.flag_gp;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gq = global::Bizland.Droid.Resource.Drawable.flag_gq;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gr = global::Bizland.Droid.Resource.Drawable.flag_gr;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gs = global::Bizland.Droid.Resource.Drawable.flag_gs;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gt = global::Bizland.Droid.Resource.Drawable.flag_gt;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gu = global::Bizland.Droid.Resource.Drawable.flag_gu;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gw = global::Bizland.Droid.Resource.Drawable.flag_gw;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_gy = global::Bizland.Droid.Resource.Drawable.flag_gy;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_hk = global::Bizland.Droid.Resource.Drawable.flag_hk;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_hm = global::Bizland.Droid.Resource.Drawable.flag_hm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_hn = global::Bizland.Droid.Resource.Drawable.flag_hn;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_hr = global::Bizland.Droid.Resource.Drawable.flag_hr;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ht = global::Bizland.Droid.Resource.Drawable.flag_ht;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_hu = global::Bizland.Droid.Resource.Drawable.flag_hu;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_id = global::Bizland.Droid.Resource.Drawable.flag_id;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ie = global::Bizland.Droid.Resource.Drawable.flag_ie;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_il = global::Bizland.Droid.Resource.Drawable.flag_il;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_im = global::Bizland.Droid.Resource.Drawable.flag_im;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_in = global::Bizland.Droid.Resource.Drawable.flag_in;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_io = global::Bizland.Droid.Resource.Drawable.flag_io;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_iq = global::Bizland.Droid.Resource.Drawable.flag_iq;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ir = global::Bizland.Droid.Resource.Drawable.flag_ir;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_is = global::Bizland.Droid.Resource.Drawable.flag_is;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_it = global::Bizland.Droid.Resource.Drawable.flag_it;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_je = global::Bizland.Droid.Resource.Drawable.flag_je;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_jm = global::Bizland.Droid.Resource.Drawable.flag_jm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_jo = global::Bizland.Droid.Resource.Drawable.flag_jo;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_jp = global::Bizland.Droid.Resource.Drawable.flag_jp;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ke = global::Bizland.Droid.Resource.Drawable.flag_ke;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_kg = global::Bizland.Droid.Resource.Drawable.flag_kg;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_kh = global::Bizland.Droid.Resource.Drawable.flag_kh;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ki = global::Bizland.Droid.Resource.Drawable.flag_ki;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_km = global::Bizland.Droid.Resource.Drawable.flag_km;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_kn = global::Bizland.Droid.Resource.Drawable.flag_kn;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_kp = global::Bizland.Droid.Resource.Drawable.flag_kp;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_kr = global::Bizland.Droid.Resource.Drawable.flag_kr;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_kw = global::Bizland.Droid.Resource.Drawable.flag_kw;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ky = global::Bizland.Droid.Resource.Drawable.flag_ky;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_kz = global::Bizland.Droid.Resource.Drawable.flag_kz;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_la = global::Bizland.Droid.Resource.Drawable.flag_la;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_lb = global::Bizland.Droid.Resource.Drawable.flag_lb;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_lc = global::Bizland.Droid.Resource.Drawable.flag_lc;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_li = global::Bizland.Droid.Resource.Drawable.flag_li;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_lk = global::Bizland.Droid.Resource.Drawable.flag_lk;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_lr = global::Bizland.Droid.Resource.Drawable.flag_lr;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ls = global::Bizland.Droid.Resource.Drawable.flag_ls;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_lt = global::Bizland.Droid.Resource.Drawable.flag_lt;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_lu = global::Bizland.Droid.Resource.Drawable.flag_lu;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_lv = global::Bizland.Droid.Resource.Drawable.flag_lv;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ly = global::Bizland.Droid.Resource.Drawable.flag_ly;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ma = global::Bizland.Droid.Resource.Drawable.flag_ma;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mc = global::Bizland.Droid.Resource.Drawable.flag_mc;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_md = global::Bizland.Droid.Resource.Drawable.flag_md;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_me = global::Bizland.Droid.Resource.Drawable.flag_me;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mf = global::Bizland.Droid.Resource.Drawable.flag_mf;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mg = global::Bizland.Droid.Resource.Drawable.flag_mg;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mh = global::Bizland.Droid.Resource.Drawable.flag_mh;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mk = global::Bizland.Droid.Resource.Drawable.flag_mk;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ml = global::Bizland.Droid.Resource.Drawable.flag_ml;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mm = global::Bizland.Droid.Resource.Drawable.flag_mm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mn = global::Bizland.Droid.Resource.Drawable.flag_mn;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mo = global::Bizland.Droid.Resource.Drawable.flag_mo;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mp = global::Bizland.Droid.Resource.Drawable.flag_mp;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mq = global::Bizland.Droid.Resource.Drawable.flag_mq;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mr = global::Bizland.Droid.Resource.Drawable.flag_mr;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ms = global::Bizland.Droid.Resource.Drawable.flag_ms;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mt = global::Bizland.Droid.Resource.Drawable.flag_mt;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mu = global::Bizland.Droid.Resource.Drawable.flag_mu;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mv = global::Bizland.Droid.Resource.Drawable.flag_mv;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mw = global::Bizland.Droid.Resource.Drawable.flag_mw;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mx = global::Bizland.Droid.Resource.Drawable.flag_mx;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_my = global::Bizland.Droid.Resource.Drawable.flag_my;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_mz = global::Bizland.Droid.Resource.Drawable.flag_mz;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_na = global::Bizland.Droid.Resource.Drawable.flag_na;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_nc = global::Bizland.Droid.Resource.Drawable.flag_nc;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ne = global::Bizland.Droid.Resource.Drawable.flag_ne;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_nf = global::Bizland.Droid.Resource.Drawable.flag_nf;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ng = global::Bizland.Droid.Resource.Drawable.flag_ng;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ni = global::Bizland.Droid.Resource.Drawable.flag_ni;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_nl = global::Bizland.Droid.Resource.Drawable.flag_nl;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_no = global::Bizland.Droid.Resource.Drawable.flag_no;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_np = global::Bizland.Droid.Resource.Drawable.flag_np;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_nr = global::Bizland.Droid.Resource.Drawable.flag_nr;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_nu = global::Bizland.Droid.Resource.Drawable.flag_nu;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_nz = global::Bizland.Droid.Resource.Drawable.flag_nz;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_om = global::Bizland.Droid.Resource.Drawable.flag_om;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_pa = global::Bizland.Droid.Resource.Drawable.flag_pa;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_pe = global::Bizland.Droid.Resource.Drawable.flag_pe;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_pf = global::Bizland.Droid.Resource.Drawable.flag_pf;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_pg = global::Bizland.Droid.Resource.Drawable.flag_pg;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ph = global::Bizland.Droid.Resource.Drawable.flag_ph;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_pk = global::Bizland.Droid.Resource.Drawable.flag_pk;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_pl = global::Bizland.Droid.Resource.Drawable.flag_pl;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_pm = global::Bizland.Droid.Resource.Drawable.flag_pm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_pn = global::Bizland.Droid.Resource.Drawable.flag_pn;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_pr = global::Bizland.Droid.Resource.Drawable.flag_pr;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ps = global::Bizland.Droid.Resource.Drawable.flag_ps;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_pt = global::Bizland.Droid.Resource.Drawable.flag_pt;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_pw = global::Bizland.Droid.Resource.Drawable.flag_pw;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_py = global::Bizland.Droid.Resource.Drawable.flag_py;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_qa = global::Bizland.Droid.Resource.Drawable.flag_qa;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_re = global::Bizland.Droid.Resource.Drawable.flag_re;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ro = global::Bizland.Droid.Resource.Drawable.flag_ro;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_rs = global::Bizland.Droid.Resource.Drawable.flag_rs;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ru = global::Bizland.Droid.Resource.Drawable.flag_ru;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_rw = global::Bizland.Droid.Resource.Drawable.flag_rw;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sa = global::Bizland.Droid.Resource.Drawable.flag_sa;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sb = global::Bizland.Droid.Resource.Drawable.flag_sb;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sc = global::Bizland.Droid.Resource.Drawable.flag_sc;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sd = global::Bizland.Droid.Resource.Drawable.flag_sd;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_se = global::Bizland.Droid.Resource.Drawable.flag_se;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sg = global::Bizland.Droid.Resource.Drawable.flag_sg;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sh = global::Bizland.Droid.Resource.Drawable.flag_sh;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_si = global::Bizland.Droid.Resource.Drawable.flag_si;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sj = global::Bizland.Droid.Resource.Drawable.flag_sj;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sk = global::Bizland.Droid.Resource.Drawable.flag_sk;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sl = global::Bizland.Droid.Resource.Drawable.flag_sl;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sm = global::Bizland.Droid.Resource.Drawable.flag_sm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sn = global::Bizland.Droid.Resource.Drawable.flag_sn;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_so = global::Bizland.Droid.Resource.Drawable.flag_so;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sr = global::Bizland.Droid.Resource.Drawable.flag_sr;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ss = global::Bizland.Droid.Resource.Drawable.flag_ss;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_st = global::Bizland.Droid.Resource.Drawable.flag_st;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sv = global::Bizland.Droid.Resource.Drawable.flag_sv;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sx = global::Bizland.Droid.Resource.Drawable.flag_sx;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sy = global::Bizland.Droid.Resource.Drawable.flag_sy;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_sz = global::Bizland.Droid.Resource.Drawable.flag_sz;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tc = global::Bizland.Droid.Resource.Drawable.flag_tc;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_td = global::Bizland.Droid.Resource.Drawable.flag_td;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tf = global::Bizland.Droid.Resource.Drawable.flag_tf;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tg = global::Bizland.Droid.Resource.Drawable.flag_tg;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_th = global::Bizland.Droid.Resource.Drawable.flag_th;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tj = global::Bizland.Droid.Resource.Drawable.flag_tj;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tk = global::Bizland.Droid.Resource.Drawable.flag_tk;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tl = global::Bizland.Droid.Resource.Drawable.flag_tl;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tm = global::Bizland.Droid.Resource.Drawable.flag_tm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tn = global::Bizland.Droid.Resource.Drawable.flag_tn;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_to = global::Bizland.Droid.Resource.Drawable.flag_to;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tr = global::Bizland.Droid.Resource.Drawable.flag_tr;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tt = global::Bizland.Droid.Resource.Drawable.flag_tt;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tv = global::Bizland.Droid.Resource.Drawable.flag_tv;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tw = global::Bizland.Droid.Resource.Drawable.flag_tw;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_tz = global::Bizland.Droid.Resource.Drawable.flag_tz;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ua = global::Bizland.Droid.Resource.Drawable.flag_ua;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ug = global::Bizland.Droid.Resource.Drawable.flag_ug;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_um = global::Bizland.Droid.Resource.Drawable.flag_um;
 			global::Bizland.Core.Droid.Resource.Drawable.flag_us = global::Bizland.Droid.Resource.Drawable.flag_us;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_uy = global::Bizland.Droid.Resource.Drawable.flag_uy;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_uz = global::Bizland.Droid.Resource.Drawable.flag_uz;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_va = global::Bizland.Droid.Resource.Drawable.flag_va;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_vc = global::Bizland.Droid.Resource.Drawable.flag_vc;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ve = global::Bizland.Droid.Resource.Drawable.flag_ve;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_vg = global::Bizland.Droid.Resource.Drawable.flag_vg;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_vi = global::Bizland.Droid.Resource.Drawable.flag_vi;
 			global::Bizland.Core.Droid.Resource.Drawable.flag_vn = global::Bizland.Droid.Resource.Drawable.flag_vn;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_vu = global::Bizland.Droid.Resource.Drawable.flag_vu;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_wf = global::Bizland.Droid.Resource.Drawable.flag_wf;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ws = global::Bizland.Droid.Resource.Drawable.flag_ws;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_xk = global::Bizland.Droid.Resource.Drawable.flag_xk;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_ye = global::Bizland.Droid.Resource.Drawable.flag_ye;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_yt = global::Bizland.Droid.Resource.Drawable.flag_yt;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_yu = global::Bizland.Droid.Resource.Drawable.flag_yu;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_za = global::Bizland.Droid.Resource.Drawable.flag_za;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_zm = global::Bizland.Droid.Resource.Drawable.flag_zm;
+			global::Bizland.Core.Droid.Resource.Drawable.flag_zw = global::Bizland.Droid.Resource.Drawable.flag_zw;
 			global::Bizland.Core.Droid.Resource.Drawable.googleg_disabled_color_18 = global::Bizland.Droid.Resource.Drawable.googleg_disabled_color_18;
 			global::Bizland.Core.Droid.Resource.Drawable.googleg_standard_color_18 = global::Bizland.Droid.Resource.Drawable.googleg_standard_color_18;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_audiotrack_dark = global::Bizland.Droid.Resource.Drawable.ic_audiotrack_dark;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_audiotrack_light = global::Bizland.Droid.Resource.Drawable.ic_audiotrack_light;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_check_black_24dp = global::Bizland.Droid.Resource.Drawable.ic_check_black_24dp;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_clear_black_24dp = global::Bizland.Droid.Resource.Drawable.ic_clear_black_24dp;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_close = global::Bizland.Droid.Resource.Drawable.ic_close;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_cluster = global::Bizland.Droid.Resource.Drawable.ic_cluster;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_dialog_close_dark = global::Bizland.Droid.Resource.Drawable.ic_dialog_close_dark;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_dialog_close_light = global::Bizland.Droid.Resource.Drawable.ic_dialog_close_light;
@@ -17732,718 +17985,1477 @@ namespace Bizland.Droid
 			public const int error_shape = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int flag_us = 2131165346;
+			public const int flag_ac = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int flag_vn = 2131165347;
+			public const int flag_ad = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int googleg_disabled_color_18 = 2131165348;
+			public const int flag_ae = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int googleg_standard_color_18 = 2131165349;
+			public const int flag_af = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int ic_audiotrack_dark = 2131165350;
+			public const int flag_ag = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int ic_audiotrack_light = 2131165351;
+			public const int flag_ai = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int ic_check_black_24dp = 2131165352;
+			public const int flag_al = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int ic_clear_black_24dp = 2131165353;
+			public const int flag_am = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int ic_cluster = 2131165354;
+			public const int flag_an = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int ic_dialog_close_dark = 2131165355;
+			public const int flag_ao = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int ic_dialog_close_light = 2131165356;
+			public const int flag_aq = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int ic_facebook = 2131165357;
+			public const int flag_ar = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int ic_googleplus = 2131165358;
+			public const int flag_as = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int ic_group_collapse_00 = 2131165359;
+			public const int flag_at = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int ic_group_collapse_01 = 2131165360;
+			public const int flag_au = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int ic_group_collapse_02 = 2131165361;
+			public const int flag_aw = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int ic_group_collapse_03 = 2131165362;
+			public const int flag_ax = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int ic_group_collapse_04 = 2131165363;
+			public const int flag_az = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int ic_group_collapse_05 = 2131165364;
+			public const int flag_ba = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int ic_group_collapse_06 = 2131165365;
+			public const int flag_bb = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int ic_group_collapse_07 = 2131165366;
+			public const int flag_bd = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int ic_group_collapse_08 = 2131165367;
+			public const int flag_be = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ic_group_collapse_09 = 2131165368;
+			public const int flag_bf = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int ic_group_collapse_10 = 2131165369;
+			public const int flag_bg = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int ic_group_collapse_11 = 2131165370;
+			public const int flag_bh = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int ic_group_collapse_12 = 2131165371;
+			public const int flag_bi = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int ic_group_collapse_13 = 2131165372;
+			public const int flag_bj = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int ic_group_collapse_14 = 2131165373;
+			public const int flag_bl = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int ic_group_collapse_15 = 2131165374;
+			public const int flag_bm = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int ic_group_expand_00 = 2131165375;
+			public const int flag_bn = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int ic_group_expand_01 = 2131165376;
+			public const int flag_bo = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int ic_group_expand_02 = 2131165377;
+			public const int flag_bq = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int ic_group_expand_03 = 2131165378;
+			public const int flag_br = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_group_expand_04 = 2131165379;
+			public const int flag_bs = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int ic_group_expand_05 = 2131165380;
+			public const int flag_bt = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int ic_group_expand_06 = 2131165381;
+			public const int flag_bv = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_group_expand_07 = 2131165382;
+			public const int flag_bw = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_group_expand_08 = 2131165383;
+			public const int flag_by = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_group_expand_09 = 2131165384;
+			public const int flag_bz = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_group_expand_10 = 2131165385;
+			public const int flag_ca = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_group_expand_11 = 2131165386;
+			public const int flag_cc = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_group_expand_12 = 2131165387;
+			public const int flag_cd = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_group_expand_13 = 2131165388;
+			public const int flag_cf = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_group_expand_14 = 2131165389;
+			public const int flag_cg = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_group_expand_15 = 2131165390;
+			public const int flag_ch = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_home = 2131165391;
+			public const int flag_ci = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_info_outline_black_24dp = 2131165392;
+			public const int flag_ck = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_media_pause_dark = 2131165393;
+			public const int flag_cl = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_media_pause_light = 2131165394;
+			public const int flag_cm = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_media_play_dark = 2131165395;
+			public const int flag_cn = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_media_play_light = 2131165396;
+			public const int flag_co = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_media_stop_dark = 2131165397;
+			public const int flag_cr = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_media_stop_light = 2131165398;
+			public const int flag_cu = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_00_dark = 2131165399;
+			public const int flag_cv = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_00_light = 2131165400;
+			public const int flag_cw = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connected_01_dark = 2131165401;
+			public const int flag_cx = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_01_light = 2131165402;
+			public const int flag_cy = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connected_02_dark = 2131165403;
+			public const int flag_cz = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connected_02_light = 2131165404;
+			public const int flag_de = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connected_03_dark = 2131165405;
+			public const int flag_dj = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connected_03_light = 2131165406;
+			public const int flag_dk = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connected_04_dark = 2131165407;
+			public const int flag_dm = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connected_04_light = 2131165408;
+			public const int flag_do = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connected_05_dark = 2131165409;
+			public const int flag_dz = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connected_05_light = 2131165410;
+			public const int flag_ec = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connected_06_dark = 2131165411;
+			public const int flag_ee = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connected_06_light = 2131165412;
+			public const int flag_eg = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connected_07_dark = 2131165413;
+			public const int flag_eh = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connected_07_light = 2131165414;
+			public const int flag_er = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connected_08_dark = 2131165415;
+			public const int flag_es = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connected_08_light = 2131165416;
+			public const int flag_et = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connected_09_dark = 2131165417;
+			public const int flag_fi = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connected_09_light = 2131165418;
+			public const int flag_fj = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connected_10_dark = 2131165419;
+			public const int flag_fk = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connected_10_light = 2131165420;
+			public const int flag_fm = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connected_11_dark = 2131165421;
+			public const int flag_fo = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connected_11_light = 2131165422;
+			public const int flag_fr = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connected_12_dark = 2131165423;
+			public const int flag_fx = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connected_12_light = 2131165424;
+			public const int flag_ga = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connected_13_dark = 2131165425;
+			public const int flag_gb = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connected_13_light = 2131165426;
+			public const int flag_gd = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connected_14_dark = 2131165427;
+			public const int flag_ge = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connected_14_light = 2131165428;
+			public const int flag_gf = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connected_15_dark = 2131165429;
+			public const int flag_gg = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connected_15_light = 2131165430;
+			public const int flag_gh = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connected_16_dark = 2131165431;
+			public const int flag_gi = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connected_16_light = 2131165432;
+			public const int flag_gl = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connected_17_dark = 2131165433;
+			public const int flag_gm = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connected_17_light = 2131165434;
+			public const int flag_gn = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connected_18_dark = 2131165435;
+			public const int flag_gp = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connected_18_light = 2131165436;
+			public const int flag_gq = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connected_19_dark = 2131165437;
+			public const int flag_gr = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connected_19_light = 2131165438;
+			public const int flag_gs = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connected_20_dark = 2131165439;
+			public const int flag_gt = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connected_20_light = 2131165440;
+			public const int flag_gu = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connected_21_dark = 2131165441;
+			public const int flag_gw = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connected_21_light = 2131165442;
+			public const int flag_gy = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connected_22_dark = 2131165443;
+			public const int flag_hk = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connected_22_light = 2131165444;
+			public const int flag_hm = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connected_23_dark = 2131165445;
+			public const int flag_hn = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connected_23_light = 2131165446;
+			public const int flag_hr = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connected_24_dark = 2131165447;
+			public const int flag_ht = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connected_24_light = 2131165448;
+			public const int flag_hu = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connected_25_dark = 2131165449;
+			public const int flag_id = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connected_25_light = 2131165450;
+			public const int flag_ie = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connected_26_dark = 2131165451;
+			public const int flag_il = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connected_26_light = 2131165452;
+			public const int flag_im = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connected_27_dark = 2131165453;
+			public const int flag_in = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connected_27_light = 2131165454;
+			public const int flag_io = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connected_28_dark = 2131165455;
+			public const int flag_iq = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connected_28_light = 2131165456;
+			public const int flag_ir = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connected_29_dark = 2131165457;
+			public const int flag_is = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connected_29_light = 2131165458;
+			public const int flag_it = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connected_30_dark = 2131165459;
+			public const int flag_je = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connected_30_light = 2131165460;
+			public const int flag_jm = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_00_dark = 2131165461;
+			public const int flag_jo = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_00_light = 2131165462;
+			public const int flag_jp = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connecting_01_dark = 2131165463;
+			public const int flag_ke = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_01_light = 2131165464;
+			public const int flag_kg = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_connecting_02_dark = 2131165465;
+			public const int flag_kh = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_connecting_02_light = 2131165466;
+			public const int flag_ki = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_connecting_03_dark = 2131165467;
+			public const int flag_km = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_connecting_03_light = 2131165468;
+			public const int flag_kn = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_connecting_04_dark = 2131165469;
+			public const int flag_kp = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_mr_button_connecting_04_light = 2131165470;
+			public const int flag_kr = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_mr_button_connecting_05_dark = 2131165471;
+			public const int flag_kw = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_mr_button_connecting_05_light = 2131165472;
+			public const int flag_ky = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_mr_button_connecting_06_dark = 2131165473;
+			public const int flag_kz = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_mr_button_connecting_06_light = 2131165474;
+			public const int flag_la = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_mr_button_connecting_07_dark = 2131165475;
+			public const int flag_lb = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_mr_button_connecting_07_light = 2131165476;
+			public const int flag_lc = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_mr_button_connecting_08_dark = 2131165477;
+			public const int flag_li = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_mr_button_connecting_08_light = 2131165478;
+			public const int flag_lk = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_mr_button_connecting_09_dark = 2131165479;
+			public const int flag_lr = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int ic_mr_button_connecting_09_light = 2131165480;
+			public const int flag_ls = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int ic_mr_button_connecting_10_dark = 2131165481;
+			public const int flag_lt = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int ic_mr_button_connecting_10_light = 2131165482;
+			public const int flag_lu = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int ic_mr_button_connecting_11_dark = 2131165483;
+			public const int flag_lv = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int ic_mr_button_connecting_11_light = 2131165484;
+			public const int flag_ly = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int ic_mr_button_connecting_12_dark = 2131165485;
+			public const int flag_ma = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int ic_mr_button_connecting_12_light = 2131165486;
+			public const int flag_mc = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int ic_mr_button_connecting_13_dark = 2131165487;
+			public const int flag_md = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int ic_mr_button_connecting_13_light = 2131165488;
+			public const int flag_me = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int ic_mr_button_connecting_14_dark = 2131165489;
+			public const int flag_mf = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int ic_mr_button_connecting_14_light = 2131165490;
+			public const int flag_mg = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int ic_mr_button_connecting_15_dark = 2131165491;
+			public const int flag_mh = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int ic_mr_button_connecting_15_light = 2131165492;
+			public const int flag_mk = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int ic_mr_button_connecting_16_dark = 2131165493;
+			public const int flag_ml = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int ic_mr_button_connecting_16_light = 2131165494;
+			public const int flag_mm = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int ic_mr_button_connecting_17_dark = 2131165495;
+			public const int flag_mn = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int ic_mr_button_connecting_17_light = 2131165496;
+			public const int flag_mo = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int ic_mr_button_connecting_18_dark = 2131165497;
+			public const int flag_mp = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int ic_mr_button_connecting_18_light = 2131165498;
+			public const int flag_mq = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int ic_mr_button_connecting_19_dark = 2131165499;
+			public const int flag_mr = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int ic_mr_button_connecting_19_light = 2131165500;
+			public const int flag_ms = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int ic_mr_button_connecting_20_dark = 2131165501;
+			public const int flag_mt = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int ic_mr_button_connecting_20_light = 2131165502;
+			public const int flag_mu = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int ic_mr_button_connecting_21_dark = 2131165503;
+			public const int flag_mv = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int ic_mr_button_connecting_21_light = 2131165504;
+			public const int flag_mw = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int ic_mr_button_connecting_22_dark = 2131165505;
+			public const int flag_mx = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int ic_mr_button_connecting_22_light = 2131165506;
+			public const int flag_my = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int ic_mr_button_connecting_23_dark = 2131165507;
+			public const int flag_mz = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int ic_mr_button_connecting_23_light = 2131165508;
+			public const int flag_na = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int ic_mr_button_connecting_24_dark = 2131165509;
+			public const int flag_nc = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int ic_mr_button_connecting_24_light = 2131165510;
+			public const int flag_ne = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int ic_mr_button_connecting_25_dark = 2131165511;
+			public const int flag_nf = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int ic_mr_button_connecting_25_light = 2131165512;
+			public const int flag_ng = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int ic_mr_button_connecting_26_dark = 2131165513;
+			public const int flag_ni = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int ic_mr_button_connecting_26_light = 2131165514;
+			public const int flag_nl = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int ic_mr_button_connecting_27_dark = 2131165515;
+			public const int flag_no = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int ic_mr_button_connecting_27_light = 2131165516;
+			public const int flag_np = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int ic_mr_button_connecting_28_dark = 2131165517;
+			public const int flag_nr = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int ic_mr_button_connecting_28_light = 2131165518;
+			public const int flag_nu = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int ic_mr_button_connecting_29_dark = 2131165519;
+			public const int flag_nz = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int ic_mr_button_connecting_29_light = 2131165520;
+			public const int flag_om = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int ic_mr_button_connecting_30_dark = 2131165521;
+			public const int flag_pa = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int ic_mr_button_connecting_30_light = 2131165522;
+			public const int flag_pe = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int ic_mr_button_disabled_dark = 2131165523;
+			public const int flag_pf = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int ic_mr_button_disabled_light = 2131165524;
+			public const int flag_pg = 2131165524;
 			
 			// aapt resource value: 0x7F070155
-			public const int ic_mr_button_disconnected_dark = 2131165525;
+			public const int flag_ph = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int ic_mr_button_disconnected_light = 2131165526;
+			public const int flag_pk = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int ic_mr_button_grey = 2131165527;
+			public const int flag_pl = 2131165527;
 			
 			// aapt resource value: 0x7F070158
-			public const int ic_mtrl_chip_checked_black = 2131165528;
+			public const int flag_pm = 2131165528;
 			
 			// aapt resource value: 0x7F070159
-			public const int ic_mtrl_chip_checked_circle = 2131165529;
+			public const int flag_pn = 2131165529;
 			
 			// aapt resource value: 0x7F07015A
-			public const int ic_mtrl_chip_close_circle = 2131165530;
+			public const int flag_pr = 2131165530;
 			
 			// aapt resource value: 0x7F07015B
-			public const int ic_notifications = 2131165531;
+			public const int flag_ps = 2131165531;
 			
 			// aapt resource value: 0x7F07015C
-			public const int ic_os_notification_fallback_white_24dp = 2131165532;
+			public const int flag_pt = 2131165532;
 			
 			// aapt resource value: 0x7F07015D
-			public const int ic_pan_tool_black_24dp = 2131165533;
+			public const int flag_pw = 2131165533;
 			
 			// aapt resource value: 0x7F07015E
-			public const int ic_vol_type_speaker_dark = 2131165534;
+			public const int flag_py = 2131165534;
 			
 			// aapt resource value: 0x7F07015F
-			public const int ic_vol_type_speaker_group_dark = 2131165535;
+			public const int flag_qa = 2131165535;
 			
 			// aapt resource value: 0x7F070160
-			public const int ic_vol_type_speaker_group_light = 2131165536;
+			public const int flag_re = 2131165536;
 			
 			// aapt resource value: 0x7F070161
-			public const int ic_vol_type_speaker_light = 2131165537;
+			public const int flag_ro = 2131165537;
 			
 			// aapt resource value: 0x7F070162
-			public const int ic_vol_type_tv_dark = 2131165538;
+			public const int flag_rs = 2131165538;
 			
 			// aapt resource value: 0x7F070163
-			public const int ic_vol_type_tv_light = 2131165539;
+			public const int flag_ru = 2131165539;
 			
 			// aapt resource value: 0x7F070164
-			public const int info_shape = 2131165540;
-			
-			// aapt resource value: 0x7F070166
-			public const int inputlayout_togglecollapseicon = 2131165542;
-			
-			// aapt resource value: 0x7F070167
-			public const int inputlayout_togglevisibleicon = 2131165543;
+			public const int flag_rw = 2131165540;
 			
 			// aapt resource value: 0x7F070165
-			public const int input_layout_drop_down_icon = 2131165541;
+			public const int flag_sa = 2131165541;
+			
+			// aapt resource value: 0x7F070166
+			public const int flag_sb = 2131165542;
+			
+			// aapt resource value: 0x7F070167
+			public const int flag_sc = 2131165543;
 			
 			// aapt resource value: 0x7F070168
-			public const int Launch_Screen = 2131165544;
+			public const int flag_sd = 2131165544;
 			
 			// aapt resource value: 0x7F070169
-			public const int mr_button_connected_dark = 2131165545;
+			public const int flag_se = 2131165545;
 			
 			// aapt resource value: 0x7F07016A
-			public const int mr_button_connected_light = 2131165546;
+			public const int flag_sg = 2131165546;
 			
 			// aapt resource value: 0x7F07016B
-			public const int mr_button_connecting_dark = 2131165547;
+			public const int flag_sh = 2131165547;
 			
 			// aapt resource value: 0x7F07016C
-			public const int mr_button_connecting_light = 2131165548;
+			public const int flag_si = 2131165548;
 			
 			// aapt resource value: 0x7F07016D
-			public const int mr_button_dark = 2131165549;
+			public const int flag_sj = 2131165549;
 			
 			// aapt resource value: 0x7F07016E
-			public const int mr_button_light = 2131165550;
+			public const int flag_sk = 2131165550;
 			
 			// aapt resource value: 0x7F07016F
-			public const int mr_dialog_close_dark = 2131165551;
+			public const int flag_sl = 2131165551;
 			
 			// aapt resource value: 0x7F070170
-			public const int mr_dialog_close_light = 2131165552;
+			public const int flag_sm = 2131165552;
 			
 			// aapt resource value: 0x7F070171
-			public const int mr_dialog_material_background_dark = 2131165553;
+			public const int flag_sn = 2131165553;
 			
 			// aapt resource value: 0x7F070172
-			public const int mr_dialog_material_background_light = 2131165554;
+			public const int flag_so = 2131165554;
 			
 			// aapt resource value: 0x7F070173
-			public const int mr_group_collapse = 2131165555;
+			public const int flag_sr = 2131165555;
 			
 			// aapt resource value: 0x7F070174
-			public const int mr_group_expand = 2131165556;
+			public const int flag_ss = 2131165556;
 			
 			// aapt resource value: 0x7F070175
-			public const int mr_media_pause_dark = 2131165557;
+			public const int flag_st = 2131165557;
 			
 			// aapt resource value: 0x7F070176
-			public const int mr_media_pause_light = 2131165558;
+			public const int flag_sv = 2131165558;
 			
 			// aapt resource value: 0x7F070177
-			public const int mr_media_play_dark = 2131165559;
+			public const int flag_sx = 2131165559;
 			
 			// aapt resource value: 0x7F070178
-			public const int mr_media_play_light = 2131165560;
+			public const int flag_sy = 2131165560;
 			
 			// aapt resource value: 0x7F070179
-			public const int mr_media_stop_dark = 2131165561;
+			public const int flag_sz = 2131165561;
 			
 			// aapt resource value: 0x7F07017A
-			public const int mr_media_stop_light = 2131165562;
+			public const int flag_tc = 2131165562;
 			
 			// aapt resource value: 0x7F07017B
-			public const int mr_vol_type_audiotrack_dark = 2131165563;
+			public const int flag_td = 2131165563;
 			
 			// aapt resource value: 0x7F07017C
-			public const int mr_vol_type_audiotrack_light = 2131165564;
+			public const int flag_tf = 2131165564;
 			
 			// aapt resource value: 0x7F07017D
-			public const int mtrl_snackbar_background = 2131165565;
+			public const int flag_tg = 2131165565;
 			
 			// aapt resource value: 0x7F07017E
-			public const int mtrl_tabs_default_indicator = 2131165566;
+			public const int flag_th = 2131165566;
 			
 			// aapt resource value: 0x7F07017F
-			public const int navigation_empty_icon = 2131165567;
+			public const int flag_tj = 2131165567;
 			
 			// aapt resource value: 0x7F070180
-			public const int notification_action_background = 2131165568;
+			public const int flag_tk = 2131165568;
 			
 			// aapt resource value: 0x7F070181
-			public const int notification_bg = 2131165569;
+			public const int flag_tl = 2131165569;
 			
 			// aapt resource value: 0x7F070182
-			public const int notification_bg_low = 2131165570;
+			public const int flag_tm = 2131165570;
 			
 			// aapt resource value: 0x7F070183
-			public const int notification_bg_low_normal = 2131165571;
+			public const int flag_tn = 2131165571;
 			
 			// aapt resource value: 0x7F070184
-			public const int notification_bg_low_pressed = 2131165572;
+			public const int flag_to = 2131165572;
 			
 			// aapt resource value: 0x7F070185
-			public const int notification_bg_normal = 2131165573;
+			public const int flag_tr = 2131165573;
 			
 			// aapt resource value: 0x7F070186
-			public const int notification_bg_normal_pressed = 2131165574;
+			public const int flag_tt = 2131165574;
 			
 			// aapt resource value: 0x7F070187
-			public const int notification_icon_background = 2131165575;
+			public const int flag_tv = 2131165575;
 			
 			// aapt resource value: 0x7F070188
-			public const int notification_template_icon_bg = 2131165576;
+			public const int flag_tw = 2131165576;
 			
 			// aapt resource value: 0x7F070189
-			public const int notification_template_icon_low_bg = 2131165577;
+			public const int flag_tz = 2131165577;
 			
 			// aapt resource value: 0x7F07018A
-			public const int notification_tile_bg = 2131165578;
+			public const int flag_ua = 2131165578;
 			
 			// aapt resource value: 0x7F07018B
-			public const int notify_panel_notification_icon_bg = 2131165579;
+			public const int flag_ug = 2131165579;
 			
 			// aapt resource value: 0x7F07018C
-			public const int success_shape = 2131165580;
+			public const int flag_um = 2131165580;
 			
 			// aapt resource value: 0x7F07018D
-			public const int tooltip_frame_dark = 2131165581;
+			public const int flag_us = 2131165581;
 			
 			// aapt resource value: 0x7F07018E
-			public const int tooltip_frame_light = 2131165582;
+			public const int flag_uy = 2131165582;
 			
 			// aapt resource value: 0x7F07018F
-			public const int warning_shape = 2131165583;
+			public const int flag_uz = 2131165583;
+			
+			// aapt resource value: 0x7F070190
+			public const int flag_va = 2131165584;
+			
+			// aapt resource value: 0x7F070191
+			public const int flag_vc = 2131165585;
+			
+			// aapt resource value: 0x7F070192
+			public const int flag_ve = 2131165586;
+			
+			// aapt resource value: 0x7F070193
+			public const int flag_vg = 2131165587;
+			
+			// aapt resource value: 0x7F070194
+			public const int flag_vi = 2131165588;
+			
+			// aapt resource value: 0x7F070195
+			public const int flag_vn = 2131165589;
+			
+			// aapt resource value: 0x7F070196
+			public const int flag_vu = 2131165590;
+			
+			// aapt resource value: 0x7F070197
+			public const int flag_wf = 2131165591;
+			
+			// aapt resource value: 0x7F070198
+			public const int flag_ws = 2131165592;
+			
+			// aapt resource value: 0x7F070199
+			public const int flag_xk = 2131165593;
+			
+			// aapt resource value: 0x7F07019A
+			public const int flag_ye = 2131165594;
+			
+			// aapt resource value: 0x7F07019B
+			public const int flag_yt = 2131165595;
+			
+			// aapt resource value: 0x7F07019C
+			public const int flag_yu = 2131165596;
+			
+			// aapt resource value: 0x7F07019D
+			public const int flag_za = 2131165597;
+			
+			// aapt resource value: 0x7F07019E
+			public const int flag_zm = 2131165598;
+			
+			// aapt resource value: 0x7F07019F
+			public const int flag_zw = 2131165599;
+			
+			// aapt resource value: 0x7F0701A0
+			public const int googleg_disabled_color_18 = 2131165600;
+			
+			// aapt resource value: 0x7F0701A1
+			public const int googleg_standard_color_18 = 2131165601;
+			
+			// aapt resource value: 0x7F0701A2
+			public const int ic_audiotrack_dark = 2131165602;
+			
+			// aapt resource value: 0x7F0701A3
+			public const int ic_audiotrack_light = 2131165603;
+			
+			// aapt resource value: 0x7F0701A4
+			public const int ic_check_black_24dp = 2131165604;
+			
+			// aapt resource value: 0x7F0701A5
+			public const int ic_clear_black_24dp = 2131165605;
+			
+			// aapt resource value: 0x7F0701A6
+			public const int ic_close = 2131165606;
+			
+			// aapt resource value: 0x7F0701A7
+			public const int ic_cluster = 2131165607;
+			
+			// aapt resource value: 0x7F0701A8
+			public const int ic_dialog_close_dark = 2131165608;
+			
+			// aapt resource value: 0x7F0701A9
+			public const int ic_dialog_close_light = 2131165609;
+			
+			// aapt resource value: 0x7F0701AA
+			public const int ic_facebook = 2131165610;
+			
+			// aapt resource value: 0x7F0701AB
+			public const int ic_googleplus = 2131165611;
+			
+			// aapt resource value: 0x7F0701AC
+			public const int ic_group_collapse_00 = 2131165612;
+			
+			// aapt resource value: 0x7F0701AD
+			public const int ic_group_collapse_01 = 2131165613;
+			
+			// aapt resource value: 0x7F0701AE
+			public const int ic_group_collapse_02 = 2131165614;
+			
+			// aapt resource value: 0x7F0701AF
+			public const int ic_group_collapse_03 = 2131165615;
+			
+			// aapt resource value: 0x7F0701B0
+			public const int ic_group_collapse_04 = 2131165616;
+			
+			// aapt resource value: 0x7F0701B1
+			public const int ic_group_collapse_05 = 2131165617;
+			
+			// aapt resource value: 0x7F0701B2
+			public const int ic_group_collapse_06 = 2131165618;
+			
+			// aapt resource value: 0x7F0701B3
+			public const int ic_group_collapse_07 = 2131165619;
+			
+			// aapt resource value: 0x7F0701B4
+			public const int ic_group_collapse_08 = 2131165620;
+			
+			// aapt resource value: 0x7F0701B5
+			public const int ic_group_collapse_09 = 2131165621;
+			
+			// aapt resource value: 0x7F0701B6
+			public const int ic_group_collapse_10 = 2131165622;
+			
+			// aapt resource value: 0x7F0701B7
+			public const int ic_group_collapse_11 = 2131165623;
+			
+			// aapt resource value: 0x7F0701B8
+			public const int ic_group_collapse_12 = 2131165624;
+			
+			// aapt resource value: 0x7F0701B9
+			public const int ic_group_collapse_13 = 2131165625;
+			
+			// aapt resource value: 0x7F0701BA
+			public const int ic_group_collapse_14 = 2131165626;
+			
+			// aapt resource value: 0x7F0701BB
+			public const int ic_group_collapse_15 = 2131165627;
+			
+			// aapt resource value: 0x7F0701BC
+			public const int ic_group_expand_00 = 2131165628;
+			
+			// aapt resource value: 0x7F0701BD
+			public const int ic_group_expand_01 = 2131165629;
+			
+			// aapt resource value: 0x7F0701BE
+			public const int ic_group_expand_02 = 2131165630;
+			
+			// aapt resource value: 0x7F0701BF
+			public const int ic_group_expand_03 = 2131165631;
+			
+			// aapt resource value: 0x7F0701C0
+			public const int ic_group_expand_04 = 2131165632;
+			
+			// aapt resource value: 0x7F0701C1
+			public const int ic_group_expand_05 = 2131165633;
+			
+			// aapt resource value: 0x7F0701C2
+			public const int ic_group_expand_06 = 2131165634;
+			
+			// aapt resource value: 0x7F0701C3
+			public const int ic_group_expand_07 = 2131165635;
+			
+			// aapt resource value: 0x7F0701C4
+			public const int ic_group_expand_08 = 2131165636;
+			
+			// aapt resource value: 0x7F0701C5
+			public const int ic_group_expand_09 = 2131165637;
+			
+			// aapt resource value: 0x7F0701C6
+			public const int ic_group_expand_10 = 2131165638;
+			
+			// aapt resource value: 0x7F0701C7
+			public const int ic_group_expand_11 = 2131165639;
+			
+			// aapt resource value: 0x7F0701C8
+			public const int ic_group_expand_12 = 2131165640;
+			
+			// aapt resource value: 0x7F0701C9
+			public const int ic_group_expand_13 = 2131165641;
+			
+			// aapt resource value: 0x7F0701CA
+			public const int ic_group_expand_14 = 2131165642;
+			
+			// aapt resource value: 0x7F0701CB
+			public const int ic_group_expand_15 = 2131165643;
+			
+			// aapt resource value: 0x7F0701CC
+			public const int ic_home = 2131165644;
+			
+			// aapt resource value: 0x7F0701CD
+			public const int ic_info_outline_black_24dp = 2131165645;
+			
+			// aapt resource value: 0x7F0701CE
+			public const int ic_media_pause_dark = 2131165646;
+			
+			// aapt resource value: 0x7F0701CF
+			public const int ic_media_pause_light = 2131165647;
+			
+			// aapt resource value: 0x7F0701D0
+			public const int ic_media_play_dark = 2131165648;
+			
+			// aapt resource value: 0x7F0701D1
+			public const int ic_media_play_light = 2131165649;
+			
+			// aapt resource value: 0x7F0701D2
+			public const int ic_media_stop_dark = 2131165650;
+			
+			// aapt resource value: 0x7F0701D3
+			public const int ic_media_stop_light = 2131165651;
+			
+			// aapt resource value: 0x7F0701D4
+			public const int ic_mr_button_connected_00_dark = 2131165652;
+			
+			// aapt resource value: 0x7F0701D5
+			public const int ic_mr_button_connected_00_light = 2131165653;
+			
+			// aapt resource value: 0x7F0701D6
+			public const int ic_mr_button_connected_01_dark = 2131165654;
+			
+			// aapt resource value: 0x7F0701D7
+			public const int ic_mr_button_connected_01_light = 2131165655;
+			
+			// aapt resource value: 0x7F0701D8
+			public const int ic_mr_button_connected_02_dark = 2131165656;
+			
+			// aapt resource value: 0x7F0701D9
+			public const int ic_mr_button_connected_02_light = 2131165657;
+			
+			// aapt resource value: 0x7F0701DA
+			public const int ic_mr_button_connected_03_dark = 2131165658;
+			
+			// aapt resource value: 0x7F0701DB
+			public const int ic_mr_button_connected_03_light = 2131165659;
+			
+			// aapt resource value: 0x7F0701DC
+			public const int ic_mr_button_connected_04_dark = 2131165660;
+			
+			// aapt resource value: 0x7F0701DD
+			public const int ic_mr_button_connected_04_light = 2131165661;
+			
+			// aapt resource value: 0x7F0701DE
+			public const int ic_mr_button_connected_05_dark = 2131165662;
+			
+			// aapt resource value: 0x7F0701DF
+			public const int ic_mr_button_connected_05_light = 2131165663;
+			
+			// aapt resource value: 0x7F0701E0
+			public const int ic_mr_button_connected_06_dark = 2131165664;
+			
+			// aapt resource value: 0x7F0701E1
+			public const int ic_mr_button_connected_06_light = 2131165665;
+			
+			// aapt resource value: 0x7F0701E2
+			public const int ic_mr_button_connected_07_dark = 2131165666;
+			
+			// aapt resource value: 0x7F0701E3
+			public const int ic_mr_button_connected_07_light = 2131165667;
+			
+			// aapt resource value: 0x7F0701E4
+			public const int ic_mr_button_connected_08_dark = 2131165668;
+			
+			// aapt resource value: 0x7F0701E5
+			public const int ic_mr_button_connected_08_light = 2131165669;
+			
+			// aapt resource value: 0x7F0701E6
+			public const int ic_mr_button_connected_09_dark = 2131165670;
+			
+			// aapt resource value: 0x7F0701E7
+			public const int ic_mr_button_connected_09_light = 2131165671;
+			
+			// aapt resource value: 0x7F0701E8
+			public const int ic_mr_button_connected_10_dark = 2131165672;
+			
+			// aapt resource value: 0x7F0701E9
+			public const int ic_mr_button_connected_10_light = 2131165673;
+			
+			// aapt resource value: 0x7F0701EA
+			public const int ic_mr_button_connected_11_dark = 2131165674;
+			
+			// aapt resource value: 0x7F0701EB
+			public const int ic_mr_button_connected_11_light = 2131165675;
+			
+			// aapt resource value: 0x7F0701EC
+			public const int ic_mr_button_connected_12_dark = 2131165676;
+			
+			// aapt resource value: 0x7F0701ED
+			public const int ic_mr_button_connected_12_light = 2131165677;
+			
+			// aapt resource value: 0x7F0701EE
+			public const int ic_mr_button_connected_13_dark = 2131165678;
+			
+			// aapt resource value: 0x7F0701EF
+			public const int ic_mr_button_connected_13_light = 2131165679;
+			
+			// aapt resource value: 0x7F0701F0
+			public const int ic_mr_button_connected_14_dark = 2131165680;
+			
+			// aapt resource value: 0x7F0701F1
+			public const int ic_mr_button_connected_14_light = 2131165681;
+			
+			// aapt resource value: 0x7F0701F2
+			public const int ic_mr_button_connected_15_dark = 2131165682;
+			
+			// aapt resource value: 0x7F0701F3
+			public const int ic_mr_button_connected_15_light = 2131165683;
+			
+			// aapt resource value: 0x7F0701F4
+			public const int ic_mr_button_connected_16_dark = 2131165684;
+			
+			// aapt resource value: 0x7F0701F5
+			public const int ic_mr_button_connected_16_light = 2131165685;
+			
+			// aapt resource value: 0x7F0701F6
+			public const int ic_mr_button_connected_17_dark = 2131165686;
+			
+			// aapt resource value: 0x7F0701F7
+			public const int ic_mr_button_connected_17_light = 2131165687;
+			
+			// aapt resource value: 0x7F0701F8
+			public const int ic_mr_button_connected_18_dark = 2131165688;
+			
+			// aapt resource value: 0x7F0701F9
+			public const int ic_mr_button_connected_18_light = 2131165689;
+			
+			// aapt resource value: 0x7F0701FA
+			public const int ic_mr_button_connected_19_dark = 2131165690;
+			
+			// aapt resource value: 0x7F0701FB
+			public const int ic_mr_button_connected_19_light = 2131165691;
+			
+			// aapt resource value: 0x7F0701FC
+			public const int ic_mr_button_connected_20_dark = 2131165692;
+			
+			// aapt resource value: 0x7F0701FD
+			public const int ic_mr_button_connected_20_light = 2131165693;
+			
+			// aapt resource value: 0x7F0701FE
+			public const int ic_mr_button_connected_21_dark = 2131165694;
+			
+			// aapt resource value: 0x7F0701FF
+			public const int ic_mr_button_connected_21_light = 2131165695;
+			
+			// aapt resource value: 0x7F070200
+			public const int ic_mr_button_connected_22_dark = 2131165696;
+			
+			// aapt resource value: 0x7F070201
+			public const int ic_mr_button_connected_22_light = 2131165697;
+			
+			// aapt resource value: 0x7F070202
+			public const int ic_mr_button_connected_23_dark = 2131165698;
+			
+			// aapt resource value: 0x7F070203
+			public const int ic_mr_button_connected_23_light = 2131165699;
+			
+			// aapt resource value: 0x7F070204
+			public const int ic_mr_button_connected_24_dark = 2131165700;
+			
+			// aapt resource value: 0x7F070205
+			public const int ic_mr_button_connected_24_light = 2131165701;
+			
+			// aapt resource value: 0x7F070206
+			public const int ic_mr_button_connected_25_dark = 2131165702;
+			
+			// aapt resource value: 0x7F070207
+			public const int ic_mr_button_connected_25_light = 2131165703;
+			
+			// aapt resource value: 0x7F070208
+			public const int ic_mr_button_connected_26_dark = 2131165704;
+			
+			// aapt resource value: 0x7F070209
+			public const int ic_mr_button_connected_26_light = 2131165705;
+			
+			// aapt resource value: 0x7F07020A
+			public const int ic_mr_button_connected_27_dark = 2131165706;
+			
+			// aapt resource value: 0x7F07020B
+			public const int ic_mr_button_connected_27_light = 2131165707;
+			
+			// aapt resource value: 0x7F07020C
+			public const int ic_mr_button_connected_28_dark = 2131165708;
+			
+			// aapt resource value: 0x7F07020D
+			public const int ic_mr_button_connected_28_light = 2131165709;
+			
+			// aapt resource value: 0x7F07020E
+			public const int ic_mr_button_connected_29_dark = 2131165710;
+			
+			// aapt resource value: 0x7F07020F
+			public const int ic_mr_button_connected_29_light = 2131165711;
+			
+			// aapt resource value: 0x7F070210
+			public const int ic_mr_button_connected_30_dark = 2131165712;
+			
+			// aapt resource value: 0x7F070211
+			public const int ic_mr_button_connected_30_light = 2131165713;
+			
+			// aapt resource value: 0x7F070212
+			public const int ic_mr_button_connecting_00_dark = 2131165714;
+			
+			// aapt resource value: 0x7F070213
+			public const int ic_mr_button_connecting_00_light = 2131165715;
+			
+			// aapt resource value: 0x7F070214
+			public const int ic_mr_button_connecting_01_dark = 2131165716;
+			
+			// aapt resource value: 0x7F070215
+			public const int ic_mr_button_connecting_01_light = 2131165717;
+			
+			// aapt resource value: 0x7F070216
+			public const int ic_mr_button_connecting_02_dark = 2131165718;
+			
+			// aapt resource value: 0x7F070217
+			public const int ic_mr_button_connecting_02_light = 2131165719;
+			
+			// aapt resource value: 0x7F070218
+			public const int ic_mr_button_connecting_03_dark = 2131165720;
+			
+			// aapt resource value: 0x7F070219
+			public const int ic_mr_button_connecting_03_light = 2131165721;
+			
+			// aapt resource value: 0x7F07021A
+			public const int ic_mr_button_connecting_04_dark = 2131165722;
+			
+			// aapt resource value: 0x7F07021B
+			public const int ic_mr_button_connecting_04_light = 2131165723;
+			
+			// aapt resource value: 0x7F07021C
+			public const int ic_mr_button_connecting_05_dark = 2131165724;
+			
+			// aapt resource value: 0x7F07021D
+			public const int ic_mr_button_connecting_05_light = 2131165725;
+			
+			// aapt resource value: 0x7F07021E
+			public const int ic_mr_button_connecting_06_dark = 2131165726;
+			
+			// aapt resource value: 0x7F07021F
+			public const int ic_mr_button_connecting_06_light = 2131165727;
+			
+			// aapt resource value: 0x7F070220
+			public const int ic_mr_button_connecting_07_dark = 2131165728;
+			
+			// aapt resource value: 0x7F070221
+			public const int ic_mr_button_connecting_07_light = 2131165729;
+			
+			// aapt resource value: 0x7F070222
+			public const int ic_mr_button_connecting_08_dark = 2131165730;
+			
+			// aapt resource value: 0x7F070223
+			public const int ic_mr_button_connecting_08_light = 2131165731;
+			
+			// aapt resource value: 0x7F070224
+			public const int ic_mr_button_connecting_09_dark = 2131165732;
+			
+			// aapt resource value: 0x7F070225
+			public const int ic_mr_button_connecting_09_light = 2131165733;
+			
+			// aapt resource value: 0x7F070226
+			public const int ic_mr_button_connecting_10_dark = 2131165734;
+			
+			// aapt resource value: 0x7F070227
+			public const int ic_mr_button_connecting_10_light = 2131165735;
+			
+			// aapt resource value: 0x7F070228
+			public const int ic_mr_button_connecting_11_dark = 2131165736;
+			
+			// aapt resource value: 0x7F070229
+			public const int ic_mr_button_connecting_11_light = 2131165737;
+			
+			// aapt resource value: 0x7F07022A
+			public const int ic_mr_button_connecting_12_dark = 2131165738;
+			
+			// aapt resource value: 0x7F07022B
+			public const int ic_mr_button_connecting_12_light = 2131165739;
+			
+			// aapt resource value: 0x7F07022C
+			public const int ic_mr_button_connecting_13_dark = 2131165740;
+			
+			// aapt resource value: 0x7F07022D
+			public const int ic_mr_button_connecting_13_light = 2131165741;
+			
+			// aapt resource value: 0x7F07022E
+			public const int ic_mr_button_connecting_14_dark = 2131165742;
+			
+			// aapt resource value: 0x7F07022F
+			public const int ic_mr_button_connecting_14_light = 2131165743;
+			
+			// aapt resource value: 0x7F070230
+			public const int ic_mr_button_connecting_15_dark = 2131165744;
+			
+			// aapt resource value: 0x7F070231
+			public const int ic_mr_button_connecting_15_light = 2131165745;
+			
+			// aapt resource value: 0x7F070232
+			public const int ic_mr_button_connecting_16_dark = 2131165746;
+			
+			// aapt resource value: 0x7F070233
+			public const int ic_mr_button_connecting_16_light = 2131165747;
+			
+			// aapt resource value: 0x7F070234
+			public const int ic_mr_button_connecting_17_dark = 2131165748;
+			
+			// aapt resource value: 0x7F070235
+			public const int ic_mr_button_connecting_17_light = 2131165749;
+			
+			// aapt resource value: 0x7F070236
+			public const int ic_mr_button_connecting_18_dark = 2131165750;
+			
+			// aapt resource value: 0x7F070237
+			public const int ic_mr_button_connecting_18_light = 2131165751;
+			
+			// aapt resource value: 0x7F070238
+			public const int ic_mr_button_connecting_19_dark = 2131165752;
+			
+			// aapt resource value: 0x7F070239
+			public const int ic_mr_button_connecting_19_light = 2131165753;
+			
+			// aapt resource value: 0x7F07023A
+			public const int ic_mr_button_connecting_20_dark = 2131165754;
+			
+			// aapt resource value: 0x7F07023B
+			public const int ic_mr_button_connecting_20_light = 2131165755;
+			
+			// aapt resource value: 0x7F07023C
+			public const int ic_mr_button_connecting_21_dark = 2131165756;
+			
+			// aapt resource value: 0x7F07023D
+			public const int ic_mr_button_connecting_21_light = 2131165757;
+			
+			// aapt resource value: 0x7F07023E
+			public const int ic_mr_button_connecting_22_dark = 2131165758;
+			
+			// aapt resource value: 0x7F07023F
+			public const int ic_mr_button_connecting_22_light = 2131165759;
+			
+			// aapt resource value: 0x7F070240
+			public const int ic_mr_button_connecting_23_dark = 2131165760;
+			
+			// aapt resource value: 0x7F070241
+			public const int ic_mr_button_connecting_23_light = 2131165761;
+			
+			// aapt resource value: 0x7F070242
+			public const int ic_mr_button_connecting_24_dark = 2131165762;
+			
+			// aapt resource value: 0x7F070243
+			public const int ic_mr_button_connecting_24_light = 2131165763;
+			
+			// aapt resource value: 0x7F070244
+			public const int ic_mr_button_connecting_25_dark = 2131165764;
+			
+			// aapt resource value: 0x7F070245
+			public const int ic_mr_button_connecting_25_light = 2131165765;
+			
+			// aapt resource value: 0x7F070246
+			public const int ic_mr_button_connecting_26_dark = 2131165766;
+			
+			// aapt resource value: 0x7F070247
+			public const int ic_mr_button_connecting_26_light = 2131165767;
+			
+			// aapt resource value: 0x7F070248
+			public const int ic_mr_button_connecting_27_dark = 2131165768;
+			
+			// aapt resource value: 0x7F070249
+			public const int ic_mr_button_connecting_27_light = 2131165769;
+			
+			// aapt resource value: 0x7F07024A
+			public const int ic_mr_button_connecting_28_dark = 2131165770;
+			
+			// aapt resource value: 0x7F07024B
+			public const int ic_mr_button_connecting_28_light = 2131165771;
+			
+			// aapt resource value: 0x7F07024C
+			public const int ic_mr_button_connecting_29_dark = 2131165772;
+			
+			// aapt resource value: 0x7F07024D
+			public const int ic_mr_button_connecting_29_light = 2131165773;
+			
+			// aapt resource value: 0x7F07024E
+			public const int ic_mr_button_connecting_30_dark = 2131165774;
+			
+			// aapt resource value: 0x7F07024F
+			public const int ic_mr_button_connecting_30_light = 2131165775;
+			
+			// aapt resource value: 0x7F070250
+			public const int ic_mr_button_disabled_dark = 2131165776;
+			
+			// aapt resource value: 0x7F070251
+			public const int ic_mr_button_disabled_light = 2131165777;
+			
+			// aapt resource value: 0x7F070252
+			public const int ic_mr_button_disconnected_dark = 2131165778;
+			
+			// aapt resource value: 0x7F070253
+			public const int ic_mr_button_disconnected_light = 2131165779;
+			
+			// aapt resource value: 0x7F070254
+			public const int ic_mr_button_grey = 2131165780;
+			
+			// aapt resource value: 0x7F070255
+			public const int ic_mtrl_chip_checked_black = 2131165781;
+			
+			// aapt resource value: 0x7F070256
+			public const int ic_mtrl_chip_checked_circle = 2131165782;
+			
+			// aapt resource value: 0x7F070257
+			public const int ic_mtrl_chip_close_circle = 2131165783;
+			
+			// aapt resource value: 0x7F070258
+			public const int ic_notifications = 2131165784;
+			
+			// aapt resource value: 0x7F070259
+			public const int ic_os_notification_fallback_white_24dp = 2131165785;
+			
+			// aapt resource value: 0x7F07025A
+			public const int ic_pan_tool_black_24dp = 2131165786;
+			
+			// aapt resource value: 0x7F07025B
+			public const int ic_vol_type_speaker_dark = 2131165787;
+			
+			// aapt resource value: 0x7F07025C
+			public const int ic_vol_type_speaker_group_dark = 2131165788;
+			
+			// aapt resource value: 0x7F07025D
+			public const int ic_vol_type_speaker_group_light = 2131165789;
+			
+			// aapt resource value: 0x7F07025E
+			public const int ic_vol_type_speaker_light = 2131165790;
+			
+			// aapt resource value: 0x7F07025F
+			public const int ic_vol_type_tv_dark = 2131165791;
+			
+			// aapt resource value: 0x7F070260
+			public const int ic_vol_type_tv_light = 2131165792;
+			
+			// aapt resource value: 0x7F070261
+			public const int info_shape = 2131165793;
+			
+			// aapt resource value: 0x7F070263
+			public const int inputlayout_togglecollapseicon = 2131165795;
+			
+			// aapt resource value: 0x7F070264
+			public const int inputlayout_togglevisibleicon = 2131165796;
+			
+			// aapt resource value: 0x7F070262
+			public const int input_layout_drop_down_icon = 2131165794;
+			
+			// aapt resource value: 0x7F070265
+			public const int Launch_Screen = 2131165797;
+			
+			// aapt resource value: 0x7F070266
+			public const int mr_button_connected_dark = 2131165798;
+			
+			// aapt resource value: 0x7F070267
+			public const int mr_button_connected_light = 2131165799;
+			
+			// aapt resource value: 0x7F070268
+			public const int mr_button_connecting_dark = 2131165800;
+			
+			// aapt resource value: 0x7F070269
+			public const int mr_button_connecting_light = 2131165801;
+			
+			// aapt resource value: 0x7F07026A
+			public const int mr_button_dark = 2131165802;
+			
+			// aapt resource value: 0x7F07026B
+			public const int mr_button_light = 2131165803;
+			
+			// aapt resource value: 0x7F07026C
+			public const int mr_dialog_close_dark = 2131165804;
+			
+			// aapt resource value: 0x7F07026D
+			public const int mr_dialog_close_light = 2131165805;
+			
+			// aapt resource value: 0x7F07026E
+			public const int mr_dialog_material_background_dark = 2131165806;
+			
+			// aapt resource value: 0x7F07026F
+			public const int mr_dialog_material_background_light = 2131165807;
+			
+			// aapt resource value: 0x7F070270
+			public const int mr_group_collapse = 2131165808;
+			
+			// aapt resource value: 0x7F070271
+			public const int mr_group_expand = 2131165809;
+			
+			// aapt resource value: 0x7F070272
+			public const int mr_media_pause_dark = 2131165810;
+			
+			// aapt resource value: 0x7F070273
+			public const int mr_media_pause_light = 2131165811;
+			
+			// aapt resource value: 0x7F070274
+			public const int mr_media_play_dark = 2131165812;
+			
+			// aapt resource value: 0x7F070275
+			public const int mr_media_play_light = 2131165813;
+			
+			// aapt resource value: 0x7F070276
+			public const int mr_media_stop_dark = 2131165814;
+			
+			// aapt resource value: 0x7F070277
+			public const int mr_media_stop_light = 2131165815;
+			
+			// aapt resource value: 0x7F070278
+			public const int mr_vol_type_audiotrack_dark = 2131165816;
+			
+			// aapt resource value: 0x7F070279
+			public const int mr_vol_type_audiotrack_light = 2131165817;
+			
+			// aapt resource value: 0x7F07027A
+			public const int mtrl_snackbar_background = 2131165818;
+			
+			// aapt resource value: 0x7F07027B
+			public const int mtrl_tabs_default_indicator = 2131165819;
+			
+			// aapt resource value: 0x7F07027C
+			public const int navigation_empty_icon = 2131165820;
+			
+			// aapt resource value: 0x7F07027D
+			public const int notification_action_background = 2131165821;
+			
+			// aapt resource value: 0x7F07027E
+			public const int notification_bg = 2131165822;
+			
+			// aapt resource value: 0x7F07027F
+			public const int notification_bg_low = 2131165823;
+			
+			// aapt resource value: 0x7F070280
+			public const int notification_bg_low_normal = 2131165824;
+			
+			// aapt resource value: 0x7F070281
+			public const int notification_bg_low_pressed = 2131165825;
+			
+			// aapt resource value: 0x7F070282
+			public const int notification_bg_normal = 2131165826;
+			
+			// aapt resource value: 0x7F070283
+			public const int notification_bg_normal_pressed = 2131165827;
+			
+			// aapt resource value: 0x7F070284
+			public const int notification_icon_background = 2131165828;
+			
+			// aapt resource value: 0x7F070285
+			public const int notification_template_icon_bg = 2131165829;
+			
+			// aapt resource value: 0x7F070286
+			public const int notification_template_icon_low_bg = 2131165830;
+			
+			// aapt resource value: 0x7F070287
+			public const int notification_tile_bg = 2131165831;
+			
+			// aapt resource value: 0x7F070288
+			public const int notify_panel_notification_icon_bg = 2131165832;
+			
+			// aapt resource value: 0x7F070289
+			public const int success_shape = 2131165833;
+			
+			// aapt resource value: 0x7F07028A
+			public const int tooltip_frame_dark = 2131165834;
+			
+			// aapt resource value: 0x7F07028B
+			public const int tooltip_frame_light = 2131165835;
+			
+			// aapt resource value: 0x7F07028C
+			public const int warning_shape = 2131165836;
 			
 			static Drawable()
 			{

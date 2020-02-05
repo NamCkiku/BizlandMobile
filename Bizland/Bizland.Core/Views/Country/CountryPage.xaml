@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Bizland.Core.Views.CountryPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:b="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+    xmlns:behaviors="clr-namespace:Bizland.Core.Behaviors;assembly=Bizland.Core"
+    xmlns:controls="clr-namespace:Bizland.Core.Controls"
+    xmlns:fontawesome="clr-namespace:FontAwesome;assembly=Bizland.Utilities"
+    xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
+    Title="{Binding Title}"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <!--  Header Section  -->
+            <Grid
+                Grid.Row="0"
+                BackgroundColor="{StaticResource PrimaryColor}"
+                ColumnSpacing="20">
+                <Grid.Padding>
+                    <OnPlatform x:TypeArguments="Thickness">
+                        <OnPlatform.Platforms>
+                            <On Platform="iOS" Value="20, 60, 20, 20" />
+                            <On Platform="Android" Value="20" />
+                        </OnPlatform.Platforms>
+                    </OnPlatform>
+                </Grid.Padding>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <syncEffectsView:SfEffectsView
+                    Grid.Column="0"
+                    Angle="360"
+                    HighlightColor="#FF0000"
+                    HorizontalOptions="Start"
+                    TouchDownEffects="Rotation"
+                    VerticalOptions="Center">
+                    <controls:FontAwesomeIcon
+                        FontAttributes="Bold"
+                        FontSize="40"
+                        HorizontalOptions="Start"
+                        Text="{x:Static fontawesome:FontAwesomeIcons.ArrowAltCircleLeft}"
+                        TextColor="White"
+                        VerticalOptions="Center">
+                        <controls:FontAwesomeIcon.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ClosePageCommand}" />
+                        </controls:FontAwesomeIcon.GestureRecognizers>
+                    </controls:FontAwesomeIcon>
+                </syncEffectsView:SfEffectsView>
+
+                <StackLayout Grid.Column="1" VerticalOptions="Center">
+                    <Label Style="{StaticResource Header}" Text="COUNTRY" />
+                </StackLayout>
+            </Grid>
+
+
+            <StackLayout Grid.Row="1" Orientation="Vertical">
+                <inputLayout:SfTextInputLayout
+                    Margin="10,0,10,0"
+                    Padding="0"
+                    ContainerType="Outlined"
+                    FocusedColor="{StaticResource PrimaryColor}"
+                    FocusedStrokeWidth="1"
+                    HorizontalOptions="FillAndExpand"
+                    LeadingViewPosition="Inside"
+                    OutlineCornerRadius="5"
+                    ShowHelperText="False"
+                    VerticalOptions="Start">
+                    <inputLayout:SfTextInputLayout.LeadingView>
+                        <controls:FontAwesomeIcon FontAttributes="Bold" Text="{x:Static fontawesome:FontAwesomeIcons.Search}" />
+                    </inputLayout:SfTextInputLayout.LeadingView>
+                    <Entry x:Name="SearchBar" Placeholder="Search">
+                        <Entry.Behaviors>
+                            <b:EventToCommandBehavior
+                                Command="{Binding SearchCountryCommmand}"
+                                EventArgsConverter="{StaticResource TextChangedEventArgsConverter}"
+                                EventName="TextChanged" />
+                        </Entry.Behaviors>
+                    </Entry>
+                </inputLayout:SfTextInputLayout>
+                <ListView
+                    x:Name="listviewCountry"
+                    behaviors:ItemTappedCommandListView.ItemTappedCommand="{Binding SelectedCommand}"
+                    GroupDisplayBinding="{Binding Key}"
+                    GroupShortNameBinding="{Binding Key}"
+                    HasUnevenRows="False"
+                    HorizontalOptions="FillAndExpand"
+                    IsGroupingEnabled="true"
+                    ItemsSource="{Binding CountryCollectionSearched}"
+                    SeparatorVisibility="Default"
+                    VerticalOptions="FillAndExpand">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout
+                                    Padding="10"
+                                    HorizontalOptions="FillAndExpand"
+                                    Orientation="Horizontal"
+                                    Spacing="10">
+
+                                    <Image
+                                        HeightRequest="25"
+                                        Source="{Binding FlagPath}"
+                                        WidthRequest="25" />
+
+                                    <Label Text="{Binding Name}" VerticalOptions="Center" />
+
+                                    <Label
+                                        HorizontalOptions="End"
+                                        HorizontalTextAlignment="End"
+                                        Opacity="0.5"
+                                        Text="{Binding DialCode}"
+                                        VerticalOptions="Center" />
+
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

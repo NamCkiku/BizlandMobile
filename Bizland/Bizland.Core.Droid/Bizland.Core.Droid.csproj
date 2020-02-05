@@ -57,6 +57,9 @@
     <PackageReference Include="IdentityModel">
       <Version>4.1.1</Version>
     </PackageReference>
+    <PackageReference Include="Karamunting.Android.ImJeevanDeshmukh.GlideToast">
+      <Version>1.0.0</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.AppCenter">
       <Version>2.6.4</Version>
     </PackageReference>
@@ -159,6 +162,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseActivity.cs" />
+    <Compile Include="DependencyServices\DisplayMessageService.cs" />
     <Compile Include="Effects\BorderlessEffect.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusteredMarker.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusterLogicHandler.cs" />
@@ -244,6 +248,21 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\flag_us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-mdpi\ic_notifications.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\ic_notifications.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_notifications.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_notifications.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_notifications.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

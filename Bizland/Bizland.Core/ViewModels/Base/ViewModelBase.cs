@@ -1,13 +1,18 @@
 ﻿using Bizland.Core.Helpers;
+
+using Prism;
 using Prism.AppModel;
 using Prism.Common;
-using Prism.Mvvm;
+using Prism.Ioc;
 using Prism.Navigation;
+
 using System;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
+
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace Bizland.Core.ViewModels
@@ -15,7 +20,7 @@ namespace Bizland.Core.ViewModels
     public abstract class ViewModelBase : ExtendedBindableObject, INavigationAware, IInitialize, IInitializeAsync, IDestructible, IApplicationLifecycleAware, IDisposable
     {
         protected INavigationService NavigationService { get; private set; }
-
+        protected IDisplayMessage DisplayMessage { get; private set; }
 
         private string title;
         public virtual string Title { get => title; set => SetProperty(ref title, value); }
@@ -32,12 +37,39 @@ namespace Bizland.Core.ViewModels
         public int[] _vehicleGroups;
         public int[] VehicleGroups { get => _vehicleGroups; set => SetProperty(ref _vehicleGroups, value); }
 
+        public bool IsConnected => Connectivity.NetworkAccess == NetworkAccess.Internet;
+
         public ViewModelBase(INavigationService navigationService)
         {
             NavigationService = navigationService;
-
+            DisplayMessage = PrismApplicationBase.Current.Container.Resolve<IDisplayMessage>();
+            Connectivity.ConnectivityChanged -= Connectivity_ConnectivityChanged;
+            Connectivity.ConnectivityChanged += Connectivity_ConnectivityChanged;
         }
 
+        ~ViewModelBase()
+        {
+            Connectivity.ConnectivityChanged -= Connectivity_ConnectivityChanged;
+        }
+
+        private void Connectivity_ConnectivityChanged(object sender, ConnectivityChangedEventArgs e)
+        {
+            RaisePropertyChanged(nameof(IsConnected));
+
+            if (e.NetworkAccess != NetworkAccess.Internet)
+            {
+                // await NavigationService.NavigateAsync("NetworkPage");
+                //await PopupNavigation.Instance.PushAsync(new NetworkPage());
+            }
+            else
+            {
+                //await NavigationService.GoBackAsync();
+                //if (PopupNavigation.Instance.PopupStack.Count > 0)
+                //{
+                //    await PopupNavigation.Instance.PopAllAsync();
+                //}
+            }
+        }
 
         public virtual void Initialize(INavigationParameters parameters)
         {
@@ -51,7 +83,6 @@ namespace Bizland.Core.ViewModels
         public void Destroy()
         {
             OnDestroy();
-
         }
 
         public virtual void OnDestroy()
@@ -222,21 +253,6 @@ namespace Bizland.Core.ViewModels
                 });
             }
         }
-
-        public ICommand SelectCompanyCommand
-        {
-            get
-            {
-                return new Command(() =>
-                {
-                    SafeExecute(async () =>
-                    {
-                        await NavigationService.NavigateAsync("BaseNavigationPage/CompanyLookUp", useModalNavigation: true);
-                    });
-                });
-            }
-        }
-
 
         protected TControl GetControl<TControl>(string control)
         {

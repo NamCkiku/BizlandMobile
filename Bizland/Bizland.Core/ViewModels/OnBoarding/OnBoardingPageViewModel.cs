@@ -31,6 +31,10 @@ namespace Bizland.Core.ViewModels
         public OnBoardingPageViewModel(INavigationService navigationService)
            : base(navigationService)
         {
+            this.PushLoginCommand = new Command(this.PushLoginPage);
+
+            this.PushRegisterCommand = new Command(this.PushRegisterPage);
+
             this.Boardings = new ObservableCollection<Boarding>
             {
                 new Boarding
@@ -72,6 +76,9 @@ namespace Bizland.Core.ViewModels
 
         #region Commands
 
+        public ICommand PushLoginCommand { get; set; }
+
+        public ICommand PushRegisterCommand { get; set; }
 
         #endregion
 
@@ -87,7 +94,21 @@ namespace Bizland.Core.ViewModels
             this.SelectedIndex++;
             return false;
         }
+        private void PushLoginPage()
+        {
+            SafeExecute(async () =>
+            {
+                await NavigationService.NavigateAsync("LoginPage", useModalNavigation: true);
+            });
+        }
 
+        private void PushRegisterPage()
+        {
+            SafeExecute(async () =>
+            {
+                await NavigationService.NavigateAsync("RegisterPage", useModalNavigation: true);
+            });
+        }
         #endregion
     }
 }

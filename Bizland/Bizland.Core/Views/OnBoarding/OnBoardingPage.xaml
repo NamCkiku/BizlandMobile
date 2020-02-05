@@ -101,8 +101,7 @@
                 <!--  Login button  -->
                 <Button
                     Margin="20,0,20,0"
-                    Command="{Binding NextCommand}"
-                    CommandParameter="{x:Reference Rotator}"
+                    Command="{Binding PushLoginCommand}"
                     FontFamily="{StaticResource myFontLatoBold}"
                     HorizontalOptions="FillAndExpand"
                     Text="LOGIN" />
@@ -110,7 +109,7 @@
                 <!--  Register button  -->
                 <Button
                     BackgroundColor="Transparent"
-                    Command="{Binding SkipCommand}"
+                    Command="{Binding PushRegisterCommand}"
                     HorizontalOptions="Center"
                     Text="Or connect create account"
                     TextColor="{StaticResource Additional}" />

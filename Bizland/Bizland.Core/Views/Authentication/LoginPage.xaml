@@ -59,7 +59,12 @@
                         HorizontalOptions="Start"
                         Text="{x:Static fontawesome:FontAwesomeIcons.ArrowAltCircleLeft}"
                         TextColor="White"
-                        VerticalOptions="Center" />
+                        VerticalOptions="Center">
+                        <controls:FontAwesomeIcon.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ClosePageCommand}" />
+                        </controls:FontAwesomeIcon.GestureRecognizers>
+                    </controls:FontAwesomeIcon>
+
                 </syncEffectsView:SfEffectsView>
 
                 <StackLayout Grid.Column="1" VerticalOptions="Center">
@@ -102,7 +107,9 @@
                         VerticalOptions="Center" />
                     <input:SfTextInputLayout
                         ContainerType="Outlined"
+                        ErrorColor="{StaticResource Red}"
                         ErrorText="{Binding UserName.ErrorFirst}"
+                        FocusedColor="{StaticResource PrimaryColor}"
                         FocusedStrokeWidth="1"
                         HasError="{Binding UserName.IsNotValid}"
                         HorizontalOptions="FillAndExpand"
@@ -117,14 +124,16 @@
                         </input:SfTextInputLayout.LeadingView>
                         <Entry
                             MaxLength="50"
-                            Placeholder="UserName"
+                            Placeholder="User name"
                             PlaceholderColor="{StaticResource Additional}"
                             Text="{Binding UserName.Value}" />
                     </input:SfTextInputLayout>
                     <input:SfTextInputLayout
                         ContainerType="Outlined"
                         EnablePasswordVisibilityToggle="False"
+                        ErrorColor="{StaticResource Red}"
                         ErrorText="{Binding Password.ErrorFirst}"
+                        FocusedColor="{StaticResource PrimaryColor}"
                         FocusedStrokeWidth="1"
                         HasError="{Binding Password.IsNotValid}"
                         HorizontalOptions="FillAndExpand"
@@ -163,7 +172,7 @@
                             TextColor="{StaticResource Additional}"
                             VerticalOptions="Center">
                             <Label.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding ForgotPasswordCommand}" />
+                                <TapGestureRecognizer Command="{Binding PushForgotPasswordCommand}" />
                             </Label.GestureRecognizers>
                         </Label>
                     </StackLayout>
@@ -188,7 +197,7 @@
                         <!--  Register button  -->
                         <Button
                             BackgroundColor="Transparent"
-                            Command="{Binding SkipCommand}"
+                            Command="{Binding PushRegisterCommand}"
                             HorizontalOptions="Center"
                             Text="Or connect create account"
                             TextColor="{StaticResource Additional}" />

@@ -1,4 +1,5 @@
-﻿using Prism;
+﻿using Bizland.Core.Droid.DependencyServices;
+using Prism;
 using Prism.Ioc;
 
 namespace Bizland.Core.Droid
@@ -15,6 +16,7 @@ namespace Bizland.Core.Droid
             public void RegisterTypes(IContainerRegistry containerRegistry)
             {
                 // Register any platform specific implementations
+                containerRegistry.RegisterInstance<IDisplayMessage>(new DisplayMessageService());
             }
         }
     }

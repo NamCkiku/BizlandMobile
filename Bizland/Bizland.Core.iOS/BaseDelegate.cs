@@ -1,4 +1,5 @@
-﻿using Prism;
+﻿using Bizland.Core.iOS.DependencyService;
+using Prism;
 using Prism.Ioc;
 
 using UIKit;
@@ -31,6 +32,7 @@ namespace Bizland.Core.iOS
             public void RegisterTypes(IContainerRegistry containerRegistry)
             {
                 // Register any platform specific implementations
+                containerRegistry.RegisterInstance<IDisplayMessage>(new DisplayMessageService());
             }
         }
     }

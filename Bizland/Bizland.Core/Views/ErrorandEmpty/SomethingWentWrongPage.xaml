@@ -10,11 +10,6 @@
     BackgroundColor="{StaticResource Gray-White}"
     NavigationPage.HasNavigationBar="False">
 
-    <!--  Binding context for Something went wrong page  -->
-    <ContentPage.BindingContext>
-        <viewModel:SomethingWentWrongPageViewModel />
-    </ContentPage.BindingContext>
-
     <ContentPage.Content>
 
         <Grid>

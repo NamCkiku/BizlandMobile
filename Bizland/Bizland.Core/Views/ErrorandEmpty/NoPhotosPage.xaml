@@ -9,12 +9,6 @@
     xmlns:viewModel="clr-namespace:Bizland.Core.ViewModels"
     BackgroundColor="{StaticResource Color_Background}"
     NavigationPage.HasNavigationBar="False">
-
-    <!--  Binding context for NoPhotos page  -->
-    <ContentPage.BindingContext>
-        <viewModel:NoPhotosPageViewModel />
-    </ContentPage.BindingContext>
-
     <ContentPage.Content>
 
         <Grid>

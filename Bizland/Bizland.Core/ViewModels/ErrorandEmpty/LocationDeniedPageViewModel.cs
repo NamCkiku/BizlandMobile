@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Prism.Navigation;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -10,7 +11,7 @@ namespace Bizland.Core.ViewModels
     /// ViewModel for location denied page.
     /// </summary>
     [Preserve(AllMembers = true)]
-    public class LocationDeniedPageViewModel : BaseViewModel
+    public class LocationDeniedPageViewModel : ViewModelBase
     {
         #region Fields
 
@@ -27,7 +28,8 @@ namespace Bizland.Core.ViewModels
         /// <summary>
         /// Initializes a new instance for the <see cref="LocationDeniedPageViewModel" /> class.
         /// </summary>
-        public LocationDeniedPageViewModel()
+        public LocationDeniedPageViewModel(INavigationService navigationService)
+           : base(navigationService)
         {
             this.ImagePath = "LocationAccessDenied.svg";
             this.Header = "LOCATION BLOCKED";
@@ -53,16 +55,7 @@ namespace Bizland.Core.ViewModels
         /// </summary>
         public string ImagePath
         {
-            get
-            {
-                return this.imagePath;
-            }
-
-            set
-            {
-                this.imagePath = value;
-                this.NotifyPropertyChanged();
-            }
+            get => imagePath; set => SetProperty(ref imagePath, value);
         }
 
         /// <summary>
@@ -70,16 +63,7 @@ namespace Bizland.Core.ViewModels
         /// </summary>
         public string Header
         {
-            get
-            {
-                return this.header;
-            }
-
-            set
-            {
-                this.header = value;
-                this.NotifyPropertyChanged();
-            }
+            get => header; set => SetProperty(ref header, value);
         }
 
         /// <summary>
@@ -87,16 +71,7 @@ namespace Bizland.Core.ViewModels
         /// </summary>
         public string Content
         {
-            get
-            {
-                return this.content;
-            }
-
-            set
-            {
-                this.content = value;
-                this.NotifyPropertyChanged();
-            }
+            get => content; set => SetProperty(ref content, value);
         }
 
         #endregion

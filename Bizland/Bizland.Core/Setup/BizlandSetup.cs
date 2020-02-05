@@ -49,6 +49,12 @@ namespace Bizland.Core.Setup
             containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>("LoginPage");
             containerRegistry.RegisterForNavigation<RegisterPage, RegisterPageViewModel>("RegisterPage");
             containerRegistry.RegisterForNavigation<OTPPage, OTPPageViewModel>("OTPPage");
+            containerRegistry.RegisterForNavigation<SomethingWentWrongPage, SomethingWentWrongPageViewModel>("SomethingWentWrongPage");
+            containerRegistry.RegisterForNavigation<NoPhotosPage, NoPhotosPageViewModel>("NoPhotosPage");
+            containerRegistry.RegisterForNavigation<NoItemPage, NoItemPageViewModel>("NoItemPage");
+            containerRegistry.RegisterForNavigation<NoInternetConnectionPage, NoInternetConnectionPageViewModel>("NoInternetConnectionPage");
+            containerRegistry.RegisterForNavigation<LocationDeniedPage, LocationDeniedPageViewModel>("LocationDeniedPage");
+
         }
     }
 }

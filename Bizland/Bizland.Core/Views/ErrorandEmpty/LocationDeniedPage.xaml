@@ -10,10 +10,6 @@
     BackgroundColor="{StaticResource Gray-White}"
     NavigationPage.HasNavigationBar="False">
 
-    <!--  Binding context for LocationDenied page  -->
-    <ContentPage.BindingContext>
-        <viewModel:LocationDeniedPageViewModel />
-    </ContentPage.BindingContext>
 
     <ContentPage.Content>
 

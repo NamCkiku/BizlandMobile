@@ -10,11 +10,6 @@
     BackgroundColor="{StaticResource Gray-White}"
     NavigationPage.HasNavigationBar="False">
 
-    <!--  Binding context for NoInternetConnection page  -->
-    <ContentPage.BindingContext>
-        <viewModel:NoInternetConnectionPageViewModel />
-    </ContentPage.BindingContext>
-
 
     <ContentPage.Content>
 

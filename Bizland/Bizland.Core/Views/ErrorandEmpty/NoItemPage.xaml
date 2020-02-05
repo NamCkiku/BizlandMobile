@@ -10,12 +10,6 @@
     BackgroundColor="{StaticResource Gray-White}"
     NavigationPage.HasNavigationBar="False">
 
-    <!--  Binding context for NoItem page  -->
-    <ContentPage.BindingContext>
-        <viewModel:NoItemPageViewModel />
-    </ContentPage.BindingContext>
-
-
     <ContentPage.Content>
 
         <Grid>

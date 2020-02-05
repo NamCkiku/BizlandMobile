@@ -182,7 +182,6 @@
                             x:Name="btnLogin"
                             Command="{Binding LoginCommand}"
                             CornerRadius="10"
-                            HeightRequest="40"
                             HorizontalOptions="FillAndExpand"
                             Text="SIGN IN"
                             VerticalOptions="Center" />
@@ -218,53 +217,69 @@
                                 <ColumnDefinition Width=".5*" />
                                 <ColumnDefinition Width=".5*" />
                             </Grid.ColumnDefinitions>
-                            <controls:CustomShadowFrame
-                                Grid.Column="0"
-                                Padding="10"
-                                BackgroundColor="{StaticResource FacebookBlue}"
-                                CornerRadius="5"
-                                HasShadow="False">
-                                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
 
-                                    <ffImage:CachedImage
-                                        Margin="10,0,0,0"
-                                        HeightRequest="25"
-                                        Source="ic_facebook.png"
-                                        WidthRequest="25" />
+                            <syncEffectsView:SfEffectsView Grid.Column="0" TouchDownEffects="Ripple">
+                                <controls:CustomShadowFrame
+                                    Padding="10"
+                                    BackgroundColor="{StaticResource FacebookBlue}"
+                                    CornerRadius="5"
+                                    HasShadow="True"
+                                    ShadowOffSetHeight="4"
+                                    ShadowOffsetWidth="0"
+                                    ShadowOpacity="0.12">
+                                    <controls:CustomShadowFrame.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding LoginWithFaceBookCommand}" />
+                                    </controls:CustomShadowFrame.GestureRecognizers>
+                                    <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
 
-                                    <Label
-                                        FontSize="{StaticResource MyFontSize}"
-                                        HorizontalOptions="CenterAndExpand"
-                                        Text="FACEBOOK"
-                                        TextColor="{StaticResource White}"
-                                        VerticalOptions="Center" />
-                                </StackLayout>
+                                        <ffImage:CachedImage
+                                            Margin="10,0,0,0"
+                                            HeightRequest="20"
+                                            Source="ic_facebook.png"
+                                            WidthRequest="20" />
 
-                            </controls:CustomShadowFrame>
+                                        <Label
+                                            FontSize="{StaticResource MyFontSize}"
+                                            HorizontalOptions="CenterAndExpand"
+                                            Text="FACEBOOK"
+                                            TextColor="{StaticResource White}"
+                                            VerticalOptions="Center" />
+                                    </StackLayout>
 
-                            <controls:CustomShadowFrame
-                                Grid.Column="1"
-                                Padding="10"
-                                BackgroundColor="{StaticResource GoogleOrange}"
-                                CornerRadius="5"
-                                HasShadow="False">
-                                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                                </controls:CustomShadowFrame>
+                            </syncEffectsView:SfEffectsView>
 
-                                    <ffImage:CachedImage
-                                        Margin="10,0,0,0"
-                                        HeightRequest="25"
-                                        Source="ic_googleplus.png"
-                                        WidthRequest="25" />
+                            <syncEffectsView:SfEffectsView Grid.Column="1" TouchDownEffects="Ripple">
+                                <controls:CustomShadowFrame
+                                    Padding="10"
+                                    BackgroundColor="{StaticResource GoogleOrange}"
+                                    CornerRadius="5"
+                                    HasShadow="True"
+                                    ShadowOffSetHeight="4"
+                                    ShadowOffsetWidth="0"
+                                    ShadowOpacity="0.12">
+                                    <controls:CustomShadowFrame.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding LoginWithGoogleCommand}" />
+                                    </controls:CustomShadowFrame.GestureRecognizers>
+                                    <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
 
-                                    <Label
-                                        FontSize="{StaticResource MyFontSize}"
-                                        HorizontalOptions="CenterAndExpand"
-                                        Text="GOOGLE"
-                                        TextColor="{StaticResource White}"
-                                        VerticalOptions="Center" />
-                                </StackLayout>
+                                        <ffImage:CachedImage
+                                            Margin="10,0,0,0"
+                                            HeightRequest="20"
+                                            Source="ic_googleplus.png"
+                                            WidthRequest="20" />
 
-                            </controls:CustomShadowFrame>
+                                        <Label
+                                            FontSize="{StaticResource MyFontSize}"
+                                            HorizontalOptions="CenterAndExpand"
+                                            Text="GOOGLE"
+                                            TextColor="{StaticResource White}"
+                                            VerticalOptions="Center" />
+                                    </StackLayout>
+
+                                </controls:CustomShadowFrame>
+
+                            </syncEffectsView:SfEffectsView>
                         </Grid>
                     </StackLayout>
 

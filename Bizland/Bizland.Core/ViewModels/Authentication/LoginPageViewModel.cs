@@ -14,11 +14,7 @@ namespace Bizland.Core.ViewModels
     {
         #region Fields
 
-        private string imagePath;
-
-        private string header;
-
-        private string content;
+        private bool rememberme;
 
         #endregion
 
@@ -33,6 +29,9 @@ namespace Bizland.Core.ViewModels
             this.LoginCommand = new Command(this.Login);
             this.PushForgotPasswordCommand = new Command(this.ForgotPassword);
             this.PushRegisterCommand = new Command(this.PushRegisterPage);
+            this.LoginWithFaceBookCommand = new Command(this.LoginWithFacebook);
+            this.LoginWithGoogleCommand = new Command(this.LoginWithGoogle);
+
             InitValidations();
         }
 
@@ -45,6 +44,10 @@ namespace Bizland.Core.ViewModels
         /// </summary>
         public ICommand LoginCommand { get; set; }
 
+        public ICommand LoginWithFaceBookCommand { get; set; }
+
+        public ICommand LoginWithGoogleCommand { get; set; }
+
         public ICommand PushForgotPasswordCommand { get; set; }
 
         public ICommand PushRegisterCommand { get; set; }
@@ -56,7 +59,7 @@ namespace Bizland.Core.ViewModels
 
         public ValidatableObject<string> Password { get; set; }
 
-        private bool rememberme;
+
         public bool Rememberme { get => rememberme; set => SetProperty(ref rememberme, value); }
 
 
@@ -94,6 +97,36 @@ namespace Bizland.Core.ViewModels
                     {
                         DisplayMessage.ShowMessageInfo("Login Error", 5000);
                     }
+                }
+                else
+                {
+                    DisplayMessage.ShowMessageInfo("No internet", 5000);
+                }
+            });
+        }
+
+        private void LoginWithFacebook()
+        {
+            SafeExecute(() =>
+            {
+                if (IsConnected)
+                {
+                    DisplayMessage.ShowMessageInfo("Login With Facebook", 5000);
+                }
+                else
+                {
+                    DisplayMessage.ShowMessageInfo("No internet", 5000);
+                }
+            });
+        }
+
+        private void LoginWithGoogle()
+        {
+            SafeExecute(() =>
+            {
+                if (IsConnected)
+                {
+                    DisplayMessage.ShowMessageInfo("Login With Google", 5000);
                 }
                 else
                 {

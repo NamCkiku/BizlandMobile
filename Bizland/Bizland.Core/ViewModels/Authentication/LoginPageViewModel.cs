@@ -93,7 +93,7 @@ namespace Bizland.Core.ViewModels
                     if (isValid)
                     {
 
-                        await NavigationService.NavigateAsync(new System.Uri("/NavigationPage/RootPage?selectedTab=MainPage", System.UriKind.Absolute));
+                        await NavigationService.NavigateAsync("/BaseNavigationPage/RootPage?selectedTab=HomePage");
                     }
                     else
                     {

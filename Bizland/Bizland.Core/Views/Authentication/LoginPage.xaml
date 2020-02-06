@@ -13,7 +13,7 @@
     xmlns:prism="http://prismlibrary.com"
     xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
     prism:ViewModelLocator.AutowireViewModel="True"
-    NavigationPage.HasNavigationBar="False">
+    NavigationPage.HasNavigationBar="True">
 
 
     <ContentPage.Content>
@@ -35,8 +35,8 @@
                 <Grid.Margin>
                     <OnPlatform x:TypeArguments="Thickness">
                         <OnPlatform.Platforms>
-                            <On Platform="iOS" Value="20, 60, 20, 20" />
-                            <On Platform="Android" Value="20" />
+                            <On Platform="iOS" Value="20, 0, 20, 0" />
+                            <On Platform="Android" Value="20, 0, 20, 0" />
                         </OnPlatform.Platforms>
                     </OnPlatform>
                 </Grid.Margin>

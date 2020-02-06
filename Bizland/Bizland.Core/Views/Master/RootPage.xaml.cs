@@ -8,22 +8,22 @@ namespace Bizland.Core.Views
         public RootPage()
         {
             InitializeComponent();
-            this.Children.Add(new MainPage()
+            this.Children.Add(new HomePage()
             {
                 Title = "Giám sát",
                 IconImageSource = "ic_home.png"
             });
-            this.Children.Add(new NoItemPage()
+            this.Children.Add(new LoginPage()
             {
                 Title = "Lộ trình",
                 IconImageSource = "ic_home.png"
             });
-            this.Children.Add(new NoPhotosPage()
+            this.Children.Add(new RegisterPage()
             {
                 Title = "Báo cáo",
                 IconImageSource = "ic_home.png"
             });
-            this.Children.Add(new LocationDeniedPage()
+            this.Children.Add(new OTPPage()
             {
                 Title = "Camera",
                 IconImageSource = "ic_home.png"

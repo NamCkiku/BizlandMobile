@@ -29,7 +29,7 @@
 
     <TabBar>
         <Tab Title="Shop" Icon="ic_home.png">
-            <ShellContent ContentTemplate="{DataTemplate views:MainPage}" />
+            <ShellContent ContentTemplate="{DataTemplate views:HomePage}" />
         </Tab>
         <Tab Title="Explore" Icon="ic_home.png">
             <ShellContent ContentTemplate="{DataTemplate views:NoInternetConnectionPage}" />

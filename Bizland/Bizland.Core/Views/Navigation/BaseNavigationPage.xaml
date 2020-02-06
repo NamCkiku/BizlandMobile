@@ -6,7 +6,7 @@
     xmlns:prism="http://prismlibrary.com"
     prism:ViewModelLocator.AutowireViewModel="True"
     BarTextColor="White">
-    <NavigationPage.ToolbarItems>
+    <!--<NavigationPage.ToolbarItems>
         <ToolbarItem
             x:Name="btnClose"
             Command="{Binding ClosePageCommand}"
@@ -14,5 +14,5 @@
             Order="Primary"
             Priority="0"
             Text="Đóng" />
-    </NavigationPage.ToolbarItems>
+    </NavigationPage.ToolbarItems>-->
 </NavigationPage>

@@ -98,7 +98,7 @@ namespace Bizland.Core.ViewModels
         {
             SafeExecute(async () =>
             {
-                await NavigationService.NavigateAsync("LoginPage", useModalNavigation: true);
+                await NavigationService.NavigateAsync("BaseNavigationPage/LoginPage", useModalNavigation: true);
             });
         }
 
@@ -106,7 +106,7 @@ namespace Bizland.Core.ViewModels
         {
             SafeExecute(async () =>
             {
-                await NavigationService.NavigateAsync("RegisterPage", useModalNavigation: true);
+                await NavigationService.NavigateAsync("BaseNavigationPage/RegisterPage", useModalNavigation: true);
             });
         }
         #endregion

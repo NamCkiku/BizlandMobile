@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="Bizland.Core.Views.MainPage"
+    x:Class="Bizland.Core.Views.HomePage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:maps="clr-namespace:Bizland.Core"
-    Title="{Binding Title}">
+    xmlns:prism="http://prismlibrary.com"
+    Title="Home Page"
+    prism:ViewModelLocator.AutowireViewModel="True">
 
     <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <maps:Map
+        <!--<maps:Map
             x:Name="map"
             InitialCameraUpdate="-23.68, -46.87, 13, 30, 60"
             IsShowingUser="False"
-            VerticalOptions="FillAndExpand" />
+            VerticalOptions="FillAndExpand" />-->
     </StackLayout>
 </ContentPage>

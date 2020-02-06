@@ -38,7 +38,6 @@ namespace Bizland.Core.Setup
             containerRegistry.RegisterForNavigation<RootPage, RootPageViewModel>("RootPage");
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<BaseNavigationPage, BaseNavigationPageViewModel>("BaseNavigationPage");
-            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>("MainPage");
             containerRegistry.RegisterForNavigation<NoPhotosPage, NoPhotosPageViewModel>("NoPhotosPage");
             containerRegistry.RegisterForNavigation<OnBoardingPage, OnBoardingPageViewModel>("OnBoardingPage");
             containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>("LoginPage");
@@ -50,6 +49,7 @@ namespace Bizland.Core.Setup
             containerRegistry.RegisterForNavigation<NoInternetConnectionPage, NoInternetConnectionPageViewModel>("NoInternetConnectionPage");
             containerRegistry.RegisterForNavigation<LocationDeniedPage, LocationDeniedPageViewModel>("LocationDeniedPage");
             containerRegistry.RegisterForNavigation<CountryPage, CountryPageViewModel>("CountryPage");
+            containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>("HomePage");
 
 
         }

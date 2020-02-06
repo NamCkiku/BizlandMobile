@@ -5,9 +5,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
     xmlns:prism="http://prismlibrary.com"
-    android:TabbedPage.BarItemColor="Gray"
-    android:TabbedPage.BarSelectedItemColor="Blue"
+    android:TabbedPage.BarItemColor="{StaticResource Secondary}"
+    android:TabbedPage.BarSelectedItemColor="{StaticResource PrimaryColor}"
     android:TabbedPage.ToolbarPlacement="Bottom"
     prism:ViewModelLocator.AutowireViewModel="True"
-    BackgroundColor="FloralWhite"
-    BarBackgroundColor="FloralWhite" />
+    BackgroundColor="{StaticResource White}"
+    BarBackgroundColor="{StaticResource White}"
+    BarTextColor="{StaticResource Secondary}"
+    SelectedTabColor="{StaticResource PrimaryColor}"
+    UnselectedTabColor="{StaticResource Secondary}" />

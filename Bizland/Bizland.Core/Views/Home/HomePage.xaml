@@ -150,9 +150,7 @@
                     <StackLayout Orientation="Horizontal" Spacing="10">
                         <controls:CustomShadowFrame
                             Padding="0"
-                            BorderWidth="1"
                             CornerRadius="5"
-                            CustomBorderColor="{StaticResource Additional}"
                             HasShadow="True"
                             ShadowOffSetHeight="4"
                             ShadowOffsetWidth="0"
@@ -208,9 +206,9 @@
 
                                         <Grid HorizontalOptions="FillAndExpand">
                                             <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width=".3.5*" />
-                                                <ColumnDefinition Width=".3.5*" />
-                                                <ColumnDefinition Width=".3.5*" />
+                                                <ColumnDefinition Width="3.5*" />
+                                                <ColumnDefinition Width="3.5*" />
+                                                <ColumnDefinition Width="3.5*" />
                                             </Grid.ColumnDefinitions>
 
                                             <StackLayout
@@ -278,9 +276,7 @@
                         </controls:CustomShadowFrame>
                         <controls:CustomShadowFrame
                             Padding="0"
-                            BorderWidth="1"
                             CornerRadius="5"
-                            CustomBorderColor="{StaticResource Additional}"
                             HasShadow="True"
                             ShadowOffSetHeight="4"
                             ShadowOffsetWidth="0"
@@ -336,9 +332,9 @@
 
                                         <Grid HorizontalOptions="FillAndExpand">
                                             <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width=".3.5*" />
-                                                <ColumnDefinition Width=".3.5*" />
-                                                <ColumnDefinition Width=".3.5*" />
+                                                <ColumnDefinition Width="3.5*" />
+                                                <ColumnDefinition Width="3.5*" />
+                                                <ColumnDefinition Width="3.5*" />
                                             </Grid.ColumnDefinitions>
 
                                             <StackLayout
@@ -406,9 +402,7 @@
                         </controls:CustomShadowFrame>
                         <controls:CustomShadowFrame
                             Padding="0"
-                            BorderWidth="1"
                             CornerRadius="5"
-                            CustomBorderColor="{StaticResource Additional}"
                             HasShadow="True"
                             ShadowOffSetHeight="4"
                             ShadowOffsetWidth="0"
@@ -464,9 +458,9 @@
 
                                         <Grid HorizontalOptions="FillAndExpand">
                                             <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width=".3.5*" />
-                                                <ColumnDefinition Width=".3.5*" />
-                                                <ColumnDefinition Width=".3.5*" />
+                                                <ColumnDefinition Width="3.5*" />
+                                                <ColumnDefinition Width="3.5*" />
+                                                <ColumnDefinition Width="3.5*" />
                                             </Grid.ColumnDefinitions>
 
                                             <StackLayout

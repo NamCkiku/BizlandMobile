@@ -16582,43 +16582,46 @@ namespace Bizland.Droid
 			public const int notify_panel_notification_icon_bg = 2131165836;
 			
 			// aapt resource value: 0x7F07028D
-			public const int success_shape = 2131165837;
+			public const int seattle = 2131165837;
 			
 			// aapt resource value: 0x7F07028E
-			public const int tooltip_arrow_down = 2131165838;
+			public const int success_shape = 2131165838;
 			
 			// aapt resource value: 0x7F07028F
-			public const int tooltip_arrow_down_left = 2131165839;
+			public const int tooltip_arrow_down = 2131165839;
 			
 			// aapt resource value: 0x7F070290
-			public const int tooltip_arrow_down_right = 2131165840;
+			public const int tooltip_arrow_down_left = 2131165840;
 			
 			// aapt resource value: 0x7F070291
-			public const int tooltip_arrow_left = 2131165841;
+			public const int tooltip_arrow_down_right = 2131165841;
 			
 			// aapt resource value: 0x7F070292
-			public const int tooltip_arrow_right = 2131165842;
+			public const int tooltip_arrow_left = 2131165842;
 			
 			// aapt resource value: 0x7F070293
-			public const int tooltip_arrow_up = 2131165843;
+			public const int tooltip_arrow_right = 2131165843;
 			
 			// aapt resource value: 0x7F070294
-			public const int tooltip_arrow_up_left = 2131165844;
+			public const int tooltip_arrow_up = 2131165844;
 			
 			// aapt resource value: 0x7F070295
-			public const int tooltip_arrow_up_right = 2131165845;
+			public const int tooltip_arrow_up_left = 2131165845;
 			
 			// aapt resource value: 0x7F070296
-			public const int tooltip_frame_dark = 2131165846;
+			public const int tooltip_arrow_up_right = 2131165846;
 			
 			// aapt resource value: 0x7F070297
-			public const int tooltip_frame_light = 2131165847;
+			public const int tooltip_frame_dark = 2131165847;
 			
 			// aapt resource value: 0x7F070298
-			public const int tooltip_no_arrow = 2131165848;
+			public const int tooltip_frame_light = 2131165848;
 			
 			// aapt resource value: 0x7F070299
-			public const int warning_shape = 2131165849;
+			public const int tooltip_no_arrow = 2131165849;
+			
+			// aapt resource value: 0x7F07029A
+			public const int warning_shape = 2131165850;
 			
 			static Drawable()
 			{

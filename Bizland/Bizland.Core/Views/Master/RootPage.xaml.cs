@@ -3,36 +3,31 @@ using Xamarin.Forms;
 
 namespace Bizland.Core.Views
 {
-    public partial class RootPage : FormsCurvedBottomNavigation.CurvedBottomTabbedPage
+    public partial class RootPage : TabbedPage
     {
         public RootPage()
         {
             InitializeComponent();
             this.Children.Add(new HomePage()
             {
-                Title = "Giám sát",
-                IconImageSource = "ic_home.png"
+                Title = "Search",
+                IconImageSource = "ic_search.png"
             });
             this.Children.Add(new LoginPage()
             {
-                Title = "Lộ trình",
-                IconImageSource = "ic_home.png"
+                Title = "Catalog",
+                IconImageSource = "ic_catalog.png"
             });
             this.Children.Add(new RegisterPage()
             {
-                Title = "Báo cáo",
-                IconImageSource = "ic_home.png"
+                Title = "Bookmarks",
+                IconImageSource = "ic_bookmark.png"
             });
             this.Children.Add(new OTPPage()
             {
-                Title = "Camera",
-                IconImageSource = "ic_home.png"
+                Title = "Profile",
+                IconImageSource = "ic_profile.png"
             });
-        }
-
-        private void CurvedBottomTabbedPage_FabIconClicked(object sender, EventArgs e)
-        {
-            //Do something here
         }
     }
 }

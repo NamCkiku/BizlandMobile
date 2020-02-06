@@ -3,16 +3,56 @@
     x:Class="Bizland.Core.Views.HomePage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:Bizland.Core.Controls"
+    xmlns:fontawesome="clr-namespace:FontAwesome;assembly=Bizland.Utilities"
     xmlns:maps="clr-namespace:Bizland.Core"
     xmlns:prism="http://prismlibrary.com"
     Title="Home Page"
-    prism:ViewModelLocator.AutowireViewModel="True">
+    prism:ViewModelLocator.AutowireViewModel="True"
+    NavigationPage.HasNavigationBar="False">
 
-    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-        <!--<maps:Map
+    <!--<StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <maps:Map
             x:Name="map"
             InitialCameraUpdate="-23.68, -46.87, 13, 30, 60"
             IsShowingUser="False"
-            VerticalOptions="FillAndExpand" />-->
-    </StackLayout>
+            VerticalOptions="FillAndExpand" />
+    </StackLayout>-->
+    <ContentPage.Content>
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <!--  Header Section  -->
+            <Grid
+                Grid.Row="0"
+                BackgroundColor="{StaticResource PrimaryColor}"
+                ColumnSpacing="20">
+                <Grid.Padding>
+                    <OnPlatform x:TypeArguments="Thickness">
+                        <OnPlatform.Platforms>
+                            <On Platform="iOS" Value="20, 60, 20, 20" />
+                            <On Platform="Android" Value="20" />
+                        </OnPlatform.Platforms>
+                    </OnPlatform>
+                </Grid.Padding>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Grid.Column="0" VerticalOptions="Center">
+                    <Label Style="{StaticResource Header}" Text="VERIFY CODE" />
+                </StackLayout>
+            </Grid>
+            <StackLayout Grid.Row="1">
+                <maps:Map
+                    x:Name="map"
+                    InitialCameraUpdate="-23.68, -46.87, 13, 30, 60"
+                    IsShowingUser="False"
+                    VerticalOptions="FillAndExpand" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
 </ContentPage>

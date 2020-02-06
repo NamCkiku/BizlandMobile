@@ -564,7 +564,10 @@
                     </ScrollView>
 
 
-                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <StackLayout
+                        HorizontalOptions="FillAndExpand"
+                        Spacing="10"
+                        VerticalOptions="FillAndExpand">
 
                         <StackLayout Orientation="Horizontal">
                             <StackLayout
@@ -603,7 +606,6 @@
                                 </controls:CustomShadowFrame.Content>
                             </controls:CustomShadowFrame>
                         </StackLayout>
-
 
                         <Grid ColumnSpacing="10">
                             <Grid.ColumnDefinitions>

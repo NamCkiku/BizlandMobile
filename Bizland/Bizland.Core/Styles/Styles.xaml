@@ -84,4 +84,13 @@
         <Setter Property="FontSize" Value="30" />
         <Setter Property="TextColor" Value="{StaticResource White}" />
     </Style>
+
+    <!--  Styles  -->
+    <Style x:Key="HeaderNavigation" TargetType="Label">
+        <Setter Property="FontFamily" Value="{StaticResource myFontLatoBold}" />
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="TextColor" Value="{StaticResource White}" />
+    </Style>
 </ResourceDictionary>

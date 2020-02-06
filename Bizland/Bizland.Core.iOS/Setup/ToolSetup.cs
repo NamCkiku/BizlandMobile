@@ -35,6 +35,7 @@ namespace Bizland.Core.iOS.Setup
             SfButtonRenderer.Init();
             SfRotatorRenderer.Init();
             SfEffectsViewRenderer.Init();
+            SfSegmentedControlRenderer.Init();
             //SfListViewRenderer.Init();
             //SfPickerRenderer.Init();
             //SfDataGridRenderer.Init();

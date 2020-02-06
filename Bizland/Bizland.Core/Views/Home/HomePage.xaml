@@ -3,10 +3,14 @@
     x:Class="Bizland.Core.Views.HomePage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
     xmlns:controls="clr-namespace:Bizland.Core.Controls"
+    xmlns:ef="clr-namespace:Bizland.Core.Effects"
+    xmlns:ffImage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     xmlns:fontawesome="clr-namespace:FontAwesome;assembly=Bizland.Utilities"
     xmlns:maps="clr-namespace:Bizland.Core"
     xmlns:prism="http://prismlibrary.com"
+    xmlns:segmentCollection="clr-namespace:System.Collections.Generic;assembly=netstandard"
     Title="Home Page"
     prism:ViewModelLocator.AutowireViewModel="True"
     NavigationPage.HasNavigationBar="False">
@@ -24,6 +28,13 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
+            <!--<ffImage:CachedImage
+                Grid.RowSpan="2"
+                Aspect="AspectFill"
+                BitmapOptimizations="True"
+                HorizontalOptions="FillAndExpand"
+                Source="bg_login.png"
+                VerticalOptions="FillAndExpand" />-->
             <!--  Header Section  -->
             <Grid
                 Grid.Row="0"
@@ -32,26 +43,105 @@
                 <Grid.Padding>
                     <OnPlatform x:TypeArguments="Thickness">
                         <OnPlatform.Platforms>
-                            <On Platform="iOS" Value="20, 60, 20, 20" />
-                            <On Platform="Android" Value="20" />
+                            <On Platform="iOS" Value="20, 60, 20, 0" />
+                            <On Platform="Android" Value="20, 20, 20, 0" />
                         </OnPlatform.Platforms>
                     </OnPlatform>
                 </Grid.Padding>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
+                <controls:FontAwesomeIcon
+                    Grid.Column="0"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    HorizontalOptions="Start"
+                    Text="{x:Static fontawesome:FontAwesomeIcons.Bars}"
+                    TextColor="White"
+                    VerticalOptions="Center" />
 
-                <StackLayout Grid.Column="0" VerticalOptions="Center">
-                    <Label Style="{StaticResource Header}" Text="VERIFY CODE" />
+                <StackLayout
+                    Grid.ColumnSpan="3"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                    <Label Style="{StaticResource HeaderNavigation}" Text="HOME" />
                 </StackLayout>
+                <controls:FontAwesomeIcon
+                    Grid.Column="2"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    HorizontalOptions="End"
+                    Text="{x:Static fontawesome:FontAwesomeIcons.SortAmountUp}"
+                    TextColor="White"
+                    VerticalOptions="Center" />
             </Grid>
-            <StackLayout Grid.Row="1">
-                <maps:Map
+            <StackLayout
+                Grid.Row="1"
+                Padding="20"
+                Spacing="10">
+
+                <buttons:SfSegmentedControl
+                    x:Name="segmentedControl"
+                    BorderColor="{StaticResource PrimaryColor}"
+                    BorderThickness="1"
+                    CornerRadius="5"
+                    DisplayMode="Text"
+                    FontColor="White"
+                    HorizontalOptions="Center"
+                    SegmentBorderThickness="1"
+                    SegmentHeight="30"
+                    SelectedIndex="1"
+                    SelectionTextColor="{StaticResource Secondary}"
+                    VerticalOptions="Center"
+                    VisibleSegmentsCount="3"
+                    Color="{StaticResource PrimaryColor}">
+                    <segmentCollection:List x:TypeArguments="x:String">
+                        <x:String>Foto</x:String>
+                        <x:String>List</x:String>
+                        <x:String>Map</x:String>
+                    </segmentCollection:List>
+                    <buttons:SfSegmentedControl.SelectionIndicatorSettings>
+                        <buttons:SelectionIndicatorSettings Color="{StaticResource White}" />
+                    </buttons:SfSegmentedControl.SelectionIndicatorSettings>
+                </buttons:SfSegmentedControl>
+
+                <controls:CustomShadowFrame
+                    Padding="15"
+                    BorderColor="{StaticResource Additional}"
+                    BorderWidth="1"
+                    CornerRadius="5"
+                    CustomBorderColor="{StaticResource Additional}"
+                    HasShadow="True"
+                    ShadowOffSetHeight="4"
+                    ShadowOffsetWidth="0"
+                    ShadowOpacity="0.12">
+                    <controls:CustomShadowFrame.Content>
+                        <StackLayout
+                            Grid.Column="2"
+                            HorizontalOptions="FillAndExpand"
+                            Orientation="Horizontal"
+                            VerticalOptions="Center">
+                            <Label
+                                HorizontalOptions="StartAndExpand"
+                                Text="eg, Hai Bà Trưng Hà Nội Viet Nam"
+                                TextColor="{StaticResource Additional}" />
+                            <controls:FontAwesomeIcon
+                                Margin="0,0,10,0"
+                                HorizontalOptions="End"
+                                Text="{x:Static fontawesome:FontAwesomeIcons.Search}"
+                                TextColor="{StaticResource Additional}"
+                                VerticalOptions="Center" />
+                        </StackLayout>
+
+                    </controls:CustomShadowFrame.Content>
+                </controls:CustomShadowFrame>
+                <!--<maps:Map
                     x:Name="map"
                     InitialCameraUpdate="-23.68, -46.87, 13, 30, 60"
                     IsShowingUser="False"
-                    VerticalOptions="FillAndExpand" />
+                    VerticalOptions="FillAndExpand" />-->
             </StackLayout>
         </Grid>
     </ContentPage.Content>

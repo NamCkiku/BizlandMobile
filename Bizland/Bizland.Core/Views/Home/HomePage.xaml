@@ -24,549 +24,785 @@
             VerticalOptions="FillAndExpand" />
     </StackLayout>-->
     <ContentPage.Content>
-        <Grid RowSpacing="0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <yummy:PancakeView
-                Grid.RowSpan="2"
-                BackgroundColor="#bc91d7"
-                CornerRadius="0,0,0,60"
-                HeightRequest="300"
-                HorizontalOptions="FillAndExpand"
-                IsClippedToBounds="true"
-                VerticalOptions="Start">
-                <Image
-                    Aspect="AspectFill"
+        <ScrollView>
+            <Grid RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <yummy:PancakeView
+                    Grid.RowSpan="2"
+                    BackgroundColor="#bc91d7"
+                    CornerRadius="0,0,0,60"
                     HeightRequest="300"
                     HorizontalOptions="FillAndExpand"
-                    Source="seattle.jpg"
-                    VerticalOptions="Start" />
-            </yummy:PancakeView>
-            <Grid Grid.Row="0" ColumnSpacing="20">
-                <Grid.Padding>
-                    <OnPlatform x:TypeArguments="Thickness">
-                        <OnPlatform.Platforms>
-                            <On Platform="iOS" Value="20, 40, 20, 0" />
-                            <On Platform="Android" Value="20, 20, 20, 0" />
-                        </OnPlatform.Platforms>
-                    </OnPlatform>
-                </Grid.Padding>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="Auto" />
-                </Grid.ColumnDefinitions>
-                <controls:FontAwesomeIcon
-                    Grid.Column="0"
-                    FontAttributes="Bold"
-                    FontSize="20"
-                    HorizontalOptions="Start"
-                    Text="{x:Static fontawesome:FontAwesomeIcons.Bars}"
-                    TextColor="White"
-                    VerticalOptions="Center" />
+                    IsClippedToBounds="true"
+                    VerticalOptions="Start">
+                    <Image
+                        Aspect="AspectFill"
+                        HeightRequest="300"
+                        HorizontalOptions="FillAndExpand"
+                        Source="seattle.jpg"
+                        VerticalOptions="Start" />
+                </yummy:PancakeView>
+                <Grid Grid.Row="0" ColumnSpacing="20">
+                    <Grid.Padding>
+                        <OnPlatform x:TypeArguments="Thickness">
+                            <OnPlatform.Platforms>
+                                <On Platform="iOS" Value="20, 40, 20, 0" />
+                                <On Platform="Android" Value="20, 20, 20, 0" />
+                            </OnPlatform.Platforms>
+                        </OnPlatform>
+                    </Grid.Padding>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <controls:FontAwesomeIcon
+                        Grid.Column="0"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        HorizontalOptions="Start"
+                        Text="{x:Static fontawesome:FontAwesomeIcons.Bars}"
+                        TextColor="White"
+                        VerticalOptions="Center" />
 
+                    <StackLayout
+                        Grid.ColumnSpan="3"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center">
+                        <Label Style="{StaticResource HeaderNavigation}" Text="HOME" />
+                    </StackLayout>
+                    <controls:FontAwesomeIcon
+                        Grid.Column="2"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        HorizontalOptions="End"
+                        Text="{x:Static fontawesome:FontAwesomeIcons.SortAmountUp}"
+                        TextColor="White"
+                        VerticalOptions="Center" />
+                </Grid>
                 <StackLayout
-                    Grid.ColumnSpan="3"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center">
-                    <Label Style="{StaticResource HeaderNavigation}" Text="HOME" />
-                </StackLayout>
-                <controls:FontAwesomeIcon
-                    Grid.Column="2"
-                    FontAttributes="Bold"
-                    FontSize="20"
-                    HorizontalOptions="End"
-                    Text="{x:Static fontawesome:FontAwesomeIcons.SortAmountUp}"
-                    TextColor="White"
-                    VerticalOptions="Center" />
-            </Grid>
-            <StackLayout
-                Grid.Row="1"
-                Padding="20"
-                Spacing="10">
+                    Grid.Row="1"
+                    Padding="20"
+                    Spacing="10">
 
-                <buttons:SfSegmentedControl
-                    x:Name="segmentedControl"
-                    BorderColor="{StaticResource PrimaryColor}"
-                    BorderThickness="1"
-                    CornerRadius="5"
-                    DisplayMode="Text"
-                    FontColor="White"
-                    HorizontalOptions="Center"
-                    SegmentBorderThickness="1"
-                    SegmentHeight="30"
-                    SelectedIndex="1"
-                    SelectionTextColor="{StaticResource Secondary}"
-                    VerticalOptions="Center"
-                    VisibleSegmentsCount="3"
-                    Color="{StaticResource PrimaryColor}">
-                    <segmentCollection:List x:TypeArguments="x:String">
-                        <x:String>Foto</x:String>
-                        <x:String>List</x:String>
-                        <x:String>Map</x:String>
-                    </segmentCollection:List>
-                    <buttons:SfSegmentedControl.SelectionIndicatorSettings>
-                        <buttons:SelectionIndicatorSettings Color="{StaticResource White}" />
-                    </buttons:SfSegmentedControl.SelectionIndicatorSettings>
-                </buttons:SfSegmentedControl>
+                    <buttons:SfSegmentedControl
+                        x:Name="segmentedControl"
+                        BorderColor="{StaticResource PrimaryColor}"
+                        BorderThickness="1"
+                        CornerRadius="5"
+                        DisplayMode="Text"
+                        FontColor="White"
+                        HorizontalOptions="Center"
+                        SegmentBorderThickness="1"
+                        SegmentHeight="30"
+                        SelectedIndex="1"
+                        SelectionTextColor="{StaticResource Secondary}"
+                        VerticalOptions="Center"
+                        VisibleSegmentsCount="3"
+                        Color="{StaticResource PrimaryColor}">
+                        <segmentCollection:List x:TypeArguments="x:String">
+                            <x:String>Foto</x:String>
+                            <x:String>List</x:String>
+                            <x:String>Map</x:String>
+                        </segmentCollection:List>
+                        <buttons:SfSegmentedControl.SelectionIndicatorSettings>
+                            <buttons:SelectionIndicatorSettings Color="{StaticResource White}" />
+                        </buttons:SfSegmentedControl.SelectionIndicatorSettings>
+                    </buttons:SfSegmentedControl>
 
-                <controls:CustomShadowFrame
-                    Padding="15"
-                    CornerRadius="5"
-                    CustomBorderColor="{StaticResource Additional}"
-                    HasShadow="True"
-                    ShadowOffSetHeight="4"
-                    ShadowOffsetWidth="0"
-                    ShadowOpacity="0.12">
-                    <controls:CustomShadowFrame.Content>
+                    <controls:CustomShadowFrame
+                        Padding="15"
+                        CornerRadius="5"
+                        CustomBorderColor="{StaticResource Additional}"
+                        HasShadow="True"
+                        ShadowOffSetHeight="4"
+                        ShadowOffsetWidth="0"
+                        ShadowOpacity="0.12">
+                        <controls:CustomShadowFrame.Content>
+                            <StackLayout
+                                HorizontalOptions="FillAndExpand"
+                                Orientation="Horizontal"
+                                VerticalOptions="Center">
+                                <Label
+                                    HorizontalOptions="StartAndExpand"
+                                    Text="eg, Hai Bà Trưng Hà Nội Viet Nam"
+                                    TextColor="{StaticResource Additional}" />
+
+                                <ffImage:CachedImage
+                                    Aspect="AspectFit"
+                                    BitmapOptimizations="True"
+                                    HeightRequest="20"
+                                    HorizontalOptions="Start"
+                                    Source="ic_search.png"
+                                    VerticalOptions="Center"
+                                    WidthRequest="20" />
+                            </StackLayout>
+
+                        </controls:CustomShadowFrame.Content>
+                    </controls:CustomShadowFrame>
+
+                    <ScrollView
+                        Margin="0,20,0,20"
+                        HorizontalScrollBarVisibility="Never"
+                        Orientation="Horizontal">
                         <StackLayout
-                            HorizontalOptions="FillAndExpand"
+                            Padding="1"
                             Orientation="Horizontal"
-                            VerticalOptions="Center">
-                            <Label
-                                HorizontalOptions="StartAndExpand"
-                                Text="eg, Hai Bà Trưng Hà Nội Viet Nam"
-                                TextColor="{StaticResource Additional}" />
+                            Spacing="10">
+                            <controls:CustomShadowFrame
+                                Padding="0"
+                                CornerRadius="5"
+                                HasShadow="True"
+                                ShadowOffSetHeight="4"
+                                ShadowOffsetWidth="0"
+                                ShadowOpacity="0.12"
+                                WidthRequest="250">
+                                <controls:CustomShadowFrame.Content>
+                                    <StackLayout>
 
-                            <ffImage:CachedImage
-                                Aspect="AspectFit"
-                                BitmapOptimizations="True"
-                                HeightRequest="20"
-                                HorizontalOptions="Start"
-                                Source="ic_search.png"
-                                VerticalOptions="Center"
-                                WidthRequest="20" />
+                                        <Grid>
+                                            <ffImage:CachedImage
+                                                Aspect="AspectFill"
+                                                HeightRequest="120"
+                                                HorizontalOptions="FillAndExpand"
+                                                Source="https://vinhomescorp.vn/wp-content/uploads/2019/04/biet-thu-don-lap-thuong-vinhomes-green-villas.jpg"
+                                                VerticalOptions="FillAndExpand"
+                                                WidthRequest="250" />
+                                            <controls:FontAwesomeIcon
+                                                Margin="5"
+                                                FontAttributes="Bold"
+                                                FontSize="20"
+                                                HorizontalOptions="End"
+                                                Text="{x:Static fontawesome:FontAwesomeIcons.Heart}"
+                                                TextColor="{StaticResource Orange}"
+                                                VerticalOptions="Start" />
+                                        </Grid>
+
+
+                                        <StackLayout
+                                            Padding="5"
+                                            HorizontalOptions="FillAndExpand"
+                                            VerticalOptions="EndAndExpand">
+                                            <StackLayout
+                                                HorizontalOptions="FillAndExpand"
+                                                Orientation="Vertical"
+                                                Spacing="0">
+
+                                                <Label
+                                                    FontFamily="{StaticResource myFontLatoBold}"
+                                                    HorizontalOptions="Start"
+                                                    Text="450,000,000 vnđ"
+                                                    TextColor="{StaticResource Red}"
+                                                    VerticalOptions="Center" />
+                                                <StackLayout Orientation="Horizontal">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="13"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="StartAndExpand"
+                                                        HorizontalTextAlignment="End"
+                                                        Text="Hà Nội, Việt Nam"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+                                            </StackLayout>
+
+                                            <Grid HorizontalOptions="FillAndExpand">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="3.5*" />
+                                                    <ColumnDefinition Width="3.5*" />
+                                                    <ColumnDefinition Width="3.5*" />
+                                                </Grid.ColumnDefinitions>
+
+                                                <StackLayout
+                                                    Grid.Column="0"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    Orientation="Vertical"
+                                                    Spacing="0">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="20"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.Home}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="Center"
+                                                        LineBreakMode="TailTruncation"
+                                                        Text="300 m2"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+
+                                                <StackLayout
+                                                    Grid.Column="1"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    Orientation="Vertical"
+                                                    Spacing="0">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="20"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.Bed}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="Center"
+                                                        LineBreakMode="TailTruncation"
+                                                        Text="2 Bedrooms"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+
+                                                <StackLayout
+                                                    Grid.Column="2"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    Orientation="Vertical"
+                                                    Spacing="0">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="16"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.Bath}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="Center"
+                                                        LineBreakMode="TailTruncation"
+                                                        Text="3 Bathrooms"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+
+                                            </Grid>
+                                        </StackLayout>
+
+                                    </StackLayout>
+                                </controls:CustomShadowFrame.Content>
+                            </controls:CustomShadowFrame>
+                            <controls:CustomShadowFrame
+                                Padding="0"
+                                CornerRadius="5"
+                                HasShadow="True"
+                                ShadowOffSetHeight="4"
+                                ShadowOffsetWidth="0"
+                                ShadowOpacity="0.12"
+                                WidthRequest="250">
+                                <controls:CustomShadowFrame.Content>
+                                    <StackLayout>
+
+                                        <Grid>
+                                            <ffImage:CachedImage
+                                                Aspect="AspectFill"
+                                                HeightRequest="120"
+                                                HorizontalOptions="FillAndExpand"
+                                                Source="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQa9WXa65KOkB2pLHWbaVDgdiREw8LloGu1cBUF9DFEhZX71L0-"
+                                                VerticalOptions="FillAndExpand"
+                                                WidthRequest="250" />
+                                            <controls:FontAwesomeIcon
+                                                Margin="5"
+                                                FontAttributes="Bold"
+                                                FontSize="20"
+                                                HorizontalOptions="End"
+                                                Text="{x:Static fontawesome:FontAwesomeIcons.Heart}"
+                                                TextColor="{StaticResource Orange}"
+                                                VerticalOptions="Start" />
+                                        </Grid>
+
+
+                                        <StackLayout
+                                            Padding="5"
+                                            HorizontalOptions="FillAndExpand"
+                                            VerticalOptions="EndAndExpand">
+                                            <StackLayout
+                                                HorizontalOptions="FillAndExpand"
+                                                Orientation="Vertical"
+                                                Spacing="0">
+
+                                                <Label
+                                                    FontFamily="{StaticResource myFontLatoBold}"
+                                                    HorizontalOptions="Start"
+                                                    Text="450,000,000 vnđ"
+                                                    TextColor="{StaticResource Red}"
+                                                    VerticalOptions="Center" />
+                                                <StackLayout Orientation="Horizontal">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="13"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="StartAndExpand"
+                                                        HorizontalTextAlignment="End"
+                                                        Text="Hà Nội, Việt Nam"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+                                            </StackLayout>
+
+                                            <Grid HorizontalOptions="FillAndExpand">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="3.5*" />
+                                                    <ColumnDefinition Width="3.5*" />
+                                                    <ColumnDefinition Width="3.5*" />
+                                                </Grid.ColumnDefinitions>
+
+                                                <StackLayout
+                                                    Grid.Column="0"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    Orientation="Vertical"
+                                                    Spacing="0">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="20"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.Home}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="Center"
+                                                        LineBreakMode="TailTruncation"
+                                                        Text="300 m2"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+
+                                                <StackLayout
+                                                    Grid.Column="1"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    Orientation="Vertical"
+                                                    Spacing="0">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="20"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.Bed}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="Center"
+                                                        LineBreakMode="TailTruncation"
+                                                        Text="2 Bedrooms"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+
+                                                <StackLayout
+                                                    Grid.Column="2"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    Orientation="Vertical"
+                                                    Spacing="0">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="16"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.Bath}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="Center"
+                                                        LineBreakMode="TailTruncation"
+                                                        Text="3 Bathrooms"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+
+                                            </Grid>
+                                        </StackLayout>
+
+                                    </StackLayout>
+                                </controls:CustomShadowFrame.Content>
+                            </controls:CustomShadowFrame>
+                            <controls:CustomShadowFrame
+                                Padding="0"
+                                CornerRadius="5"
+                                HasShadow="True"
+                                ShadowOffSetHeight="4"
+                                ShadowOffsetWidth="0"
+                                ShadowOpacity="0.12"
+                                WidthRequest="250">
+                                <controls:CustomShadowFrame.Content>
+                                    <StackLayout>
+
+                                        <Grid>
+                                            <ffImage:CachedImage
+                                                Aspect="AspectFill"
+                                                HeightRequest="120"
+                                                HorizontalOptions="FillAndExpand"
+                                                Source="https://lh3.googleusercontent.com/proxy/b_3hH_Aeao_dKQqhEWPmfO5OiNmt1WTUKnPnLXnypI8nmjgL5AXKfZH_guzD34jRLMLOPejZyTbW_ReiDapqd7RNyf7sY1xahqH7L0CN43KTX-CuDMe4rDBF8kBmkCCBHArx_YwV-2OboSk3Bbm2PJvrTG_fb_N4AO0VAeplMa3CKFlqw_XzTbjAHP4JWzGV"
+                                                VerticalOptions="FillAndExpand"
+                                                WidthRequest="250" />
+                                            <controls:FontAwesomeIcon
+                                                Margin="5"
+                                                FontAttributes="Bold"
+                                                FontSize="20"
+                                                HorizontalOptions="End"
+                                                Text="{x:Static fontawesome:FontAwesomeIcons.Heart}"
+                                                TextColor="{StaticResource Orange}"
+                                                VerticalOptions="Start" />
+                                        </Grid>
+
+
+                                        <StackLayout
+                                            Padding="5"
+                                            HorizontalOptions="FillAndExpand"
+                                            VerticalOptions="EndAndExpand">
+                                            <StackLayout
+                                                HorizontalOptions="FillAndExpand"
+                                                Orientation="Vertical"
+                                                Spacing="0">
+
+                                                <Label
+                                                    FontFamily="{StaticResource myFontLatoBold}"
+                                                    HorizontalOptions="Start"
+                                                    Text="450,000,000 vnđ"
+                                                    TextColor="{StaticResource Red}"
+                                                    VerticalOptions="Center" />
+                                                <StackLayout Orientation="Horizontal">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="13"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="StartAndExpand"
+                                                        HorizontalTextAlignment="End"
+                                                        Text="Hà Nội, Việt Nam"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+                                            </StackLayout>
+
+                                            <Grid HorizontalOptions="FillAndExpand">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="3.5*" />
+                                                    <ColumnDefinition Width="3.5*" />
+                                                    <ColumnDefinition Width="3.5*" />
+                                                </Grid.ColumnDefinitions>
+
+                                                <StackLayout
+                                                    Grid.Column="0"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    Orientation="Vertical"
+                                                    Spacing="0">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="20"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.Home}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="Center"
+                                                        LineBreakMode="TailTruncation"
+                                                        Text="300 m2"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+
+                                                <StackLayout
+                                                    Grid.Column="1"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    Orientation="Vertical"
+                                                    Spacing="0">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="20"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.Bed}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="Center"
+                                                        LineBreakMode="TailTruncation"
+                                                        Text="2 Bedrooms"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+
+                                                <StackLayout
+                                                    Grid.Column="2"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    Orientation="Vertical"
+                                                    Spacing="0">
+                                                    <controls:FontAwesomeIcon
+                                                        FontAttributes="Bold"
+                                                        FontSize="16"
+                                                        HorizontalOptions="Center"
+                                                        Text="{x:Static fontawesome:FontAwesomeIcons.Bath}"
+                                                        TextColor="{StaticResource Additional}"
+                                                        VerticalOptions="Center" />
+                                                    <Label
+                                                        FontSize="10"
+                                                        HorizontalOptions="Center"
+                                                        LineBreakMode="TailTruncation"
+                                                        Text="3 Bathrooms"
+                                                        VerticalOptions="Center" />
+                                                </StackLayout>
+
+                                            </Grid>
+                                        </StackLayout>
+
+                                    </StackLayout>
+                                </controls:CustomShadowFrame.Content>
+                            </controls:CustomShadowFrame>
+                        </StackLayout>
+                    </ScrollView>
+
+
+                    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout
+                                HorizontalOptions="StartAndExpand"
+                                Orientation="Horizontal"
+                                VerticalOptions="Center">
+                                <controls:FontAwesomeIcon
+                                    Grid.Column="2"
+                                    FontAttributes="Bold"
+                                    FontSize="20"
+                                    HorizontalOptions="End"
+                                    Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
+                                    TextColor="{StaticResource Secondary}"
+                                    VerticalOptions="Center" />
+
+                                <Label
+                                    FontFamily="{StaticResource myFontLatoBold}"
+                                    FontSize="20"
+                                    Text="POPULAR CITIES"
+                                    VerticalOptions="Center" />
+                            </StackLayout>
+                            <controls:CustomShadowFrame
+                                Padding="10,5,10,5"
+                                BackgroundColor="#ececec"
+                                CornerRadius="15"
+                                CustomBorderColor="#ececec"
+                                HasShadow="True"
+                                ShadowOffSetHeight="4"
+                                ShadowOffsetWidth="0"
+                                ShadowOpacity="0.12">
+                                <controls:CustomShadowFrame.Content>
+                                    <Label
+                                        HorizontalOptions="StartAndExpand"
+                                        Text="See All"
+                                        VerticalOptions="Center" />
+                                </controls:CustomShadowFrame.Content>
+                            </controls:CustomShadowFrame>
                         </StackLayout>
 
-                    </controls:CustomShadowFrame.Content>
-                </controls:CustomShadowFrame>
 
-                <ScrollView
-                    Margin="0,20,0,0"
-                    HorizontalScrollBarVisibility="Never"
-                    Orientation="Horizontal">
-                    <StackLayout
-                        Padding="1"
-                        Orientation="Horizontal"
-                        Spacing="10">
-                        <controls:CustomShadowFrame
-                            Padding="0"
-                            CornerRadius="5"
-                            HasShadow="True"
-                            ShadowOffSetHeight="4"
-                            ShadowOffsetWidth="0"
-                            ShadowOpacity="0.12"
-                            WidthRequest="250">
-                            <controls:CustomShadowFrame.Content>
-                                <StackLayout>
+                        <Grid ColumnSpacing="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="5*" />
+                            </Grid.ColumnDefinitions>
 
-                                    <Grid>
+                            <controls:CustomShadowFrame
+                                Grid.Column="0"
+                                Padding="0"
+                                BackgroundColor="#ececec"
+                                CornerRadius="5"
+                                CustomBorderColor="#ececec"
+                                HasShadow="True"
+                                ShadowOffSetHeight="4"
+                                ShadowOffsetWidth="0"
+                                ShadowOpacity="0.12">
+                                <controls:CustomShadowFrame.Content>
+                                    <Grid Grid.Column="0">
                                         <ffImage:CachedImage
                                             Aspect="AspectFill"
                                             HeightRequest="120"
                                             HorizontalOptions="FillAndExpand"
-                                            Source="https://vinhomescorp.vn/wp-content/uploads/2019/04/biet-thu-don-lap-thuong-vinhomes-green-villas.jpg"
+                                            Source="https://downtownpainesville.org/wp-content/uploads/2018/07/ha-noi-co-bao-nhieu-quan8.jpg"
                                             VerticalOptions="FillAndExpand"
                                             WidthRequest="250" />
-                                        <controls:FontAwesomeIcon
-                                            Margin="5"
-                                            FontAttributes="Bold"
-                                            FontSize="20"
-                                            HorizontalOptions="End"
-                                            Text="{x:Static fontawesome:FontAwesomeIcons.Heart}"
-                                            TextColor="{StaticResource Orange}"
-                                            VerticalOptions="Start" />
+                                        <Label
+                                            FontFamily="{StaticResource myFontLatoBold}"
+                                            HorizontalOptions="Center"
+                                            Text="Thủ đô Hà Nội"
+                                            TextColor="{StaticResource White}"
+                                            VerticalOptions="Center" />
                                     </Grid>
+                                </controls:CustomShadowFrame.Content>
+                            </controls:CustomShadowFrame>
 
-
-                                    <StackLayout
-                                        Padding="5"
-                                        HorizontalOptions="FillAndExpand"
-                                        VerticalOptions="EndAndExpand">
-                                        <StackLayout
-                                            HorizontalOptions="FillAndExpand"
-                                            Orientation="Vertical"
-                                            Spacing="0">
-
-                                            <Label
-                                                FontFamily="{StaticResource myFontLatoBold}"
-                                                HorizontalOptions="Start"
-                                                Text="450,000,000 vnđ"
-                                                TextColor="{StaticResource Red}"
-                                                VerticalOptions="Center" />
-                                            <StackLayout Orientation="Horizontal">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="13"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="StartAndExpand"
-                                                    HorizontalTextAlignment="End"
-                                                    Text="Hà Nội, Việt Nam"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-                                        </StackLayout>
-
-                                        <Grid HorizontalOptions="FillAndExpand">
-                                            <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="3.5*" />
-                                                <ColumnDefinition Width="3.5*" />
-                                                <ColumnDefinition Width="3.5*" />
-                                            </Grid.ColumnDefinitions>
-
-                                            <StackLayout
-                                                Grid.Column="0"
-                                                HorizontalOptions="CenterAndExpand"
-                                                Orientation="Vertical"
-                                                Spacing="0">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="20"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.Home}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="Center"
-                                                    LineBreakMode="TailTruncation"
-                                                    Text="300 m2"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-
-                                            <StackLayout
-                                                Grid.Column="1"
-                                                HorizontalOptions="CenterAndExpand"
-                                                Orientation="Vertical"
-                                                Spacing="0">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="20"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.Bed}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="Center"
-                                                    LineBreakMode="TailTruncation"
-                                                    Text="2 Bedrooms"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-
-                                            <StackLayout
-                                                Grid.Column="2"
-                                                HorizontalOptions="CenterAndExpand"
-                                                Orientation="Vertical"
-                                                Spacing="0">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="16"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.Bath}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="Center"
-                                                    LineBreakMode="TailTruncation"
-                                                    Text="3 Bathrooms"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-
-                                        </Grid>
-                                    </StackLayout>
-
-                                </StackLayout>
-                            </controls:CustomShadowFrame.Content>
-                        </controls:CustomShadowFrame>
-                        <controls:CustomShadowFrame
-                            Padding="0"
-                            CornerRadius="5"
-                            HasShadow="True"
-                            ShadowOffSetHeight="4"
-                            ShadowOffsetWidth="0"
-                            ShadowOpacity="0.12"
-                            WidthRequest="250">
-                            <controls:CustomShadowFrame.Content>
-                                <StackLayout>
-
-                                    <Grid>
+                            <controls:CustomShadowFrame
+                                Grid.Column="1"
+                                Padding="0"
+                                BackgroundColor="#ececec"
+                                CornerRadius="5"
+                                CustomBorderColor="#ececec"
+                                HasShadow="True"
+                                ShadowOffSetHeight="4"
+                                ShadowOffsetWidth="0"
+                                ShadowOpacity="0.12">
+                                <controls:CustomShadowFrame.Content>
+                                    <Grid Grid.Column="0">
                                         <ffImage:CachedImage
                                             Aspect="AspectFill"
                                             HeightRequest="120"
                                             HorizontalOptions="FillAndExpand"
-                                            Source="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQa9WXa65KOkB2pLHWbaVDgdiREw8LloGu1cBUF9DFEhZX71L0-"
+                                            Source="https://znews-photo.zadn.vn/w660/Uploaded/zagttv/2017_09_03/P12609563_MUAC.jpg"
                                             VerticalOptions="FillAndExpand"
                                             WidthRequest="250" />
-                                        <controls:FontAwesomeIcon
-                                            Margin="5"
-                                            FontAttributes="Bold"
-                                            FontSize="20"
-                                            HorizontalOptions="End"
-                                            Text="{x:Static fontawesome:FontAwesomeIcons.Heart}"
-                                            TextColor="{StaticResource Orange}"
-                                            VerticalOptions="Start" />
+                                        <Label
+                                            FontFamily="{StaticResource myFontLatoBold}"
+                                            HorizontalOptions="Center"
+                                            Text="TP. Hồ Chí Minh"
+                                            TextColor="{StaticResource White}"
+                                            VerticalOptions="Center" />
                                     </Grid>
+                                </controls:CustomShadowFrame.Content>
+                            </controls:CustomShadowFrame>
+                        </Grid>
 
+                        <Grid ColumnSpacing="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="5*" />
+                            </Grid.ColumnDefinitions>
 
-                                    <StackLayout
-                                        Padding="5"
-                                        HorizontalOptions="FillAndExpand"
-                                        VerticalOptions="EndAndExpand">
-                                        <StackLayout
-                                            HorizontalOptions="FillAndExpand"
-                                            Orientation="Vertical"
-                                            Spacing="0">
-
-                                            <Label
-                                                FontFamily="{StaticResource myFontLatoBold}"
-                                                HorizontalOptions="Start"
-                                                Text="450,000,000 vnđ"
-                                                TextColor="{StaticResource Red}"
-                                                VerticalOptions="Center" />
-                                            <StackLayout Orientation="Horizontal">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="13"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="StartAndExpand"
-                                                    HorizontalTextAlignment="End"
-                                                    Text="Hà Nội, Việt Nam"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-                                        </StackLayout>
-
-                                        <Grid HorizontalOptions="FillAndExpand">
-                                            <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="3.5*" />
-                                                <ColumnDefinition Width="3.5*" />
-                                                <ColumnDefinition Width="3.5*" />
-                                            </Grid.ColumnDefinitions>
-
-                                            <StackLayout
-                                                Grid.Column="0"
-                                                HorizontalOptions="CenterAndExpand"
-                                                Orientation="Vertical"
-                                                Spacing="0">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="20"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.Home}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="Center"
-                                                    LineBreakMode="TailTruncation"
-                                                    Text="300 m2"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-
-                                            <StackLayout
-                                                Grid.Column="1"
-                                                HorizontalOptions="CenterAndExpand"
-                                                Orientation="Vertical"
-                                                Spacing="0">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="20"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.Bed}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="Center"
-                                                    LineBreakMode="TailTruncation"
-                                                    Text="2 Bedrooms"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-
-                                            <StackLayout
-                                                Grid.Column="2"
-                                                HorizontalOptions="CenterAndExpand"
-                                                Orientation="Vertical"
-                                                Spacing="0">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="16"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.Bath}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="Center"
-                                                    LineBreakMode="TailTruncation"
-                                                    Text="3 Bathrooms"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-
-                                        </Grid>
-                                    </StackLayout>
-
-                                </StackLayout>
-                            </controls:CustomShadowFrame.Content>
-                        </controls:CustomShadowFrame>
-                        <controls:CustomShadowFrame
-                            Padding="0"
-                            CornerRadius="5"
-                            HasShadow="True"
-                            ShadowOffSetHeight="4"
-                            ShadowOffsetWidth="0"
-                            ShadowOpacity="0.12"
-                            WidthRequest="250">
-                            <controls:CustomShadowFrame.Content>
-                                <StackLayout>
-
-                                    <Grid>
+                            <controls:CustomShadowFrame
+                                Grid.Column="0"
+                                Padding="0"
+                                BackgroundColor="#ececec"
+                                CornerRadius="5"
+                                CustomBorderColor="#ececec"
+                                HasShadow="True"
+                                ShadowOffSetHeight="4"
+                                ShadowOffsetWidth="0"
+                                ShadowOpacity="0.12">
+                                <controls:CustomShadowFrame.Content>
+                                    <Grid Grid.Column="0">
                                         <ffImage:CachedImage
                                             Aspect="AspectFill"
                                             HeightRequest="120"
                                             HorizontalOptions="FillAndExpand"
-                                            Source="https://lh3.googleusercontent.com/proxy/b_3hH_Aeao_dKQqhEWPmfO5OiNmt1WTUKnPnLXnypI8nmjgL5AXKfZH_guzD34jRLMLOPejZyTbW_ReiDapqd7RNyf7sY1xahqH7L0CN43KTX-CuDMe4rDBF8kBmkCCBHArx_YwV-2OboSk3Bbm2PJvrTG_fb_N4AO0VAeplMa3CKFlqw_XzTbjAHP4JWzGV"
+                                            Source="https://media.baodautu.vn/Images/viethuong/2019/04/16/cau-vang-sun-world-ba-na-hills-2-15549488290011108339911.jpg"
                                             VerticalOptions="FillAndExpand"
                                             WidthRequest="250" />
-                                        <controls:FontAwesomeIcon
-                                            Margin="5"
-                                            FontAttributes="Bold"
-                                            FontSize="20"
-                                            HorizontalOptions="End"
-                                            Text="{x:Static fontawesome:FontAwesomeIcons.Heart}"
-                                            TextColor="{StaticResource Orange}"
-                                            VerticalOptions="Start" />
+                                        <Label
+                                            FontFamily="{StaticResource myFontLatoBold}"
+                                            HorizontalOptions="Center"
+                                            Text="Đà Nẵng"
+                                            TextColor="{StaticResource White}"
+                                            VerticalOptions="Center" />
                                     </Grid>
+                                </controls:CustomShadowFrame.Content>
+                            </controls:CustomShadowFrame>
 
-
-                                    <StackLayout
-                                        Padding="5"
-                                        HorizontalOptions="FillAndExpand"
-                                        VerticalOptions="EndAndExpand">
-                                        <StackLayout
+                            <controls:CustomShadowFrame
+                                Grid.Column="1"
+                                Padding="0"
+                                BackgroundColor="#ececec"
+                                CornerRadius="5"
+                                CustomBorderColor="#ececec"
+                                HasShadow="True"
+                                ShadowOffSetHeight="4"
+                                ShadowOffsetWidth="0"
+                                ShadowOpacity="0.12">
+                                <controls:CustomShadowFrame.Content>
+                                    <Grid Grid.Column="0">
+                                        <ffImage:CachedImage
+                                            Aspect="AspectFill"
+                                            HeightRequest="120"
                                             HorizontalOptions="FillAndExpand"
-                                            Orientation="Vertical"
-                                            Spacing="0">
+                                            Source="https://bkkaruncloud.b-cdn.net/wp-content/uploads/2019/04/da-nang-to-nha-trang.jpg"
+                                            VerticalOptions="FillAndExpand"
+                                            WidthRequest="250" />
+                                        <Label
+                                            FontFamily="{StaticResource myFontLatoBold}"
+                                            HorizontalOptions="Center"
+                                            Text="Nha Trang"
+                                            TextColor="{StaticResource White}"
+                                            VerticalOptions="Center" />
+                                    </Grid>
+                                </controls:CustomShadowFrame.Content>
+                            </controls:CustomShadowFrame>
+                        </Grid>
 
-                                            <Label
-                                                FontFamily="{StaticResource myFontLatoBold}"
-                                                HorizontalOptions="Start"
-                                                Text="450,000,000 vnđ"
-                                                TextColor="{StaticResource Red}"
-                                                VerticalOptions="Center" />
-                                            <StackLayout Orientation="Horizontal">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="13"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="StartAndExpand"
-                                                    HorizontalTextAlignment="End"
-                                                    Text="Hà Nội, Việt Nam"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-                                        </StackLayout>
+                        <Grid ColumnSpacing="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="5*" />
+                            </Grid.ColumnDefinitions>
 
-                                        <Grid HorizontalOptions="FillAndExpand">
-                                            <Grid.ColumnDefinitions>
-                                                <ColumnDefinition Width="3.5*" />
-                                                <ColumnDefinition Width="3.5*" />
-                                                <ColumnDefinition Width="3.5*" />
-                                            </Grid.ColumnDefinitions>
+                            <controls:CustomShadowFrame
+                                Grid.Column="0"
+                                Padding="0"
+                                BackgroundColor="#ececec"
+                                CornerRadius="5"
+                                CustomBorderColor="#ececec"
+                                HasShadow="True"
+                                ShadowOffSetHeight="4"
+                                ShadowOffsetWidth="0"
+                                ShadowOpacity="0.12">
+                                <controls:CustomShadowFrame.Content>
+                                    <Grid Grid.Column="0">
+                                        <ffImage:CachedImage
+                                            Aspect="AspectFill"
+                                            HeightRequest="120"
+                                            HorizontalOptions="FillAndExpand"
+                                            Source="https://downtownpainesville.org/wp-content/uploads/2018/07/ha-noi-co-bao-nhieu-quan8.jpg"
+                                            VerticalOptions="FillAndExpand"
+                                            WidthRequest="250" />
+                                        <Label
+                                            FontFamily="{StaticResource myFontLatoBold}"
+                                            HorizontalOptions="Center"
+                                            Text="Thủ đô Hà Nội"
+                                            TextColor="{StaticResource White}"
+                                            VerticalOptions="Center" />
+                                    </Grid>
+                                </controls:CustomShadowFrame.Content>
+                            </controls:CustomShadowFrame>
 
-                                            <StackLayout
-                                                Grid.Column="0"
-                                                HorizontalOptions="CenterAndExpand"
-                                                Orientation="Vertical"
-                                                Spacing="0">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="20"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.Home}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="Center"
-                                                    LineBreakMode="TailTruncation"
-                                                    Text="300 m2"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-
-                                            <StackLayout
-                                                Grid.Column="1"
-                                                HorizontalOptions="CenterAndExpand"
-                                                Orientation="Vertical"
-                                                Spacing="0">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="20"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.Bed}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="Center"
-                                                    LineBreakMode="TailTruncation"
-                                                    Text="2 Bedrooms"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-
-                                            <StackLayout
-                                                Grid.Column="2"
-                                                HorizontalOptions="CenterAndExpand"
-                                                Orientation="Vertical"
-                                                Spacing="0">
-                                                <controls:FontAwesomeIcon
-                                                    FontAttributes="Bold"
-                                                    FontSize="16"
-                                                    HorizontalOptions="Center"
-                                                    Text="{x:Static fontawesome:FontAwesomeIcons.Bath}"
-                                                    TextColor="{StaticResource Additional}"
-                                                    VerticalOptions="Center" />
-                                                <Label
-                                                    FontSize="10"
-                                                    HorizontalOptions="Center"
-                                                    LineBreakMode="TailTruncation"
-                                                    Text="3 Bathrooms"
-                                                    VerticalOptions="Center" />
-                                            </StackLayout>
-
-                                        </Grid>
-                                    </StackLayout>
-
-                                </StackLayout>
-                            </controls:CustomShadowFrame.Content>
-                        </controls:CustomShadowFrame>
+                            <controls:CustomShadowFrame
+                                Grid.Column="1"
+                                Padding="0"
+                                BackgroundColor="#ececec"
+                                CornerRadius="5"
+                                CustomBorderColor="#ececec"
+                                HasShadow="True"
+                                ShadowOffSetHeight="4"
+                                ShadowOffsetWidth="0"
+                                ShadowOpacity="0.12">
+                                <controls:CustomShadowFrame.Content>
+                                    <Grid Grid.Column="0">
+                                        <ffImage:CachedImage
+                                            Aspect="AspectFill"
+                                            HeightRequest="120"
+                                            HorizontalOptions="FillAndExpand"
+                                            Source="https://znews-photo.zadn.vn/w660/Uploaded/zagttv/2017_09_03/P12609563_MUAC.jpg"
+                                            VerticalOptions="FillAndExpand"
+                                            WidthRequest="250" />
+                                        <Label
+                                            FontFamily="{StaticResource myFontLatoBold}"
+                                            HorizontalOptions="Center"
+                                            Text="Thủ đô Hà Nội"
+                                            TextColor="{StaticResource White}"
+                                            VerticalOptions="Center" />
+                                    </Grid>
+                                </controls:CustomShadowFrame.Content>
+                            </controls:CustomShadowFrame>
+                        </Grid>
                     </StackLayout>
-                </ScrollView>
-                <!--<maps:Map
-                    x:Name="map"
-                    InitialCameraUpdate="-23.68, -46.87, 13, 30, 60"
-                    IsShowingUser="False"
-                    VerticalOptions="FillAndExpand" />-->
-            </StackLayout>
-        </Grid>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+
     </ContentPage.Content>
 </ContentPage>

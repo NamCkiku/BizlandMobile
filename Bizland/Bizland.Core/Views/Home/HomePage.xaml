@@ -32,7 +32,7 @@
             <yummy:PancakeView
                 Grid.RowSpan="2"
                 BackgroundColor="#bc91d7"
-                CornerRadius="0,0,0,120"
+                CornerRadius="0,0,0,60"
                 HeightRequest="300"
                 HorizontalOptions="FillAndExpand"
                 IsClippedToBounds="true"
@@ -147,7 +147,10 @@
                     Margin="0,20,0,0"
                     HorizontalScrollBarVisibility="Never"
                     Orientation="Horizontal">
-                    <StackLayout Orientation="Horizontal" Spacing="10">
+                    <StackLayout
+                        Padding="1"
+                        Orientation="Horizontal"
+                        Spacing="10">
                         <controls:CustomShadowFrame
                             Padding="0"
                             CornerRadius="5"
@@ -164,7 +167,7 @@
                                             Aspect="AspectFill"
                                             HeightRequest="120"
                                             HorizontalOptions="FillAndExpand"
-                                            Source="seattle.jpg"
+                                            Source="https://vinhomescorp.vn/wp-content/uploads/2019/04/biet-thu-don-lap-thuong-vinhomes-green-villas.jpg"
                                             VerticalOptions="FillAndExpand"
                                             WidthRequest="250" />
                                         <controls:FontAwesomeIcon
@@ -179,29 +182,36 @@
 
 
                                     <StackLayout
-                                        Padding="5,0,5,0"
+                                        Padding="5"
                                         HorizontalOptions="FillAndExpand"
                                         VerticalOptions="EndAndExpand">
-                                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                                            <controls:FontAwesomeIcon
-                                                FontAttributes="Bold"
-                                                FontSize="13"
-                                                HorizontalOptions="Center"
-                                                Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
-                                                TextColor="{StaticResource Additional}"
-                                                VerticalOptions="Center" />
+                                        <StackLayout
+                                            HorizontalOptions="FillAndExpand"
+                                            Orientation="Vertical"
+                                            Spacing="0">
+
                                             <Label
-                                                FontSize="10"
-                                                HorizontalOptions="StartAndExpand"
-                                                HorizontalTextAlignment="End"
-                                                Text="Hà Nội, Việt Nam"
-                                                TextColor="{StaticResource Additional}"
-                                                VerticalOptions="Center" />
-                                            <Label
-                                                HorizontalOptions="End"
-                                                Text="450 tr"
+                                                FontFamily="{StaticResource myFontLatoBold}"
+                                                HorizontalOptions="Start"
+                                                Text="450,000,000 vnđ"
                                                 TextColor="{StaticResource Red}"
                                                 VerticalOptions="Center" />
+                                            <StackLayout Orientation="Horizontal">
+                                                <controls:FontAwesomeIcon
+                                                    FontAttributes="Bold"
+                                                    FontSize="13"
+                                                    HorizontalOptions="Center"
+                                                    Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
+                                                    TextColor="{StaticResource Additional}"
+                                                    VerticalOptions="Center" />
+                                                <Label
+                                                    FontSize="10"
+                                                    HorizontalOptions="StartAndExpand"
+                                                    HorizontalTextAlignment="End"
+                                                    Text="Hà Nội, Việt Nam"
+                                                    TextColor="{StaticResource Additional}"
+                                                    VerticalOptions="Center" />
+                                            </StackLayout>
                                         </StackLayout>
 
                                         <Grid HorizontalOptions="FillAndExpand">
@@ -213,6 +223,7 @@
 
                                             <StackLayout
                                                 Grid.Column="0"
+                                                HorizontalOptions="CenterAndExpand"
                                                 Orientation="Vertical"
                                                 Spacing="0">
                                                 <controls:FontAwesomeIcon
@@ -232,6 +243,7 @@
 
                                             <StackLayout
                                                 Grid.Column="1"
+                                                HorizontalOptions="CenterAndExpand"
                                                 Orientation="Vertical"
                                                 Spacing="0">
                                                 <controls:FontAwesomeIcon
@@ -251,6 +263,7 @@
 
                                             <StackLayout
                                                 Grid.Column="2"
+                                                HorizontalOptions="CenterAndExpand"
                                                 Orientation="Vertical"
                                                 Spacing="0">
                                                 <controls:FontAwesomeIcon
@@ -290,7 +303,7 @@
                                             Aspect="AspectFill"
                                             HeightRequest="120"
                                             HorizontalOptions="FillAndExpand"
-                                            Source="seattle.jpg"
+                                            Source="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQa9WXa65KOkB2pLHWbaVDgdiREw8LloGu1cBUF9DFEhZX71L0-"
                                             VerticalOptions="FillAndExpand"
                                             WidthRequest="250" />
                                         <controls:FontAwesomeIcon
@@ -305,29 +318,36 @@
 
 
                                     <StackLayout
-                                        Padding="5,0,5,0"
+                                        Padding="5"
                                         HorizontalOptions="FillAndExpand"
                                         VerticalOptions="EndAndExpand">
-                                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                                            <controls:FontAwesomeIcon
-                                                FontAttributes="Bold"
-                                                FontSize="13"
-                                                HorizontalOptions="Center"
-                                                Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
-                                                TextColor="{StaticResource Additional}"
-                                                VerticalOptions="Center" />
+                                        <StackLayout
+                                            HorizontalOptions="FillAndExpand"
+                                            Orientation="Vertical"
+                                            Spacing="0">
+
                                             <Label
-                                                FontSize="10"
-                                                HorizontalOptions="StartAndExpand"
-                                                HorizontalTextAlignment="End"
-                                                Text="Hà Nội, Việt Nam"
-                                                TextColor="{StaticResource Additional}"
-                                                VerticalOptions="Center" />
-                                            <Label
-                                                HorizontalOptions="End"
-                                                Text="450 tr"
+                                                FontFamily="{StaticResource myFontLatoBold}"
+                                                HorizontalOptions="Start"
+                                                Text="450,000,000 vnđ"
                                                 TextColor="{StaticResource Red}"
                                                 VerticalOptions="Center" />
+                                            <StackLayout Orientation="Horizontal">
+                                                <controls:FontAwesomeIcon
+                                                    FontAttributes="Bold"
+                                                    FontSize="13"
+                                                    HorizontalOptions="Center"
+                                                    Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
+                                                    TextColor="{StaticResource Additional}"
+                                                    VerticalOptions="Center" />
+                                                <Label
+                                                    FontSize="10"
+                                                    HorizontalOptions="StartAndExpand"
+                                                    HorizontalTextAlignment="End"
+                                                    Text="Hà Nội, Việt Nam"
+                                                    TextColor="{StaticResource Additional}"
+                                                    VerticalOptions="Center" />
+                                            </StackLayout>
                                         </StackLayout>
 
                                         <Grid HorizontalOptions="FillAndExpand">
@@ -339,6 +359,7 @@
 
                                             <StackLayout
                                                 Grid.Column="0"
+                                                HorizontalOptions="CenterAndExpand"
                                                 Orientation="Vertical"
                                                 Spacing="0">
                                                 <controls:FontAwesomeIcon
@@ -358,6 +379,7 @@
 
                                             <StackLayout
                                                 Grid.Column="1"
+                                                HorizontalOptions="CenterAndExpand"
                                                 Orientation="Vertical"
                                                 Spacing="0">
                                                 <controls:FontAwesomeIcon
@@ -377,6 +399,7 @@
 
                                             <StackLayout
                                                 Grid.Column="2"
+                                                HorizontalOptions="CenterAndExpand"
                                                 Orientation="Vertical"
                                                 Spacing="0">
                                                 <controls:FontAwesomeIcon
@@ -416,7 +439,7 @@
                                             Aspect="AspectFill"
                                             HeightRequest="120"
                                             HorizontalOptions="FillAndExpand"
-                                            Source="seattle.jpg"
+                                            Source="https://lh3.googleusercontent.com/proxy/b_3hH_Aeao_dKQqhEWPmfO5OiNmt1WTUKnPnLXnypI8nmjgL5AXKfZH_guzD34jRLMLOPejZyTbW_ReiDapqd7RNyf7sY1xahqH7L0CN43KTX-CuDMe4rDBF8kBmkCCBHArx_YwV-2OboSk3Bbm2PJvrTG_fb_N4AO0VAeplMa3CKFlqw_XzTbjAHP4JWzGV"
                                             VerticalOptions="FillAndExpand"
                                             WidthRequest="250" />
                                         <controls:FontAwesomeIcon
@@ -431,29 +454,36 @@
 
 
                                     <StackLayout
-                                        Padding="5,0,5,0"
+                                        Padding="5"
                                         HorizontalOptions="FillAndExpand"
                                         VerticalOptions="EndAndExpand">
-                                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                                            <controls:FontAwesomeIcon
-                                                FontAttributes="Bold"
-                                                FontSize="13"
-                                                HorizontalOptions="Center"
-                                                Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
-                                                TextColor="{StaticResource Additional}"
-                                                VerticalOptions="Center" />
+                                        <StackLayout
+                                            HorizontalOptions="FillAndExpand"
+                                            Orientation="Vertical"
+                                            Spacing="0">
+
                                             <Label
-                                                FontSize="10"
-                                                HorizontalOptions="StartAndExpand"
-                                                HorizontalTextAlignment="End"
-                                                Text="Hà Nội, Việt Nam"
-                                                TextColor="{StaticResource Additional}"
-                                                VerticalOptions="Center" />
-                                            <Label
-                                                HorizontalOptions="End"
-                                                Text="450 tr"
+                                                FontFamily="{StaticResource myFontLatoBold}"
+                                                HorizontalOptions="Start"
+                                                Text="450,000,000 vnđ"
                                                 TextColor="{StaticResource Red}"
                                                 VerticalOptions="Center" />
+                                            <StackLayout Orientation="Horizontal">
+                                                <controls:FontAwesomeIcon
+                                                    FontAttributes="Bold"
+                                                    FontSize="13"
+                                                    HorizontalOptions="Center"
+                                                    Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
+                                                    TextColor="{StaticResource Additional}"
+                                                    VerticalOptions="Center" />
+                                                <Label
+                                                    FontSize="10"
+                                                    HorizontalOptions="StartAndExpand"
+                                                    HorizontalTextAlignment="End"
+                                                    Text="Hà Nội, Việt Nam"
+                                                    TextColor="{StaticResource Additional}"
+                                                    VerticalOptions="Center" />
+                                            </StackLayout>
                                         </StackLayout>
 
                                         <Grid HorizontalOptions="FillAndExpand">
@@ -465,6 +495,7 @@
 
                                             <StackLayout
                                                 Grid.Column="0"
+                                                HorizontalOptions="CenterAndExpand"
                                                 Orientation="Vertical"
                                                 Spacing="0">
                                                 <controls:FontAwesomeIcon
@@ -484,6 +515,7 @@
 
                                             <StackLayout
                                                 Grid.Column="1"
+                                                HorizontalOptions="CenterAndExpand"
                                                 Orientation="Vertical"
                                                 Spacing="0">
                                                 <controls:FontAwesomeIcon
@@ -503,6 +535,7 @@
 
                                             <StackLayout
                                                 Grid.Column="2"
+                                                HorizontalOptions="CenterAndExpand"
                                                 Orientation="Vertical"
                                                 Spacing="0">
                                                 <controls:FontAwesomeIcon

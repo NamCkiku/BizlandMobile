@@ -44,6 +44,7 @@ namespace Bizland.Service
             };
             httpClient.DefaultRequestHeaders.Add("Cache-Control", "no-cache"); // <-- doesn't seem to have any effect
             httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            httpClient.DefaultRequestHeaders.UserAgent.TryParseAdd("request");//Set the User Agent to "request"
 
             if (!string.IsNullOrEmpty(token))
             {

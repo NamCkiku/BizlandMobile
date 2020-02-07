@@ -19,6 +19,8 @@ namespace Bizland.Core.Droid
                 containerRegistry.RegisterInstance<IDisplayMessage>(new DisplayMessageService());
                 containerRegistry.RegisterInstance<ISettingsService>(new SettingsService());
                 containerRegistry.RegisterInstance<ITooltipService>(new DroidTooltipService());
+                containerRegistry.RegisterInstance<IAudioManager>(new DroidAudioManager());
+                containerRegistry.RegisterInstance<IStatusBarStyleManager>(new StatusBarStyleManager());
             }
         }
     }

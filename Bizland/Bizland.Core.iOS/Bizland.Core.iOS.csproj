@@ -116,10 +116,14 @@
   <ItemGroup>
     <Compile Include="BaseDelegate.cs" />
     <Compile Include="CustomRenderer\FrameShadowRenderer.cs" />
+    <Compile Include="DependencyService\AppleAudioManager.cs" />
     <Compile Include="DependencyService\DisplayMessageService.cs" />
     <Compile Include="DependencyService\iOSTooltipService.cs" />
+    <Compile Include="DependencyService\ProgressUpdateService.cs" />
     <Compile Include="DependencyService\SettingsService.cs" />
+    <Compile Include="DependencyService\StatusBarStyleManager.cs" />
     <Compile Include="Effects\BorderlessEffect.cs" />
+    <Compile Include="Extensions\ImageSourceExtensions.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusteredMarker.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusterIconGeneratorHandler.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusterRendererHandler.cs" />

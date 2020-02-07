@@ -35,6 +35,8 @@ namespace Bizland.Core.iOS
                 containerRegistry.RegisterInstance<IDisplayMessage>(new DisplayMessageService());
                 containerRegistry.RegisterInstance<ISettingsService>(new SettingsService());
                 containerRegistry.RegisterInstance<ITooltipService>(new iOSTooltipService());
+                containerRegistry.RegisterInstance<IAudioManager>(new AppleAudioManager());
+                containerRegistry.RegisterInstance<IStatusBarStyleManager>(new StatusBarStyleManager());
             }
         }
     }

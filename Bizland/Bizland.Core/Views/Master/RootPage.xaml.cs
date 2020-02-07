@@ -1,13 +1,16 @@
 ﻿using System;
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
 
 namespace Bizland.Core.Views
 {
-    public partial class RootPage : TabbedPage
+    public partial class RootPage : Xamarin.Forms.TabbedPage
     {
         public RootPage()
         {
             InitializeComponent();
+            this.On<Xamarin.Forms.PlatformConfiguration.Android>().DisableSwipePaging();
+            this.On<Xamarin.Forms.PlatformConfiguration.Android>().SetToolbarPlacement(ToolbarPlacement.Bottom);
             this.Children.Add(new HomePage()
             {
                 Title = "Search",

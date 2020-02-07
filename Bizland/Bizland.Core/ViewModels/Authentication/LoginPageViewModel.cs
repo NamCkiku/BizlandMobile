@@ -1,4 +1,5 @@
 ﻿using Bizland.Core.Extensions;
+using Bizland.Core.Helpers;
 using Bizland.Core.Resource;
 using Prism.Commands;
 using Prism.Mvvm;
@@ -109,10 +110,11 @@ namespace Bizland.Core.ViewModels
 
         private void LoginWithFacebook()
         {
-            SafeExecute(() =>
+            SafeExecute(async () =>
             {
                 if (IsConnected)
                 {
+                    await AutoUpdateHelper.GetUpdate();
                     DisplayMessage.ShowMessageInfo("Login With Facebook", 5000);
                 }
                 else

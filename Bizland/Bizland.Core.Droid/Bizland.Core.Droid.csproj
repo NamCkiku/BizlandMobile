@@ -162,9 +162,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseActivity.cs" />
+    <Compile Include="DependencyServices\CFileOpener.cs" />
     <Compile Include="DependencyServices\DisplayMessageService.cs" />
+    <Compile Include="DependencyServices\DroidAudioManager.cs" />
     <Compile Include="DependencyServices\DroidTooltipService.cs" />
+    <Compile Include="DependencyServices\ProgressUpdateService.cs" />
     <Compile Include="DependencyServices\SettingsService.cs" />
+    <Compile Include="DependencyServices\StatusBarStyleManager.cs" />
     <Compile Include="Effects\BorderlessEffect.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusteredMarker.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusterLogicHandler.cs" />

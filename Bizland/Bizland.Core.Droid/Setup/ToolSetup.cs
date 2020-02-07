@@ -1,6 +1,6 @@
 ﻿using Android.App;
 using Android.OS;
-
+using Bizland.Core.Droid.DependencyService;
 using FFImageLoading.Forms.Platform;
 
 namespace Bizland.Core.Droid.Setup
@@ -23,8 +23,6 @@ namespace Bizland.Core.Droid.Setup
             CachedImageRenderer.InitImageViewHandler();
             //This forces the custom renderers to be used
             //Android.Glide.Forms.Init(activity, debug: false);
-
-            //CardsViewRenderer.Preserve();
 
             // Override default BitmapDescriptorFactory by your implementation
             FormsGoogleMaps.Init(activity, bundle, new PlatformConfig

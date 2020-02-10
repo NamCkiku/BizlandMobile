@@ -127,6 +127,7 @@
     <Compile Include="DependencyService\SettingsService.cs" />
     <Compile Include="DependencyService\StatusBarStyleManager.cs" />
     <Compile Include="Effects\BorderlessEffect.cs" />
+    <Compile Include="Extensions\AnimatedImageView.cs" />
     <Compile Include="Extensions\ImageSourceExtensions.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusteredMarker.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusterIconGeneratorHandler.cs" />

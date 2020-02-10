@@ -378,5 +378,8 @@
   <ItemGroup>
     <BundleResource Include="Resources\logoprosess.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\loader.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

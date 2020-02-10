@@ -130,7 +130,10 @@ namespace Bizland.Core.ViewModels
             {
                 if (IsConnected)
                 {
+                    DependencyService.Get<IProgressHUDService>().StartHUD("Loading");
                     DisplayMessage.ShowMessageInfo("Login With Google", 5000);
+                    Task.Delay(10000);
+                    DependencyService.Get<IProgressHUDService>().DisposeHUD();
                 }
                 else
                 {

@@ -30,15 +30,15 @@ namespace Bizland.Core.iOS.DependencyService
         UIApplication.SharedApplication.KeyWindow.RootViewController;
             hud = new MBProgressHUD(controller.View);
             controller.View.AddSubview(hud);
-            hud.TintColor = UIColor.Clear;
+            hud.ContentColor = UIColor.Clear;
             // Add information to your HUD
             hud.Label.Text = message;
             // Set custom view mode
             hud.Mode = MBProgressHUDMode.CustomView;
-            hud.Margin = 10f;
+            hud.Margin = 0f;
             // The sample image is based on the work by http://www.pixelpressicons.com, http://creativecommons.org/licenses/by/2.5/ca/
             // Make the customViews 37 by 37 pixels for best results (those are the bounds of the build-in progress indicators)
-            hud.CustomView = new UIImageView(UIImage.FromBundle("logo.png"));
+            hud.CustomView = new UIImageView(UIImage.FromBundle("logoprosess.png"));
 
             hud.Show(true);
         }

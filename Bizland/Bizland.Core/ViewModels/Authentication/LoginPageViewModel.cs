@@ -4,6 +4,7 @@ using Bizland.Core.Resource;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
+using Prism.Services.Dialogs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,13 +23,14 @@ namespace Bizland.Core.ViewModels
         #endregion
 
         #region Constructor
-
+        private readonly IDialogService dialogService;
         /// <summary>
         /// Initializes a new instance for the <see cref="NoInternetConnectionPageViewModel" /> class.
         /// </summary>
-        public LoginPageViewModel(INavigationService navigationService)
+        public LoginPageViewModel(INavigationService navigationService, IDialogService dialogService)
            : base(navigationService)
         {
+            this.dialogService = dialogService;
             this.LoginCommand = new Command(this.Login);
             this.PushForgotPasswordCommand = new Command(this.ForgotPassword);
             this.PushRegisterCommand = new Command(this.PushRegisterPage);
@@ -130,16 +132,23 @@ namespace Bizland.Core.ViewModels
             {
                 if (IsConnected)
                 {
-                    DependencyService.Get<IProgressHUDService>().StartHUD("Loading");
-                    DisplayMessage.ShowMessageInfo("Login With Google", 5000);
-                    Task.Delay(10000);
-                    DependencyService.Get<IProgressHUDService>().DisposeHUD();
+                    var param = new DialogParameters();
+                    param.Add("Message", "I'm a dialog");
+                    dialogService.ShowDialog("DialogView", param, CloseDialogCallback);
+                    //DependencyService.Get<IProgressHUDService>().StartHUD("Loading");
+                    //DisplayMessage.ShowMessageInfo("Login With Google", 5000);
+                    //Task.Delay(10000);
+                    //DependencyService.Get<IProgressHUDService>().DisposeHUD();
                 }
                 else
                 {
                     DisplayMessage.ShowMessageInfo("No internet", 5000);
                 }
             });
+        }
+        void CloseDialogCallback(IDialogResult dialogResult)
+        {
+
         }
 
         private void ForgotPassword()

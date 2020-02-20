@@ -1610,6 +1610,36 @@ namespace Bizland.Droid
 			global::Bizland.Core.Droid.Resource.Drawable.ic_notifications = global::Bizland.Droid.Resource.Drawable.ic_notifications;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_os_notification_fallback_white_24dp = global::Bizland.Droid.Resource.Drawable.ic_os_notification_fallback_white_24dp;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_pan_tool_black_24dp = global::Bizland.Droid.Resource.Drawable.ic_pan_tool_black_24dp;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_add = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_add;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_alarm = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_alarm;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_audio = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_audio;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_bookmark = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_bookmark;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_capturephoto = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_capturephoto;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_capturevideo = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_capturevideo;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_cloud = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_cloud;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_compose = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_compose;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_confirmation = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_confirmation;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_contact = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_contact;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_date = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_date;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_default = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_default;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_favorite = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_favorite;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_home = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_home;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_invitation = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_invitation;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_location = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_location;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_love = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_love;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_mail = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_mail;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_marklocation = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_marklocation;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_message = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_message;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_pause = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_pause;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_play = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_play;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_prohibit = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_prohibit;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_search = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_search;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_share = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_share;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_shuffle = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_shuffle;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_task = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_task;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_taskcompleted = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_taskcompleted;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_time = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_time;
+			global::Bizland.Core.Droid.Resource.Drawable.ic_plugin_sc_update = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_update;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_profile = global::Bizland.Droid.Resource.Drawable.ic_profile;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_search = global::Bizland.Droid.Resource.Drawable.ic_search;
 			global::Bizland.Core.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::Bizland.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
@@ -6467,6 +6497,36 @@ namespace Bizland.Droid
 			global::Com.JeevanDeshmukh.GlideToastLib.Resource.String.app_name = global::Bizland.Droid.Resource.String.app_name;
 			global::Com.JeevanDeshmukh.GlideToastLib.Resource.Style.BottomDialogTheme = global::Bizland.Droid.Resource.Style.BottomDialogTheme;
 			global::Com.JeevanDeshmukh.GlideToastLib.Resource.Style.BottomDialogsAnimation = global::Bizland.Droid.Resource.Style.BottomDialogsAnimation;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_add = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_add;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_alarm = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_alarm;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_audio = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_audio;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_bookmark = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_bookmark;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_capturephoto = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_capturephoto;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_capturevideo = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_capturevideo;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_cloud = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_cloud;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_compose = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_compose;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_confirmation = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_confirmation;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_contact = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_contact;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_date = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_date;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_default = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_default;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_favorite = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_favorite;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_home = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_home;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_invitation = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_invitation;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_location = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_location;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_love = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_love;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_mail = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_mail;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_marklocation = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_marklocation;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_message = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_message;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_pause = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_pause;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_play = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_play;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_prohibit = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_prohibit;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_search = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_search;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_share = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_share;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_shuffle = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_shuffle;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_task = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_task;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_taskcompleted = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_taskcompleted;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_time = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_time;
+			global::Plugin.AppShortcuts.Resource.Drawable.ic_plugin_sc_update = global::Bizland.Droid.Resource.Drawable.ic_plugin_sc_update;
 			global::Prism.Resource.Animation.abc_fade_in = global::Bizland.Droid.Resource.Animation.abc_fade_in;
 			global::Prism.Resource.Animation.abc_fade_out = global::Bizland.Droid.Resource.Animation.abc_fade_out;
 			global::Prism.Resource.Animation.abc_grow_fade_in_from_bottom = global::Bizland.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -16438,190 +16498,286 @@ namespace Bizland.Droid
 			public const int ic_pan_tool_black_24dp = 2131165788;
 			
 			// aapt resource value: 0x7F07025D
-			public const int ic_profile = 2131165789;
+			public const int ic_plugin_sc_add = 2131165789;
 			
 			// aapt resource value: 0x7F07025E
-			public const int ic_search = 2131165790;
+			public const int ic_plugin_sc_alarm = 2131165790;
 			
 			// aapt resource value: 0x7F07025F
-			public const int ic_vol_type_speaker_dark = 2131165791;
+			public const int ic_plugin_sc_audio = 2131165791;
 			
 			// aapt resource value: 0x7F070260
-			public const int ic_vol_type_speaker_group_dark = 2131165792;
+			public const int ic_plugin_sc_bookmark = 2131165792;
 			
 			// aapt resource value: 0x7F070261
-			public const int ic_vol_type_speaker_group_light = 2131165793;
+			public const int ic_plugin_sc_capturephoto = 2131165793;
 			
 			// aapt resource value: 0x7F070262
-			public const int ic_vol_type_speaker_light = 2131165794;
+			public const int ic_plugin_sc_capturevideo = 2131165794;
 			
 			// aapt resource value: 0x7F070263
-			public const int ic_vol_type_tv_dark = 2131165795;
+			public const int ic_plugin_sc_cloud = 2131165795;
 			
 			// aapt resource value: 0x7F070264
-			public const int ic_vol_type_tv_light = 2131165796;
+			public const int ic_plugin_sc_compose = 2131165796;
 			
 			// aapt resource value: 0x7F070265
-			public const int info_shape = 2131165797;
-			
-			// aapt resource value: 0x7F070267
-			public const int inputlayout_togglecollapseicon = 2131165799;
-			
-			// aapt resource value: 0x7F070268
-			public const int inputlayout_togglevisibleicon = 2131165800;
+			public const int ic_plugin_sc_confirmation = 2131165797;
 			
 			// aapt resource value: 0x7F070266
-			public const int input_layout_drop_down_icon = 2131165798;
+			public const int ic_plugin_sc_contact = 2131165798;
+			
+			// aapt resource value: 0x7F070267
+			public const int ic_plugin_sc_date = 2131165799;
+			
+			// aapt resource value: 0x7F070268
+			public const int ic_plugin_sc_default = 2131165800;
 			
 			// aapt resource value: 0x7F070269
-			public const int Launch_Screen = 2131165801;
+			public const int ic_plugin_sc_favorite = 2131165801;
 			
 			// aapt resource value: 0x7F07026A
-			public const int mr_button_connected_dark = 2131165802;
+			public const int ic_plugin_sc_home = 2131165802;
 			
 			// aapt resource value: 0x7F07026B
-			public const int mr_button_connected_light = 2131165803;
+			public const int ic_plugin_sc_invitation = 2131165803;
 			
 			// aapt resource value: 0x7F07026C
-			public const int mr_button_connecting_dark = 2131165804;
+			public const int ic_plugin_sc_location = 2131165804;
 			
 			// aapt resource value: 0x7F07026D
-			public const int mr_button_connecting_light = 2131165805;
+			public const int ic_plugin_sc_love = 2131165805;
 			
 			// aapt resource value: 0x7F07026E
-			public const int mr_button_dark = 2131165806;
+			public const int ic_plugin_sc_mail = 2131165806;
 			
 			// aapt resource value: 0x7F07026F
-			public const int mr_button_light = 2131165807;
+			public const int ic_plugin_sc_marklocation = 2131165807;
 			
 			// aapt resource value: 0x7F070270
-			public const int mr_dialog_close_dark = 2131165808;
+			public const int ic_plugin_sc_message = 2131165808;
 			
 			// aapt resource value: 0x7F070271
-			public const int mr_dialog_close_light = 2131165809;
+			public const int ic_plugin_sc_pause = 2131165809;
 			
 			// aapt resource value: 0x7F070272
-			public const int mr_dialog_material_background_dark = 2131165810;
+			public const int ic_plugin_sc_play = 2131165810;
 			
 			// aapt resource value: 0x7F070273
-			public const int mr_dialog_material_background_light = 2131165811;
+			public const int ic_plugin_sc_prohibit = 2131165811;
 			
 			// aapt resource value: 0x7F070274
-			public const int mr_group_collapse = 2131165812;
+			public const int ic_plugin_sc_search = 2131165812;
 			
 			// aapt resource value: 0x7F070275
-			public const int mr_group_expand = 2131165813;
+			public const int ic_plugin_sc_share = 2131165813;
 			
 			// aapt resource value: 0x7F070276
-			public const int mr_media_pause_dark = 2131165814;
+			public const int ic_plugin_sc_shuffle = 2131165814;
 			
 			// aapt resource value: 0x7F070277
-			public const int mr_media_pause_light = 2131165815;
+			public const int ic_plugin_sc_task = 2131165815;
 			
 			// aapt resource value: 0x7F070278
-			public const int mr_media_play_dark = 2131165816;
+			public const int ic_plugin_sc_taskcompleted = 2131165816;
 			
 			// aapt resource value: 0x7F070279
-			public const int mr_media_play_light = 2131165817;
+			public const int ic_plugin_sc_time = 2131165817;
 			
 			// aapt resource value: 0x7F07027A
-			public const int mr_media_stop_dark = 2131165818;
+			public const int ic_plugin_sc_update = 2131165818;
 			
 			// aapt resource value: 0x7F07027B
-			public const int mr_media_stop_light = 2131165819;
+			public const int ic_profile = 2131165819;
 			
 			// aapt resource value: 0x7F07027C
-			public const int mr_vol_type_audiotrack_dark = 2131165820;
+			public const int ic_search = 2131165820;
 			
 			// aapt resource value: 0x7F07027D
-			public const int mr_vol_type_audiotrack_light = 2131165821;
+			public const int ic_vol_type_speaker_dark = 2131165821;
 			
 			// aapt resource value: 0x7F07027E
-			public const int mtrl_snackbar_background = 2131165822;
+			public const int ic_vol_type_speaker_group_dark = 2131165822;
 			
 			// aapt resource value: 0x7F07027F
-			public const int mtrl_tabs_default_indicator = 2131165823;
+			public const int ic_vol_type_speaker_group_light = 2131165823;
 			
 			// aapt resource value: 0x7F070280
-			public const int navigation_empty_icon = 2131165824;
+			public const int ic_vol_type_speaker_light = 2131165824;
 			
 			// aapt resource value: 0x7F070281
-			public const int notification_action_background = 2131165825;
+			public const int ic_vol_type_tv_dark = 2131165825;
 			
 			// aapt resource value: 0x7F070282
-			public const int notification_bg = 2131165826;
+			public const int ic_vol_type_tv_light = 2131165826;
 			
 			// aapt resource value: 0x7F070283
-			public const int notification_bg_low = 2131165827;
-			
-			// aapt resource value: 0x7F070284
-			public const int notification_bg_low_normal = 2131165828;
+			public const int info_shape = 2131165827;
 			
 			// aapt resource value: 0x7F070285
-			public const int notification_bg_low_pressed = 2131165829;
+			public const int inputlayout_togglecollapseicon = 2131165829;
 			
 			// aapt resource value: 0x7F070286
-			public const int notification_bg_normal = 2131165830;
+			public const int inputlayout_togglevisibleicon = 2131165830;
+			
+			// aapt resource value: 0x7F070284
+			public const int input_layout_drop_down_icon = 2131165828;
 			
 			// aapt resource value: 0x7F070287
-			public const int notification_bg_normal_pressed = 2131165831;
+			public const int Launch_Screen = 2131165831;
 			
 			// aapt resource value: 0x7F070288
-			public const int notification_icon_background = 2131165832;
+			public const int logo = 2131165832;
 			
 			// aapt resource value: 0x7F070289
-			public const int notification_template_icon_bg = 2131165833;
+			public const int logoprosess = 2131165833;
 			
 			// aapt resource value: 0x7F07028A
-			public const int notification_template_icon_low_bg = 2131165834;
+			public const int mr_button_connected_dark = 2131165834;
 			
 			// aapt resource value: 0x7F07028B
-			public const int notification_tile_bg = 2131165835;
+			public const int mr_button_connected_light = 2131165835;
 			
 			// aapt resource value: 0x7F07028C
-			public const int notify_panel_notification_icon_bg = 2131165836;
+			public const int mr_button_connecting_dark = 2131165836;
 			
 			// aapt resource value: 0x7F07028D
-			public const int seattle = 2131165837;
+			public const int mr_button_connecting_light = 2131165837;
 			
 			// aapt resource value: 0x7F07028E
-			public const int success_shape = 2131165838;
+			public const int mr_button_dark = 2131165838;
 			
 			// aapt resource value: 0x7F07028F
-			public const int tooltip_arrow_down = 2131165839;
+			public const int mr_button_light = 2131165839;
 			
 			// aapt resource value: 0x7F070290
-			public const int tooltip_arrow_down_left = 2131165840;
+			public const int mr_dialog_close_dark = 2131165840;
 			
 			// aapt resource value: 0x7F070291
-			public const int tooltip_arrow_down_right = 2131165841;
+			public const int mr_dialog_close_light = 2131165841;
 			
 			// aapt resource value: 0x7F070292
-			public const int tooltip_arrow_left = 2131165842;
+			public const int mr_dialog_material_background_dark = 2131165842;
 			
 			// aapt resource value: 0x7F070293
-			public const int tooltip_arrow_right = 2131165843;
+			public const int mr_dialog_material_background_light = 2131165843;
 			
 			// aapt resource value: 0x7F070294
-			public const int tooltip_arrow_up = 2131165844;
+			public const int mr_group_collapse = 2131165844;
 			
 			// aapt resource value: 0x7F070295
-			public const int tooltip_arrow_up_left = 2131165845;
+			public const int mr_group_expand = 2131165845;
 			
 			// aapt resource value: 0x7F070296
-			public const int tooltip_arrow_up_right = 2131165846;
+			public const int mr_media_pause_dark = 2131165846;
 			
 			// aapt resource value: 0x7F070297
-			public const int tooltip_frame_dark = 2131165847;
+			public const int mr_media_pause_light = 2131165847;
 			
 			// aapt resource value: 0x7F070298
-			public const int tooltip_frame_light = 2131165848;
+			public const int mr_media_play_dark = 2131165848;
 			
 			// aapt resource value: 0x7F070299
-			public const int tooltip_no_arrow = 2131165849;
+			public const int mr_media_play_light = 2131165849;
 			
 			// aapt resource value: 0x7F07029A
-			public const int warning_shape = 2131165850;
+			public const int mr_media_stop_dark = 2131165850;
+			
+			// aapt resource value: 0x7F07029B
+			public const int mr_media_stop_light = 2131165851;
+			
+			// aapt resource value: 0x7F07029C
+			public const int mr_vol_type_audiotrack_dark = 2131165852;
+			
+			// aapt resource value: 0x7F07029D
+			public const int mr_vol_type_audiotrack_light = 2131165853;
+			
+			// aapt resource value: 0x7F07029E
+			public const int mtrl_snackbar_background = 2131165854;
+			
+			// aapt resource value: 0x7F07029F
+			public const int mtrl_tabs_default_indicator = 2131165855;
+			
+			// aapt resource value: 0x7F0702A0
+			public const int navigation_empty_icon = 2131165856;
+			
+			// aapt resource value: 0x7F0702A1
+			public const int notification_action_background = 2131165857;
+			
+			// aapt resource value: 0x7F0702A2
+			public const int notification_bg = 2131165858;
+			
+			// aapt resource value: 0x7F0702A3
+			public const int notification_bg_low = 2131165859;
+			
+			// aapt resource value: 0x7F0702A4
+			public const int notification_bg_low_normal = 2131165860;
+			
+			// aapt resource value: 0x7F0702A5
+			public const int notification_bg_low_pressed = 2131165861;
+			
+			// aapt resource value: 0x7F0702A6
+			public const int notification_bg_normal = 2131165862;
+			
+			// aapt resource value: 0x7F0702A7
+			public const int notification_bg_normal_pressed = 2131165863;
+			
+			// aapt resource value: 0x7F0702A8
+			public const int notification_icon_background = 2131165864;
+			
+			// aapt resource value: 0x7F0702A9
+			public const int notification_template_icon_bg = 2131165865;
+			
+			// aapt resource value: 0x7F0702AA
+			public const int notification_template_icon_low_bg = 2131165866;
+			
+			// aapt resource value: 0x7F0702AB
+			public const int notification_tile_bg = 2131165867;
+			
+			// aapt resource value: 0x7F0702AC
+			public const int notify_panel_notification_icon_bg = 2131165868;
+			
+			// aapt resource value: 0x7F0702AD
+			public const int seattle = 2131165869;
+			
+			// aapt resource value: 0x7F0702AE
+			public const int success_shape = 2131165870;
+			
+			// aapt resource value: 0x7F0702AF
+			public const int tooltip_arrow_down = 2131165871;
+			
+			// aapt resource value: 0x7F0702B0
+			public const int tooltip_arrow_down_left = 2131165872;
+			
+			// aapt resource value: 0x7F0702B1
+			public const int tooltip_arrow_down_right = 2131165873;
+			
+			// aapt resource value: 0x7F0702B2
+			public const int tooltip_arrow_left = 2131165874;
+			
+			// aapt resource value: 0x7F0702B3
+			public const int tooltip_arrow_right = 2131165875;
+			
+			// aapt resource value: 0x7F0702B4
+			public const int tooltip_arrow_up = 2131165876;
+			
+			// aapt resource value: 0x7F0702B5
+			public const int tooltip_arrow_up_left = 2131165877;
+			
+			// aapt resource value: 0x7F0702B6
+			public const int tooltip_arrow_up_right = 2131165878;
+			
+			// aapt resource value: 0x7F0702B7
+			public const int tooltip_frame_dark = 2131165879;
+			
+			// aapt resource value: 0x7F0702B8
+			public const int tooltip_frame_light = 2131165880;
+			
+			// aapt resource value: 0x7F0702B9
+			public const int tooltip_no_arrow = 2131165881;
+			
+			// aapt resource value: 0x7F0702BA
+			public const int warning_shape = 2131165882;
 			
 			static Drawable()
 			{

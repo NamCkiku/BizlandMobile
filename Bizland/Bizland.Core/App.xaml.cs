@@ -36,6 +36,9 @@ namespace Bizland.Core
 
         protected override void OnInitialized()
         {
+
+            ShortcutsHelper.AddShortcuts();
+
             InitializeComponent();
 
             Resources.MergedDictionaries.Add(new Fonts());
@@ -51,7 +54,7 @@ namespace Bizland.Core
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             BizlandSetup.RegisterServices(containerRegistry);
-            BizlandSetup.RegisterPages(containerRegistry);            
+            BizlandSetup.RegisterPages(containerRegistry);
         }
 
         protected override void OnStart()

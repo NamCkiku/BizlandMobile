@@ -1,4 +1,6 @@
-﻿using Bizland.Core.Droid.DependencyServices;
+﻿using Android.App;
+using Android.Runtime;
+using Bizland.Core.Droid.DependencyServices;
 using Prism;
 using Prism.Ioc;
 
@@ -6,10 +8,14 @@ namespace Bizland.Core.Droid
 {
     public class BaseActivity : Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
-        //public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
-        //{
-        //    PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-        //}
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
+        {
+            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+
 
         public class AndroidInitializer : IPlatformInitializer
         {

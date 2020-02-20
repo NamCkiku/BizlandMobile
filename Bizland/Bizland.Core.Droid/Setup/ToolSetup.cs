@@ -2,6 +2,7 @@
 using Android.OS;
 using Bizland.Core.Droid.DependencyService;
 using FFImageLoading.Forms.Platform;
+using Plugin.AppShortcuts;
 
 namespace Bizland.Core.Droid.Setup
 {
@@ -10,6 +11,8 @@ namespace Bizland.Core.Droid.Setup
         public static void Initialize(Activity activity, Bundle bundle)
         {
             Plugin.CurrentActivity.CrossCurrentActivity.Current.Init(activity, bundle);
+
+            CrossAppShortcuts.Current.Init();
 
             //Xamarin.Forms.DependencyService.Register<ToastNotification>();
 

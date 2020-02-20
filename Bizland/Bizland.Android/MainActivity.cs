@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using Android.Content;
 
 using Bizland.Core.Droid;
 using Bizland.Core.Droid.Setup;
@@ -11,6 +12,11 @@ namespace Bizland.Droid
 {
     [Activity(Label = "Bizland", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme", MainLauncher = false,
         LaunchMode = LaunchMode.SingleTask, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
+    [IntentFilter(new[] { Intent.ActionView },
+             Categories = new[] { Intent.CategoryDefault },
+             DataScheme = "asfs",
+             DataHost = "bizland",
+             AutoVerify = true)]
     public class MainActivity : BaseActivity
     {
         protected override void OnCreate(Bundle bundle)

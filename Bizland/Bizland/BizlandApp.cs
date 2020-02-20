@@ -1,9 +1,11 @@
 ﻿using Bizland.Core;
+using Bizland.Core.Constant;
 using Bizland.Styles;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Prism;
+using System;
 
 namespace Bizland
 {
@@ -30,6 +32,26 @@ namespace Bizland
             //await NavigationService.NavigateAsync("/OnBoardingPage");
 
             await NavigationService.NavigateAsync("/RootPage?selectedTab=HomePage");
+        }
+
+        protected override async void OnAppLinkRequestReceived(Uri uri)
+        {
+            var option = uri.ToString().Replace(ParameterKey.AppShortcutUriBase, "");
+            if (!string.IsNullOrEmpty(option))
+            {
+                switch (option)
+                {
+                    case "DETAIL1":
+                        await NavigationService.NavigateAsync("/RootPage?selectedTab=HomePage");
+                        break;
+                    case "DETAIL2":
+
+                        await NavigationService.NavigateAsync("/OnBoardingPage");
+                        break;
+                }
+            }
+            else
+                base.OnAppLinkRequestReceived(uri);
         }
     }
 }

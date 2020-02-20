@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Prism.Ioc;
+using MonkeyCache.FileStore;
 
 namespace Bizland.Core.Helpers
 {
@@ -17,60 +18,70 @@ namespace Bizland.Core.Helpers
         private static int size;
         public static async Task<bool> GetUpdate()
         {
-            TaskCompletionSource<bool> r = new TaskCompletionSource<bool>();
-            string currentVersion = VersionTracking.CurrentVersion;
-            var service = Prism.PrismApplicationBase.Current.Container.Resolve<IRequestProvider>();
-            GitHubReleasesModel releasesModel = await service.GetAsync<GitHubReleasesModel>(url);
-            if (releasesModel != null && !string.IsNullOrEmpty(releasesModel.tag_name))
+            if (Connectivity.NetworkAccess == NetworkAccess.Internet &&
+                   Barrel.Current.IsExpired(key: url))
             {
-                string lastReleasesVersion = releasesModel.tag_name;
-                string IgnoreVersion = Preferences.Get("IgnoreVersion", "");
-                if (lastReleasesVersion.Equals(IgnoreVersion))
+                TaskCompletionSource<bool> r = new TaskCompletionSource<bool>();
+                string currentVersion = VersionTracking.CurrentVersion;
+                var service = Prism.PrismApplicationBase.Current.Container.Resolve<IRequestProvider>();
+                GitHubReleasesModel releasesModel = await service.GetAsync<GitHubReleasesModel>(url);
+                if (releasesModel != null && !string.IsNullOrEmpty(releasesModel.tag_name))
                 {
-                    r.SetResult(false);
-                    return await r.Task;
-                }
-                string downloadurl = releasesModel.assets[0].browser_download_url;
-                size = releasesModel.assets[0].size;
-                bool hasupdate = ContainsVersion(currentVersion, lastReleasesVersion);
-                if (hasupdate && Device.RuntimePlatform.Equals(Device.Android))
-                {
-                    Device.BeginInvokeOnMainThread(async () =>
+                    string lastReleasesVersion = releasesModel.tag_name;
+                    string IgnoreVersion = Preferences.Get("IgnoreVersion", "");
+                    if (lastReleasesVersion.Equals(IgnoreVersion))
                     {
-                        try
+                        r.SetResult(false);
+                        return await r.Task;
+                    }
+                    string downloadurl = releasesModel.assets[0].browser_download_url;
+                    size = releasesModel.assets[0].size;
+                    bool hasupdate = ContainsVersion(currentVersion, lastReleasesVersion);
+                    if (hasupdate && Device.RuntimePlatform.Equals(Device.Android))
+                    {
+                        Device.BeginInvokeOnMainThread(async () =>
                         {
-                            string content = string.Format("{0}\r\n\r\nSize({1}MB)", releasesModel.body, ((double)size / 1024 / 1024).ToString("f2"));
-                            if (await App.Current.MainPage.DisplayAlert("New Version" + lastReleasesVersion, content, "Update", "Cancel"))
+                            try
                             {
+                                string content = string.Format("{0}\r\n\r\nSize({1}MB)", releasesModel.body, ((double)size / 1024 / 1024).ToString("f2"));
+                                if (await App.Current.MainPage.DisplayAlert("New Version" + lastReleasesVersion, content, "Update", "Cancel"))
+                                {
 
-                                DependencyService.Get<IDisplayMessage>().ShowMessageInfo("Update has been downloaded in the background, please wait");
-                                System.Net.WebClient webClient = new System.Net.WebClient();
-                                webClient.DownloadProgressChanged += WebClient_DownloadProgressChanged;
-                                webClient.DownloadDataCompleted += WebClient_DownloadDataCompleted;
-                                byte[] data = await webClient.DownloadDataTaskAsync(downloadurl);
-                                string fileName = releasesModel.assets[0].name;
-                                DependencyService.Get<IFileOpener>().OpenFile(data, fileName);
+                                    DependencyService.Get<IDisplayMessage>().ShowMessageInfo("Update has been downloaded in the background, please wait");
+                                    System.Net.WebClient webClient = new System.Net.WebClient();
+                                    webClient.DownloadProgressChanged += WebClient_DownloadProgressChanged;
+                                    webClient.DownloadDataCompleted += WebClient_DownloadDataCompleted;
+                                    byte[] data = await webClient.DownloadDataTaskAsync(downloadurl);
+                                    string fileName = releasesModel.assets[0].name;
+                                    DependencyService.Get<IFileOpener>().OpenFile(data, fileName);
+                                }
+                                else
+                                {
+                                    Preferences.Set("IgnoreVersion", lastReleasesVersion);
+                                }
                             }
-                            else
+                            catch (Exception ex)
                             {
-                                Preferences.Set("IgnoreVersion", lastReleasesVersion);
+                                DependencyService.Get<IDisplayMessage>().ShowMessageInfo("Update download failed:" + ex.Message);
+                                DependencyService.Get<IProgressUpdate>().ProgressCancel(1);
                             }
-                        }
-                        catch (Exception ex)
-                        {
-                            DependencyService.Get<IDisplayMessage>().ShowMessageInfo("Update download failed:" + ex.Message);
-                            DependencyService.Get<IProgressUpdate>().ProgressCancel(1);
-                        }
-                    });
+                        });
+                    }
+                    else
+                    {
+                        r.SetResult(false);
+                        return await r.Task;
+                    }
                 }
-                else
-                {
-                    r.SetResult(false);
-                    return await r.Task;
-                }
+                r.SetResult(true);
+                //Saves the cache and pass it a timespan for expiration
+                Barrel.Current.Add(key: url, data: r.Task, expireIn: TimeSpan.FromDays(1));
+                return await r.Task;
             }
-            r.SetResult(true);
-            return await r.Task;
+            else
+            {
+                return Barrel.Current.Get<bool>(key: url);
+            }
         }
 
         private static void WebClient_DownloadDataCompleted(object sender, System.Net.DownloadDataCompletedEventArgs e)

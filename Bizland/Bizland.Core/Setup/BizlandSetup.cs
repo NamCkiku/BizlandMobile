@@ -51,6 +51,7 @@ namespace Bizland.Core.Setup
             containerRegistry.RegisterForNavigation<LocationDeniedPage, LocationDeniedPageViewModel>("LocationDeniedPage");
             containerRegistry.RegisterForNavigation<CountryPage, CountryPageViewModel>("CountryPage");
             containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>("HomePage");
+            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>("MainPage");
 
 
         }

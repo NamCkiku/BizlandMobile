@@ -1,6 +1,7 @@
 ﻿using Bizland.Core.iOS.Factories;
 using Bizland.Utilities.Constant;
 using FFImageLoading.Forms.Platform;
+using Sharpnado.Presentation.Forms.iOS;
 using Syncfusion.SfRotator.XForms.iOS;
 using Syncfusion.XForms.iOS.Buttons;
 using Syncfusion.XForms.iOS.EffectsView;
@@ -30,7 +31,7 @@ namespace Bizland.Core.iOS.Setup
             {
                 ImageFactory = new CachingImageFactory()
             });
-
+            SharpnadoInitializer.Initialize();
             // Syncfusion
             SfButtonRenderer.Init();
             SfRotatorRenderer.Init();

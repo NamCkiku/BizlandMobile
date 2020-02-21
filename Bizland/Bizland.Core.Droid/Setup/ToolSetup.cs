@@ -3,6 +3,7 @@ using Android.OS;
 using Bizland.Core.Droid.DependencyService;
 using FFImageLoading.Forms.Platform;
 using Plugin.AppShortcuts;
+using Sharpnado.Presentation.Forms.Droid;
 
 namespace Bizland.Core.Droid.Setup
 {
@@ -13,6 +14,8 @@ namespace Bizland.Core.Droid.Setup
             Plugin.CurrentActivity.CrossCurrentActivity.Current.Init(activity, bundle);
 
             CrossAppShortcuts.Current.Init();
+
+            SharpnadoInitializer.Initialize();
 
             //Xamarin.Forms.DependencyService.Register<ToastNotification>();
 

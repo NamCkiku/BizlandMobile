@@ -4,6 +4,7 @@ using Bizland.Entities.Infrastructure.Repository;
 using Bizland.Service;
 using Bizland.Utilities.Constant;
 using Prism.Ioc;
+using Prism.Mvvm;
 using Prism.Navigation;
 
 using Xamarin.Forms;
@@ -50,7 +51,8 @@ namespace Bizland.Core.Setup
             containerRegistry.RegisterForNavigation<NoInternetConnectionPage, NoInternetConnectionPageViewModel>("NoInternetConnectionPage");
             containerRegistry.RegisterForNavigation<LocationDeniedPage, LocationDeniedPageViewModel>("LocationDeniedPage");
             containerRegistry.RegisterForNavigation<CountryPage, CountryPageViewModel>("CountryPage");
-            containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>("HomePage");
+            //containerRegistry.RegisterForNavigation<HomePage, HomePageViewModel>("HomePage");
+            ViewModelLocationProvider.Register<HomePage, HomePageViewModel>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>("MainPage");
 
 

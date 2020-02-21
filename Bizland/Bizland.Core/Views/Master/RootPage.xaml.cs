@@ -11,11 +11,11 @@ namespace Bizland.Core.Views
             InitializeComponent();
             this.On<Xamarin.Forms.PlatformConfiguration.Android>().DisableSwipePaging();
             this.On<Xamarin.Forms.PlatformConfiguration.Android>().SetToolbarPlacement(ToolbarPlacement.Bottom);
-            this.Children.Add(new HomePage()
-            {
-                Title = "Search",
-                IconImageSource = "ic_search.png"
-            });
+            //this.Children.Add(new HomePage()
+            //{
+            //    Title = "Search",
+            //    IconImageSource = "ic_search.png"
+            //});
             this.Children.Add(new LoginPage()
             {
                 Title = "Catalog",

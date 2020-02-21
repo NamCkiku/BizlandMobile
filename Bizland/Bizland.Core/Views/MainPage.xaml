@@ -31,7 +31,7 @@
                 Grid.Row="1"
                 Animate="False"
                 SelectedIndex="{Binding SelectedViewModelIndex, Mode=TwoWay}">
-                <customViews:LazyView x:TypeArguments="tabsLayout:DialogView" />
+                <customViews:LazyView x:TypeArguments="tabsLayout:HomePage" />
                 <customViews:LazyView x:TypeArguments="tabsLayout:DialogView" />
                 <customViews:LazyView x:TypeArguments="tabsLayout:DialogView" />
                 <customViews:LazyView x:TypeArguments="tabsLayout:DialogView" />
@@ -58,10 +58,10 @@
 
                     <!--  Circle button  -->
                     <tabs:TabButton
-                        ButtonBackgroundColor="{StaticResource PrimaryColor}"
+                        ButtonBackgroundColor="White"
                         ButtonCircleSize="60"
-                        ButtonPadding="15"
-                        IconImageSource="ic_home.png"
+                        ButtonPadding="5"
+                        IconImageSource="ic_homeadd.png"
                         IsVisible="True"
                         Scale="1.3"
                         TranslationY="-10" />

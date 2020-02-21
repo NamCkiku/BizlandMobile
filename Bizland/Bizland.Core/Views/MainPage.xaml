@@ -10,7 +10,7 @@
     prism:ViewModelLocator.AutowireViewModel="True">
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Style x:Key="BottomTabStyle" TargetType="tabs:UnderlinedTabItem">
+            <Style x:Key="BottomTabStyle" TargetType="tabs:BottomTabItem">
                 <Setter Property="SelectedTabColor" Value="{StaticResource PrimaryColor}" />
                 <Setter Property="FontFamily" Value="{StaticResource myFontLatoBold}" />
                 <Setter Property="UnselectedLabelColor" Value="{StaticResource Secondary}" />

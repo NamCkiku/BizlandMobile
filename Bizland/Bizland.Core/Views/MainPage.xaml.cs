@@ -1,4 +1,6 @@
 ﻿using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
+using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace Bizland.Core.Views
 {
@@ -6,16 +8,8 @@ namespace Bizland.Core.Views
     {
         public MainPage()
         {
-            try
-            {
-                InitializeComponent();
-            }
-            catch (System.Exception ex)
-            {
-
-                throw;
-            }
-            
+            InitializeComponent();
+            var safeArea = On<iOS>().SafeAreaInsets();
         }
     }
 }

@@ -1,6 +1,9 @@
 ﻿using Bizland.Core.Extensions;
 using Bizland.Core.Helpers;
 using Bizland.Core.Resource;
+using Newtonsoft.Json;
+using Plugin.GoogleClient;
+using Plugin.GoogleClient.Shared;
 using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
@@ -24,12 +27,14 @@ namespace Bizland.Core.ViewModels
 
         #region Constructor
         private readonly IDialogService dialogService;
+        private readonly IGoogleClientManager _googleService;
         /// <summary>
         /// Initializes a new instance for the <see cref="NoInternetConnectionPageViewModel" /> class.
         /// </summary>
         public LoginPageViewModel(INavigationService navigationService, IDialogService dialogService)
            : base(navigationService)
         {
+            this._googleService = CrossGoogleClient.Current;
             this.dialogService = dialogService;
             this.LoginCommand = new Command(this.Login);
             this.PushForgotPasswordCommand = new Command(this.ForgotPassword);
@@ -128,17 +133,42 @@ namespace Bizland.Core.ViewModels
 
         private void LoginWithGoogle()
         {
-            SafeExecute(() =>
+            SafeExecute(async () =>
             {
                 if (IsConnected)
                 {
-                    var param = new DialogParameters();
-                    param.Add("Message", "I'm a dialog");
-                    dialogService.ShowDialog("DialogView", param, CloseDialogCallback);
-                    //DependencyService.Get<IProgressHUDService>().StartHUD("Loading");
-                    //DisplayMessage.ShowMessageInfo("Login With Google", 5000);
-                    //Task.Delay(10000);
-                    //DependencyService.Get<IProgressHUDService>().DisposeHUD();
+                    if (!string.IsNullOrEmpty(_googleService.ActiveToken))
+                    {
+                        //Always require user authentication
+                        _googleService.Logout();
+                    }
+
+                    EventHandler<GoogleClientResultEventArgs<GoogleUser>> userLoginDelegate = null;
+                    userLoginDelegate = async (object sender, GoogleClientResultEventArgs<GoogleUser> e) =>
+                    {
+                        switch (e.Status)
+                        {
+                            case GoogleActionStatus.Completed:
+                                var googleUserString = JsonConvert.SerializeObject(e.Data);
+                                await App.Current.MainPage.DisplayAlert("Google Auth Complate", "Canceled", "Ok");
+                                break;
+                            case GoogleActionStatus.Canceled:
+                                await App.Current.MainPage.DisplayAlert("Google Auth", "Canceled", "Ok");
+                                break;
+                            case GoogleActionStatus.Error:
+                                await App.Current.MainPage.DisplayAlert("Google Auth", "Error", "Ok");
+                                break;
+                            case GoogleActionStatus.Unauthorized:
+                                await App.Current.MainPage.DisplayAlert("Google Auth", "Unauthorized", "Ok");
+                                break;
+                        }
+
+                        _googleService.OnLogin -= userLoginDelegate;
+                    };
+
+                    _googleService.OnLogin += userLoginDelegate;
+
+                    await _googleService.LoginAsync();
                 }
                 else
                 {

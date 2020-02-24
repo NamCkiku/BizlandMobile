@@ -15,7 +15,7 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-  <permission android:name="vn.com.bizland.OneSignl.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+  <permission android:name="vn.com.bizland.OneSignal.permission.C2D_MESSAGE" android:protectionLevel="signature" />
   <uses-permission android:name="vn.com.bizland.permission.C2D_MESSAGE" />
   <application android:label="Bizland" android:icon="@mipmap/ic_launcher" android:usesCleartextTraffic="true">
     <receiver android:name="com.onesignal.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">

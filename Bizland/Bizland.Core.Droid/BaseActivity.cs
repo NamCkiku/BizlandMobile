@@ -1,6 +1,8 @@
 ﻿using Android.App;
+using Android.Content;
 using Android.Runtime;
 using Bizland.Core.Droid.DependencyServices;
+using Plugin.GoogleClient;
 using Prism;
 using Prism.Ioc;
 
@@ -14,6 +16,12 @@ namespace Bizland.Core.Droid
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent intent)
+        {
+            base.OnActivityResult(requestCode, resultCode, intent);
+            GoogleClientManager.OnAuthCompleted(requestCode, resultCode, intent);
         }
 
 

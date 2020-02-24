@@ -1,4 +1,6 @@
 ﻿using Bizland.Core.iOS.DependencyService;
+using Foundation;
+using Plugin.GoogleClient;
 using Prism;
 using Prism.Ioc;
 
@@ -35,6 +37,23 @@ namespace Bizland.Core.iOS
                 Xamarin.Forms.Application.Current.SendOnAppLinkRequestReceived(uri);
             }
         }
+
+
+
+        public override void OnActivated(UIApplication uiApplication)
+        {
+            base.OnActivated(uiApplication);
+        }
+
+        public override bool OpenUrl(UIApplication app, NSUrl url, NSDictionary options)
+        {
+            return GoogleClientManager.OnOpenUrl(app, url, options);
+        }
+
+        //public override bool OpenUrl(UIApplication application, NSUrl url, string sourceApplication, NSObject annotation)
+        //{
+        //    return FacebookClientManager.OpenUrl(application, url, sourceApplication, annotation);
+        //}
 
         public class IOSInitializer : IPlatformInitializer
         {

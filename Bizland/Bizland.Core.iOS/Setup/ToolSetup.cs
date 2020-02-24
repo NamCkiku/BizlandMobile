@@ -1,6 +1,7 @@
 ﻿using Bizland.Core.iOS.Factories;
 using Bizland.Utilities.Constant;
 using FFImageLoading.Forms.Platform;
+using Plugin.GoogleClient;
 using Sharpnado.Presentation.Forms.iOS;
 using Syncfusion.SfRotator.XForms.iOS;
 using Syncfusion.XForms.iOS.Buttons;
@@ -17,10 +18,11 @@ namespace Bizland.Core.iOS.Setup
         {
             AppDelegate = _AppDelegate;
 
+            GoogleClientManager.Initialize();
+
+
             //Xamarin.Forms.DependencyService.Register<ToastNotification>();
             //ToastNotification.Init();
-            //AnimationViewRenderer.Init();
-            //CardsViewRenderer.Preserve();
 
             CachedImageRenderer.Init();
             FFImageLoading.FormsHandler.Init(debug: false);

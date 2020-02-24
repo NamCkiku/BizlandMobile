@@ -234,6 +234,7 @@
       <Visible>false</Visible>
     </ImageAsset>
     <None Include="Entitlements.plist" />
+    <None Include="GoogleService-Info.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <BundleResource Include="vi.lproj\InfoPlist.strings" />

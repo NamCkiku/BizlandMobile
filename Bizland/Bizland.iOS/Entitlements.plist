@@ -8,5 +8,9 @@
 	<array>
 		<string>group.vn.com.bizland.onesignal</string>
 	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)vn.com.bizland</string>
+	</array>
 </dict>
 </plist>

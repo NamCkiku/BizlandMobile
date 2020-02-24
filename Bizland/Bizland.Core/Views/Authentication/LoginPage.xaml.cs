@@ -6,7 +6,15 @@ namespace Bizland.Core.Views
     {
         public LoginPage()
         {
-            InitializeComponent();
+            try
+            {
+                InitializeComponent();
+            }
+            catch (System.Exception ex)
+            {
+                throw;
+            }
+            
         }
     }
 }

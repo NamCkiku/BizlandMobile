@@ -81,5 +81,20 @@
 	<string>1.0.0</string>
 	<key>XSLaunchImageAssets</key>
 	<string>Assets.xcassets/LaunchImage.launchimage</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>Google Services</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.450852037767-kp8a4hf0n4c6oui9jkktt5dnn5ljbfi8</string>
+			</array>
+			<key>CFBundleURLIconFile</key>
+			<string>Icon-512</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+		</dict>
+	</array>
 </dict>
 </plist>

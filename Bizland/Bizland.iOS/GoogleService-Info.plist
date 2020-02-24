@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>450852037767-kp8a4hf0n4c6oui9jkktt5dnn5ljbfi8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.450852037767-kp8a4hf0n4c6oui9jkktt5dnn5ljbfi8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBheA5tGiE2ZBTL2_jagPinP5uWHxzzbbo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>450852037767</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>vn.com.bizland</string>
+	<key>PROJECT_ID</key>
+	<string>bizland-d747a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bizland-d747a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:450852037767:ios:63506504031dee521f4422</string>
+	<key>DATABASE_URL</key>
+	<string>https://bizland-d747a.firebaseio.com</string>
+</dict>
+</plist>

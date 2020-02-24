@@ -4,6 +4,7 @@ using Bizland.Core.Droid.DependencyService;
 using FFImageLoading.Forms.Platform;
 using Plugin.AppShortcuts;
 using Plugin.GoogleClient;
+using Plugin.FacebookClient;
 using Sharpnado.Presentation.Forms.Droid;
 
 namespace Bizland.Core.Droid.Setup
@@ -19,6 +20,7 @@ namespace Bizland.Core.Droid.Setup
             SharpnadoInitializer.Initialize();
 
             GoogleClientManager.Initialize(activity);
+            FacebookClientManager.Initialize(activity);
 
             //Xamarin.Forms.DependencyService.Register<ToastNotification>();
 

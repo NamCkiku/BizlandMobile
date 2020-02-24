@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
-	<string name="hello">Hello World, Click Me!</string>
-	<string name="app_name">Bizland.Droid</string>
+   <string name="facebook_app_name">Bizland</string>
+   <string name="facebook_app_id">188853805798537</string>
+   <string name="fb_login_protocol_scheme">fb188853805798537</string>
 </resources>

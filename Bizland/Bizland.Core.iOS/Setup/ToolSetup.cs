@@ -1,24 +1,26 @@
 ﻿using Bizland.Core.iOS.Factories;
 using Bizland.Utilities.Constant;
 using FFImageLoading.Forms.Platform;
+using Foundation;
+using Plugin.FacebookClient;
 using Plugin.GoogleClient;
 using Sharpnado.Presentation.Forms.iOS;
 using Syncfusion.SfRotator.XForms.iOS;
 using Syncfusion.XForms.iOS.Buttons;
 using Syncfusion.XForms.iOS.EffectsView;
+using UIKit;
 using Xamarin.Forms.Platform.iOS;
 
 namespace Bizland.Core.iOS.Setup
 {
     public static class ToolSetup
     {
-        public static FormsApplicationDelegate AppDelegate;
 
-        public static void Initialize(FormsApplicationDelegate _AppDelegate)
+        public static void Initialize(UIApplication app, NSDictionary options)
         {
-            AppDelegate = _AppDelegate;
 
             GoogleClientManager.Initialize();
+            FacebookClientManager.Initialize(app, options);
 
 
             //Xamarin.Forms.DependencyService.Register<ToastNotification>();

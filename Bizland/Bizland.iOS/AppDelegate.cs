@@ -17,7 +17,7 @@ namespace Bizland.iOS
         {
             Xamarin.Forms.Forms.Init();
 
-            ToolSetup.Initialize(this);
+            ToolSetup.Initialize(app, options);
 
             UINavigationBar.Appearance.SetBackgroundImage(new UIImage(), UIBarMetrics.Default);
             UINavigationBar.Appearance.ShadowImage = new UIImage();

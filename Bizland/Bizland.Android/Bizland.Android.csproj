@@ -172,5 +172,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\logoprosess.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\strings.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

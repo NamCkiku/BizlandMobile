@@ -1,7 +1,9 @@
 ﻿using Bizland.Core.Extensions;
 using Bizland.Core.Helpers;
 using Bizland.Core.Resource;
+using Bizland.Entities;
 using Newtonsoft.Json;
+using Plugin.FacebookClient;
 using Plugin.GoogleClient;
 using Plugin.GoogleClient.Shared;
 using Prism.Commands;
@@ -27,6 +29,7 @@ namespace Bizland.Core.ViewModels
 
         #region Constructor
         private readonly IDialogService dialogService;
+        private readonly IFacebookClient _facebookService;
         private readonly IGoogleClientManager _googleService;
         /// <summary>
         /// Initializes a new instance for the <see cref="NoInternetConnectionPageViewModel" /> class.
@@ -35,6 +38,7 @@ namespace Bizland.Core.ViewModels
            : base(navigationService)
         {
             this._googleService = CrossGoogleClient.Current;
+            this._facebookService = CrossFacebookClient.Current;
             this.dialogService = dialogService;
             this.LoginCommand = new Command(this.Login);
             this.PushForgotPasswordCommand = new Command(this.ForgotPassword);
@@ -121,8 +125,39 @@ namespace Bizland.Core.ViewModels
             {
                 if (IsConnected)
                 {
-                    await AutoUpdateHelper.GetUpdate();
-                    DisplayMessage.ShowMessageInfo("Login With Facebook", 5000);
+                    if (_facebookService.IsLoggedIn)
+                    {
+                        _facebookService.Logout();
+                    }
+
+                    EventHandler<FBEventArgs<string>> userDataDelegate = null;
+
+                    userDataDelegate = async (object sender, FBEventArgs<string> e) =>
+                    {
+                        switch (e.Status)
+                        {
+                            case FacebookActionStatus.Completed:
+                                var facebookProfile = await Task.Run(() => JsonConvert.DeserializeObject<FacebookProfile>(e.Data));
+                                break;
+                            case FacebookActionStatus.Canceled:
+                                await App.Current.MainPage.DisplayAlert("Facebook Auth", "Canceled", "Ok");
+                                break;
+                            case FacebookActionStatus.Error:
+                                await App.Current.MainPage.DisplayAlert("Facebook Auth", "Error", "Ok");
+                                break;
+                            case FacebookActionStatus.Unauthorized:
+                                await App.Current.MainPage.DisplayAlert("Facebook Auth", "Unauthorized", "Ok");
+                                break;
+                        }
+
+                        _facebookService.OnUserData -= userDataDelegate;
+                    };
+
+                    _facebookService.OnUserData += userDataDelegate;
+
+                    string[] fbRequestFields = { "email", "first_name", "picture", "gender", "last_name" };
+                    string[] fbPermisions = { "email" };
+                    await _facebookService.RequestUserDataAsync(fbRequestFields, fbPermisions);
                 }
                 else
                 {

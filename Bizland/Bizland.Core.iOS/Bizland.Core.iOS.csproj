@@ -124,9 +124,6 @@
       <ExcludeAssets>all</ExcludeAssets>
       <IncludeAssets>none</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Xamarin.Google.iOS.SignIn">
-      <Version>4.4.0</Version>
-    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\ic_home%402x.png" />

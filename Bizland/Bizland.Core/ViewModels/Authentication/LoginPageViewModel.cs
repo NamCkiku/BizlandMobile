@@ -177,33 +177,36 @@ namespace Bizland.Core.ViewModels
                         //Always require user authentication
                         _googleService.Logout();
                     }
+                    _googleService.OnLogin += OnLoginGoogleCompleted;
 
-                    EventHandler<GoogleClientResultEventArgs<GoogleUser>> userLoginDelegate = null;
-                    userLoginDelegate = async (object sender, GoogleClientResultEventArgs<GoogleUser> e) =>
+                    try
                     {
-                        switch (e.Status)
-                        {
-                            case GoogleActionStatus.Completed:
-                                var googleUserString = JsonConvert.SerializeObject(e.Data);
-                                await App.Current.MainPage.DisplayAlert("Google Auth Complate", "Canceled", "Ok");
-                                break;
-                            case GoogleActionStatus.Canceled:
-                                await App.Current.MainPage.DisplayAlert("Google Auth", "Canceled", "Ok");
-                                break;
-                            case GoogleActionStatus.Error:
-                                await App.Current.MainPage.DisplayAlert("Google Auth", "Error", "Ok");
-                                break;
-                            case GoogleActionStatus.Unauthorized:
-                                await App.Current.MainPage.DisplayAlert("Google Auth", "Unauthorized", "Ok");
-                                break;
-                        }
-
-                        _googleService.OnLogin -= userLoginDelegate;
-                    };
-
-                    _googleService.OnLogin += userLoginDelegate;
-
-                    await _googleService.LoginAsync();
+                        await _googleService.LoginAsync();
+                    }
+                    catch (GoogleClientSignInNetworkErrorException e)
+                    {
+                        await App.Current.MainPage.DisplayAlert("Error", e.Message, "OK");
+                    }
+                    catch (GoogleClientSignInCanceledErrorException e)
+                    {
+                        await App.Current.MainPage.DisplayAlert("Error", e.Message, "OK");
+                    }
+                    catch (GoogleClientSignInInvalidAccountErrorException e)
+                    {
+                        await App.Current.MainPage.DisplayAlert("Error", e.Message, "OK");
+                    }
+                    catch (GoogleClientSignInInternalErrorException e)
+                    {
+                        await App.Current.MainPage.DisplayAlert("Error", e.Message, "OK");
+                    }
+                    catch (GoogleClientNotInitializedErrorException e)
+                    {
+                        await App.Current.MainPage.DisplayAlert("Error", e.Message, "OK");
+                    }
+                    catch (GoogleClientBaseException e)
+                    {
+                        await App.Current.MainPage.DisplayAlert("Error", e.Message, "OK");
+                    }
                 }
                 else
                 {
@@ -211,6 +214,27 @@ namespace Bizland.Core.ViewModels
                 }
             });
         }
+
+
+        private void OnLoginGoogleCompleted(object sender, GoogleClientResultEventArgs<GoogleUser> loginEventArgs)
+        {
+            if (loginEventArgs.Data != null)
+            {
+                GoogleUser googleUser = loginEventArgs.Data;
+                var GivenName = googleUser.GivenName;
+                var FamilyName = googleUser.FamilyName;
+                var token = CrossGoogleClient.Current.ActiveToken;
+            }
+            else
+            {
+                App.Current.MainPage.DisplayAlert("Error", loginEventArgs.Message, "OK");
+            }
+
+            _googleService.OnLogin -= OnLoginGoogleCompleted;
+
+        }
+
+
         void CloseDialogCallback(IDialogResult dialogResult)
         {
 

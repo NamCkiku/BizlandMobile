@@ -1,7 +1,7 @@
 ﻿using Android.App;
+using Android.Content;
 using Android.Content.PM;
 using Android.OS;
-using Android.Content;
 
 using Bizland.Core.Droid;
 using Bizland.Core.Droid.Setup;

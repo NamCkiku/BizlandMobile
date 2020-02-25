@@ -5,6 +5,7 @@ using Foundation;
 using Plugin.FacebookClient;
 using Plugin.GoogleClient;
 using Sharpnado.Presentation.Forms.iOS;
+using Shiny;
 using Syncfusion.SfRotator.XForms.iOS;
 using Syncfusion.XForms.iOS.Buttons;
 using Syncfusion.XForms.iOS.EffectsView;
@@ -18,6 +19,7 @@ namespace Bizland.Core.iOS.Setup
 
         public static void Initialize(UIApplication app, NSDictionary options)
         {
+            iOSShinyHost.Init(new ShinyAppStartup());
 
             GoogleClientManager.Initialize();
             FacebookClientManager.Initialize(app, options);

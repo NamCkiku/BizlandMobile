@@ -37,8 +37,11 @@
     <PackageReference Include="Plugin.FacebookClient" Version="2.2.1" />
     <PackageReference Include="Plugin.GoogleClient" Version="2.0.18-beta" />
     <PackageReference Include="Plugin.Permissions" Version="5.0.0-beta" />
+    <PackageReference Include="Prism.Unity.Extensions" Version="7.2.0.898" />
     <PackageReference Include="Prism.Unity.Forms" Version="7.2.0.1422" />
     <PackageReference Include="Sharpnado.Presentation.Forms" Version="1.4.0" />
+    <PackageReference Include="Shiny.Locations" Version="1.0.0.1182" />
+    <PackageReference Include="Shiny.Prism" Version="7.2.0.898" />
     <PackageReference Include="SkiaSharp.Extended" Version="1.60.0" />
     <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
     <PackageReference Include="SkiaSharp.Views.Forms" Version="1.68.1.1" />

@@ -10,7 +10,6 @@
     xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
     xmlns:fontawesome="clr-namespace:FontAwesome;assembly=Bizland.Utilities"
     xmlns:input="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
-    xmlns:ll="clr-namespace:Xamarin.Forms.EasyLoading;assembly=Xamarin.Forms.EasyLoading"
     xmlns:prism="http://prismlibrary.com"
     xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
     prism:ViewModelLocator.AutowireViewModel="True"
@@ -18,20 +17,7 @@
 
 
     <ContentPage.Content>
-        <Grid ll:LoadingLayout.IsLoading="{Binding IsBusy}" RowSpacing="0">
-            <ll:LoadingLayout.LoadingTemplate>
-                <DataTemplate>
-                    <Grid
-                        BackgroundColor="White"
-                        HorizontalOptions="FillAndExpand"
-                        VerticalOptions="FillAndExpand">
-                        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                            <ActivityIndicator IsRunning="{Binding IsBusy}" Color="#1abc9c" />
-                            <Label HorizontalOptions="Center" Text="Loading..." />
-                        </StackLayout>
-                    </Grid>
-                </DataTemplate>
-            </ll:LoadingLayout.LoadingTemplate>
+        <Grid RowSpacing="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />

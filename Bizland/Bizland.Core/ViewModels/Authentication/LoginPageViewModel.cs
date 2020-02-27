@@ -305,15 +305,12 @@ namespace Bizland.Core.ViewModels
                 }
             });
         }
-        private async void PushRegisterPage()
+        private void PushRegisterPage()
         {
-            //SafeExecute(async () =>
-            //{
-            //    await NavigationService.NavigateAsync("RegisterPage", useModalNavigation: true);
-            //});
-            IsBusy = true;
-            await Task.Delay(2000);
-            IsBusy = false;
+            SafeExecute(async () =>
+            {
+                await NavigationService.NavigateAsync("RegisterPage", useModalNavigation: true);
+            });
         }
 
         #endregion

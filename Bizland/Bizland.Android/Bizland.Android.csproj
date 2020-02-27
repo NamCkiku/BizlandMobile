@@ -119,6 +119,7 @@
     <AndroidAsset Include="Assets\Lato-Semibold.ttf" />
     <AndroidAsset Include="Assets\Roboto-Regular.ttf" />
     <GoogleServicesJson Include="google-services.json" />
+    <AndroidAsset Include="Assets\FabMDL2.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>

@@ -66,6 +66,13 @@
         <On Platform="iOS" Value="FontAwesome5Free-Regular" />
     </OnPlatform>
 
+    <OnPlatform
+        x:Key="Fabric"
+        x:TypeArguments="x:String"
+        Android="FabMDL2.ttf#Fabric MDL2 Assets"
+        iOS="Fabric MDL2 Assets" />
+
+
     <!--  Fonts  -->
     <!--<OnPlatform
         x:Key="SourceSansRegular"

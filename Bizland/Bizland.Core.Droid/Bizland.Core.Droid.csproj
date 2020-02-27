@@ -227,7 +227,6 @@
     <Compile Include="GoogleMaps\MapRender\MapRenderer.cs" />
     <Compile Include="GoogleMaps\MapRender\PlatformConfig.cs" />
     <Compile Include="GoogleMaps\MapRender\Utils.cs" />
-    <Compile Include="GoogleMaps\MapRender\UtilsCluster.cs" />
     <Compile Include="MainApplication.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

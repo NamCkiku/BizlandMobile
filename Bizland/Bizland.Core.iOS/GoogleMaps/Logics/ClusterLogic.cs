@@ -305,7 +305,7 @@ namespace Bizland.Core.iOS.Logics
                     {
                         NativeMap.InvokeOnMainThread(() =>
                         {
-                            nativeItem.Icon = UtilsCluster.ConvertViewToImage(outerItem);
+                            nativeItem.Icon = Utils.ConvertViewToImage(outerItem);
 
                             cache.Add(outerItem.Tag.ToString(), nativeItem.Icon);
                         });

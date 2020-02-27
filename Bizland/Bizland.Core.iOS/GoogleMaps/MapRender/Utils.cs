@@ -41,12 +41,9 @@ namespace Bizland.Core.iOS
         {
             UIImage img = new UIImage();
             var iconView = vehicle.Icon.View;
-            var nativeView = UtilsCluster.ConvertFormsToNative(iconView, new CGRect(0, 0, iconView.WidthRequest, iconView.HeightRequest));
+            var nativeView = Utils.ConvertFormsToNative(iconView, new CGRect(0, 0, iconView.WidthRequest, iconView.HeightRequest));
             nativeView.BackgroundColor = iconView.BackgroundColor.ToUIColor();
-            UIGraphics.BeginImageContextWithOptions(nativeView.Bounds.Size, false, 0);
-            nativeView.Layer.RenderInContext(UIGraphics.GetCurrentContext());
-            img = UIGraphics.GetImageFromCurrentImageContext();
-            UIGraphics.EndImageContext();
+            img = nativeView.AsImage();
             return img;
         }
 
@@ -79,6 +76,20 @@ namespace Bizland.Core.iOS
             }
             cacheGround.GetOrAdd(hash, img);
             lruTracker.AddLast(hash);
+            return img;
+        }
+
+        public static UIImage AsImage(this UIView view)
+
+        {
+            UIGraphics.BeginImageContextWithOptions(view.Bounds.Size, true, 0);
+
+            view.Layer.RenderInContext(UIGraphics.GetCurrentContext());
+
+            var img = UIGraphics.GetImageFromCurrentImageContext();
+
+            UIGraphics.EndImageContext();
+
             return img;
         }
     }

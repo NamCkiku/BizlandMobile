@@ -282,14 +282,14 @@ namespace Bizland.Core.Droid
                     else
                     {
                         var nativeView = await Utils.ConvertFormsToNative(iconView,
-                            new Rectangle(0, 0, UtilsCluster.DpToPx((float)iconView.WidthRequest),
+                            new Rectangle(0, 0, Utils.DpToPx((float)iconView.WidthRequest),
                             Utils.DpToPx((float)iconView.HeightRequest)),
                             Platform.CreateRendererWithContext(iconView, context));
 
                         var otherView = new FrameLayout(nativeView.Context);
                         nativeView.LayoutParameters = new FrameLayout.LayoutParams(Utils.DpToPx((float)iconView.WidthRequest), Utils.DpToPx((float)iconView.HeightRequest));
                         otherView.AddView(nativeView);
-                        nativeItem.Icon = await UtilsCluster.ConvertViewToBitmapDescriptor(otherView);
+                        nativeItem.Icon = await Utils.ConvertViewToBitmapDescriptor(otherView);
                         cache.Add(outerItem.Tag.ToString(), nativeItem.Icon);
                     }
                     nativeItem.AnchorX = (float)iconView.AnchorX;

@@ -98,18 +98,19 @@ namespace Bizland.Core.iOS.DependencyService
                 AllowsMultipleSelection = true,
                 ShowCameraButton = true,
                 AutoSelectCameraImages = true,
-                ModalPresentationStyle = UIModalPresentationStyle.Popover,
+                ModalPresentationStyle = UIModalPresentationStyle.FullScreen,
                 MediaTypes = new[] { PHAssetMediaType.Image },
                 CustomSmartCollections = new[]
                 {
                     PHAssetCollectionSubtype.SmartAlbumUserLibrary,
-                    PHAssetCollectionSubtype.AlbumRegular
+                    PHAssetCollectionSubtype.AlbumRegular,
+                    PHAssetCollectionSubtype.SmartAlbumFavorites
                 },
-                NavigationBarTextColor = Color.White.ToUIColor(),
-                NavigationBarBarTintColor = Color.FromHex("#c5dd36").ToUIColor(),
+                NavigationBarTextColor = Color.FromHex("#35b24f").ToUIColor(),
+                NavigationBarBarTintColor = Color.FromHex("#35b24f").ToUIColor(),
                 PickerTextColor = Color.Black.ToUIColor(),
-                ToolbarTextColor = Color.FromHex("#c5dd36").ToUIColor(),
-                NavigationBarTintColor = Color.White.ToUIColor()
+                ToolbarTextColor = Color.FromHex("#35b24f").ToUIColor(),
+                NavigationBarTintColor = Color.FromHex("#35b24f").ToUIColor()
             };
 
             //Set a limit on the number of photos the user can select. I use 12 selected photos beause of memory limitations on iOS.
@@ -126,7 +127,6 @@ namespace Bizland.Core.iOS.DependencyService
                 var tcs = Interlocked.Exchange(ref _completionSource, null);
                 picker.FinishedPickingAssets -= handler[0];
                 picker.Canceled -= cancelHandler[0];
-                System.Diagnostics.Debug.WriteLine("User finished picking assets. {0} items selected.", args.Assets.Length);
                 var imageManager = new PHImageManager();
                 var RequestImageOption = new PHImageRequestOptions();
 
@@ -167,11 +167,8 @@ namespace Bizland.Core.iOS.DependencyService
                                 {
                                     using (NSAutoreleasePool autoreleasePool = new NSAutoreleasePool())
                                     {
-                                        System.Diagnostics.Debug.WriteLine("Total memory being used: {0}", GC.GetTotalMemory(false));
                                         var filename = Guid.NewGuid().ToString();
-                                        System.Diagnostics.Debug.WriteLine("filename: " + filename);
                                         string filepath = Save(image, filename.ToString(), documentsDirectory);
-                                        System.Diagnostics.Debug.WriteLine("filepath: " + filepath);
                                         images.Add(filepath);
 
                                         //When we are on the last image, send the images to the carousel view.
@@ -267,18 +264,5 @@ namespace Bizland.Core.iOS.DependencyService
             }
         }
 
-        /*
-        Example of how to call ClearFileDirectory():
-
-            if (Device.RuntimePlatform == Device.Android)
-            {
-                DependencyService.Get<IMediaService>().ClearFileDirectory();
-            }
-            if (Device.RuntimePlatform == Device.iOS)
-            {
-                GMMultiImagePicker.Current.ClearFileDirectory();
-            }
-
-        */
     }
 }

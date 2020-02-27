@@ -50,6 +50,9 @@
     <PackageReference Include="FormsCurvedBottomNavigation">
       <Version>1.2.0</Version>
     </PackageReference>
+    <PackageReference Include="GMImagePicker.Xamarin">
+      <Version>2.3.5</Version>
+    </PackageReference>
     <PackageReference Include="IdentityModel">
       <Version>4.1.1</Version>
     </PackageReference>
@@ -145,6 +148,7 @@
     <Compile Include="CustomRenderer\FrameShadowRenderer.cs" />
     <Compile Include="DependencyService\AppleAudioManager.cs" />
     <Compile Include="DependencyService\DisplayMessageService.cs" />
+    <Compile Include="DependencyService\GMMultiImpagePickerService.cs" />
     <Compile Include="DependencyService\iOSTooltipService.cs" />
     <Compile Include="DependencyService\ProgressHUDService.cs" />
     <Compile Include="DependencyService\ProgressUpdateService.cs" />
@@ -153,6 +157,7 @@
     <Compile Include="Effects\BorderlessEffect.cs" />
     <Compile Include="Extensions\AnimatedImageView.cs" />
     <Compile Include="Extensions\ImageSourceExtensions.cs" />
+    <Compile Include="Extensions\MessagingExtensions.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusteredMarker.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusterIconGeneratorHandler.cs" />
     <Compile Include="GoogleMaps\Cluster\ClusterRendererHandler.cs" />

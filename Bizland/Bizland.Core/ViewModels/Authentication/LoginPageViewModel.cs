@@ -1,4 +1,5 @@
-﻿using Bizland.Core.Extensions;
+﻿using Bizland.Core.Controls;
+using Bizland.Core.Extensions;
 using Bizland.Core.Helpers;
 using Bizland.Core.Resource;
 using Bizland.Entities;
@@ -101,15 +102,61 @@ namespace Bizland.Core.ViewModels
             {
                 if (IsConnected)
                 {
-                    bool isValid = Validate();
-                    if (isValid)
-                    {
+                    //bool isValid = Validate();
+                    //if (isValid)
+                    //{
 
-                        await NavigationService.NavigateAsync("/RootPage?selectedTab=HomePage");
-                    }
-                    else
+                    //    await NavigationService.NavigateAsync("/RootPage?selectedTab=HomePage");
+                    //}
+                    //else
+                    //{
+                    //    DisplayMessage.ShowMessageInfo("Login Error", 5000);
+                    //}
+
+                    var cam = await PermissionHelper.CheckCameraPermissions();
+                    var photo = await PermissionHelper.CheckPhotoPermissions();
+                    var storr = await PermissionHelper.CheckStoragePermissions();
+                    if (cam && photo && storr)
                     {
-                        DisplayMessage.ShowMessageInfo("Login Error", 5000);
+                        //If we are on iOS, call GMMultiImagePicker.
+                        if (Device.RuntimePlatform == Device.iOS)
+                        {
+                            //If the image is modified (drawings, etc) by the users, you will need to change the delivery mode to HighQualityFormat.
+                            bool imageModifiedWithDrawings = false;
+                            if (imageModifiedWithDrawings)
+                            {
+                                await GMMultiImagePicker.Current.PickMultiImage(true);
+                            }
+                            else
+                            {
+                                await GMMultiImagePicker.Current.PickMultiImage();
+                            }
+
+                            MessagingCenter.Unsubscribe<App, List<string>>((App)Xamarin.Forms.Application.Current, "ImagesSelectediOS");
+                            MessagingCenter.Subscribe<App, List<string>>((App)Xamarin.Forms.Application.Current, "ImagesSelectediOS", (s, images) =>
+                            {
+                                //If we have selected images, put them into the carousel view.
+                                if (images.Count > 0)
+                                {
+
+                                }
+                            });
+                        }
+                        //If we are on Android, call IMediaService.
+                        else if (Device.RuntimePlatform == Device.Android)
+                        {
+                            DependencyService.Get<IMediaService>().OpenGallery();
+
+                            MessagingCenter.Unsubscribe<App, List<string>>((App)Xamarin.Forms.Application.Current, "ImagesSelectedAndroid");
+                            MessagingCenter.Subscribe<App, List<string>>((App)Xamarin.Forms.Application.Current, "ImagesSelectedAndroid", (s, images) =>
+                            {
+                                //If we have selected images, put them into the carousel view.
+                                if (images.Count > 0)
+                                {
+
+                                }
+                            });
+                        }
                     }
                 }
                 else

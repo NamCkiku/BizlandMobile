@@ -6,13 +6,12 @@ using Plugin.CurrentActivity;
 using Bizland.Utilities.Constant;
 
 using System;
-using Shiny;
 
 namespace Bizland.Core.Droid
 {
     [Application]
     [MetaData("com.google.android.maps.v2.API_KEY", Value = Config.GoogleMapKeyAndroid)]
-    public class MainApplication : ShinyAndroidApplication<ShinyAppStartup>, Android.App.Application.IActivityLifecycleCallbacks
+    public class MainApplication : Android.App.Application, Android.App.Application.IActivityLifecycleCallbacks
     {
         public MainApplication(IntPtr handle, JniHandleOwnership transer)
             : base(handle, transer)

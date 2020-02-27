@@ -74,27 +74,17 @@ namespace Bizland.Core.Droid.DependencyServices
 
         #region Constructors
 
-        [Obsolete]
         public DroidAudioManager()
         {
-            if (Build.VERSION.SdkInt >= BuildVersionCodes.Lollipop)
-            {
-                var attributes = new AudioAttributes.Builder()
-                .SetUsage(AudioUsageKind.Game)
-                .SetContentType(AudioContentType.Music)
+            var attributes = new AudioAttributes.Builder()
+              .SetUsage(AudioUsageKind.Game)
+              .SetContentType(AudioContentType.Music)
+              .Build();
+
+            _soundPool = new SoundPool.Builder()
+                .SetAudioAttributes(attributes)
+                .SetMaxStreams(10)
                 .Build();
-
-                _soundPool = new SoundPool.Builder()
-                    .SetAudioAttributes(attributes)
-                    .SetMaxStreams(10)
-                    .Build();
-            }
-            else
-            {
-                _soundPool = new SoundPool(6, Stream.Music, 0);
-            }
-
-            //6, Stream.Music, 0
 
             // Initialize
             ActivateAudioSession();

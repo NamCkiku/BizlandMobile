@@ -65,18 +65,18 @@
                 <StackLayout Padding="40,0,40,0" VerticalOptions="CenterAndExpand">
                     <Label
                         Text="Phone Verification"
-                        TextColor="{StaticResource Secondary}"
+                        TextColor="{DynamicResource Secondary}"
                         VerticalOptions="Center" />
                     <Label
                         Style="{StaticResource Header}"
                         Text="Enter your OTP code!"
-                        TextColor="{StaticResource Secondary}"
+                        TextColor="{DynamicResource Secondary}"
                         VerticalOptions="Center" />
 
                     <Label
                         Margin="0,0,0,20"
                         Text="Enter the 4-digit code sent to you at +84 065207749. Did you enter the correct number?"
-                        TextColor="{StaticResource Secondary}"
+                        TextColor="{DynamicResource Secondary}"
                         VerticalOptions="Center" />
 
 
@@ -88,10 +88,10 @@
                         JustifyContent="SpaceEvenly">
                         <controls:CustomShadowFrame
                             Padding="25,10,25,10"
-                            BorderColor="{StaticResource PrimaryColor}"
+                            BorderColor="{DynamicResource PrimaryColor}"
                             BorderWidth="1"
                             CornerRadius="5"
-                            CustomBorderColor="{StaticResource PrimaryColor}"
+                            CustomBorderColor="{DynamicResource PrimaryColor}"
                             HasShadow="True"
                             ShadowOffSetHeight="4"
                             ShadowOffsetWidth="0"
@@ -112,10 +112,10 @@
                         </controls:CustomShadowFrame>
                         <controls:CustomShadowFrame
                             Padding="25,10,25,10"
-                            BorderColor="{StaticResource PrimaryColor}"
+                            BorderColor="{DynamicResource PrimaryColor}"
                             BorderWidth="1"
                             CornerRadius="5"
-                            CustomBorderColor="{StaticResource PrimaryColor}"
+                            CustomBorderColor="{DynamicResource PrimaryColor}"
                             HasShadow="True"
                             ShadowOffSetHeight="4"
                             ShadowOffsetWidth="0"
@@ -136,10 +136,10 @@
                         </controls:CustomShadowFrame>
                         <controls:CustomShadowFrame
                             Padding="25,10,25,10"
-                            BorderColor="{StaticResource PrimaryColor}"
+                            BorderColor="{DynamicResource PrimaryColor}"
                             BorderWidth="1"
                             CornerRadius="5"
-                            CustomBorderColor="{StaticResource PrimaryColor}"
+                            CustomBorderColor="{DynamicResource PrimaryColor}"
                             HasShadow="True"
                             ShadowOffSetHeight="4"
                             ShadowOffsetWidth="0"
@@ -160,10 +160,10 @@
                         </controls:CustomShadowFrame>
                         <controls:CustomShadowFrame
                             Padding="25,10,25,10"
-                            BorderColor="{StaticResource PrimaryColor}"
+                            BorderColor="{DynamicResource PrimaryColor}"
                             BorderWidth="1"
                             CornerRadius="5"
-                            CustomBorderColor="{StaticResource PrimaryColor}"
+                            CustomBorderColor="{DynamicResource PrimaryColor}"
                             HasShadow="True"
                             ShadowOffSetHeight="4"
                             ShadowOffsetWidth="0"

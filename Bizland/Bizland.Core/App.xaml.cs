@@ -48,6 +48,8 @@ namespace Bizland.Core
 
             Resources.MergedDictionaries.Add(new Converters());
 
+            Resources.MergedDictionaries.Add(new LightTheme());
+
             BizlandSetup.Initialize();
 
             OneSignalHelper.RegisterOneSignal(OneSignalKey);

@@ -1,7 +1,9 @@
-﻿using Bizland.Utilities.Constant;
+﻿using Bizland.Core.Extensions;
+using Bizland.Utilities.Constant;
 
 using Plugin.Settings;
 using Plugin.Settings.Abstractions;
+using Xamarin.Forms;
 
 namespace Bizland.Core
 {
@@ -29,6 +31,9 @@ namespace Bizland.Core
 
         private const string FirebaseToken = "firebase_token";
         private static readonly string FirebaseTokenDefault = string.Empty;
+
+        private const string IsDarkThemeKey = "IsDarkThemeKey";
+        private static readonly bool IsDarkThemeDefault = false;
 
         public static float Latitude
         {
@@ -85,6 +90,29 @@ namespace Bizland.Core
         {
             get => AppSettings.GetValueOrDefault(FirebaseToken, FirebaseTokenDefault);
             set => AppSettings.AddOrUpdateValue(FirebaseToken, value);
+        }
+
+        public static bool IsDarkTheme
+        {
+            get
+            {
+
+                return AppSettings.GetValueOrDefault(IsDarkThemeKey, IsDarkThemeDefault); ;
+            }
+            set
+            {
+                bool data = AppSettings.AddOrUpdateValue(IsDarkThemeKey, value);
+                if (data)
+                {
+                    // Dark Theme
+                    Application.Current.Resources.ApplyDarkTheme();
+                }
+                else
+                {
+                    // Light Theme
+                    Application.Current.Resources.ApplyLightTheme();
+                }
+            }
         }
     }
 }

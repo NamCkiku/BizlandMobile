@@ -7,6 +7,6 @@
     xmlns:prism="http://prismlibrary.com"
     prism:ViewModelLocator.AutowireViewModel="True"
     BarBackgroundColor="{StaticResource White}"
-    BarTextColor="{StaticResource Secondary}"
+    BarTextColor="{DynamicResource Secondary}"
     NavigationPage.HasNavigationBar="False"
-    SelectedTabColor="{StaticResource PrimaryColor}" />
+    SelectedTabColor="{DynamicResource PrimaryColor}" />

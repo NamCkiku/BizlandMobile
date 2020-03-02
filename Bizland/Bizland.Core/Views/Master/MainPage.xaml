@@ -11,10 +11,10 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="BottomTabStyle" TargetType="tabs:BottomTabItem">
-                <Setter Property="SelectedTabColor" Value="{StaticResource PrimaryColor}" />
+                <Setter Property="SelectedTabColor" Value="{DynamicResource PrimaryColor}" />
                 <Setter Property="FontFamily" Value="{StaticResource myFontLatoBold}" />
-                <Setter Property="UnselectedLabelColor" Value="{StaticResource Secondary}" />
-                <Setter Property="UnselectedIconColor" Value="{StaticResource Secondary}" />
+                <Setter Property="UnselectedLabelColor" Value="{DynamicResource Secondary}" />
+                <Setter Property="UnselectedIconColor" Value="{DynamicResource Secondary}" />
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>

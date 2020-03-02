@@ -2,6 +2,7 @@
 using Bizland.Core.Extensions;
 using Bizland.Core.Helpers;
 using Bizland.Core.Resource;
+using Bizland.Core.Styles;
 using Bizland.Entities;
 using Newtonsoft.Json;
 using Plugin.FacebookClient;
@@ -309,7 +310,8 @@ namespace Bizland.Core.ViewModels
         {
             SafeExecute(async () =>
             {
-                await NavigationService.NavigateAsync("RegisterPage", useModalNavigation: true);
+                Settings.IsDarkTheme = true;
+                //await NavigationService.NavigateAsync("RegisterPage", useModalNavigation: true);
             });
         }
 

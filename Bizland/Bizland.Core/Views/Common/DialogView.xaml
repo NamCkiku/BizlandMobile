@@ -33,7 +33,7 @@
                     <StackLayout
                         Grid.Row="0"
                         Padding="10"
-                        BackgroundColor="{StaticResource PrimaryColor}"
+                        BackgroundColor="{DynamicResource PrimaryColor}"
                         HorizontalOptions="FillAndExpand"
                         Orientation="Horizontal">
                         <Label
@@ -63,19 +63,19 @@
                         <Button
                             Grid.Column="0"
                             BackgroundColor="White"
-                            BorderColor="{StaticResource PrimaryColor}"
+                            BorderColor="{DynamicResource PrimaryColor}"
                             BorderRadius="0"
                             BorderWidth="1"
                             Command="{Binding CloseCommand}"
                             FontAttributes="Bold"
                             FontSize="12"
                             Text="Đóng"
-                            TextColor="{StaticResource PrimaryColor}" />
+                            TextColor="{DynamicResource PrimaryColor}" />
 
                         <Button
                             x:Name="btnIgree"
                             Grid.Column="1"
-                            BackgroundColor="{StaticResource PrimaryColor}"
+                            BackgroundColor="{DynamicResource PrimaryColor}"
                             BorderRadius="0"
                             Command="{Binding IgreeSelectedDateCommand}"
                             FontAttributes="Bold"

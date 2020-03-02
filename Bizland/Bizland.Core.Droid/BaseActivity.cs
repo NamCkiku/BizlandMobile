@@ -1,5 +1,6 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.Content.Res;
 using Android.Database;
 using Android.Provider;
 using Android.Runtime;
@@ -31,14 +32,6 @@ namespace Bizland.Core.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
-
-        //protected override void OnActivityResult(int requestCode, Result resultCode, Intent intent)
-        //{
-        //    base.OnActivityResult(requestCode, resultCode, intent);
-        //    FacebookClientManager.OnActivityResult(requestCode, resultCode, intent);
-        //    GoogleClientManager.OnAuthCompleted(requestCode, resultCode, intent);
-        //}
-
         public class AndroidInitializer : IPlatformInitializer
         {
             public void RegisterTypes(IContainerRegistry containerRegistry)
@@ -49,6 +42,28 @@ namespace Bizland.Core.Droid
                 containerRegistry.RegisterInstance<ITooltipService>(new DroidTooltipService());
                 containerRegistry.RegisterInstance<IAudioManager>(new DroidAudioManager());
                 containerRegistry.RegisterInstance<IStatusBarStyleManager>(new StatusBarStyleManager());
+            }
+        }
+
+
+        public override void OnConfigurationChanged(Android.Content.Res.Configuration newConfig)
+        {
+            base.OnConfigurationChanged(newConfig);
+
+            if ((newConfig.UiMode & UiMode.NightNo) != 0)
+            {
+                if (!Settings.IsDarkTheme)
+                    return;
+
+                Settings.IsDarkTheme = false;
+            }
+            else
+            {
+                // Night mode is active, we're using dark theme
+                if (Settings.IsDarkTheme)
+                    return;
+
+                Settings.IsDarkTheme = true;
             }
         }
 

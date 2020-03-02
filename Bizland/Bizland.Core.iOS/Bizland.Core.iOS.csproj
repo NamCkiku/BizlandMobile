@@ -146,6 +146,7 @@
   <ItemGroup>
     <Compile Include="BaseDelegate.cs" />
     <Compile Include="CustomRenderer\FrameShadowRenderer.cs" />
+    <Compile Include="CustomRenderer\PageRenderer.cs" />
     <Compile Include="DependencyService\AppleAudioManager.cs" />
     <Compile Include="DependencyService\DisplayMessageService.cs" />
     <Compile Include="DependencyService\GMMultiImpagePickerService.cs" />

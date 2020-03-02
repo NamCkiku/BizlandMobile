@@ -5,29 +5,29 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
     <Style ApplyToDerivedTypes="True" TargetType="Page">
-        <Setter Property="BackgroundColor" Value="{StaticResource White}" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource BackgroudColor}" />
     </Style>
 
     <Style ApplyToDerivedTypes="True" TargetType="NavigationPage">
-        <Setter Property="BarBackgroundColor" Value="{StaticResource PrimaryColor}" />
-        <Setter Property="BarTextColor" Value="White" />
+        <Setter Property="BarBackgroundColor" Value="{DynamicResource PrimaryColor}" />
+        <Setter Property="BarTextColor" Value="{StaticResource White}" />
     </Style>
 
     <!--  Button region  -->
     <Style ApplyToDerivedTypes="True" TargetType="Button">
-        <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}" />
-        <Setter Property="TextColor" Value="White" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}" />
+        <Setter Property="TextColor" Value="{StaticResource White}" />
         <Setter Property="CornerRadius" Value="5" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
         <Setter Property="FontSize" Value="{StaticResource MyFontSize}" />
     </Style>
 
     <Style x:Key="ButtonBase" TargetType="Button">
-        <Setter Property="TextColor" Value="{StaticResource PrimaryColor}" />
+        <Setter Property="TextColor" Value="{DynamicResource PrimaryColor}" />
         <Setter Property="FontSize" Value="Medium" />
         <Setter Property="HorizontalOptions" Value="FillAndExpand" />
         <Setter Property="BorderWidth" Value="1" />
-        <Setter Property="BackgroundColor" Value="White" />
+        <Setter Property="BackgroundColor" Value="{StaticResource White}" />
         <Setter Property="FontSize" Value="{StaticResource MyFontSize}" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
     </Style>
@@ -44,12 +44,12 @@
 
     <Style ApplyToDerivedTypes="True" TargetType="Label">
         <Setter Property="FontSize" Value="{StaticResource MyFontSize}" />
-        <Setter Property="TextColor" Value="{StaticResource Secondary}" />
+        <Setter Property="TextColor" Value="{DynamicResource Secondary}" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
     </Style>
 
     <Style ApplyToDerivedTypes="True" TargetType="Entry">
-        <Setter Property="TextColor" Value="{StaticResource Secondary}" />
+        <Setter Property="TextColor" Value="{DynamicResource Secondary}" />
         <Setter Property="PlaceholderColor" Value="{StaticResource Additional}" />
         <Setter Property="FontSize" Value="{StaticResource MyFontSize}" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
@@ -58,14 +58,14 @@
     </Style>
 
     <Style ApplyToDerivedTypes="True" TargetType="Editor">
-        <Setter Property="TextColor" Value="{StaticResource Secondary}" />
+        <Setter Property="TextColor" Value="{DynamicResource Secondary}" />
         <Setter Property="PlaceholderColor" Value="{StaticResource Additional}" />
         <Setter Property="FontSize" Value="{StaticResource MyFontSize}" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
     </Style>
 
     <Style ApplyToDerivedTypes="True" TargetType="DatePicker">
-        <Setter Property="TextColor" Value="{StaticResource Secondary}" />
+        <Setter Property="TextColor" Value="{DynamicResource Secondary}" />
         <Setter Property="FontSize" Value="{StaticResource MyFontSize}" />
         <Setter Property="FontFamily" Value="{StaticResource myFontFamily}" />
     </Style>

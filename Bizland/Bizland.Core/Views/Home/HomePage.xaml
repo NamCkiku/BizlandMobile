@@ -82,7 +82,7 @@
 
                     <buttons:SfSegmentedControl
                         x:Name="segmentedControl"
-                        BorderColor="{StaticResource PrimaryColor}"
+                        BorderColor="{DynamicResource PrimaryColor}"
                         BorderThickness="1"
                         CornerRadius="5"
                         DisplayMode="Text"
@@ -91,10 +91,10 @@
                         SegmentBorderThickness="1"
                         SegmentHeight="30"
                         SelectedIndex="1"
-                        SelectionTextColor="{StaticResource Secondary}"
+                        SelectionTextColor="{DynamicResource Secondary}"
                         VerticalOptions="Center"
                         VisibleSegmentsCount="3"
-                        Color="{StaticResource PrimaryColor}">
+                        Color="{DynamicResource PrimaryColor}">
                         <segmentCollection:List x:TypeArguments="x:String">
                             <x:String>Foto</x:String>
                             <x:String>List</x:String>
@@ -572,7 +572,7 @@
                                     FontSize="20"
                                     HorizontalOptions="End"
                                     Text="{x:Static fontawesome:FontAwesomeIcons.MapMarkerAlt}"
-                                    TextColor="{StaticResource Secondary}"
+                                    TextColor="{DynamicResource Secondary}"
                                     VerticalOptions="Center" />
 
                                 <Label

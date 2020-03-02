@@ -41,15 +41,15 @@
                 Margin="10"
                 BackgroundColor="Transparent"
                 DotPlacement="OutSide"
-                DotsBorderColor="{StaticResource PrimaryColor}"
+                DotsBorderColor="{DynamicResource PrimaryColor}"
                 EnableLooping="False"
                 EnableSwiping="True"
                 HorizontalOptions="FillAndExpand"
                 ItemsSource="{Binding Boardings}"
                 NavigationDirection="Horizontal"
-                SelectedDotColor="{StaticResource PrimaryColor}"
+                SelectedDotColor="{DynamicResource PrimaryColor}"
                 SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}"
-                UnselectedDotColor="{StaticResource Secondary}"
+                UnselectedDotColor="{DynamicResource Secondary}"
                 VerticalOptions="FillAndExpand">
                 <rotator:SfRotator.ItemTemplate>
                     <DataTemplate>

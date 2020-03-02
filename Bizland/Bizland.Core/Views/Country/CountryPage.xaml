@@ -22,7 +22,7 @@
             <!--  Header Section  -->
             <Grid
                 Grid.Row="0"
-                BackgroundColor="{StaticResource PrimaryColor}"
+                BackgroundColor="{DynamicResource PrimaryColor}"
                 ColumnSpacing="20">
                 <Grid.Padding>
                     <OnPlatform x:TypeArguments="Thickness">
@@ -61,7 +61,7 @@
                     Margin="10,0,10,0"
                     Padding="0"
                     ContainerType="Outlined"
-                    FocusedColor="{StaticResource PrimaryColor}"
+                    FocusedColor="{DynamicResource PrimaryColor}"
                     FocusedStrokeWidth="1"
                     HorizontalOptions="FillAndExpand"
                     LeadingViewPosition="Inside"

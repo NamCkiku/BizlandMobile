@@ -30,6 +30,7 @@ namespace Bizland.Core
         public App(IPlatformInitializer initializer) : base(initializer)
         {
             _eventAggregator = Current.Container.Resolve<IEventAggregator>();
+
         }
 
         public virtual string OneSignalKey => Config.OneSignalKey;
@@ -43,13 +44,6 @@ namespace Bizland.Core
 
             InitializeComponent();
 
-            Resources.MergedDictionaries.Add(new Fonts());
-            Resources.MergedDictionaries.Add(new Styles.Styles());
-
-            Resources.MergedDictionaries.Add(new Converters());
-
-            Resources.MergedDictionaries.Add(new LightTheme());
-
             BizlandSetup.Initialize();
 
             OneSignalHelper.RegisterOneSignal(OneSignalKey);
@@ -58,7 +52,9 @@ namespace Bizland.Core
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             BizlandSetup.RegisterServices(containerRegistry);
-            BizlandSetup.RegisterPages(containerRegistry);            
+            BizlandSetup.RegisterPages(containerRegistry);
+            var _themeService = Current.Container.Resolve<IThemeService>();
+            _themeService.UpdateTheme();
         }
 
         protected override void OnStart()

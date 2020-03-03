@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using Bizland.Core.iOS.CustomRenderer;
 using Bizland.Core.Styles;
+using Bizland.Utilities.Enums;
 using Foundation;
 using UIKit;
+using Prism.Ioc;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
@@ -36,8 +38,6 @@ namespace Bizland.Core.iOS.CustomRenderer
         public override void TraitCollectionDidChange(UITraitCollection previousTraitCollection)
         {
             base.TraitCollectionDidChange(previousTraitCollection);
-            Console.WriteLine($"TraitCollectionDidChange: {TraitCollection.UserInterfaceStyle} != {previousTraitCollection.UserInterfaceStyle}");
-
             if (this.TraitCollection.UserInterfaceStyle != previousTraitCollection.UserInterfaceStyle)
             {
                 SetAppTheme();
@@ -48,10 +48,18 @@ namespace Bizland.Core.iOS.CustomRenderer
 
         void SetAppTheme()
         {
-            if (TraitCollection.UserInterfaceStyle == UIUserInterfaceStyle.Dark)
-                App.Current.Resources = new DarkTheme(); // needs using DarkMode.Styles;
-            else
-                App.Current.Resources = new LightTheme();
+            var themeService = Prism.PrismApplicationBase.Current.Container.Resolve<IThemeService>();
+            if (themeService != null)
+            {
+                if (TraitCollection.UserInterfaceStyle == UIUserInterfaceStyle.Dark)
+                {
+                    themeService.UpdateTheme(ThemeMode.Dark);
+                }
+                else
+                {
+                    themeService.UpdateTheme(ThemeMode.Light);
+                }
+            }
         }
     }
 }

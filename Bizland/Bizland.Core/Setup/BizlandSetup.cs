@@ -32,6 +32,7 @@ namespace Bizland.Core.Setup
             containerRegistry.Register<IPlacesAutocomplete, PlacesAutocomplete>();
             containerRegistry.Register<IPlacesGeocode, PlacesGeocode>();
             //containerRegistry.Register<ISignalRServices, SignalRService>();
+            containerRegistry.Register<IThemeService, ThemeServiceBase>();
         }
 
         public static void RegisterPages(IContainerRegistry containerRegistry)

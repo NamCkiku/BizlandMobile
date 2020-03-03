@@ -4,6 +4,7 @@ using Bizland.Core.Helpers;
 using Bizland.Core.Resource;
 using Bizland.Core.Styles;
 using Bizland.Entities;
+using Bizland.Utilities.Enums;
 using Newtonsoft.Json;
 using Plugin.FacebookClient;
 using Plugin.GoogleClient;
@@ -33,15 +34,17 @@ namespace Bizland.Core.ViewModels
         private readonly IDialogService dialogService;
         private readonly IFacebookClient _facebookService;
         private readonly IGoogleClientManager _googleService;
+        private readonly IThemeService _themeService;
         /// <summary>
         /// Initializes a new instance for the <see cref="NoInternetConnectionPageViewModel" /> class.
         /// </summary>
-        public LoginPageViewModel(INavigationService navigationService, IDialogService dialogService)
+        public LoginPageViewModel(INavigationService navigationService, IDialogService dialogService, IThemeService themeService)
            : base(navigationService)
         {
             this._googleService = CrossGoogleClient.Current;
             this._facebookService = CrossFacebookClient.Current;
             this.dialogService = dialogService;
+            this._themeService = themeService;
             this.LoginCommand = new Command(this.Login);
             this.PushForgotPasswordCommand = new Command(this.ForgotPassword);
             this.PushRegisterCommand = new Command(this.PushRegisterPage);
@@ -308,9 +311,10 @@ namespace Bizland.Core.ViewModels
         }
         private void PushRegisterPage()
         {
-            SafeExecute(async () =>
+            SafeExecute(() =>
             {
-                Settings.IsDarkTheme = true;
+                _themeService.AppTheme = ThemeMode.Light;
+                _themeService.UpdateTheme();
                 //await NavigationService.NavigateAsync("RegisterPage", useModalNavigation: true);
             });
         }

@@ -6,6 +6,7 @@ using Plugin.AppShortcuts;
 using Plugin.GoogleClient;
 using Plugin.FacebookClient;
 using Sharpnado.Presentation.Forms.Droid;
+using Plugin.Toasts;
 
 namespace Bizland.Core.Droid.Setup
 {
@@ -22,9 +23,8 @@ namespace Bizland.Core.Droid.Setup
             GoogleClientManager.Initialize(activity);
             FacebookClientManager.Initialize(activity);
 
-            //Xamarin.Forms.DependencyService.Register<ToastNotification>();
-
-            //ToastNotification.Init(activity, new PlatformOptions() { SmallIconDrawable = Android.Resource.Drawable.IcDialogInfo });
+            Xamarin.Forms.DependencyService.Register<ToastNotification>();
+            ToastNotification.Init(activity, new PlatformOptions() { SmallIconDrawable = Android.Resource.Drawable.IcDialogInfo });
 
             Xamarin.Essentials.Platform.Init(activity, bundle); // add this line to your code, it may also be called: bundle
 

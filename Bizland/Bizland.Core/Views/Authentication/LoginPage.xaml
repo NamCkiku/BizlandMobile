@@ -13,6 +13,7 @@
     xmlns:prism="http://prismlibrary.com"
     xmlns:syncEffectsView="clr-namespace:Syncfusion.XForms.EffectsView;assembly=Syncfusion.Core.XForms"
     prism:ViewModelLocator.AutowireViewModel="True"
+    BackgroundColor="{DynamicResource BackgroudColor}"
     NavigationPage.HasNavigationBar="False">
 
 

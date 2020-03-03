@@ -4,6 +4,7 @@ using FFImageLoading.Forms.Platform;
 using Foundation;
 using Plugin.FacebookClient;
 using Plugin.GoogleClient;
+using Plugin.Toasts;
 using Sharpnado.Presentation.Forms.iOS;
 using Shiny;
 using Syncfusion.SfRotator.XForms.iOS;
@@ -25,8 +26,8 @@ namespace Bizland.Core.iOS.Setup
             FacebookClientManager.Initialize(app, options);
 
 
-            //Xamarin.Forms.DependencyService.Register<ToastNotification>();
-            //ToastNotification.Init();
+            Xamarin.Forms.DependencyService.Register<ToastNotification>();
+            ToastNotification.Init();
 
             CachedImageRenderer.Init();
             FFImageLoading.FormsHandler.Init(debug: false);

@@ -39,6 +39,11 @@ namespace Bizland.Core.iOS
             }
         }
 
+        public override void ReceivedLocalNotification(UIApplication application, UILocalNotification notification)
+        {
+
+            // Local Notifications are received here
+        }
 
 
         public override void OnActivated(UIApplication uiApplication)

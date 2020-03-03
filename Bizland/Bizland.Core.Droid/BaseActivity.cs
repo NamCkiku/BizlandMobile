@@ -2,11 +2,12 @@
 using Android.Content;
 using Android.Content.Res;
 using Android.Database;
+using Android.OS;
 using Android.Provider;
 using Android.Runtime;
 
 using Bizland.Core.Droid.DependencyServices;
-
+using Bizland.Utilities.Enums;
 using Plugin.FacebookClient;
 using Plugin.GoogleClient;
 
@@ -45,27 +46,46 @@ namespace Bizland.Core.Droid
             }
         }
 
+        protected override void OnStart()
+        {
+            base.OnStart();
+            //UpdateTheme(Resources.Configuration);
+        }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+            //UpdateTheme(Resources.Configuration);
+        }
 
         public override void OnConfigurationChanged(Android.Content.Res.Configuration newConfig)
         {
             base.OnConfigurationChanged(newConfig);
+            //UpdateTheme(newConfig);
+        }
 
-            if ((newConfig.UiMode & UiMode.NightNo) != 0)
+        private void UpdateTheme(Configuration newConfig)
+        {
+            if (Build.VERSION.SdkInt >= BuildVersionCodes.Froyo)
             {
-                if (!Settings.IsDarkTheme)
-                    return;
-
-                Settings.IsDarkTheme = false;
-            }
-            else
-            {
-                // Night mode is active, we're using dark theme
-                if (Settings.IsDarkTheme)
-                    return;
-
-                Settings.IsDarkTheme = true;
+                var themeService = Prism.PrismApplicationBase.Current.Container.Resolve<IThemeService>();
+                var uiModeFlags = newConfig.UiMode & UiMode.NightMask;
+                switch (uiModeFlags)
+                {
+                    case UiMode.NightYes:
+                        themeService.UpdateTheme(ThemeMode.Dark);
+                        //AppCompatDelegate.DefaultNightMode = AppCompatDelegate.ModeNightYes;
+                        break;
+                    case UiMode.NightNo:
+                        themeService.UpdateTheme(ThemeMode.Light);
+                        break;
+                    default:
+                        throw new NotSupportedException($"UiMode {uiModeFlags} not supported");
+                }
             }
         }
+
+
 
         #region Image Picker Implementation
 

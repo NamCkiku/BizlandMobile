@@ -1,4 +1,5 @@
 ﻿using Bizland.Core.Styles;
+using Bizland.Utilities.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,27 +10,17 @@ namespace Bizland.Core.Extensions
 {
     public static class ThemeExtensions
     {
-        public static void ApplyDarkTheme(this ResourceDictionary resources)
+        public static ResourceDictionary ToResourceDictionary(this ThemeMode mode, ResourceDictionary customColors = default)
         {
-            var mergedDictionaries = resources.MergedDictionaries;
-            var lightTheme = mergedDictionaries.OfType<LightTheme>().FirstOrDefault();
-            if (lightTheme != null)
+            switch (mode)
             {
-                mergedDictionaries.Remove(lightTheme);
+                case ThemeMode.Dark:
+                    return new DarkTheme();
+                case ThemeMode.Light:
+                    return new LightTheme();
+                default:
+                    return customColors;
             }
-            mergedDictionaries.Add(new DarkTheme());
-        }
-
-        public static void ApplyLightTheme(this ResourceDictionary resources)
-        {
-            var mergedDictionaries = resources.MergedDictionaries;
-            var darkTheme = mergedDictionaries.OfType<DarkTheme>().FirstOrDefault();
-            if (darkTheme != null)
-            {
-                mergedDictionaries.Remove(darkTheme);
-            }
-
-            mergedDictionaries.Add(new LightTheme());
         }
     }
 }

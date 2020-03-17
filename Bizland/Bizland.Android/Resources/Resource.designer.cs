@@ -15,7 +15,7 @@ namespace Bizland.Droid
 {
 	
 	
-	[System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
 	public partial class Resource
 	{
 		
@@ -14008,7 +14008,6 @@ namespace Bizland.Droid
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_paddingStart = global::Bizland.Droid.Resource.Styleable.View_paddingStart;
 			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_theme = global::Bizland.Droid.Resource.Styleable.View_theme;
 			global::Shiny.Resource.Attribute.alpha = global::Bizland.Droid.Resource.Attribute.alpha;
-			global::Shiny.Resource.Attribute.coordinatorLayoutStyle = global::Bizland.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Shiny.Resource.Attribute.font = global::Bizland.Droid.Resource.Attribute.font;
 			global::Shiny.Resource.Attribute.fontProviderAuthority = global::Bizland.Droid.Resource.Attribute.fontProviderAuthority;
 			global::Shiny.Resource.Attribute.fontProviderCerts = global::Bizland.Droid.Resource.Attribute.fontProviderCerts;
@@ -14019,21 +14018,13 @@ namespace Bizland.Droid
 			global::Shiny.Resource.Attribute.fontStyle = global::Bizland.Droid.Resource.Attribute.fontStyle;
 			global::Shiny.Resource.Attribute.fontVariationSettings = global::Bizland.Droid.Resource.Attribute.fontVariationSettings;
 			global::Shiny.Resource.Attribute.fontWeight = global::Bizland.Droid.Resource.Attribute.fontWeight;
-			global::Shiny.Resource.Attribute.keylines = global::Bizland.Droid.Resource.Attribute.keylines;
-			global::Shiny.Resource.Attribute.layout_anchor = global::Bizland.Droid.Resource.Attribute.layout_anchor;
-			global::Shiny.Resource.Attribute.layout_anchorGravity = global::Bizland.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Shiny.Resource.Attribute.layout_behavior = global::Bizland.Droid.Resource.Attribute.layout_behavior;
-			global::Shiny.Resource.Attribute.layout_dodgeInsetEdges = global::Bizland.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Shiny.Resource.Attribute.layout_insetEdge = global::Bizland.Droid.Resource.Attribute.layout_insetEdge;
-			global::Shiny.Resource.Attribute.layout_keyline = global::Bizland.Droid.Resource.Attribute.layout_keyline;
-			global::Shiny.Resource.Attribute.statusBarBackground = global::Bizland.Droid.Resource.Attribute.statusBarBackground;
 			global::Shiny.Resource.Attribute.ttcIndex = global::Bizland.Droid.Resource.Attribute.ttcIndex;
+			global::Shiny.Resource.Boolean.enable_system_alarm_service_default = global::Bizland.Droid.Resource.Boolean.enable_system_alarm_service_default;
+			global::Shiny.Resource.Boolean.enable_system_job_service_default = global::Bizland.Droid.Resource.Boolean.enable_system_job_service_default;
+			global::Shiny.Resource.Boolean.workmanager_test_configuration = global::Bizland.Droid.Resource.Boolean.workmanager_test_configuration;
 			global::Shiny.Resource.Color.notification_action_color_filter = global::Bizland.Droid.Resource.Color.notification_action_color_filter;
 			global::Shiny.Resource.Color.notification_icon_bg_color = global::Bizland.Droid.Resource.Color.notification_icon_bg_color;
-			global::Shiny.Resource.Color.notification_material_background_media_default_color = global::Bizland.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Shiny.Resource.Color.primary_text_default_material_dark = global::Bizland.Droid.Resource.Color.primary_text_default_material_dark;
 			global::Shiny.Resource.Color.ripple_material_light = global::Bizland.Droid.Resource.Color.ripple_material_light;
-			global::Shiny.Resource.Color.secondary_text_default_material_dark = global::Bizland.Droid.Resource.Color.secondary_text_default_material_dark;
 			global::Shiny.Resource.Color.secondary_text_default_material_light = global::Bizland.Droid.Resource.Color.secondary_text_default_material_light;
 			global::Shiny.Resource.Dimension.compat_button_inset_horizontal_material = global::Bizland.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
 			global::Shiny.Resource.Dimension.compat_button_inset_vertical_material = global::Bizland.Droid.Resource.Dimension.compat_button_inset_vertical_material;
@@ -14057,10 +14048,6 @@ namespace Bizland.Droid
 			global::Shiny.Resource.Dimension.notification_subtext_size = global::Bizland.Droid.Resource.Dimension.notification_subtext_size;
 			global::Shiny.Resource.Dimension.notification_top_pad = global::Bizland.Droid.Resource.Dimension.notification_top_pad;
 			global::Shiny.Resource.Dimension.notification_top_pad_large_text = global::Bizland.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Shiny.Resource.Dimension.subtitle_corner_radius = global::Bizland.Droid.Resource.Dimension.subtitle_corner_radius;
-			global::Shiny.Resource.Dimension.subtitle_outline_width = global::Bizland.Droid.Resource.Dimension.subtitle_outline_width;
-			global::Shiny.Resource.Dimension.subtitle_shadow_offset = global::Bizland.Droid.Resource.Dimension.subtitle_shadow_offset;
-			global::Shiny.Resource.Dimension.subtitle_shadow_radius = global::Bizland.Droid.Resource.Dimension.subtitle_shadow_radius;
 			global::Shiny.Resource.Drawable.notification_action_background = global::Bizland.Droid.Resource.Drawable.notification_action_background;
 			global::Shiny.Resource.Drawable.notification_bg = global::Bizland.Droid.Resource.Drawable.notification_bg;
 			global::Shiny.Resource.Drawable.notification_bg_low = global::Bizland.Droid.Resource.Drawable.notification_bg_low;
@@ -14073,47 +14060,66 @@ namespace Bizland.Droid
 			global::Shiny.Resource.Drawable.notification_template_icon_low_bg = global::Bizland.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Shiny.Resource.Drawable.notification_tile_bg = global::Bizland.Droid.Resource.Drawable.notification_tile_bg;
 			global::Shiny.Resource.Drawable.notify_panel_notification_icon_bg = global::Bizland.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Shiny.Resource.Id.action0 = global::Bizland.Droid.Resource.Id.action0;
+			global::Shiny.Resource.Id.accessibility_action_clickable_span = global::Bizland.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Shiny.Resource.Id.accessibility_custom_action_0 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Shiny.Resource.Id.accessibility_custom_action_1 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Shiny.Resource.Id.accessibility_custom_action_10 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Shiny.Resource.Id.accessibility_custom_action_11 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Shiny.Resource.Id.accessibility_custom_action_12 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Shiny.Resource.Id.accessibility_custom_action_13 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Shiny.Resource.Id.accessibility_custom_action_14 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Shiny.Resource.Id.accessibility_custom_action_15 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Shiny.Resource.Id.accessibility_custom_action_16 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Shiny.Resource.Id.accessibility_custom_action_17 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Shiny.Resource.Id.accessibility_custom_action_18 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Shiny.Resource.Id.accessibility_custom_action_19 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Shiny.Resource.Id.accessibility_custom_action_2 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Shiny.Resource.Id.accessibility_custom_action_20 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Shiny.Resource.Id.accessibility_custom_action_21 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Shiny.Resource.Id.accessibility_custom_action_22 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Shiny.Resource.Id.accessibility_custom_action_23 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Shiny.Resource.Id.accessibility_custom_action_24 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Shiny.Resource.Id.accessibility_custom_action_25 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Shiny.Resource.Id.accessibility_custom_action_26 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Shiny.Resource.Id.accessibility_custom_action_27 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Shiny.Resource.Id.accessibility_custom_action_28 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Shiny.Resource.Id.accessibility_custom_action_29 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Shiny.Resource.Id.accessibility_custom_action_3 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Shiny.Resource.Id.accessibility_custom_action_30 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Shiny.Resource.Id.accessibility_custom_action_31 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Shiny.Resource.Id.accessibility_custom_action_4 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Shiny.Resource.Id.accessibility_custom_action_5 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Shiny.Resource.Id.accessibility_custom_action_6 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Shiny.Resource.Id.accessibility_custom_action_7 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Shiny.Resource.Id.accessibility_custom_action_8 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Shiny.Resource.Id.accessibility_custom_action_9 = global::Bizland.Droid.Resource.Id.accessibility_custom_action_9;
 			global::Shiny.Resource.Id.actions = global::Bizland.Droid.Resource.Id.actions;
 			global::Shiny.Resource.Id.action_container = global::Bizland.Droid.Resource.Id.action_container;
 			global::Shiny.Resource.Id.action_divider = global::Bizland.Droid.Resource.Id.action_divider;
 			global::Shiny.Resource.Id.action_image = global::Bizland.Droid.Resource.Id.action_image;
 			global::Shiny.Resource.Id.action_text = global::Bizland.Droid.Resource.Id.action_text;
-			global::Shiny.Resource.Id.all = global::Bizland.Droid.Resource.Id.all;
 			global::Shiny.Resource.Id.async = global::Bizland.Droid.Resource.Id.async;
 			global::Shiny.Resource.Id.blocking = global::Bizland.Droid.Resource.Id.blocking;
-			global::Shiny.Resource.Id.bottom = global::Bizland.Droid.Resource.Id.bottom;
-			global::Shiny.Resource.Id.cancel_action = global::Bizland.Droid.Resource.Id.cancel_action;
-			global::Shiny.Resource.Id.center = global::Bizland.Droid.Resource.Id.center;
-			global::Shiny.Resource.Id.center_horizontal = global::Bizland.Droid.Resource.Id.center_horizontal;
-			global::Shiny.Resource.Id.center_vertical = global::Bizland.Droid.Resource.Id.center_vertical;
 			global::Shiny.Resource.Id.chronometer = global::Bizland.Droid.Resource.Id.chronometer;
-			global::Shiny.Resource.Id.clip_horizontal = global::Bizland.Droid.Resource.Id.clip_horizontal;
-			global::Shiny.Resource.Id.clip_vertical = global::Bizland.Droid.Resource.Id.clip_vertical;
-			global::Shiny.Resource.Id.end = global::Bizland.Droid.Resource.Id.end;
-			global::Shiny.Resource.Id.end_padder = global::Bizland.Droid.Resource.Id.end_padder;
-			global::Shiny.Resource.Id.fill = global::Bizland.Droid.Resource.Id.fill;
-			global::Shiny.Resource.Id.fill_horizontal = global::Bizland.Droid.Resource.Id.fill_horizontal;
-			global::Shiny.Resource.Id.fill_vertical = global::Bizland.Droid.Resource.Id.fill_vertical;
+			global::Shiny.Resource.Id.dialog_button = global::Bizland.Droid.Resource.Id.dialog_button;
 			global::Shiny.Resource.Id.forever = global::Bizland.Droid.Resource.Id.forever;
 			global::Shiny.Resource.Id.icon = global::Bizland.Droid.Resource.Id.icon;
 			global::Shiny.Resource.Id.icon_group = global::Bizland.Droid.Resource.Id.icon_group;
 			global::Shiny.Resource.Id.info = global::Bizland.Droid.Resource.Id.info;
 			global::Shiny.Resource.Id.italic = global::Bizland.Droid.Resource.Id.italic;
-			global::Shiny.Resource.Id.left = global::Bizland.Droid.Resource.Id.left;
 			global::Shiny.Resource.Id.line1 = global::Bizland.Droid.Resource.Id.line1;
 			global::Shiny.Resource.Id.line3 = global::Bizland.Droid.Resource.Id.line3;
-			global::Shiny.Resource.Id.media_actions = global::Bizland.Droid.Resource.Id.media_actions;
-			global::Shiny.Resource.Id.none = global::Bizland.Droid.Resource.Id.none;
 			global::Shiny.Resource.Id.normal = global::Bizland.Droid.Resource.Id.normal;
 			global::Shiny.Resource.Id.notification_background = global::Bizland.Droid.Resource.Id.notification_background;
 			global::Shiny.Resource.Id.notification_main_column = global::Bizland.Droid.Resource.Id.notification_main_column;
 			global::Shiny.Resource.Id.notification_main_column_container = global::Bizland.Droid.Resource.Id.notification_main_column_container;
-			global::Shiny.Resource.Id.right = global::Bizland.Droid.Resource.Id.right;
 			global::Shiny.Resource.Id.right_icon = global::Bizland.Droid.Resource.Id.right_icon;
 			global::Shiny.Resource.Id.right_side = global::Bizland.Droid.Resource.Id.right_side;
-			global::Shiny.Resource.Id.start = global::Bizland.Droid.Resource.Id.start;
-			global::Shiny.Resource.Id.status_bar_latest_event_content = global::Bizland.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Shiny.Resource.Id.tag_accessibility_actions = global::Bizland.Droid.Resource.Id.tag_accessibility_actions;
+			global::Shiny.Resource.Id.tag_accessibility_clickable_spans = global::Bizland.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Shiny.Resource.Id.tag_accessibility_heading = global::Bizland.Droid.Resource.Id.tag_accessibility_heading;
+			global::Shiny.Resource.Id.tag_accessibility_pane_title = global::Bizland.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Shiny.Resource.Id.tag_screen_reader_focusable = global::Bizland.Droid.Resource.Id.tag_screen_reader_focusable;
 			global::Shiny.Resource.Id.tag_transition_group = global::Bizland.Droid.Resource.Id.tag_transition_group;
 			global::Shiny.Resource.Id.tag_unhandled_key_event_manager = global::Bizland.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Shiny.Resource.Id.tag_unhandled_key_listeners = global::Bizland.Droid.Resource.Id.tag_unhandled_key_listeners;
@@ -14121,53 +14127,26 @@ namespace Bizland.Droid
 			global::Shiny.Resource.Id.text2 = global::Bizland.Droid.Resource.Id.text2;
 			global::Shiny.Resource.Id.time = global::Bizland.Droid.Resource.Id.time;
 			global::Shiny.Resource.Id.title = global::Bizland.Droid.Resource.Id.title;
-			global::Shiny.Resource.Id.top = global::Bizland.Droid.Resource.Id.top;
-			global::Shiny.Resource.Integer.cancel_button_image_alpha = global::Bizland.Droid.Resource.Integer.cancel_button_image_alpha;
 			global::Shiny.Resource.Integer.status_bar_notification_info_maxnum = global::Bizland.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Shiny.Resource.Layout.custom_dialog = global::Bizland.Droid.Resource.Layout.custom_dialog;
 			global::Shiny.Resource.Layout.notification_action = global::Bizland.Droid.Resource.Layout.notification_action;
 			global::Shiny.Resource.Layout.notification_action_tombstone = global::Bizland.Droid.Resource.Layout.notification_action_tombstone;
-			global::Shiny.Resource.Layout.notification_media_action = global::Bizland.Droid.Resource.Layout.notification_media_action;
-			global::Shiny.Resource.Layout.notification_media_cancel_action = global::Bizland.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Shiny.Resource.Layout.notification_template_big_media = global::Bizland.Droid.Resource.Layout.notification_template_big_media;
-			global::Shiny.Resource.Layout.notification_template_big_media_custom = global::Bizland.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Shiny.Resource.Layout.notification_template_big_media_narrow = global::Bizland.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Shiny.Resource.Layout.notification_template_big_media_narrow_custom = global::Bizland.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
 			global::Shiny.Resource.Layout.notification_template_custom_big = global::Bizland.Droid.Resource.Layout.notification_template_custom_big;
 			global::Shiny.Resource.Layout.notification_template_icon_group = global::Bizland.Droid.Resource.Layout.notification_template_icon_group;
-			global::Shiny.Resource.Layout.notification_template_lines_media = global::Bizland.Droid.Resource.Layout.notification_template_lines_media;
-			global::Shiny.Resource.Layout.notification_template_media = global::Bizland.Droid.Resource.Layout.notification_template_media;
-			global::Shiny.Resource.Layout.notification_template_media_custom = global::Bizland.Droid.Resource.Layout.notification_template_media_custom;
 			global::Shiny.Resource.Layout.notification_template_part_chronometer = global::Bizland.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Shiny.Resource.Layout.notification_template_part_time = global::Bizland.Droid.Resource.Layout.notification_template_part_time;
 			global::Shiny.Resource.String.status_bar_notification_info_overflow = global::Bizland.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Shiny.Resource.Style.TextAppearance_Compat_Notification = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification;
 			global::Shiny.Resource.Style.TextAppearance_Compat_Notification_Info = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Shiny.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
 			global::Shiny.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Shiny.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Shiny.Resource.Style.TextAppearance_Compat_Notification_Media = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
 			global::Shiny.Resource.Style.TextAppearance_Compat_Notification_Time = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Shiny.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
 			global::Shiny.Resource.Style.TextAppearance_Compat_Notification_Title = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Shiny.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Bizland.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
 			global::Shiny.Resource.Style.Widget_Compat_NotificationActionContainer = global::Bizland.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
 			global::Shiny.Resource.Style.Widget_Compat_NotificationActionText = global::Bizland.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Shiny.Resource.Style.Widget_Support_CoordinatorLayout = global::Bizland.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Shiny.Resource.Styleable.ColorStateListItem = global::Bizland.Droid.Resource.Styleable.ColorStateListItem;
 			global::Shiny.Resource.Styleable.ColorStateListItem_alpha = global::Bizland.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Shiny.Resource.Styleable.ColorStateListItem_android_alpha = global::Bizland.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Shiny.Resource.Styleable.ColorStateListItem_android_color = global::Bizland.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Shiny.Resource.Styleable.CoordinatorLayout = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Shiny.Resource.Styleable.CoordinatorLayout_keylines = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Shiny.Resource.Styleable.CoordinatorLayout_Layout = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Shiny.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Shiny.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Shiny.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Shiny.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Shiny.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Shiny.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Shiny.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Shiny.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Bizland.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
 			global::Shiny.Resource.Styleable.FontFamily = global::Bizland.Droid.Resource.Styleable.FontFamily;
 			global::Shiny.Resource.Styleable.FontFamilyFont = global::Bizland.Droid.Resource.Styleable.FontFamilyFont;
 			global::Shiny.Resource.Styleable.FontFamilyFont_android_font = global::Bizland.Droid.Resource.Styleable.FontFamilyFont_android_font;
@@ -23638,10 +23617,19 @@ namespace Bizland.Droid
 			public const int abc_config_actionMenuItemAllCaps = 2130968578;
 			
 			// aapt resource value: 0x7F040003
-			public const int is_tablet = 2130968579;
+			public const int enable_system_alarm_service_default = 2130968579;
 			
 			// aapt resource value: 0x7F040004
-			public const int mtrl_btn_textappearance_all_caps = 2130968580;
+			public const int enable_system_job_service_default = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int is_tablet = 2130968581;
+			
+			// aapt resource value: 0x7F040006
+			public const int mtrl_btn_textappearance_all_caps = 2130968582;
+			
+			// aapt resource value: 0x7F040007
+			public const int workmanager_test_configuration = 2130968583;
 			
 			static Boolean()
 			{

@@ -40,7 +40,7 @@
     <PackageReference Include="Prism.Unity.Extensions" Version="7.2.0.898" />
     <PackageReference Include="Prism.Unity.Forms" Version="7.2.0.1422" />
     <PackageReference Include="Sharpnado.Presentation.Forms" Version="1.4.0" />
-    <PackageReference Include="Shiny.Locations" Version="1.1.0.1449" />
+    <PackageReference Include="Shiny.Locations" Version="1.1.0.1473" />
     <PackageReference Include="Shiny.Prism" Version="7.2.0.898" />
     <PackageReference Include="SkiaSharp.Extended" Version="1.60.0" />
     <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />

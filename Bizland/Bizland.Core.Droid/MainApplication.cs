@@ -6,23 +6,21 @@ using Plugin.CurrentActivity;
 using Bizland.Utilities.Constant;
 
 using System;
+using Shiny;
 
 namespace Bizland.Core.Droid
 {
-    [Application]
+#if DEBUG
+    [Application(Debuggable = true)]
+#else
+[Application(Debuggable = false)]
+#endif
     [MetaData("com.google.android.maps.v2.API_KEY", Value = Config.GoogleMapKeyAndroid)]
-    public class MainApplication : Android.App.Application, Android.App.Application.IActivityLifecycleCallbacks
+    public class MainApplication : ShinyAndroidApplication<ShinyAppStartup>
     {
         public MainApplication(IntPtr handle, JniHandleOwnership transer)
             : base(handle, transer)
         {
-        }
-
-        public override void OnTerminate()
-        {
-            base.OnTerminate();
-
-            UnregisterActivityLifecycleCallbacks(this);
         }
 
         public void OnActivityCreated(Activity activity, Bundle savedInstanceState)

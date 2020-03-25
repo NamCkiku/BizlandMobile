@@ -142,12 +142,17 @@
     <PackageReference Include="Xamarin.Google.iOS.SignIn">
       <Version>5.0.2</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Plugin.SharedTransitions">
+      <Version>2.0.2</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\ic_home%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDelegate.cs" />
+    <Compile Include="CustomRenderer\ExtendedNavigationPageRenderer.cs" />
+    <Compile Include="CustomRenderer\ExtendedScrollViewRenderer.cs" />
     <Compile Include="CustomRenderer\FrameShadowRenderer.cs" />
     <Compile Include="CustomRenderer\PageRenderer.cs" />
     <Compile Include="DependencyService\AppleAudioManager.cs" />

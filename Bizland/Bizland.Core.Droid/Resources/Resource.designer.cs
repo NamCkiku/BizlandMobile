@@ -132,23 +132,59 @@ namespace Bizland.Core.Droid
 			// aapt resource value: 0x7F010022
 			public static int dialog_show = 2130772002;
 			
-			// aapt resource value: 0x7F010023
-			public static int EnterFromLeft = 2130772003;
-			
-			// aapt resource value: 0x7F010024
-			public static int EnterFromRight = 2130772004;
-			
-			// aapt resource value: 0x7F010025
-			public static int ExitToLeft = 2130772005;
-			
-			// aapt resource value: 0x7F010026
-			public static int ExitToRight = 2130772006;
-			
 			// aapt resource value: 0x7F010027
-			public static int onesignal_fade_in = 2130772007;
+			public static int EnterFromLeft = 2130772007;
 			
 			// aapt resource value: 0x7F010028
-			public static int onesignal_fade_out = 2130772008;
+			public static int EnterFromRight = 2130772008;
+			
+			// aapt resource value: 0x7F010023
+			public static int enter_bottom = 2130772003;
+			
+			// aapt resource value: 0x7F010024
+			public static int enter_left = 2130772004;
+			
+			// aapt resource value: 0x7F010025
+			public static int enter_right = 2130772005;
+			
+			// aapt resource value: 0x7F010026
+			public static int enter_top = 2130772006;
+			
+			// aapt resource value: 0x7F01002D
+			public static int ExitToLeft = 2130772013;
+			
+			// aapt resource value: 0x7F01002E
+			public static int ExitToRight = 2130772014;
+			
+			// aapt resource value: 0x7F010029
+			public static int exit_bottom = 2130772009;
+			
+			// aapt resource value: 0x7F01002A
+			public static int exit_left = 2130772010;
+			
+			// aapt resource value: 0x7F01002B
+			public static int exit_right = 2130772011;
+			
+			// aapt resource value: 0x7F01002C
+			public static int exit_top = 2130772012;
+			
+			// aapt resource value: 0x7F01002F
+			public static int fade_in = 2130772015;
+			
+			// aapt resource value: 0x7F010030
+			public static int fade_out = 2130772016;
+			
+			// aapt resource value: 0x7F010031
+			public static int flip_in = 2130772017;
+			
+			// aapt resource value: 0x7F010032
+			public static int flip_out = 2130772018;
+			
+			// aapt resource value: 0x7F010033
+			public static int onesignal_fade_in = 2130772019;
+			
+			// aapt resource value: 0x7F010034
+			public static int onesignal_fade_out = 2130772020;
 			
 			static Animation()
 			{
@@ -12167,11 +12203,27 @@ namespace Bizland.Core.Droid
 			}
 		}
 		
-		public partial class Xml
+		public partial class Transition
 		{
 			
 			// aapt resource value: 0x7F100000
-			public static int xamarin_essentials_fileprovider_file_paths = 2131755008;
+			public static int navigation_transition = 2131755008;
+			
+			static Transition()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Transition()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7F110000
+			public static int xamarin_essentials_fileprovider_file_paths = 2131820544;
 			
 			static Xml()
 			{

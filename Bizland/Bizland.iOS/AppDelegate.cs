@@ -15,6 +15,7 @@ namespace Bizland.iOS
     {
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            Xamarin.Forms.Forms.SetFlags(new string[] { "CarouselView_Experimental", "IndicatorView_Experimental" });
             Xamarin.Forms.Forms.Init();
 
             ToolSetup.Initialize(app, options);

@@ -1,4 +1,5 @@
-﻿using Bizland.Core.ViewModels;
+﻿using Bizland.Core.Controls;
+using Bizland.Core.ViewModels;
 using Bizland.Core.Views;
 using Bizland.Entities.Infrastructure.Repository;
 using Bizland.Service;
@@ -39,6 +40,7 @@ namespace Bizland.Core.Setup
         {
             containerRegistry.RegisterForNavigation<RootPage, RootPageViewModel>("RootPage");
             containerRegistry.RegisterForNavigation<NavigationPage>();
+            containerRegistry.RegisterForNavigation<ExtendedNavigationPage>("ExtendedNavigationPage");
             containerRegistry.RegisterForNavigation<BaseNavigationPage, BaseNavigationPageViewModel>("BaseNavigationPage");
             containerRegistry.RegisterDialog<DialogView, DialogViewViewModel>("DialogView");
             containerRegistry.RegisterForNavigation<NoPhotosPage, NoPhotosPageViewModel>("NoPhotosPage");

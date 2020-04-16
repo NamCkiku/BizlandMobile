@@ -35,6 +35,11 @@ namespace Bizland.Core.ViewModels
         {
             SafeExecute(async () =>
             {
+                var result = await this._gpsManager.RequestAccess(new GpsRequest { UseBackground = false });
+                if (!(result == Shiny.AccessState.Available))
+                {
+                    return;
+                }
 
                 if (_gpsManager.IsListening)
                 {
@@ -43,7 +48,7 @@ namespace Bizland.Core.ViewModels
 
                 await _gpsManager.StartListener(new GpsRequest
                 {
-                    UseBackground = true,
+                    UseBackground = false,
                     Priority = GpsPriority.Highest,
                     Interval = TimeSpan.FromSeconds(5),
                     ThrottledInterval = TimeSpan.FromSeconds(3) //Should be lower than Interval
